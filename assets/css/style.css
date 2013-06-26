@@ -686,7 +686,7 @@ h3{
 			}
 	
 	.features-more{
-		padding:60px 0px 150px;
+		padding:0px 0px 150px;
 
 	}
 	.features-more:first-child{
@@ -872,7 +872,7 @@ footer{
 }
 #map {
 display: block;
-height: 250px;
+height: 500px;
 width: 100%;
 min-width: 100%;
 max-width: 1350px;
