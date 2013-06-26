@@ -121,7 +121,8 @@ padding-bottom:4px;
 		font-size: 26px;
 		font-weight: 700;
 		margin-top:5px;
-		
+		padding-top:0px;
+		padding-bottom:0px;
 	}
 	.navbar .brand:hover {
 		color: rgba(40, 170, 157, 1);
