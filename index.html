@@ -69,6 +69,15 @@ Version 2 ############ -->
 
 <body data-spy="scroll" data-target=".scroller-spy">
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <!--################# START MAIN-WRAPPER ####################
 	============================================================ --> 
 <div class="main-wrapper">
@@ -1400,6 +1409,13 @@ Version 2 ############ -->
 			<li><a href="http://github.com/devday" title="DevDay Github"><i class="fa-icon-github-alt"></i></a></li>
 		</ul>
 </div>
+
+<div class="span3">
+<h4>Social</h4>
+<div class="fb-like" data-href="http://facebook.com/DevIsland" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true"></div>
+<div><g:plusone size="small"></g:plusone></div>
+<div><a href="https://twitter.com/share" class="twitter-share-button" data-text="Inscreva-se no" data-lang="pt" data-hashtags="DevDay2013">Tweetar</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></div>
 </div>
 <!-- ROW-FLUID-->
 </div>
@@ -1451,6 +1467,8 @@ Version 2 ############ -->
 <!-- gMap PLUGIN -->
 
 <script type="text/javascript" src="assets/js/custom.js"></script>
+
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 
 </body>
 </html>
