@@ -216,7 +216,7 @@ O evento de desenvolvedores para desenvolvedores está de volta!" />
                         <!-- INNER ROW-->
                         <div class="row-fluid">
                             <h3 class="main-color">Sobre o evento</h3>
-
+                            <span itemprop="description">
                             <p>
                                 A comunidade de desenvolvimento DevIsland está organizando novamente o DevDay, um evento para desenvolvedores de software.
                             </p>
@@ -229,10 +229,11 @@ O evento de desenvolvedores para desenvolvedores está de volta!" />
                                 <br />
                                 É um evento que nenhum profissional da área pode perder.
                             </p>
-                            <p>
-                                Inscrições de <span class="badge badge-success">R$ 49,99</span> à <span class="badge badge-success">R$ 89,99</span>
+                            </span>
+                            <p itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer">
+                                Inscrições de <span itemprop="lowPrice" class="badge badge-success">R$ 49,99</span> à <span itemprop="highPrice" class="badge badge-success">R$ 89,99</span>
                             </p>
-                            <p>Tipo do evento: Congresso</p>
+                            <p>Tipo do evento: <span itemprop="eventType">Congresso</span></p>
 
                             <div class="box">
                                 <div class="thumbnail" style="padding: 15px 15px 15px 15px">
@@ -240,7 +241,7 @@ O evento de desenvolvedores para desenvolvedores está de volta!" />
                                     <div class="caption">
                                         <h3 class="">Quando</h3>
                                         <p>
-                                            Sábado, 19 de outubro de 2013 de 8:00 às 19:00
+                                            <meta itemprop="startDate" content="2013-10-19T08:00">Sábado, 19 de outubro de 2013 de 8:00 às <meta itemprop="endDate" content="2013-10-19T19:00">19:00
                                         </p>
                                     </div>
                                 </div>
@@ -250,9 +251,9 @@ O evento de desenvolvedores para desenvolvedores está de volta!" />
                                     <i class="fa-icon-map-marker fa-icon-large pull-left" style="width: 100px"></i>
                                     <div class="caption">
                                         <h3 class="">Onde</h3>
-                                        <p>
-                                            <a href="http://www.unibh.br/como-chegar/antonio-carlos">UNI-BH (campus Antônio Carlos)</a>
-                                            Rua Diamantina, 463, Lagoinha - Belo Horizonte, Minas Gerais - Brasil
+                                        <p itemprop="location" itemscope itemtype="http://schema.org/Place">
+                                            <a itemprop="url" href="http://www.unibh.br/como-chegar/antonio-carlos">UNI-BH (campus Antônio Carlos)</a>
+                                            <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="streetAddress">Rua Diamantina, 463, Lagoinha</span> - <span itemprop="addressLocality">Belo Horizonte</span>, <span itemprop="addressRegion">Minas Gerais</span> - <span itemprop="addressCountry">Brasil</span></span>
                                         </p>
                                     </div>
                                 </div>
