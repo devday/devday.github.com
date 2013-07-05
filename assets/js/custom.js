@@ -102,7 +102,7 @@ jQuery(document).ready(function(){
 		//  COMMENT 	
 				jQuery(document).ready(function(){
 
-				jQuery('#map').gMap({ address: 'R. Diamantina, 463, Lagoinha, Belo Horizonte - Minas Gerais, 31110-320',
+				jQuery('#map').gMap({ address: 'Universidade Uni BH',
 							   panControl: true,
 						   zoomControl: true,
 							   zoomControlOptions: {
@@ -112,7 +112,7 @@ jQuery(document).ready(function(){
 						   scaleControl: true,
 						   streetViewControl: false,
 						   overviewMapControl: true,
-							   scrollwheel: false,
+							   scrollwheel: true,
 							   icon: {
 						image: "http://www.google.com/mapfiles/marker.png",
 						shadow: "http://www.google.com/mapfiles/shadow50.png",
@@ -123,7 +123,7 @@ jQuery(document).ready(function(){
 					},
 						zoom:15,
 							   markers: [
-							{ 'address' : 'R. Diamantina, 463, Lagoinha, Belo Horizonte - Minas Gerais, 31110-320'}
+							{ 'address' : 'Universidade Uni BH'}
 						]
 							   });
 				});
