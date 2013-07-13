@@ -1,0 +1,12 @@
+[
+    {
+        "Bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tincidunt dui at sapien fermentum, in aliquam risus hendrerit. Mauris id est leo. Donec vehicula leo vel eros tristique consectetur.", 
+        "Name": "Lorem ipsum dolor", 
+        "Photo": "http://localhost/photos/1.png"
+    }, 
+    {
+        "Bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tincidunt dui at sapien fermentum, in aliquam risus hendrerit. Mauris id est leo. Donec vehicula leo vel eros tristique consectetur.", 
+        "Name": "Lorem ipsum dolor", 
+        "Photo": "http://localhost/photos/1.png"
+    }
+]
