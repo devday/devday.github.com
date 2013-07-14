@@ -1,16 +1,3 @@
 [
-    {
-        "EndingOn": "08:45", 
-        "Room": "Lorem ipsum", 
-        "Speaker": "Lorem ipsum dolor", 
-        "StartingOn": "08:00", 
-        "Talk": "Lorem ipsum dolor sit amet"
-    }, 
-    {
-        "EndingOn": "08:45", 
-        "Room": "Lorem ipsum", 
-        "Speaker": "Lorem ipsum dolor", 
-        "StartingOn": "08:00", 
-        "Talk": "Lorem ipsum dolor sit amet"
-    }
+
 ]
