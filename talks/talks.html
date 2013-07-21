@@ -31,12 +31,12 @@
   		// Load FeatureLoader asynchronously. Once loaded, we execute Facebook init 
   		$.getScript('http://connect.facebook.net/pt_BR/all.js', function() {      
     		FB.init({
-			            appId  : '622586384427029',
+			            //appId  : '622586384427029',
 			            status: true, // check login status
 			            cookie: true, // enable cookies to allow server to access session,
 			            xfbml: true, // enable XFBML and social plugins
-			            oauth: true, // enable OAuth 2.0
-			            channelUrl: 'http://devday.devisland.com/talks/channel.html' //custom channel
+			            oauth: true//, // enable OAuth 2.0
+			            //channelUrl: 'http://devday.devisland.com/talks/channel.html' //custom channel
     				 });    
   		});
   		
