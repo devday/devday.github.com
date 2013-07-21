@@ -12,7 +12,6 @@ window.fbAsyncInit = function() {
 		jsonpCallback: "devday2013",
 		cache: true,
 		success: function(data){
-			console.log(data);
 			ko.applyBindings(new TalksViewModel(data));
 		},
 		error: function() {
