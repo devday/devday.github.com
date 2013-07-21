@@ -31,6 +31,17 @@
     }(document, 'script', 'facebook-jssdk'));</script>
     <div class="container">
         <img src="http://devday.devisland.com/assets/img/logo/devday2013.png" width="200" />
+        <br />
+        <div class="alert alert-block">
+            O número de likes não implica obrigatoriamente na escolha da Palestra ou Ligthning Talk.
+            A seleção levará em conta outras informações também para a seleção, tais como:
+            <ul>
+                <li>Número de palestras por Palestrante</li>
+                <li>Temas correlatos</li>
+                <li>Forma de apresentação</li>
+                <li>Experiência do Palestrante</li>
+            </ul>
+        </div>
         <fieldset>
             <legend></legend>
             <label class="checkbox">
@@ -44,7 +55,6 @@
             </label>
         </fieldset>
         <div data-bind="foreach: talk">
-            
             <section class="talk" data-bind="visible: (Type == 'LT' && $root.showLightningTalks()) || Type == 'P' && $root.showTalks()">
             	<!--<span data-bind="text: ID"></span>-->
         		<span class="badge" data-bind="text: Type"></span>
@@ -52,7 +62,7 @@
                 <article>
                     <p data-bind="text: Description">
                     </p>
-                    <div class="fb-like" data-bind="attr: { 'data-href': 'http://devday.devisland.com/talks?id=' + ID }" data-send="true" data-width="450" data-show-faces="true"></div>
+                    <div class="fb-like" data-bind="attr: { 'data-href': Url }" data-send="true" data-width="450" data-show-faces="true"></div>
                 </article>
             </section>
         </div>
