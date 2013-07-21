@@ -21,31 +21,16 @@
     </style>
 </head>
 <body>
-<div id="fb-root"></div>
-    <script>
-    (function(d, s, id) {
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
       if (d.getElementById(id)) return;
       js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=622586384427029";
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=622586384427029";
       fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-    </script>
+    }(document, 'script', 'facebook-jssdk'));</script>
     <div class="container">
         <img src="http://devday.devisland.com/assets/img/logo/devday2013.png" width="200" />
-        <br />
-        <div class="alert alert-block">
-            <p>
-                O número de likes não implica obrigatoriamente na escolha da Palestra ou Ligthning Talk.
-                A seleção levará em conta outras informações também para a seleção, tais como:
-            </p>
-            <ul>
-                <li>Número de palestras por Palestrante</li>
-                <li>Temas correlatos</li>
-                <li>Forma de apresentação</li>
-                <li>Experiência do Palestrante</li>
-            </ul>
-        </div>
         <fieldset>
             <legend></legend>
             <label class="checkbox">
@@ -67,7 +52,7 @@
                 <article>
                     <p data-bind="text: Description">
                     </p>
-                    <div class="fb-like" data-bind="attr: { 'data-href': 'http://devday.devisland.com/talks?id=' + ID }" data-send="true" data-width="450" data-show-faces="true"></div>
+                    <div class="fb-like" data-bind="attr: { 'data-href': 'http://devday.devisland.com/talks/' + ID }" data-send="true" data-layout="box_count" data-width="450" data-show-faces="true" data-font="verdana"></div>
                 </article>
             </section>
         </div>
@@ -75,5 +60,7 @@
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/knockout/2.3.0/knockout-min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
     <script type="text/javascript" src="talks.js"></script>
+    
+
 </body>
 </html>

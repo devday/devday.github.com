@@ -1,11 +1,11 @@
 function TalksViewModel(items) {
-	this.talk = ko.observableArray(items);
-	this.showLightningTalks = ko.observable(true);
-	this.showTalks = ko.observable(true);
+    this.talk = ko.observableArray(items);
+
+    this.showLightningTalks = ko.observable(true);
+    this.showTalks = ko.observable(true);
 };
 
-window.fbAsyncInit = function() {
-	FB.init({appId: 622586384427029, status: true, cookie: true, xfbml: true});
+$(document).ready(function() {
 	$.ajax({
 		url: "talks.json?callback=?",
 		dataType: "jsonp",
@@ -18,4 +18,4 @@ window.fbAsyncInit = function() {
 			alert("Data not found");
 		}
 	});
-}
+});
