@@ -10,6 +10,7 @@ $.ajax({
 	dataType: "jsonp",
 	jsonpCallback: "devday2013",
 	cache: true,
+	async: false,
 	success: function(data){
 		ko.applyBindings(new TalksViewModel(data));
 	},
