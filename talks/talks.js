@@ -6,10 +6,9 @@ function TalksViewModel(items) {
     
     ko.bindingHandlers.likeButton = {
     	update: function (element, valueAccessor) {
-    		var url = 'http://devday.devisland.com/talks?id=';
-    		console.log(url + valueAccessor());
-    		//$(element).attr('data-href', valueAccessor());
-    		//FB.XFBML.parse();
+    		var url = 'http://devday.devisland.com/talks?id=' + valueAccessor();
+    		$(element).attr('data-href', url);
+    		FB.XFBML.parse();
   		}
 	}
 };
