@@ -6,7 +6,8 @@ function TalksViewModel(items) {
     
     ko.bindingHandlers.likeButton = {
     	update: function (element, valueAccessor) {
-    		var url = 'http://devday.devisland.com/talks?id=' + valueAccessor();
+    		var url = 'http://devday.devisland.com/talks/' + valueAccessor() + '.html';
+    		console.log(url);
     		$(element).attr('data-href', url);
     		FB.XFBML.parse();
   		}
