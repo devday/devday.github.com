@@ -22,13 +22,25 @@
 </head>
 <body>
     <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=622586384427029";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
+    <script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId  : '622586384427029',
+            status: true, // check login status
+            cookie: true, // enable cookies to allow server to access session,
+            xfbml: true, // enable XFBML and social plugins
+            oauth: true, // enable OAuth 2.0
+            channelUrl: 'http://devday.devisland.com/talks/channel.html' //custom channel
+        });
+    };
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=622586384427029";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
     <div class="container">
         <img src="http://devday.devisland.com/assets/img/logo/devday2013.png" width="200" />
         <br />
@@ -74,7 +86,5 @@
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/knockout/2.3.0/knockout-min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
     <script type="text/javascript" src="talks.js"></script>
-    
-
 </body>
 </html>
