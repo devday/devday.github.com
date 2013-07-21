@@ -5,17 +5,15 @@ function TalksViewModel(items) {
     this.showTalks = ko.observable(true);
 };
 
-$(document).ready(function() {
-	$.ajax({
-		url: "talks.json?callback=?",
-		dataType: "jsonp",
-		jsonpCallback: "devday2013",
-		cache: true,
-		success: function(data){
-			ko.applyBindings(new TalksViewModel(data));
-		},
-		error: function() {
-			alert("Data not found");
-		}
-	});
+$.ajax({
+	url: "talks.json?callback=?",
+	dataType: "jsonp",
+	jsonpCallback: "devday2013",
+	cache: true,
+	success: function(data){
+		ko.applyBindings(new TalksViewModel(data));
+	},
+	error: function() {
+		alert("Data not found");
+	}
 });

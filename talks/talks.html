@@ -19,9 +19,10 @@
         .talk article {
             margin: 10px 0 10px 0;
         }
-    </style>
+    </style>s
 </head>
 <body>
+    <div id="fb-root"></div>
     <div class="container">
         <img src="http://devday.devisland.com/assets/img/logo/devday2013.png" width="200" />
         <br />
@@ -68,26 +69,25 @@
             </section>
         </div>
     </div>
+
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/knockout/2.3.0/knockout-min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
     <script type="text/javascript" src="talks.js"></script>
-
-    <div id="fb-root"></div>
-        <script type="text/javascript">
-            window.fbAsyncInit = function() {
-                FB.init({appId: '622586384427029', status: true, cookie: true, xfbml: true});
-                FB.Event.subscribe('edge.create', function(url) {
-                  // _gaq.push(['_trackSocial', 'facebook', 'like', url]);
-                });
-                FB.Event.subscribe('edge.remove', function(url) {
-                  // _gaq.push(['_trackSocial', 'facebook', 'unlike', url]);
-                });
-            };
-            (function() {
-                var e = document.createElement('script'); e.async = true;
-                e.src = document.location.protocol + '//connect.facebook.net/pt_BR/all.js';
-                document.getElementById('fb-root').appendChild(e);
-            }());
-        </script>
+    <script type="text/javascript">
+        window.fbAsyncInit = function() {
+            FB.init({appId: '622586384427029', status: true, cookie: true, xfbml: true});
+            FB.Event.subscribe('edge.create', function(url) {
+              // _gaq.push(['_trackSocial', 'facebook', 'like', url]);
+            });
+            FB.Event.subscribe('edge.remove', function(url) {
+              // _gaq.push(['_trackSocial', 'facebook', 'unlike', url]);
+            });
+        };
+        (function() {
+            var e = document.createElement('script'); e.async = true;
+            e.src = document.location.protocol + '//connect.facebook.net/pt_BR/all.js';
+            document.getElementById('fb-root').appendChild(e);
+        }());
+    </script>
 </body>
 </html>
