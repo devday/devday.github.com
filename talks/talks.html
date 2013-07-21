@@ -24,11 +24,11 @@
     <div id="fb-root"></div>
     <script type="text/javascript">
   		// prevent jQuery from appending cache busting string to the end of the FeatureLoader URL 
-  		var cache = jQuery.ajaxSettings.cache; 
-  		jQuery.ajaxSettings.cache = true;
+  		var cache = $.ajaxSettings.cache; 
+  		$.ajaxSettings.cache = true;
   		
   		// Load FeatureLoader asynchronously. Once loaded, we execute Facebook init 
-  		jQuery.getScript('http://connect.facebook.net/de_DE/all.js', function() {      
+  		$.getScript('http://connect.facebook.net/pt_BR/all.js', function() {      
     		FB.init({
 			            appId  : '622586384427029',
 			            status: true, // check login status
@@ -40,7 +40,7 @@
   		});
   		
   		// just Restore jQuery caching setting
-  		jQuery.ajaxSettings.cache = cache;
+  		$.ajaxSettings.cache = cache;
     
 /*     (function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
@@ -96,6 +96,7 @@
     </div>
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/knockout/2.3.0/knockout-min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
     <script type="text/javascript" src="talks.js"></script>
 </body>
 </html>
