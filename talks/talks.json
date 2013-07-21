@@ -1,16 +1,536 @@
 ﻿devday2013([
-  {
-    "ID": 40,
-    "Type": "LT",
-    "Title": ".NET além do mundo Microsoft",
-    "Description": "Venha conhecer frameworks, linguagens, e até mesmo uma IDE diferente daquilo que vocë usa no dia-a-dia. Descubra que existe muita coisa no mundo .NET além do Visual Studio, C# e ASP.NET, que podem ser usados para desenvolver aplicativos até para iOS e Android.",
-    "Url": "http://devday.devisland.com/talks.html"
-  },
-  {
-    "ID": 1,
-    "Type": "LT",
-    "Title": "{ \"JSON\": \"The Killer\" }",
-    "Description": "A palestra é direcionada a iniciantes no mundo da programação, com conhecimentos básicos da linguagem python.O objetivo técnico é mostrar a praticidade do JSON em comparação ao XML, focando principalmente na sua praticidade.Objetiva-se também demonstar as baterias incluidas do python e seu módulo para json.",
-    "Url": "http://devday.devisland.com/index.html"
-  }
+    {
+        "ID": 40,
+        "Type": "LT",
+        "Title": ".NET além do mundo Microsoft",
+        "Description": "Venha conhecer frameworks, linguagens, e até mesmo uma IDE diferente daquilo que vocë usa no dia-a-dia. Descubra que existe muita coisa no mundo .NET além do Visual Studio, C# e ASP.NET, que podem ser usados para desenvolver aplicativos até para iOS e Android."
+    },
+    {
+        "ID": 1,
+        "Type": "LT",
+        "Title": "{ \"JSON\": \"The Killer\" }",
+        "Description": "A palestra é direcionada a iniciantes no mundo da programação, com conhecimentos básicos da linguagem python.O objetivo técnico é mostrar a praticidade do JSON em comparação ao XML, focando principalmente na sua praticidade.Objetiva-se também demonstar as baterias incluidas do python e seu módulo para json."
+    },
+    {
+        "ID": 3,
+        "Type": "LT",
+        "Title": "10 perguntas que precisam ser respondidas antes de você iniciar o próximo projeto ágil de software",
+        "Description": "Pouco se fala naquilo que o time de desenvolvimento deve saber antes de começar um novo projeto de software. Esse gap pode comprometer o software que está sendo criado e consequentemente não atender as necessidades do cliente. Nessa palestra irei abordar 10 perguntas que todo time de desenvolvimento precisa responder antes de começar a escrever a primeira linha de código e que vai ajudar o time a seguir na direção certa."
+    },
+    {
+        "ID": 86,
+        "Type": "LT",
+        "Title": "Assegurando APIs RESTful",
+        "Description": "Desenvolvedores de APIs RESTful se deparam, em qualquer tipo de aplicação, com a necessidade de restringir o acesso à API. A palestra abordará os protocolos de autenticação Assinatura de Requisição e OAuth de forma a munir os interessados de informações básicas essenciais que o ajudarão na escolha e implementação do protocolo adequado à aplicação a ser assegurada, seja quais forem as tecnologias empregadas no desenvolvimento da mesma."
+    },
+    {
+        "ID": 48,
+        "Type": "LT",
+        "Title": "Classic Games with Python in the browser",
+        "Description": "Programe Pong, Asteroids e Black Jack no seu navegador em Python."
+    },
+    {
+        "ID": 51,
+        "Type": "LT",
+        "Title": "Contrate um Presidente da República para sua vaga de TI",
+        "Description": "Em um mundo cada vez mais politizado, mostrarei como as posições políticas de uma pessoa podem determinar o seu perfil profissional. Através do levantamento de questões que deveriam ser endereçadas a um Presidente da República, mostrarei como podemos descobrir se uma pessoa atende ou não aos requisitos de uma vaga de TI. Qual a relação entre a opinião sobre programas sociais e a capacidade de planejamento de um projeto ou desenho de uma aplicação? Como descobrir entusiastas, planejadores, papagaios de pirata, deslumbrados de software, pragmatistas e outros perfis? Qual o tipo de trabalho ideal para cada perfil? Esta apresentação é voltada para todos os envolvidos da área de TI e tem como objetivo instigar o poder de observação dos ouvintes para obter as respostas dessas perguntas."
+    },
+    {
+        "ID": 52,
+        "Type": "LT",
+        "Title": "De Sherlock Holmes a Dr House: Investigando problemas em softwares de forma eficaz",
+        "Description": "É comum que um profissional de TI tenha que investigar comportamentos anormais em softwares e em ambientes complexos de TI. Nesta Lightning Talk, veremos como dois grandes investigadores do mundo ficcional (Sherlock Holmes e o médico Doutor House do seriado House) pode nos ajudar com conselhos valorosos de como conduzir uma investigação de forma eficaz. Esta apresentação é voltada para todos os envolvidos da área técnica de TI (desenvolvedores, líderes técnicos, arquitetos, profissionais da área de qualidade e etc.)."
+    },
+    {
+        "ID": 19,
+        "Type": "LT",
+        "Title": "Desenvolvimento Ágil Distribuído",
+        "Description": "Desenvolvimento distribuído tem se tornado cada vez mais comum nos últimos anos. Desenvolvedores com diferentes localizações, fuso horários, idiomas e até culturas devem colaborar para juntos alcançarem um objetivo. Esta palestra abordará tópicos relevantes para desenvolvedores e líderes que desejam obter sucesso em um ambiente desafiador como este."
+    },
+    {
+        "ID": 46,
+        "Type": "LT",
+        "Title": "Hackeando o Facebook com Python 3",
+        "Description": "Como baixar fotos de amigos do Facebook com Python. Requisitos: Python 3 instalado e vontade de aprender coisas divertidas."
+    },
+    {
+        "ID": 27,
+        "Type": "LT",
+        "Title": "Otimizando o desempenho de um Time Ágil.",
+        "Description": "Esse LT tem como objetivo mostrar como podemos extrair cada vez mais dos desenvolvedores de um time ágil. \r\nEstando endereçado para líderes ou para aqueles que querem se tornar um líder, pode atingir desde um membro de uma equipe ágil até um gerente de projetos. \r\nO objetivo é mostrar ao público, através de analogias, como podemos criar um melhor ambiente de trabalho e a partir daí aumentar o desempenho de cada integrante da equipe.\r\nO benefício desta submissão é otimizar o potencial de cada integrante de um time ágil através de técnicas da gestão 3.0."
+    },
+    {
+        "ID": 78,
+        "Type": "LT",
+        "Title": "Phonegap - presente e futuro",
+        "Description": "PhoneGap é um framework que cada vez mais está sendo usado para construção de aplicativos mobile.\r\nCom apenas html, css e javascript, veremos como ele possibilita gerar aplicações mobile. Ainda, discutiremos sobre as novas features que estão por vir.\r\nPúblico: desenvolvedores em geral\r\nBenefícios: apresentar um framework que possibilita quem sabe html, css e javascript começar a programar para mobile sem grande esforço."
+    },
+    {
+        "ID": 20,
+        "Type": "LT",
+        "Title": "Pirâmide de testes: como automatizar os testes de maneira ágil e eficiente",
+        "Description": "Esta é uma adaptação do conceito da pirâmide de testes introduzida por Michael Cohn e popularizada port Martin Fowler (http://martinfowler.com/bliki/TestPyramid.html). A pirâmide é uma metáfora que ajuda desenvolvedores a entenderem o papel de diferentes tipos de testes automatizados em um projeto ágil. É impossível testar tudo e a pirâmide ajuda o desenvolvedor a escolher os testes que, com o menor esforço, resultarão no maior benefício para o programador."
+    },
+    {
+        "ID": 71,
+        "Type": "LT",
+        "Title": "Por que você deveria aprender Go!",
+        "Description": "Programadores Ruby e Python procuram Go pois não querem ter que se render a linguagens mais tradicionais como Java e C# mas querem ganhar performace e ter acesso a sistemas de concorrência reais!\r\nGo foi desenvolvido e projetado dentro do Google com o objetivo de trazer a eficiência de uma linguagem estaticamente tipada com a facilidade de uma linguagem dinâmica.\r\nNesta lightning talk você verá conceitos básicos, comparação de features e terá a oportunidade de se aventurar em alguns códigos para entender melhor como esta linguagem pode fazer parte de seus novos projetos."
+    },
+    {
+        "ID": 30,
+        "Type": "LT",
+        "Title": "Princípios da evolução do código Limpo",
+        "Description": "Esta LT buscará através de exemplos focados no código, mostrar os princípios de evolução da lógica bem elaborada em detrimento decadência de um código no qual se deixa de ter cuidado com a qualidade comparando características como flexibilidade, manutenibilidade, legibilidade e solidez.\r\nTambém provar a teoria das \"\"Janelas quebradas\"\"( tendencia de decadência em códigos que iniciam mal elaborados ), além de mostrar algumas técnicas de identificação dos \"\"Bad smells\"\" ( características que mostram que um código pode ser melhorado )."
+    },
+    {
+        "ID": 11,
+        "Type": "LT",
+        "Title": "Sqlite3. Baterias Incluídas",
+        "Description": "Naquela velha discussão sobre a importância de hardware e software, atualmente temos uma terceira preocupação: \"\"Dados\"\".\r\nO público alvo são iniciantes em banco de dados assim como curiosos a respeito deste banco de dados(sqlite3) que é simples, pode ser embarcado e vem sendo largamente utilizado em aplicações em substituição a alguns formatos de arquivos.\r\nA Google utiliza no Android utiliza assim como outras grandes empresas(Mozilla,Apple)."
+    },
+    {
+        "ID": 75,
+        "Type": "LT",
+        "Title": "Subindo para as nuvens com Windows Azure",
+        "Description": "Com o Windows Azure existem diversas maneiras de publicar uma aplicação nas nuvens. Aplicações desenvolvidas em .NET possuem uma maior gama de possibilidades para a execução dessa tarefa. Entenderemos os diferentes cenários e caminhos que a plataforma nos oferece."
+    },
+    {
+        "ID": 7,
+        "Type": "LT",
+        "Title": "Usando C++ AMP",
+        "Description": "Nessa palestra, mostro os fundamentos de desenvolvimento com C++ AMP. A forma mais simples de aproveitar o potencial computacional das modernas GPUs."
+    },
+    {
+        "ID": 4,
+        "Type": "P",
+        "Title": "1ns é dinheiro! Desempenho na nuvem não é apenas questão de velocidade",
+        "Description": "Objetivo Técnicos: demonstrar que atingir o desempenho na nuvem, vai além de escolha de tecnologias e aumento de recursos financeiros e computacionais. Abordar boas práticas de desenvolvimento e demonstrar os impactos de simples alterações.\r\n\r\nBenefícios: Em meio a fortes tendências do desenvolvimento de soluções com abordagem de LEGO, unindo tecnologias como peças, o estudo dos algoritmos e \r\ndesempenho é muitas vezes esquecido. Despertar na comunidade a preocupação por estes valores e o retorno financeiro e de desempenho adquirido, principalmente na nuvem onde tudo é SaS.\r\n\r\nPúblico: Desenvolvedores (Junior a Senior) e gestores, por conter caráter técnico e também implicações de arquitetura de projeto e financeiras."
+    },
+    {
+        "ID": 23,
+        "Type": "P",
+        "Title": "A vida além do jQuery",
+        "Description": "jQuery tem sido a porta de entrada para muitos desenvolvedores no mundo javascript. Muitos desses devs acabam estagnando e usando somente esta lib e esquecendo das outras."
+    },
+    {
+        "ID": 84,
+        "Type": "P",
+        "Title": "Além dos três ingredientes de um web design responsivo",
+        "Description": "Atualmente a web está muito mais envolvida em nossas vidas do que há alguns anos e esse novo papel que ela vem desempenhando traz diversas exigências do usuário final que precisa de uma boa experiência de usabilidade, seja lá de onde ele estiver acessando-a.\r\nUm site otimizado para ser acessado via qualquer dispositivo abre margens para um público alvo muito maior. Veremos as técnicas necessárias para atender a atual demanda de criação de páginas responsivas para qualquer dispositivo."
+    },
+    {
+        "ID": 12,
+        "Type": "P",
+        "Title": "Alta disponibilidade em PHP: Como fazer?",
+        "Description": "A web não é rápida o suficiente. Os navegadores ganharam velocidade, mas esta velocidade não adianta de nada se nós, programadores não fazermos nossa parte. Nesta palestra vou mostrar como podemos configurar e programar seu back-end PHP para responder as requisições o mais rápido possível, além de algumas técnicas para otimizar o front-end também. As técnicas apresentadas são utilizadas pelos maiores sites de música do Brasil, o Cifra Club, Letras.mus.br e o Palco MP3, que somados recebem mais de 760 milhões de pageviews por mês.\r\nO público alvo da palestra é qualquer um que desenvolva aplicativos para web e deseja que seu site ou app seja cada vez mais rápido. Os tópicos abordados serão:\r\n- Porque devemos nos preocupar com performance;\r\n- Medindo performance;\r\n- Otimizando as configurações do servidor;\r\n- Armazenando e buscando dados rapidamente;\r\n- Otimizando processamento de dados;\r\n- Usando o protocolo em seu favor;\r\n- Diminuindo requisições no front-end."
+    },
+    {
+        "ID": 63,
+        "Type": "P",
+        "Title": "AngularJS - Abraçando o MVC client side",
+        "Description": "Público: Todo profissional que trabalha com aplicações web.\r\nObjetivo: Mostrar prós e contras do uso de um framework MVC no client side. Neste caso, o framework apresentado será o AngularJS.\r\nApós uma introdução do que é o Angular JS, e seus componentes,  o objetivo é enfatizar que precisa haver uma mudança na forma de se \"\"enxergar\"\" as aplicações web, monstrando que Backend e FrontEnd passam a ser duas aplicações separadas."
+    },
+    {
+        "ID": 33,
+        "Type": "P",
+        "Title": "Apps realmente atrativos com IOS",
+        "Description": "A forma de interagir com aplicativos mobile vem se distanciando cada vez mais do mindset utilizado na web desde seus primoridos. O novo \"\"iOS Human Interface Guidelines\"\" para IOS 7 traz a necessidade de um conhecimento profundo sobre a utilização criativa das APIs de Gestures, Core Motion, Core Graphics, Core Animation, etc. Desenvolvedores mobile (ou não) vão acompanhar a demonstração exemplos de como utilizá-las para tornar o uso de aplicativos algo mais atrativo e fluido."
+    },
+    {
+        "ID": 50,
+        "Type": "P",
+        "Title": "Arquitetura Ágil, uma abordagem disciplinada",
+        "Description": "Apresentar uma abordagem disciplinada de como o responsável pela arquitetura pode atuar no ciclo de vida de desenvolvimento ágil. Esta apresentação é voltada para desenvolvedores, líderes técnicos e arquitetos envolvidos em atividades de design de soluções técnicas de software e mitigação de riscos técnicos ao longo de um projeto ágil desde seu início até a sua colocação em produção."
+    },
+    {
+        "ID": 15,
+        "Type": "P",
+        "Title": "Arquitetura para Dispositivos Móveis - A Incrível Evolução dos Mobiles",
+        "Description": "Apresenta a evolução dos dispositivos móveis, as linguagens de programação mais utilizadas no mercado nacional e internacional, os desafios enfrentados pelos arquitetos e desenvolvedores Mobile, as ferramentas de desenvolvimento, os dispositivos mais populares, a evolução dos frameworks para estes dispositivos e encerrou com um exercício de futurologia."
+    },
+    {
+        "ID": 85,
+        "Type": "P",
+        "Title": "Autenticação e segurança em APIs RESTful",
+        "Description": "Desenvolvedores de APIs RESTful se deparam, em qualquer tipo de aplicação, com a necessidade de restringir o acesso à API. A palestra abordará os protocolos de autenticação (HTTP Basic, HTTP Digest, WS Username Token, Assinatura de Requisição, OAuth, etc) mais utilizados de forma a munir os interessados de informações básicas essenciais que o ajudarão na escolha e implementação do protocolo adequado, seja quais forem as tecnologias empregadas no desenvolvimento da aplicação a ser assegurada."
+    },
+    {
+        "ID": 61,
+        "Type": "P",
+        "Title": "Automação Residencial com Android, Arduino e Raspberry Pi",
+        "Description": "Que tal utilizar toda tecnologia disponivel em seu Android como GPS, sensores e até mesmo SMS e telefonia para participar da interação que temos com nossos aparelhos eletrodomésticos? O que acha de ter sua cafeteira fazendo seu café assim que você entrar na sua garagem? Ou então ter o seu ar condicionado ligado, para que a sua casa já esteja em uma temperatura agradável antes mesmo de você abrir a porta? Ter acesso rápido e fácil a sua coleção de filmes e músicas sem levantar do sofá e poder gerenciar seu conteudo automáticamente, ou de qualquer lugar do mundo com internet? Esses são apenas alguns exemplos do que é possível fazer quando são utilizados em conjunto um dispositivo com Android e o um Arduino ou Raspberry Pi. Essa palestra mostrará exemplos de projetos de automação residencial feitos com Android, Arduino e Raspberry Pi. Mostraremos o \"\"caminho das pedras\"\" para o caso de você querer começar a automatizar a sua casa utilizando essas tecnologias."
+    },
+    {
+        "ID": 10,
+        "Type": "P",
+        "Title": "Be MEAN - Criando aplicações com MongoDB, Express, Angularjs e Node.js",
+        "Description": "MEAN é o acrônimo de MongoDb, Express, AngularJs e Node.js, um full stack para desenvolvimento em Javascript. Com MongoDB, podemos armazenar documentos no formato JSON, escrever consultas com JSON, usando um servidor baseado em ExpressJS e Node.js, e passar documentos JSON para o frontend com AngularJS, fazendo com que os objetos armazenados no banco de dados sejam essencialmente idênticos aos objetos que o cliente Javascript manipula, além disso, a sintaxe utilizada no cliente e servidor são as mesmas."
+    },
+    {
+        "ID": 73,
+        "Type": "P",
+        "Title": "Bem vindo PHProfissional. Adeus amadores",
+        "Description": "É sabido que PHP, infelizmente, é mal visto por muitos, principalmente no mundo corporativo. Na palestra, veremos como a comunidade pode fazer para mudar esse cenário, mostrando os pontos fortes da linguagem e como contornar os pontos ruins. Ainda, discutiremos em que pontos a comunidade PHP a nível nacional vem errando e como fazer para que consigamos, juntos, vender melhor o PHP, para que isso se reflita em melhoras para todos.\r\nPúblico: programadores em geral, com foco na comunidade PHP\r\nBenefício: mostrar os pontos fortes do PHP, frameworks e ferramentas que a linguagem possui e que desenvolvedores de outras linguagens desconhecem e que ajudam a fortalecer a linguagem."
+    },
+    {
+        "ID": 9,
+        "Type": "P",
+        "Title": "Callbacks are calling back",
+        "Description": "avascript está em todos os computadores hoje em dia e agora estão entrando do lado do servidor.\r\n\r\nCallbacks são a forma preferida de processar informações assincronamente em um ambiente sem threads como o JS.\r\nMas, quase sempre caimos em um callback hell, cheio de funções nesteadas uma dentro da outra.\r\n\r\nVamos falar sobre as Promessas de um JavaScript melhor. (tu-dum-tss)\r\nEspere muitas piadas deste tipo na apresentação."
+    },
+    {
+        "ID": 32,
+        "Type": "P",
+        "Title": "CanJS - Faça mais por menos - Live-binding, Observables, Routing, Partial e Filtered Views",
+        "Description": "Voltada para desenvolvedores WebUI que utilizam, gostariam de utilizar ou não utilizam um framework JavaScript, a palestra apresentará as funcionalidades e recursos do CanJS de forma a mostrar que com ele é possível fazer 80% de *tudo* o que pode ser necessário com 20% da curva de aprendizado de outros frameworks, tais como Angular, Backbone e Ember.\r\n\r\nA palestra mostrará que a escolha ou mudança para o CanJS pode ser uma decisão acertada para a grande maioria dos casos.\r\n\r\nAlém desse benefício, será feita uma amostragem das funcionalidades mais importantes do CanJS; um apanhado geral de como utilizá-lo."
+    },
+    {
+        "ID": 68,
+        "Type": "P",
+        "Title": "Chef ou Puppet? O dilema do DevOps iniciante",
+        "Description": "A ascenção e estabelecimento de plataformas cloud trouxe a tona a necessidade de automatizar a criação e manutenção de servidores de forma eficiente, afinal não é raro encontrar empresas com centenas ou milhares de servidores em sua infraestrutura. As soluções mais estabelecidas neste nicho são Chef e Puppet. Ambos permitem que se automatize tarefas que vão desde criar um novo servidor com todas as dependências necessárias a aplicar atualizações de segurança, além de contar com um extenso marketplace de plugins.\r\n\r\nNesta palestra iremos introduzir brevemente ambas as ferramentas e prosseguir com um comparativo com o objetivo de sanar a dúvida do título: qual devo escolher? Serão abordados tópicos como sintaxe, facilidade de uso, custo, comunidades e variedade de plugins já existentes."
+    },
+    {
+        "ID": 42,
+        "Type": "P",
+        "Title": "Clojure para o mundo real",
+        "Description": "Clojure é uma linguagem funcional baseada nas máquinas virtuais Java e .NET que permite que você resolva problemas reais de maneira concisa e expressiva. Nesta apresentação você vai perceber como a sintaxe é simples, apesar de assustar à primeira vista, e vou apresentar formas de resolver problemas de concorrência, como integrar com suas bibliotecas já existentes, escritas em Java ou .NET, como lidar com bancos de dados e ainda quem está usando em produção."
+    },
+    {
+        "ID": 14,
+        "Type": "P",
+        "Title": "Cloud Computing",
+        "Description": "Cloud Computing é uma evolução dos processos de hospedagem de infra-estrutura tradicionais. O conceito de computação em nuvem refere-se à utilização da memória e das capacidades de armazenamento e cálculo de computadores e servidores compartilhados e interligados por meio da Internet, seguindo o princípio da computação em grade."
+    },
+    {
+        "ID": 25,
+        "Type": "P",
+        "Title": "Código de qualidade: como fazer",
+        "Description": "Apresentação para o público geral, iniciantes ou não, com conceitos que sempre devem ser vistos ou revistos.\r\nBaseada no livro: Clean Code - Uncle Bob, foi apresentada em abril no 3º PHPMG Talks, para aproximadamente 30 pessoas."
+    },
+    {
+        "ID": 87,
+        "Type": "P",
+        "Title": "Código legado",
+        "Description": "Como a vida nem sempre é como gostaríamos que fosse é importante sabermos lidar com código legado para que não percamos a cabeça em dado momento. Entenderemos o que é código legado e as técnicas para lidar com diferentes cenários aplicando refatoração de código e testes."
+    },
+    {
+        "ID": 41,
+        "Type": "P",
+        "Title": "Como aprender programação funcional pode te ajudar?",
+        "Description": "A programação funcional tem sido usada desde 1950 com Lisp, no entanto somente recentemente tem começado a receber a atenção devida do mercado de tecnologia ao descobrir o poder que suas funcionalidades dão. Conversando com interessados e entusiastas a conclusão é unânime: todos dizem que se tornaram melhores programadores no dia a dia ao aprender programação funcional. Nessa palestra vamos entender como isso pode ser verdade, mostrando os conceitos importantes, como eles podem te tornar um programador melhor e como usá-los no dia a dia com linguagens comuns no mercado."
+    },
+    {
+        "ID": 55,
+        "Type": "P",
+        "Title": "Como enviar o seu próprio patch para o Linux kernel",
+        "Description": "Essa palestra será destinada as pessoas que tem interesse em contribuir como o Linux kernel. \r\nComo fazer uma modificação, como interagir com a comunidade, como testar a sua modificação e como gerar/enviar o seu patch para posterior análise."
+    },
+    {
+        "ID": 83,
+        "Type": "P",
+        "Title": "Comunicando C/C++ com Java",
+        "Description": "É muito comum encontrar empresas que tem sistemas legados. Muitos desses sistemas levaram anos para serem construídos e não podem ser substituídos de uma hora para outra.\r\nVeremos nessa palestra como fazer uma aplicação java se comunicar com um sistema feito em outra linguagem a partir de dll's. Ainda, veremos como expor uma chamada a uma dll nativa via WebService, possibilitando que um código de um sistema legado seja usado via Web.\r\nPúblico: desenvolvedores C, C++, Java, Delphi e de outras linguagens em geral\r\nBenefício: Mostrar como a JVM pode se integrar com outras linguagens e como libs e/ou sistemas legados de outras linguagens podem ser integrados ao java."
+    },
+    {
+        "ID": 56,
+        "Type": "P",
+        "Title": "Conhecendo o Syslinux - suite of lightweight IBM PC MBR bootloaders",
+        "Description": "Nessa palestra eu apresentarei o Syslinux que é uma coleção de bootloaders para IBM PC, mostrarei como escrevi um sistema de arquivos para o bootloaders\r\ne como é possível instalar/configurar ele no seu computador sem problemas."
+    },
+    {
+        "ID": 82,
+        "Type": "P",
+        "Title": "Construindo aplicações Desktop com HTML, CSS e JS",
+        "Description": "HTML5 vem cada dia mais crescendo e sendo usado tanto para sites, como para aplicações mobile. Na palestra veremos uma nova vertente, como desenvolver aplicações desktop com o uso de html5. Ainda, veremos como aproveitar o mesmo código para sites, aplicações mobile e desktop\r\nPúblico: desenvolvedores em geral\r\nBenefício: mostrar como com o skill de web já sabido é possível programar para desktop. Ainda, mostrar como com pouca reescrita de código, uma aplicação pode ser feita para vários ambientes."
+    },
+    {
+        "ID": 79,
+        "Type": "P",
+        "Title": "Construindo aplicações mobile multiplataforma com Sencha Touch 2 e Phonegap",
+        "Description": "Sencha Touch é um frameworks bem popular no mercado mobile multiplataforma que oferece componentes bonitos e que agradam ao usuário.\r\nNessa palestra vamos ver como funciona a arquitetura de uma app com Sencha Touch, como podemos integrar, melhores práticas e como funciona o ciclo completo de desenvolvimento de uma app com esse framework. \r\nAinda, veremos sobre o PhoneGap, framework que permite que com apenas HTML, CSS e JavaScript façamos aplicações mobile embarcadas para várias plataformas e com um único código.\r\nPúblico: desenvolvedores web e mobile em geral\r\nBenefício: mostrar como desenvolvedores podem usar skills web para programar para mobile, sem ter que aprender novas linguagens e como isso possibilita com um único código, fazer aplicações para várias plataformas, como iOS, Android, BB10 e Windows Phone."
+    },
+    {
+        "ID": 77,
+        "Type": "P",
+        "Title": "Construindo aplicações mobile multiplataforma com Sencha Touch 2 e Phonegap",
+        "Description": "Sencha Touch é um frameworks bem popular no mercado mobile multiplataforma que oferece componentes bonitos e que agradam ao usuário\r\nNessa palestra vamos ver como funciona a arquitetura de uma app com Sencha Touch, como podemos integrar, melhores práticas e como funciona o ciclo completo de desenvolvimento de uma app com esse framework.\r\nAinda, veremos como funciona o PhoneGap, framework que permite fazer aplicações para mobile usando HTML5, CSS e JavaScript e como integrar o mesmo com o Sencha Touch."
+    },
+    {
+        "ID": 28,
+        "Type": "P",
+        "Title": "Construindo Apps multicross com PhoneGap",
+        "Description": "O publico alvo da palestra é tanto programadores como gestores que querem entrar no mundo mobile.\r\nCom o Phonegap temos uma grande vantagem de construir app com o baixo custo e disponibiliza-lo para varias plataformas.\r\nA grande dificuldade do mundo mobile é a diversificação de plataformas (IOS, Android, Windows Phone, etc), em qual desenvolver primeiro, a curva de aprendizado de uma nova tecnologia é muito alta, mas com o phonegap podemos ter muitos ganhos. Nenhum framework faz milagre temos também suas limitações."
+    },
+    {
+        "ID": 81,
+        "Type": "P",
+        "Title": "Construindo uma aplicação com ExtJS e PHP",
+        "Description": "ExtJS é um framework para construção de aplicações que vem cada vez mais crescendo no mercado. Baseado em javascript, com aproach de Orientação a Objeto e MVC, permite uma alta flexibilidade, agilidade de desenvolvimento e possui muitos componentes para a construção de um projeto, como gráficos, grids infinitos e forms. Na palestra, veremos como integrá-lo com PHP, usando uma camada REST. Veremos ainda, a possibilidade de integração com frameworks famosos, como Zend Framework e Symfony.\r\nPúblico: desenvolvedores web em geral, mesmo que não saibam PHP\r\nBenefício: mostrar o conceito de REST e introduzir um dos frameworks RIA mais usados no mundo."
+    },
+    {
+        "ID": 53,
+        "Type": "P",
+        "Title": "Construindo uma plataforma unificada de gestão de desenvolvimento multi plataforma",
+        "Description": "Diferentes times com diferentes culturas, porém com um mesmo objetivo: transformar os negócios através da criação de aplicações inovadoras. Nesta sessão apresentaremos um caso de sucesso de uma grande empresa que unificou o processo de desenvolvimento de aplicações através do uso da solução de ALM da Microsoft. Aquela história de que neste projeto se faz assim e com aquela tecnologia se desenvolve deste outro jeito foi interrompido. Os ganhos de eficiência operacional mostram que o esforço valeu a pena."
+    },
+    {
+        "ID": 88,
+        "Type": "P",
+        "Title": "Continuous Delivery - do zero à entrega contínua de software de valor",
+        "Description": "“Quanto tempo seu time demora para colocar em produção uma modificação representada por apenas uma linha de código?*\r\n\r\nVamos discutir sem pudores o real significado de entrega contínua de software de valor e o que nos impede de alcança-la.\r\n\r\nEssa palestra aborda os princípios e práticas do Continuous Delivery, além de uma visão global sobre o conceito, demonstrando o que empresas como Microsoft, Amazon e Facebook têm feito para reduzir o tempo entre a ideia e o software em produção. Temas como segregação de ambientes, automação de testes, Continuous Integration, Continuous Deployment, Feature Flags, % ramp up, a/b tests serão discutidos e demonstrados nesta palestra."
+    },
+    {
+        "ID": 5,
+        "Type": "P",
+        "Title": "CQRS - Teoria e Prática",
+        "Description": "Nessa palestra, apresento fundamentação teórica e exemplos práticos de adoção de CQRS - um padrão arquitetônico para sistemas de alto desempenho e com ênfase em escalabilidade."
+    },
+    {
+        "ID": 60,
+        "Type": "P",
+        "Title": "Criando aplicações para a web com Python e Django",
+        "Description": "Construir aplicações web dá trabalho! Sendo assim, é importante utilizarmos ferramentas que facilite o desenvolvimento e remova barreiras. Temos Python como uma linguagem que tem esse princípio em sua essência e Django, um framework web escrito em Python, que traz muito da cultura da linguagem nesse aspecto. A ideia da palestra é apresentar o framework, sua arquitetura e um exemplo de construção simples e rápida de uma aplicação."
+    },
+    {
+        "ID": 74,
+        "Type": "P",
+        "Title": "Desenvolvendo jogos com HTML5",
+        "Description": "O mundo dos jogos sempre é algo que atrai os desenvolvedores. Veremos as principais engines que permitem que os desenvolvedores web usem os skills que já dominam para desenvolver jogos. Ainda, veremos cases de sucesso, discutiremos técnicas que podem auxiliar na jornada de desenvolver um jogo e os desafios que serão encontrados."
+    },
+    {
+        "ID": 13,
+        "Type": "P",
+        "Title": "Desenvolvimento ágil com o AngularJS",
+        "Description": "Esta palestra é destinada a profissionais que já tem um certo conhecimento de JavaScript e querem passar para o próximo nível.\r\n\r\nO objetivo é mostrar como utilizar as melhores práticas de desenvolvimento, testes automatizados e padrões de design, organização de maneira fácil de digerir.\r\n\r\nO framework AngularJS do Google, será o foco desta submissão. Por ser desenvolvido por engenheiros envolvidos na TC39 e ligados ao maior browser vendor, aprendendo os conceitos do framework, você estará se preparando para o futuro do desenvolvimento de aplicações web. Além dos benefícios de aprender a testar o código automaticamente (TDD)."
+    },
+    {
+        "ID": 6,
+        "Type": "P",
+        "Title": "Desenvolvimento de componentes em Windows 8",
+        "Description": "Nessa palestra, apresento principais novidades introduzidas na arquitetura do Windows 8 que impactam diretamente na forma como pensamos e desenvolvemos software."
+    },
+    {
+        "ID": 54,
+        "Type": "P",
+        "Title": "Desmitificando relatórios no Team Foundation Server",
+        "Description": "Vamos desmitificar os relatórios do Team Foundation Server. Eles não são complexos de criar. Iremos passar pelos o tipos de relatórios existentes e descobrir como eles nos ajudam na gestão do processo de desenvolvimento.\r\n\r\nPublico: Envolvidos (programdores, testes, gestores) no processo de ciclo de vida de aplicativos."
+    },
+    {
+        "ID": 65,
+        "Type": "P",
+        "Title": "Encantamentos de Puppet para Deployments Escaláveis",
+        "Description": "O objetivo da palestra é apresentar uma metodologia para deployments usando Puppet e tecnologias relacionadas para simplificar auto configuração em ambientes escaláveis e garantir um estado correto de maquinas por toda corrente de desenvolvimento, desde a maquina de cada programador até o ambiente de produção final, para o publico alvo de DevOps.\r\n\r\nA palestra também abrange boas praticas e erros comuns que um desenvolvedor pode encontrar no inicio de sua jornada com Puppet."
+    },
+    {
+        "ID": 59,
+        "Type": "P",
+        "Title": "Escrevendo melhores testes no Django com o Model Mommy",
+        "Description": "Escrever testes precisa ser uma tarefa rápida e fácil. Quanto menos tempo gastamos escrevendo os testes, mais tempo temos para focar na solução do problema. Com isso em mente, temos que lançar mão de ferramentas que agilize esse processo. Uma dessas ferramentas é o Model Mommy, uma lib que facilita a criação de objetos de banco de dados no Django. Além de ser uma excelente ferramenta, é importante falarmos sobre o Model Mommy porque é uma lib brasileira criada pelo Vanderson Mota. O objetivo dessa palestra é conseguirmos manipular a criação de objetos para testes no Django de maneira rápida e fácil utilizando o Model Mommy."
+    },
+    {
+        "ID": 35,
+        "Type": "P",
+        "Title": "Extraindo dados da web com CsQuery",
+        "Description": "A palestra é endereçada a desenvolvedores que tem interesse em extrair informações da web através de um web scrapping. O objetivo é extrair informações de um documento de texto em HTML, informações estruturadas de interesse do desenvolvedor. Um exemplo bem simples seria a extração de informações de produtos de lojas de varejo para a composição de um agregador.\r\n\r\nO desenvolvedor terá, ao final da palestra, noção de como construir um bot desta natureza e aprenderá algumas técnicas para tratar a informação extraída, compô-la e salvá-la em uma base estruturada."
+    },
+    {
+        "ID": 31,
+        "Type": "P",
+        "Title": "Fazendo mágica com git",
+        "Description": "A palestra ensina diversos recursos interessantes e poderosos da ferramenta de controle de versão usada na maioria dos projetos de software livre na atualidade. Aprender mais sobre o git ajudará os desenvolvedores a acharem problemas introduzidos no código com mais facilidade e a organizar melhor seu workflow."
+    },
+    {
+        "ID": 89,
+        "Type": "P",
+        "Title": "Felicidade: a nova forma de se medir valor & Felicidade: o melhor caminho para a melhoria contínua",
+        "Description": "Hoje o Chaos Report mede o índice de sucesso dos projetos baseado em tempo, escopo e custo. Imagina se o índice de felicidade dos usuários entrassem nessa métrica. Qual seria o resultado?\r\n\r\nA experiência de se comprar software hoje é terrível, o que gera muita insegurança em quem o faz. Para tentar lidar com isso, os contratantes tentam se proteger com contratos, que lhe dão uma falsa sensação de segurança sobre o que receberão, quando receberão e quanto terão que desembolsar por isso.\r\n\r\nÉ uma falácia. Deveriam estar mais preocupados em comprar valor do que em comprar escopo. Porém, valor é algo extremamente abstrato e difícil de se materializar. Talvez por isso continuem comprando escopo, que é tangível, e depois de transformado em um documento pode ser tocado.\r\n\r\nEssa palestra traz uma abordagem propondo o índice de felicidade como instrumento de tangibilização do valor gerado por cada item, iteração e projeto.\r\n\r\nSe conseguirmos escalar este indicador, talvez possamos influenciar a compra de valor.\r\n\r\nEste mecanismo também funciona como principal motor do processo de melhora continua de times e projetos.\r\n\r\nNesta sessão também discutiremos sobre issso.\r\n\r\nEssa sessão é uma desconferência sobre Felicidade. Vamos falar de forma desestruturada sobre como medir e utilizar o indicador de felicidade para medir o business value dos nossos projetos de software.\r\n\r\nOutra abordagem desta sessão é sobre como transformamos o índice de felicidade no principal motor do processo de melhoria contínua."
+    },
+    {
+        "ID": 26,
+        "Type": "P",
+        "Title": "Game Dev - Cocos2d for iPhone",
+        "Description": "Objetivo:\r\nDisseminar conceitos básicos para a criação de jogos 2D para iPhone utilizando o framework cocos2d.\r\n\r\nPúblico:\r\nDesenvolvedores que desejam aprender o primeiros passos para se divertirem criando jogos para iPhone.\r\n\r\nBenefícios:\r\nEste tipo de conteúdo nunca foi abordado no evento."
+    },
+    {
+        "ID": 17,
+        "Type": "P",
+        "Title": "Groovy: trazendo dinamismo para o mundo Java",
+        "Description": "Este é um mini-curso de Groovy, uma linguagem projetada para executar sobre a plataforma Java, mas que possui características dinâmicas como metaprogramming, closures e tipagem dinâmica. O público alvo são os programadores Java. Estes, ao adotarem Groovy, podem se beneficiar de mais dinamismo e produtividade sem ter que abandonar qualquer código Java que tenham escrito anteriormente."
+    },
+    {
+        "ID": 66,
+        "Type": "P",
+        "Title": "Impactos no design com o uso de programação funcional",
+        "Description": "Orientação a Objetos é sem dúvidas o paradigma de programação mais utilizado, mas ultimamente temos visto\r\num crescimento significativo no uso de linguagens funcionais. O objetivo desta palestra é mostrar uma abordagem \r\nde design que mostra  problemas comuns que temos em orientação a objetos dentro do mundo funcional. Para isso, vamos utilizar um sistema que simula algumas operações de bolsa de valores para mostrar como as decisões tomadas em design OO podem ser mapeadas no mundo funcional através da linguagem Clojure.\r\n\r\nO publico esperado é um desenvolvedor intermediário/avançado."
+    },
+    {
+        "ID": 8,
+        "Type": "P",
+        "Title": "Integrando Gmail, Calendar, Drive e muito mais com Google Apps Script",
+        "Description": "O foco desta palestra está em apresentar ao público a plataforma javascript do google para cloud. Essa plataforma conhecida como Google Apps Script permite realizar facilmente integrações com a grande maioria das API's do google, entre elas Calendar, Gmail, Google Plus, Google Drive, SpreadSheets, etc....\r\nAcreditamos que ao final da palestra os ouvintes poderão desenvolver suas próprias integrações."
+    },
+    {
+        "ID": 34,
+        "Type": "P",
+        "Title": "IOS x Android",
+        "Description": "Não estou aqui para promover a guerra dos anjos. Desenvolvedores, Designers e POs poderão tirar proveito desta apresentação, entendendo quais as principais diferenças entre aplicativos Android e IOS quanto a experiência do usuário e padrões de interface."
+    },
+    {
+        "ID": 43,
+        "Type": "P",
+        "Title": "JavaScript for Pros",
+        "Description": "Aprenda técnicas de JavaScript que tornarão seu trabalho melhor e seu código mais limpo. Programação funcional, orientação a objetos e técnicas de otimização que farão toda a diferença na sua aplicação."
+    },
+    {
+        "ID": 44,
+        "Type": "P",
+        "Title": "Minha experiência com o ecossitema .NET",
+        "Description": "Um overview do que eu aprendi e percebi após 6 anos trabalhando em diversos projetos, consultorias e \r\natravés da participação em diversas comunidades de diferentes ecossistemas.\r\nDurante a apresentação vamos ver os pontos positivos e negativos do ecossistema .NET.\r\nVamos falar sobre Orientação a objeto, arquitetura de sistemas, necessidade de atualização, empreendedorismo, open source, carreira, salarios, motivações, projetos, vida acadêmica e muito mais."
+    },
+    {
+        "ID": 24,
+        "Type": "P",
+        "Title": "Mongo DB",
+        "Description": "A palestra irá abordar o que é mongo db, como funciona, a diferença entre banco orientado a documento e um banco relacional. Iremos também abordar nossa experiência com a utilização do banco."
+    },
+    {
+        "ID": 72,
+        "Type": "P",
+        "Title": "Nas entranhas do WebKit e do V8",
+        "Description": "Entenda de verdade como funciona o WebKit e veja como é possível compilar, usar e otimizá-lo em suas aplicações e como seu código é interpretado e executado pela Engine V8 do Google.\r\nPúblico: desenvolvedores web em geral\r\nBenefício: mostrar como funciona a renderização de html e interpretação do javascript, mostrando o funcionamento mais a fundo do browser\r\nMostrar também porque é possível embarcar navegadores em coisas como carro e geladeira."
+    },
+    {
+        "ID": 69,
+        "Type": "P",
+        "Title": "Node.js e realtime Web",
+        "Description": "À medida que a Web avança os usuários se tornam mais acostumados a ver as suas ações repercutirem imediatamente, e muitas vezes através de diferentes dispositivos. Nesta palestra, vamos visualizar através de código como o Node.js, com sua natureza não blocante e utilização de sockets, é uma ótima opção de tecnologia para criar aplicações escaláveis que funcionam em tempo real."
+    },
+    {
+        "ID": 49,
+        "Type": "P",
+        "Title": "Novidades do JavaEE 7",
+        "Description": "A palestra vai apresentar as novidades do JavaEE 7. Ela é endereçada tanto para o público iniciante quanto para desenvolvedores experientes. O foco principal da versão 7 do JavaEE é facilitar a implementação e a execução de aplicações em ambientes de nuvem."
+    },
+    {
+        "ID": 21,
+        "Type": "P",
+        "Title": "O que há de errado com expressões regulares?",
+        "Description": "Nesta palestra será abordada a teoria de linguagens por trás dos motores de expressões regulares. O objetivo é demonstrar falhas de segurança das implementações mais comuns, apontando onde a falta de atenção à teoria levou a implementações inseguras. Será proposta também uma implementação didática que tem tempo de execução em pior-caso muitas ordens de grandeza melhor que o das bibliotecas-padrão de diversas linguagens."
+    },
+    {
+        "ID": 36,
+        "Type": "P",
+        "Title": "O que veio primeiro, o compilador ou a linguagem de programação?",
+        "Description": "A palestra tem como intuito discorrer sobre compiladores e linguagem de programação, falando das etapas do programa e suas dificuldades. \r\nO público alvo seria programadores iniciantes e/ou curiosos sobre como uma linguagem de programação/compilador simples funciona.\r\nÉ  um tema genérico, de um conhecimento que todo desenvolvedor deveria carregar para carreira."
+    },
+    {
+        "ID": 37,
+        "Type": "P",
+        "Title": "Otimização além da academia.",
+        "Description": "Objetivo: Demonstrar que com a escolha certa do método adequado para um problema, faz muita diferença no resultado obtido.\r\nCom exemplos práticos será apresentado como tudo aquilo que fizemos questão de esquecer sobre Pesquisa Operacional pode e faz muito diferença no dia-a-dia das nossas empresas. \r\n\r\nPúblico: Desenvolvedores que estão interessados em ver onde aquelas disciplinas que vimos na faculdade se encaixa realmente.\r\n\r\nBenefício: Fazer a transição da academia para as empresas."
+    },
+    {
+        "ID": 45,
+        "Type": "P",
+        "Title": "Para gostar de Python",
+        "Description": "Durante os últimos 5 anos Python é a linguagem para ensino de programação na FATEC São José dos Campos, faculdade pública mantida pelo Centro Paula Souza. Mostrarei os códigos que mais fizeram os alunos amar Python e passar uma experiência das melhores práticas para o sucesso no aprendizado da programação."
+    },
+    {
+        "ID": 47,
+        "Type": "P",
+        "Title": "Pepe Legal Python e Babalu MongoDB, uma dupla dinâmica",
+        "Description": "MongoDB e Python possuem em comum o caráter dinâmico que torna mais ágil o desenvolvimento de novos aplicativos. Introdução ao mundo NoSQL, ao MongoDB em particular e como podemos desenvolver uma aplicação com cliente Python."
+    },
+    {
+        "ID": 80,
+        "Type": "P",
+        "Title": "Phonegap - presente e futuro",
+        "Description": "PhoneGap é um framework que cada vez mais está sendo usado para construção de aplicativos mobile.\r\nCom apenas html, css e javascript, veremos como ele possibilita gerar aplicações mobile. Ainda, discutiremos sobre as novas features que estão por vir.\r\nPúblico: desenvolvedores em geral\r\nBenefícios: apresentar um framework que possibilita quem sabe html, css e javascript começar a programar para mobile sem grande esforço."
+    },
+    {
+        "ID": 62,
+        "Type": "P",
+        "Title": "Piratão Jukevideo, um jukebox com PyGame e Open-Hardware",
+        "Description": "Uma palestra para demonstrar os potenciais do pygame para desenvolvimento de software que não sejam apenas jogos. Usamos o pygame para fazer desde a interface até o sistema de video de uma jukebox de verdade.\r\n\r\nDurante o desenvolvimento foi bem difícil achar uma forma sustentável para construir o código, mas depois achamos um que nos deixou bem ágeis, queremos mostrar como fizemos tudo isso usando o pygame.\r\n\r\nAlém do software, ainda tivemos os desafios de hardware. Precisamos usar botões de arcade para controlar o pygame. Por isso usamos o Make-Makey, uma placa open-hardware que transforma quase tudo em uma interface de controle.\r\n\r\nO projeto também tem o objetivo de questionar os conceitos de direitos autorais. Lembramos que esse projeto é de um software stand-alone, que roda sem internet e traz novas reflexões sobre esse tema."
+    },
+    {
+        "ID": 39,
+        "Type": "P",
+        "Title": "Programação assíncrona com Javascript",
+        "Description": "Veja diferentes formas de manter a sanidade ao programar de forma assíncrona com Javascript. Entenda por que Callbacks são, muitas das vezes, ruins, e algumas formas de contornar esse problema.\r\nSerá apresentado duas formas de programação assíncrona:\r\n1 - Promisses com jQuery Deferred.\r\n2 - Functional Reactive Programming com Reactive Extensions for Javascript (RxJS)."
+    },
+    {
+        "ID": 16,
+        "Type": "P",
+        "Title": "Programação Reativa e Orquestração de Eventos",
+        "Description": "Nesta palestra será coberta a filosofia do design do Rx, com raízes na profunda dualidade entre os conhecidos patterns iterator e observer. A partir deste entendimento base, veremos várias funções e operadores definidos sobre coleções observáveis. Veja ainda a relação entre o Rx e Task Parallel Library, assim como o modelo de programação assíncrona do C# 5.0 com async e await, possiblitando orquestrar eventos no .NET."
+    },
+    {
+        "ID": 29,
+        "Type": "P",
+        "Title": "Push Notification na pratica com SignalR",
+        "Description": "A palestra consiste na apresentação das varias forma de implementação de comunicação de dias vias.\r\nDentre as técnicas apresentadas estaram:\r\n\r\nPoling\r\nLong Poling\r\nFornecer Frame \r\nWebSockets\r\n\r\nExemplos\r\n\r\nE a implementação utilizando o ASP.Net SignalR."
+    },
+    {
+        "ID": 64,
+        "Type": "P",
+        "Title": "Ruby em Ambientes 100% Java",
+        "Description": "Publico Alvo: Desenvolvedores (de qualquer nivel)\r\nObjetivo: Mostrar que Java é mais do que a linguagem, enfatizando o seu uso como plataforma de execução de código. Faz uma introdução ao Ruby, e depois mostra JRuby. Mostrando prós e contras entre Java e Ruby, e o \"\"melhor\"\" dos dois mundos JRuby. Por fim mostra exemplos do dia-a-dia, de uma empresa \"\"100% Java\"\", e as diferenças entre as soluções \"\"convencionais Java\"\" e as soluções \"\"JRuby\"\". Fazendo com que o dev pense fora da caixa."
+    },
+    {
+        "ID": 22,
+        "Type": "P",
+        "Title": "Service Bus na plataforma Microsoft",
+        "Description": "Durante muito tempo a Microsoft correu por fora no segmento de SOA, porém com o Azure Service Bus, e mais recentemente Windows Service Bus, ela entra no jogo. Venha saber como. A palestra irá tratar do Service Bus da Microsoft, tanto para Cloud, quanto para on-premises, qual o seu objetivo e como é o seu funcionamento."
+    },
+    {
+        "ID": 57,
+        "Type": "P",
+        "Title": "Syslinux - collection of boot loaders",
+        "Description": "O alvo serão as pessoas que interessam pelos detalhes quando você liga o seu computador até o momento que o bootloader e posteriormente o kernel entra em ação.\r\nIrei mostrar o processo de booting na arquitetura x86, transição de modo real para modo protegido, configuração de segmentação/paginação, entre outros."
+    },
+    {
+        "ID": 18,
+        "Type": "P",
+        "Title": "Técnicas de Programação Funcional com Javascript",
+        "Description": "Torne-se um desenvolvedor melhor com técnicas de programação funcional. Aprenda por que esse paradigma está se tornando popular, e como usar alguns conceitos básicos para melhorar a legibilidade e facilidade de manutenção do seu código."
+    },
+    {
+        "ID": 76,
+        "Type": "P",
+        "Title": "Trabalhe de casa fazendo o que você gosta!",
+        "Description": "O mundo está mudando. Trabalhar não significa pegar trânsito e ficar sentado atrás da mesma mesa durante o dia inteiro! Avanços tecnológicos tem dado a liberdade a muitas companhias de possuírem seus empregados distribuídos em diversos lugares do mundo.\r\nTrabalhar de casa traz muitos benefícios: não existe a perda de tempo no transito, liberdade de morar onde quiser, maior tempo para família, amigos e hobbies. Do lado do empregador, você tem acesso aos melhores talentos do mundo sem ficar preso a uma mesma cidade e economiza dinheiro em um escritório maior.\r\nEsta palestra é focada desde pessoas que tem vontade de trabalhar dentro de casa à empreendedores e gerentes que tem curiosidade de entender como esta nova cultura funciona. Ela será focada em ferramentas, processos, vantagens e riscos que um ambiente 100% distribuído tras para a felicidade da empresa e do empregado."
+    },
+    {
+        "ID": 38,
+        "Type": "P",
+        "Title": "Turbinando o client-side com Backbone.js",
+        "Description": "Esta palestra apresentará conceitos e como usar a solução Backbone.js + Handlebars sobre back-ends REST como Ruby on Rails e Play! Framework (Java/Scala). Ainda, mostrará como desenvolver usando TDD com testes em Jasmine e mocks em Sinon.Js, e como fazer cobertura de testes de javascript. Utilizará uma aplicação exemplo desenvolvida para 3 artigos que o autor escreve para a revista Java Magazine."
+    },
+    {
+        "ID": 58,
+        "Type": "P",
+        "Title": "Um roadmap do Framework Ruby on Rails, do Rails 1 ao Rails 4",
+        "Description": "Esta palestra apresentará as funcionalidades disponibilizadas pelo framework web Ruby on Rails desde sua primeira versão até o Rails 4. Serão apresentadas as evoluções mais significativas de cada release e as principais características do Rails 4.\r\nRuby on Rails tem se tornado cada vez mais popular e ganhado mais adeptos. Sempre ouço comentários de desenvolvedores de outras tecnologias que desejam conhecer melhor o framework, seja para implementar projetos pessoais ou mesmo dar um novo rumo na vida profissional.\r\nAcredito que uma apresentação das evoluções implementas nesta tecnologia permitirá que muitos desenvolvedores e entusiatas obtenham um conhecimento básico, o que facilitará seus estudos posteriores permitindo que possam aprofundar mais em cada tópico coberto na palestra.\r\nA palestra não tem o objetivo de entrar em detalhes técnicos das implementações, mas sim explicar e, sempre que possível exemplificar, o que passou a ser possível de ser implementado após cada release."
+    },
+    {
+        "ID": 70,
+        "Type": "P",
+        "Title": "Uma comparação entre Angular, Backbone e Ember",
+        "Description": "Escolher um framework MV* JavaScript é um trabalho complexo. Existem tantos fatores e tantas opções a serem consideradas que esta escolha pode parecer impossível a uma primeira vista!\r\n\r\nPara ajudar na escolha, criamos uma aplicação simples e idêntica em cada um dos frameworks citados e vamos compará-las passo a passo, mostrando as facilidades e complexidades de cada um.\r\n\r\nSe você é um desenvolvedor que já utilizou algum framework JavaScript MV* ou pretende começar, esta é uma palestra que irá ajuda-lo no seu próximo projeto!"
+    },
+    {
+        "ID": 2,
+        "Type": "P",
+        "Title": "Web2py - Desenvolvimento web deveria ser fácil",
+        "Description": "Web2py é um framework open-source \"\"full stack\"\"(já vem com tudo necessário para utiliza-lo) para desenvolvimento ágil de aplicações web rápidas , escaláveis, seguras e portáteis orientadas a modelo.\r\nFramework Python, inicialmente desenvolvido para ensinar programação, atualmente vem crescendo no mercado. \r\nO publico direcionado são todas as pessoas interessadas a cohecer este framework.Demonstra o poder e facilidade do Python, trazendo conhecimento a mais a comunidade."
+    },
+    {
+        "ID": 67,
+        "Type": "P",
+        "Title": "ZeroMQ: O correio elegante de arquiteturas escaláveis",
+        "Description": "Arquiteturas distribuídas são essenciais para a construção de sistemas amplos escaláveis, mas se a comunicação entre os nós da sua infraestrutura for engessada, você vai ter um grande problema de manutenção mais adiante. ZeroMQ é uma camada de transporte inteligente que possibilita a criação de arquiteturas elásticas com troca de mensagens transparentes em diversos protocolos. Nesta apresentação, vamos explorar como o ZeroMQ pode ser utilizado para tratar concorrência, implementar comunicação agnóstica entre duas ou mais partes de um grande sistema, ou processar assíncronamente logs com alta taxa de crescimento."
+    }
 ]);
