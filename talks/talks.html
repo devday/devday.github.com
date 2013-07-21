@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevDay 2013 - Palestras</title>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+
+    <style>
+        .talk {
+            padding: 10px;
+            color: #5F5F5F;
+            background: white;
+            box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+            margin-top: 5px;
+        }
+
+        .talk article {
+            margin: 10px 0 10px 0;
+        }
+    </style>
+</head>
+<body>
+<div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=622586384427029";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <div class="container">
+        <img src="http://devday.devisland.com/assets/img/logo/devday2013.png" width="200" />
+        <fieldset>
+            <legend></legend>
+            <label class="checkbox">
+            <input type="checkbox" name="lt" data-bind="checked: showLightningTalks">
+                Lightning Talks <a class="badge" href="http://pt.wikipedia.org/wiki/Lightning_Talk" target="_blank">?</a>
+            </label>
+
+            <label class="checkbox">
+            <input type="checkbox" name="p" data-bind="checked: showTalks">
+                Palestras
+            </label>
+        </fieldset>
+        <div data-bind="foreach: talk">
+            
+            <section class="talk" data-bind="visible: (Type == 'LT' && $root.showLightningTalks()) || Type == 'P' && $root.showTalks()">
+            	<!--<span data-bind="text: ID"></span>-->
+        		<span class="badge" data-bind="text: Type"></span>
+            	<strong data-bind="text: Title"></strong>
+                <article>
+                    <p data-bind="text: Description">
+                    </p>
+                    <div class="fb-like" data-bind="attr: { 'data-href': 'http://devday.devisland.com/talks?id=' + ID }" data-send="true" data-width="450" data-show-faces="true"></div>
+                </article>
+            </section>
+        </div>
+    </div>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/knockout/2.3.0/knockout-min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="talks.js"></script>
+</body>
+</html>
