@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,18 +22,27 @@
 </head>
 <body>
     <div id="fb-root"></div>
-    <script>
-    window.fbAsyncInit = function() {
-        FB.init({
-            appId  : '622586384427029',
-            status: true, // check login status
-            cookie: true, // enable cookies to allow server to access session,
-            xfbml: true, // enable XFBML and social plugins
-            oauth: true, // enable OAuth 2.0
-            channelUrl: 'http://devday.devisland.com/talks/channel.html' //custom channel
-        });
-    };
-    (function(d, s, id) {
+    <script type="text/javascript">
+  		// prevent jQuery from appending cache busting string to the end of the FeatureLoader URL 
+  		var cache = jQuery.ajaxSettings.cache; 
+  		jQuery.ajaxSettings.cache = true;
+  		
+  		// Load FeatureLoader asynchronously. Once loaded, we execute Facebook init 
+  		jQuery.getScript('http://connect.facebook.net/de_DE/all.js', function() {      
+    		FB.init({
+			            appId  : '622586384427029',
+			            status: true, // check login status
+			            cookie: true, // enable cookies to allow server to access session,
+			            xfbml: true, // enable XFBML and social plugins
+			            oauth: true, // enable OAuth 2.0
+			            channelUrl: 'http://devday.devisland.com/talks/channel.html' //custom channel
+    				 });    
+  		});
+  		
+  		// just Restore jQuery caching setting
+  		jQuery.ajaxSettings.cache = cache;
+    
+/*     (function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
         js = d.createElement(s); js.id = id;
@@ -41,6 +50,7 @@
         js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=622586384427029";
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
+*/    
     </script>
     <div class="container">
         <img src="http://devday.devisland.com/assets/img/logo/devday2013.png" width="200" />
@@ -79,7 +89,7 @@
                 <article>
                     <p data-bind="text: Description">
                     </p>
-                    <div class="fb-like" data-bind="attr: { 'data-href': 'http://devday.devisland.com/talks/' + ID + '/talk.html' }" data-send="false" data-width="450" data-show-faces="true"></div>
+                    <div class="fb-like" data-bind="attr: { 'data-href': 'http://devday.devisland.com/talks/' + ID + '/talk.html' }"  data-send="false" data-width="450" data-show-faces="true"></div>
                 </article>
             </section>
         </div>
