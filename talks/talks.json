@@ -252,12 +252,6 @@
     "Description": "Sencha Touch é um frameworks bem popular no mercado mobile multiplataforma que oferece componentes bonitos e que agradam ao usuário.\r\nNessa palestra vamos ver como funciona a arquitetura de uma app com Sencha Touch, como podemos integrar, melhores práticas e como funciona o ciclo completo de desenvolvimento de uma app com esse framework. \r\nAinda, veremos sobre o PhoneGap, framework que permite que com apenas HTML, CSS e JavaScript façamos aplicações mobile embarcadas para várias plataformas e com um único código.\r\nPúblico: desenvolvedores web e mobile em geral\r\nBenefício: mostrar como desenvolvedores podem usar skills web para programar para mobile, sem ter que aprender novas linguagens e como isso possibilita com um único código, fazer aplicações para várias plataformas, como iOS, Android, BB10 e Windows Phone."
   },
   {
-    "ID": 77,
-    "Type": "P",
-    "Title": "Construindo aplicações mobile multiplataforma com Sencha Touch 2 e Phonegap",
-    "Description": "Sencha Touch é um frameworks bem popular no mercado mobile multiplataforma que oferece componentes bonitos e que agradam ao usuário\r\nNessa palestra vamos ver como funciona a arquitetura de uma app com Sencha Touch, como podemos integrar, melhores práticas e como funciona o ciclo completo de desenvolvimento de uma app com esse framework.\r\nAinda, veremos como funciona o PhoneGap, framework que permite fazer aplicações para mobile usando HTML5, CSS e JavaScript e como integrar o mesmo com o Sencha Touch."
-  },
-  {
     "ID": 28,
     "Type": "P",
     "Title": "Construindo Apps multicross com PhoneGap",
