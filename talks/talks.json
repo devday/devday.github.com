@@ -482,7 +482,7 @@
   {
     "ID": 57,
     "Type": "P",
-    "Title": "Syslinux - collection of boot loaders",
+    "Title": "Criando um S.O básico para IBM PCs do 0",
     "Description": "O alvo serão as pessoas que interessam pelos detalhes quando você liga o seu computador até o momento que o bootloader e posteriormente o kernel entra em ação.\r\nIrei mostrar o processo de booting na arquitetura x86, transição de modo real para modo protegido, configuração de segmentação/paginação, entre outros."
   },
   {
