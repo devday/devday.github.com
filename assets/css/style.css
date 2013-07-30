@@ -424,7 +424,7 @@ p {
 }
 
     .camein p {
-        min-width: 70%;
+        min-width: 35%;
         background: rgba(250,250,250, 0.15);
         position: relative;
         margin-left: auto;
@@ -443,13 +443,11 @@ p {
 
 .btn-block-third {
     display: block;
-    width: 40%;
     padding-right: 0;
     padding-left: 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    float: left;
 }
 
 i.or {
