@@ -473,21 +473,6 @@ O evento de desenvolvedores para desenvolvedores está de volta!" />
                  <div class="row demo-tiles" id="show3">
 
                     <!-- Agenda Horarios-->
-                    
-                    <div class="span-12">
-                        <h3>Lightning Talks</h3>
-                        <table class="table table-condensed" ng-controller="PalestrasCtrl">
-                            <tbody>
-                                <tr ng-repeat="palestra in palestras | orderBy:'titulo' | filter:lt">
-                                    <td>
-                                        <h5>{{palestra.titulo}}</h5>
-                                        <i class="fa-icon-user"></i> <a href="#">{{palestra.palestrante}}</a>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-
                     <div class="span-12">
                         <h3>Palestras</h3>
                         <table class="table table-condensed" ng-controller="PalestrasCtrl">
@@ -496,11 +481,28 @@ O evento de desenvolvedores para desenvolvedores está de volta!" />
                                     <td>
                                         <h5>{{palestra.titulo}}</h5>
                                         <i class="fa-icon-user"></i> <a href="#">{{palestra.palestrante}}</a>
+                                        <p ng-bind-html-unsafe="palestra.desc"></p>
                                     </td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
+                    <hr>
+                    <div class="span-12">
+                        <h3>Lightning Talks</h3>
+                        <table class="table table-condensed" ng-controller="PalestrasCtrl">
+                            <tbody>
+                                <tr ng-repeat="palestra in palestras | orderBy:'titulo' | filter:lt">
+                                    <td>
+                                        <h5>{{palestra.titulo}}</h5>
+                                        <i class="fa-icon-user"></i> <a href="#">{{palestra.palestrante}}</a>
+                                        <p ng-bind-html-unsafe="palestra.desc"></p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
                 </div>
             </div>
         </section>
