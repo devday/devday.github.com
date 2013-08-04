@@ -473,23 +473,10 @@ O evento de desenvolvedores para desenvolvedores está de volta!" />
                  <div class="row demo-tiles" id="show3">
 
                     <!-- Agenda Horarios-->
-                    <div class="offset1 span5">
-                        <div class="feature-box" ng-controller="PalestrasCtrl">
-                            <h4 class="feature-box-title">Palestras</h4>
-                            <a class="btn btn-info btn-larger btn-block" href="#" ng-repeat="palestra in palestras | filter:palestra">{{palestra.titulo}}<br>{{palestra.palestrante}}</a>
-                        </div>
-                    </div>
-                    <div class="span5">
-                        <div class="feature-box" ng-controller="PalestrasCtrl">
-                            <h4 class="feature-box-title">Lightning Talks</h4>
-                            <a class="btn btn-info btn-larger btn-block" href="#" ng-repeat="palestra in palestras | filter:lt">{{palestra.titulo}}<br>{{palestra.palestrante}}</a>
-                        </div>
-                    </div>
+                    
                     <div class="span-12">
+                        <h3>Lightning Talks</h3>
                         <table class="table table-condensed" ng-controller="PalestrasCtrl">
-                            <thead>
-                                <th>Lightning Talks</th>
-                            </thead>
                             <tbody>
                                 <tr ng-repeat="palestra in palestras | orderBy:'titulo' | filter:lt">
                                     <td>
@@ -502,10 +489,8 @@ O evento de desenvolvedores para desenvolvedores está de volta!" />
                     </div>
 
                     <div class="span-12">
+                        <h3>Palestras</h3>
                         <table class="table table-condensed" ng-controller="PalestrasCtrl">
-                            <thead>
-                                <th>Palestras</th>
-                            </thead>
                             <tbody>
                                 <tr ng-repeat="palestra in palestras | orderBy:'titulo' | filter:palestra">
                                     <td>
