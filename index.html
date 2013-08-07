@@ -139,9 +139,9 @@ O evento de desenvolvedores para desenvolvedores está de volta!" />
                                             <li class="active"><a href="#header-section">Home</a> </li>
                                             <li><a href="#about-section">Sobre</a> </li>
                                             <li><a href="#agenda-section">Agenda</a> </li>
+                                            <li><a href="#portfolio-section">Patrocinadores</a> </li>
                                             <li><a href="#palestras-section">Palestras</a> </li>
                                             <!--<li><a href="#team-section">Palestrantes</a> </li>-->
-                                            <li><a href="#portfolio-section">Patrocinadores</a> </li>
                                             <li><a href="#price-section">Inscrição</a> </li>
                                             <li><a href="#organizacao-section">Organização</a> </li>
                                             <li><a href="#contact-section">Local</a> </li>
@@ -452,306 +452,9 @@ O evento de desenvolvedores para desenvolvedores está de volta!" />
         <!-- / ##################### AGENDA section ###########
 
 
-        <!-- ######################## PALESTRAS SECTION ##################
-    ============================================================== -->
-        <section id="palestras-section">
-
-            <!-- MARKETING INTRO-->
-            <div class="panel">
-                <div class="container">
-                    <div class="row-fluid">
-                        <div class="span12 text-center">
-                            <span>PALESTRAS
-                            <span class="inner">Este ano o evento terá 19 palestras e 7 lightning talks.</span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--/ MARKETING INTRO-->
-            <div class="container">
-                 <div class="row demo-tiles" id="show3">
-
-                    <!-- Agenda Horarios-->
-                    <div class="span-12">
-                        <h3>Palestras</h3>
-                        <table class="table table-condensed" ng-controller="PalestrasCtrl">
-                            <tbody>
-                                <tr ng-repeat="palestra in palestras | orderBy:'titulo' | filter:palestra">
-                                    <td>
-                                        <h5>{{palestra.titulo}}</h5>
-                                        <i class="fa-icon-user"></i> <a href="#">{{palestra.palestrante}}</a>
-                                        <p ng-bind-html-unsafe="palestra.desc"></p>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <hr>
-                    <div class="span-12">
-                        <h3>Lightning Talks</h3>
-                        <table class="table table-condensed" ng-controller="PalestrasCtrl">
-                            <tbody>
-                                <tr ng-repeat="palestra in palestras | orderBy:'titulo' | filter:lt">
-                                    <td>
-                                        <h5>{{palestra.titulo}}</h5>
-                                        <i class="fa-icon-user"></i> <a href="#">{{palestra.palestrante}}</a>
-                                        <p ng-bind-html-unsafe="palestra.desc"></p>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <!-- / ##################### PALESTRA section ###########
-
-	====================================================== -->
-
-        <!-- ##################### PALESTRANTES SECTION ###################
-	======================================================= -->
-        <!--<section class="" id="team-section">-->
-        <!---->
-        <!--&lt;!&ndash; TEAM HEADER&ndash;&gt;-->
-        <!--<header class="" >-->
-        <!--<div class="page-header ">-->
-        <!--<div class="container">-->
-        <!--<div class="row-fluid">-->
-        <!--<h3>Palestrantes <small class="visible-desktop">// Quem são os palestrantes deste ano</small></h3>-->
-        <!--</div>-->
-        <!--</div>	-->
-        <!--</div>-->
-        <!--</header>-->
-        <!--&lt;!&ndash; / TEAM HEADER&ndash;&gt;-->
-        <!---->
-        <!--&lt;!&ndash; TEAM ITEMS &ndash;&gt;-->
-        <!--<div class="container">	-->
-        <!--<div class="row-fluid" id="show4">-->
-        <!---->
-        <!--&lt;!&ndash; TEAM ITEM&ndash;&gt;-->
-        <!--<div class="thumbnail span3">-->
-        <!--&lt;!&ndash; IMAGE CONTAINER&ndash;&gt;-->
-        <!--<div class="sample project-item-image-container">-->
-        <!--<img src="images/staff5.jpg" alt=""/>-->
-        <!--</div> -->
-        <!--&lt;!&ndash;END IMAGE CONTAINER&ndash;&gt;-->
-        <!---->
-        <!--&lt;!&ndash; CAPTION &ndash;&gt;-->
-        <!--<div class="caption team-caption">-->
-        <!--<div class="transit-to-top">-->
-        <!--<h3 class="">John Doe <small>CEO, OnePager</small></h3>-->
-        <!---->
-        <!--<div class="widget_nav_menu"> -->
-        <!--<ul class="social-top">-->
-        <!--<li><a href="#" title=""><i class="fa-icon-facebook"></i></a></li>-->
-        <!--<li><a href="#" title=""><i class="fa-icon-twitter"></i></a></li>-->
-        <!--<li><a href="#" title=""><i class="fa-icon-github-alt"></i></a></li>-->
-        <!--<li><a href="#" title=""><i class="fa-icon-google-plus"></i></a></li>-->
-        <!--<li><a href="#" title=""><i class="fa-icon-linkedin"></i></a></li>-->
-        <!--</ul>-->
-        <!---->
-        <!--</div>-->
-        <!--</div> &lt;!&ndash;END CAPTION &ndash;&gt;-->
-        <!--</div>&lt;!&ndash; END: THUMBNAIL &ndash;&gt;-->
-        <!--</div>&lt;!&ndash; TEAM ITEM&ndash;&gt;-->
-
-        <!--&lt;!&ndash; TEAM ITEM&ndash;&gt;-->
-        <!--<div class="thumbnail span3">-->
-        <!--&lt;!&ndash; IMAGE CONTAINER&ndash;&gt;-->
-        <!--<div class="sample project-item-image-container">-->
-        <!--<img src="images/staff4.jpg" alt=""/>-->
-        <!--</div> -->
-        <!--&lt;!&ndash;END IMAGE CONTAINER&ndash;&gt;-->
-        <!---->
-        <!--&lt;!&ndash; CAPTION &ndash;&gt;-->
-        <!--<div class="caption team-caption">-->
-        <!--<div class="transit-to-top">-->
-        <!--<h3 class="">John Doe <small>CEO, OnePager</small></h3>-->
-        <!--<div class="widget_nav_menu"> -->
-        <!--<ul class="social-top">-->
-        <!--<li><a href="#" title=""><i class="fa-icon-facebook"></i></a></li>-->
-        <!--<li><a href="#" title=""><i class="fa-icon-twitter"></i></a></li>-->
-        <!--<li><a href="#" title=""><i class="fa-icon-github-alt"></i></a></li>-->
-        <!--<li><a href="#" title=""><i class="fa-icon-google-plus"></i></a></li>-->
-        <!--<li><a href="#" title=""><i class="fa-icon-linkedin"></i></a></li>-->
-        <!--</ul>-->
-        <!--</div>-->
-        <!--</div> &lt;!&ndash;END CAPTION &ndash;&gt;-->
-        <!--</div>&lt;!&ndash; END: THUMBNAIL &ndash;&gt;-->
-        <!--</div>&lt;!&ndash; /TEAM ITEM&ndash;&gt;-->
-
-        <!--&lt;!&ndash; TEAM ITEM&ndash;&gt;-->
-        <!--<div class="thumbnail span3">-->
-        <!--&lt;!&ndash; IMAGE CONTAINER&ndash;&gt;-->
-        <!--<div class="sample project-item-image-container">-->
-        <!--<img src="images/staff3.jpg" alt=""/>-->
-        <!--</div> -->
-        <!--&lt;!&ndash;END IMAGE CONTAINER&ndash;&gt;-->
-        <!---->
-        <!--&lt;!&ndash; CAPTION &ndash;&gt;-->
-        <!--<div class="caption team-caption">-->
-        <!--<div class="transit-to-top">-->
-        <!--<h3 class="">John Doe <small>CEO, OnePager</small></h3>-->
-        <!--<div class="widget_nav_menu"> -->
-        <!--<ul class="social-top">-->
-        <!--<li><a href="#" title=""><i class="fa-icon-facebook"></i></a></li>-->
-        <!--<li><a href="#" title=""><i class="fa-icon-twitter"></i></a></li>-->
-        <!--<li><a href="#" title=""><i class="fa-icon-github-alt"></i></a></li>-->
-        <!--<li><a href="#" title=""><i class="fa-icon-google-plus"></i></a></li>-->
-        <!--<li><a href="#" title=""><i class="fa-icon-linkedin"></i></a></li>-->
-        <!--</ul>-->
-
-        <!--</div>-->
-        <!--</div> &lt;!&ndash;END CAPTION &ndash;&gt;-->
-        <!--</div>&lt;!&ndash; END: THUMBNAIL &ndash;&gt;-->
-        <!--</div>&lt;!&ndash;/ TEAM ITEM&ndash;&gt;-->
-
-        <!--&lt;!&ndash; TEAM ITEM&ndash;&gt;-->
-        <!--<div class="thumbnail span3">-->
-        <!--&lt;!&ndash; IMAGE CONTAINER&ndash;&gt;-->
-        <!--<div class="sample project-item-image-container">-->
-        <!--<img src="images/staff2.jpg" alt=""/>-->
-        <!--</div> -->
-        <!--&lt;!&ndash;END IMAGE CONTAINER&ndash;&gt;-->
-        <!---->
-        <!--&lt;!&ndash; CAPTION &ndash;&gt;-->
-        <!--<div class="caption team-caption">-->
-        <!--<div class="transit-to-top">-->
-        <!--<h3 class="">John Doe <small>CEO, OnePager</small></h3>-->
-
-        <!--<div class="widget_nav_menu"> -->
-        <!--<ul class="social-top">-->
-        <!--<li><a href="#" title=""><i class="fa-icon-facebook"></i></a></li>-->
-        <!--<li><a href="#" title=""><i class="fa-icon-twitter"></i></a></li>-->
-        <!--<li><a href="#" title=""><i class="fa-icon-github-alt"></i></a></li>-->
-        <!--<li><a href="#" title=""><i class="fa-icon-google-plus"></i></a></li>-->
-        <!--<li><a href="#" title=""><i class="fa-icon-linkedin"></i></a></li>-->
-        <!--</ul>-->
-        <!--</div>-->
-        <!--</div> &lt;!&ndash;END CAPTION &ndash;&gt;-->
-        <!--</div>&lt;!&ndash; END: THUMBNAIL &ndash;&gt;-->
-        <!--</div>&lt;!&ndash; /TEAM ITEM&ndash;&gt;-->
-
-        <!--</div>-->
-        <!--&lt;!&ndash;/ROW FLUID&ndash;&gt; -->
-
-        <!--&lt;!&ndash; DIVIDER &ndash;&gt;-->
-        <!--<div class="row-fluid">-->
-        <!--<div class="span12"><hr/></div>-->
-        <!--</div>-->
-        <!--&lt;!&ndash;/ DIVIDER &ndash;&gt;-->
-
-        <!--&lt;!&ndash; SKILLS ROW &ndash;&gt;	-->
-        <!--<div class="row-fluid skills-services">-->
-
-        <!--&lt;!&ndash; SERVICE SIDE&ndash;&gt;-->
-        <!--<div class="span6 wedo">-->
-        <!--&lt;!&ndash; INNER ROW&ndash;&gt;-->
-        <!--<div class="row-fluid">-->
-        <!--<h3 class="main-color">What We Can Do?</h3>-->
-        <!--&lt;!&ndash; SERVICE ITEM&ndash;&gt;-->
-        <!--<div class="hexicon-icon-wrap">-->
-        <!--<span class="">-->
-        <!--<i class="fa-icon-desktop fa-icon-large pull-left"></i>-->
-        <!--</span>-->
-        <!--</div>-->
-        <!---->
-        <!--<h4>WEB &amp; UI DESIGN</h4>-->
-        <!---->
-        <!--<p class="">-->
-        <!--There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.-->
-        <!--</p>-->
-        <!--&lt;!&ndash;/ SERVICE ITEM&ndash;&gt;-->
-        <!--<hr/>-->
-        <!---->
-        <!--&lt;!&ndash; SERVICE ITEM&ndash;&gt;-->
-        <!--<div class="hexicon-icon-wrap">-->
-        <!--<span class="hexicon">-->
-        <!--<i class="fa-icon-picture fa-icon-large pull-left"></i>-->
-        <!--</span>-->
-        <!--</div>-->
-        <!---->
-        <!--<h4>GRAPHICS DESIGN</h4>-->
-        <!---->
-        <!--<p class="">-->
-        <!--There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.-->
-        <!--</p>-->
-        <!--&lt;!&ndash;/ SERVICE ITEM&ndash;&gt;-->
-        <!--<hr/>-->
-        <!---->
-        <!--&lt;!&ndash; SERVICE ITEM&ndash;&gt;-->
-        <!--<div class="hexicon-icon-wrap">-->
-        <!--<span class="hexicon">-->
-        <!--<i class="fa-icon-cogs fa-icon-large pull-left"></i>-->
-        <!--</span>-->
-        <!--</div>-->
-        <!---->
-        <!--<h4>PHP DEVELOPMENT</h4>-->
-        <!---->
-        <!--<p class="">-->
-        <!--There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.-->
-        <!--</p>-->
-        <!--&lt;!&ndash;/ SERVICE ITEM&ndash;&gt;-->
-        <!---->
-        <!--&lt;!&ndash;/SPAN12 ITEM &ndash;&gt;-->
-        <!--</div>&lt;!&ndash; ROW-FLUID&ndash;&gt;-->
-        <!--</div>&lt;!&ndash;/SPAN7&ndash;&gt;-->
-
-        <!--&lt;!&ndash; SKILLS BAR SIDE&ndash;&gt;-->
-        <!--<div class="span6" id="showbar">&lt;!&ndash; DO NOT REMOVE id="showbar" - animated point event&ndash;&gt;-->
-        <!---->
-        <!--<h3 class="main-color" >MAIN SKILLS</h3>-->
-        <!--&lt;!&ndash; BAR ITEM&ndash;&gt;-->
-        <!--<h4>DESIGN</h4>-->
-        <!--<div class="progress">-->
-        <!--<div class="bar notactive" style="width: 75%;"></div>-->
-        <!--</div>-->
-        <!--&lt;!&ndash;/ BAR ITEM&ndash;&gt;-->
-        <!---->
-        <!--&lt;!&ndash; BAR ITEM&ndash;&gt;-->
-        <!--<h4>HTML5</h4>-->
-        <!--<div class="progress">-->
-        <!--<div class="bar bar-danger notactive" style="width: 60%;"></div>-->
-        <!--</div>-->
-        <!--&lt;!&ndash;/ BAR ITEM&ndash;&gt;-->
-        <!---->
-        <!--&lt;!&ndash; BAR ITEM&ndash;&gt;-->
-        <!--<h4>CSS3</h4>-->
-        <!--<div class="progress">-->
-        <!--<div class="bar bar-success notactive" style="width: 55%;"></div>-->
-        <!--</div>-->
-        <!--&lt;!&ndash;/ BAR ITEM&ndash;&gt;-->
-        <!---->
-        <!--&lt;!&ndash; BAR ITEM&ndash;&gt;-->
-        <!--<h4>JQUERY</h4>-->
-        <!--<div class="progress">-->
-        <!--<div class="bar bar-warning notactive" style="width: 75%;"></div>-->
-        <!--</div>-->
-        <!--&lt;!&ndash;/ BAR ITEM&ndash;&gt;-->
-        <!---->
-        <!--&lt;!&ndash; BAR ITEM&ndash;&gt;-->
-        <!--<h4>PHP</h4>-->
-        <!--<div class="progress">-->
-        <!--<div class="bar bar-info notactive" style="width: 55%;"></div>-->
-        <!--</div>-->
-        <!--&lt;!&ndash; / BAR ITEM&ndash;&gt;-->
-        <!---->
-        <!--</div>-->
-        <!--&lt;!&ndash;/ SKILLS BAR SIDE&ndash;&gt;-->
-
-        <!--</div>-->
-        <!--&lt;!&ndash; / SKILLS ROW &ndash;&gt;-->
-        <!--&lt;!&ndash; / SERVICE SIDE&ndash;&gt;-->
-        <!--</div>-->
-        <!--&lt;!&ndash;/CONTAINER&ndash;&gt;-->
-        <!--</section>-->
-        <!-- /TEAM SECTION-->
-
 
         <!-- ################## PATROCINADORES SECTION #################
-	======================================================= -->
+    ======================================================= -->
         <section id="portfolio-section">
 
 
@@ -768,9 +471,9 @@ O evento de desenvolvedores para desenvolvedores está de volta!" />
                         <div class="span6 hidden-phone">
                             <!-- PROJECTS FILTER-->
                             <!-- just add your TAG to ==> data-filter=".yourtaghere" 
-		for SHOW ALL ==> data-filter="*" in button filter -->
+        for SHOW ALL ==> data-filter="*" in button filter -->
                             <!-- and then add your same TAG to portfolio item class="box" 
-		==> class="span4  project-item box YOURTAGHERE" -->
+        ==> class="span4  project-item box YOURTAGHERE" -->
 
                             <div class="text-right">
                                 <div class="proj">
@@ -778,11 +481,11 @@ O evento de desenvolvedores para desenvolvedores está de volta!" />
                                         <div class="btn-toolbar">
                                             <div class="btn-group">
                                                 <a href="#" data-filter="*" class="ione-col active btn btn-primary btn-large">Todos</a>
-                                                <a href="#" data-filter=".infra" class="btn ione-col btn-primary btn-large">Infra</a>
                                                 <a href="#" data-filter=".diamond" class="btn ione-col btn-primary btn-large">Diamond</a>
                                                 <a href="#" data-filter=".gold" class="btn ione-col btn-primary btn-large">Gold</a>
                                                 <a href="#" data-filter=".silver" class="btn ione-col btn-primary btn-large">Silver</a>
                                                 <a href="#" data-filter=".bronze" class="btn ione-col btn-primary btn-large">Bronze</a>
+                                                <a href="#" data-filter=".infra" class="btn ione-col btn-primary btn-large">Infra</a>
                                                 <a href="#" data-filter=".apoio" class="btn ione-col btn-primary btn-large">Apoio</a>
                                             </div>
                                         </div>
@@ -803,7 +506,7 @@ O evento de desenvolvedores para desenvolvedores está de volta!" />
 
 
             <!--################### START PATROCINADORES ###################
-	======================================================= -->
+    ======================================================= -->
             <div class="container">
                 <div id="container-folio" class="row ufilter">
                     <!-- !important! => DONT REMOVE class="ufilter"-->
@@ -1175,7 +878,7 @@ O evento de desenvolvedores para desenvolvedores está de volta!" />
 
                         <!-- END: portfolio item -->
                         
-                       	<!-- patrocionador apoio 6 -->
+                        <!-- patrocionador apoio 6 -->
                         <div class="span2  project-item apoio box ">
                             <div class="thumbnail">
 
@@ -1280,6 +983,304 @@ O evento de desenvolvedores para desenvolvedores está de volta!" />
             <!--/CONTAINER-->
         </section>
         <!--/ patrocinadores section-->
+
+
+        <!-- ######################## PALESTRAS SECTION ##################
+    ============================================================== -->
+        <section id="palestras-section">
+
+            <!-- MARKETING INTRO-->
+            <div class="panel">
+                <div class="container">
+                    <div class="row-fluid">
+                        <div class="span12 text-center">
+                            <span>PALESTRAS
+                            <span class="inner">Este ano o evento terá 19 palestras e 7 lightning talks.</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/ MARKETING INTRO-->
+            <div class="container">
+                 <div class="row demo-tiles" id="show3">
+
+                    <!-- Agenda Horarios-->
+                    <div class="span-12">
+                        <h3>Palestras</h3>
+                        <table class="table table-condensed" ng-controller="PalestrasCtrl">
+                            <tbody>
+                                <tr ng-repeat="palestra in palestras | orderBy:'titulo' | filter:palestra">
+                                    <td>
+                                        <h5>{{palestra.titulo}}</h5>
+                                        <i class="fa-icon-user"></i> <a href="#">{{palestra.palestrante}}</a>
+                                        <p ng-bind-html-unsafe="palestra.desc"></p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <hr>
+                    <div class="span-12">
+                        <h3>Lightning Talks</h3>
+                        <table class="table table-condensed" ng-controller="PalestrasCtrl">
+                            <tbody>
+                                <tr ng-repeat="palestra in palestras | orderBy:'titulo' | filter:lt">
+                                    <td>
+                                        <h5>{{palestra.titulo}}</h5>
+                                        <i class="fa-icon-user"></i> <a href="#">{{palestra.palestrante}}</a>
+                                        <p ng-bind-html-unsafe="palestra.desc"></p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- / ##################### PALESTRA section ###########
+
+	====================================================== -->
+
+        <!-- ##################### PALESTRANTES SECTION ###################
+	======================================================= -->
+        <!--<section class="" id="team-section">-->
+        <!---->
+        <!--&lt;!&ndash; TEAM HEADER&ndash;&gt;-->
+        <!--<header class="" >-->
+        <!--<div class="page-header ">-->
+        <!--<div class="container">-->
+        <!--<div class="row-fluid">-->
+        <!--<h3>Palestrantes <small class="visible-desktop">// Quem são os palestrantes deste ano</small></h3>-->
+        <!--</div>-->
+        <!--</div>	-->
+        <!--</div>-->
+        <!--</header>-->
+        <!--&lt;!&ndash; / TEAM HEADER&ndash;&gt;-->
+        <!---->
+        <!--&lt;!&ndash; TEAM ITEMS &ndash;&gt;-->
+        <!--<div class="container">	-->
+        <!--<div class="row-fluid" id="show4">-->
+        <!---->
+        <!--&lt;!&ndash; TEAM ITEM&ndash;&gt;-->
+        <!--<div class="thumbnail span3">-->
+        <!--&lt;!&ndash; IMAGE CONTAINER&ndash;&gt;-->
+        <!--<div class="sample project-item-image-container">-->
+        <!--<img src="images/staff5.jpg" alt=""/>-->
+        <!--</div> -->
+        <!--&lt;!&ndash;END IMAGE CONTAINER&ndash;&gt;-->
+        <!---->
+        <!--&lt;!&ndash; CAPTION &ndash;&gt;-->
+        <!--<div class="caption team-caption">-->
+        <!--<div class="transit-to-top">-->
+        <!--<h3 class="">John Doe <small>CEO, OnePager</small></h3>-->
+        <!---->
+        <!--<div class="widget_nav_menu"> -->
+        <!--<ul class="social-top">-->
+        <!--<li><a href="#" title=""><i class="fa-icon-facebook"></i></a></li>-->
+        <!--<li><a href="#" title=""><i class="fa-icon-twitter"></i></a></li>-->
+        <!--<li><a href="#" title=""><i class="fa-icon-github-alt"></i></a></li>-->
+        <!--<li><a href="#" title=""><i class="fa-icon-google-plus"></i></a></li>-->
+        <!--<li><a href="#" title=""><i class="fa-icon-linkedin"></i></a></li>-->
+        <!--</ul>-->
+        <!---->
+        <!--</div>-->
+        <!--</div> &lt;!&ndash;END CAPTION &ndash;&gt;-->
+        <!--</div>&lt;!&ndash; END: THUMBNAIL &ndash;&gt;-->
+        <!--</div>&lt;!&ndash; TEAM ITEM&ndash;&gt;-->
+
+        <!--&lt;!&ndash; TEAM ITEM&ndash;&gt;-->
+        <!--<div class="thumbnail span3">-->
+        <!--&lt;!&ndash; IMAGE CONTAINER&ndash;&gt;-->
+        <!--<div class="sample project-item-image-container">-->
+        <!--<img src="images/staff4.jpg" alt=""/>-->
+        <!--</div> -->
+        <!--&lt;!&ndash;END IMAGE CONTAINER&ndash;&gt;-->
+        <!---->
+        <!--&lt;!&ndash; CAPTION &ndash;&gt;-->
+        <!--<div class="caption team-caption">-->
+        <!--<div class="transit-to-top">-->
+        <!--<h3 class="">John Doe <small>CEO, OnePager</small></h3>-->
+        <!--<div class="widget_nav_menu"> -->
+        <!--<ul class="social-top">-->
+        <!--<li><a href="#" title=""><i class="fa-icon-facebook"></i></a></li>-->
+        <!--<li><a href="#" title=""><i class="fa-icon-twitter"></i></a></li>-->
+        <!--<li><a href="#" title=""><i class="fa-icon-github-alt"></i></a></li>-->
+        <!--<li><a href="#" title=""><i class="fa-icon-google-plus"></i></a></li>-->
+        <!--<li><a href="#" title=""><i class="fa-icon-linkedin"></i></a></li>-->
+        <!--</ul>-->
+        <!--</div>-->
+        <!--</div> &lt;!&ndash;END CAPTION &ndash;&gt;-->
+        <!--</div>&lt;!&ndash; END: THUMBNAIL &ndash;&gt;-->
+        <!--</div>&lt;!&ndash; /TEAM ITEM&ndash;&gt;-->
+
+        <!--&lt;!&ndash; TEAM ITEM&ndash;&gt;-->
+        <!--<div class="thumbnail span3">-->
+        <!--&lt;!&ndash; IMAGE CONTAINER&ndash;&gt;-->
+        <!--<div class="sample project-item-image-container">-->
+        <!--<img src="images/staff3.jpg" alt=""/>-->
+        <!--</div> -->
+        <!--&lt;!&ndash;END IMAGE CONTAINER&ndash;&gt;-->
+        <!---->
+        <!--&lt;!&ndash; CAPTION &ndash;&gt;-->
+        <!--<div class="caption team-caption">-->
+        <!--<div class="transit-to-top">-->
+        <!--<h3 class="">John Doe <small>CEO, OnePager</small></h3>-->
+        <!--<div class="widget_nav_menu"> -->
+        <!--<ul class="social-top">-->
+        <!--<li><a href="#" title=""><i class="fa-icon-facebook"></i></a></li>-->
+        <!--<li><a href="#" title=""><i class="fa-icon-twitter"></i></a></li>-->
+        <!--<li><a href="#" title=""><i class="fa-icon-github-alt"></i></a></li>-->
+        <!--<li><a href="#" title=""><i class="fa-icon-google-plus"></i></a></li>-->
+        <!--<li><a href="#" title=""><i class="fa-icon-linkedin"></i></a></li>-->
+        <!--</ul>-->
+
+        <!--</div>-->
+        <!--</div> &lt;!&ndash;END CAPTION &ndash;&gt;-->
+        <!--</div>&lt;!&ndash; END: THUMBNAIL &ndash;&gt;-->
+        <!--</div>&lt;!&ndash;/ TEAM ITEM&ndash;&gt;-->
+
+        <!--&lt;!&ndash; TEAM ITEM&ndash;&gt;-->
+        <!--<div class="thumbnail span3">-->
+        <!--&lt;!&ndash; IMAGE CONTAINER&ndash;&gt;-->
+        <!--<div class="sample project-item-image-container">-->
+        <!--<img src="images/staff2.jpg" alt=""/>-->
+        <!--</div> -->
+        <!--&lt;!&ndash;END IMAGE CONTAINER&ndash;&gt;-->
+        <!---->
+        <!--&lt;!&ndash; CAPTION &ndash;&gt;-->
+        <!--<div class="caption team-caption">-->
+        <!--<div class="transit-to-top">-->
+        <!--<h3 class="">John Doe <small>CEO, OnePager</small></h3>-->
+
+        <!--<div class="widget_nav_menu"> -->
+        <!--<ul class="social-top">-->
+        <!--<li><a href="#" title=""><i class="fa-icon-facebook"></i></a></li>-->
+        <!--<li><a href="#" title=""><i class="fa-icon-twitter"></i></a></li>-->
+        <!--<li><a href="#" title=""><i class="fa-icon-github-alt"></i></a></li>-->
+        <!--<li><a href="#" title=""><i class="fa-icon-google-plus"></i></a></li>-->
+        <!--<li><a href="#" title=""><i class="fa-icon-linkedin"></i></a></li>-->
+        <!--</ul>-->
+        <!--</div>-->
+        <!--</div> &lt;!&ndash;END CAPTION &ndash;&gt;-->
+        <!--</div>&lt;!&ndash; END: THUMBNAIL &ndash;&gt;-->
+        <!--</div>&lt;!&ndash; /TEAM ITEM&ndash;&gt;-->
+
+        <!--</div>-->
+        <!--&lt;!&ndash;/ROW FLUID&ndash;&gt; -->
+
+        <!--&lt;!&ndash; DIVIDER &ndash;&gt;-->
+        <!--<div class="row-fluid">-->
+        <!--<div class="span12"><hr/></div>-->
+        <!--</div>-->
+        <!--&lt;!&ndash;/ DIVIDER &ndash;&gt;-->
+
+        <!--&lt;!&ndash; SKILLS ROW &ndash;&gt;	-->
+        <!--<div class="row-fluid skills-services">-->
+
+        <!--&lt;!&ndash; SERVICE SIDE&ndash;&gt;-->
+        <!--<div class="span6 wedo">-->
+        <!--&lt;!&ndash; INNER ROW&ndash;&gt;-->
+        <!--<div class="row-fluid">-->
+        <!--<h3 class="main-color">What We Can Do?</h3>-->
+        <!--&lt;!&ndash; SERVICE ITEM&ndash;&gt;-->
+        <!--<div class="hexicon-icon-wrap">-->
+        <!--<span class="">-->
+        <!--<i class="fa-icon-desktop fa-icon-large pull-left"></i>-->
+        <!--</span>-->
+        <!--</div>-->
+        <!---->
+        <!--<h4>WEB &amp; UI DESIGN</h4>-->
+        <!---->
+        <!--<p class="">-->
+        <!--There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.-->
+        <!--</p>-->
+        <!--&lt;!&ndash;/ SERVICE ITEM&ndash;&gt;-->
+        <!--<hr/>-->
+        <!---->
+        <!--&lt;!&ndash; SERVICE ITEM&ndash;&gt;-->
+        <!--<div class="hexicon-icon-wrap">-->
+        <!--<span class="hexicon">-->
+        <!--<i class="fa-icon-picture fa-icon-large pull-left"></i>-->
+        <!--</span>-->
+        <!--</div>-->
+        <!---->
+        <!--<h4>GRAPHICS DESIGN</h4>-->
+        <!---->
+        <!--<p class="">-->
+        <!--There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.-->
+        <!--</p>-->
+        <!--&lt;!&ndash;/ SERVICE ITEM&ndash;&gt;-->
+        <!--<hr/>-->
+        <!---->
+        <!--&lt;!&ndash; SERVICE ITEM&ndash;&gt;-->
+        <!--<div class="hexicon-icon-wrap">-->
+        <!--<span class="hexicon">-->
+        <!--<i class="fa-icon-cogs fa-icon-large pull-left"></i>-->
+        <!--</span>-->
+        <!--</div>-->
+        <!---->
+        <!--<h4>PHP DEVELOPMENT</h4>-->
+        <!---->
+        <!--<p class="">-->
+        <!--There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.-->
+        <!--</p>-->
+        <!--&lt;!&ndash;/ SERVICE ITEM&ndash;&gt;-->
+        <!---->
+        <!--&lt;!&ndash;/SPAN12 ITEM &ndash;&gt;-->
+        <!--</div>&lt;!&ndash; ROW-FLUID&ndash;&gt;-->
+        <!--</div>&lt;!&ndash;/SPAN7&ndash;&gt;-->
+
+        <!--&lt;!&ndash; SKILLS BAR SIDE&ndash;&gt;-->
+        <!--<div class="span6" id="showbar">&lt;!&ndash; DO NOT REMOVE id="showbar" - animated point event&ndash;&gt;-->
+        <!---->
+        <!--<h3 class="main-color" >MAIN SKILLS</h3>-->
+        <!--&lt;!&ndash; BAR ITEM&ndash;&gt;-->
+        <!--<h4>DESIGN</h4>-->
+        <!--<div class="progress">-->
+        <!--<div class="bar notactive" style="width: 75%;"></div>-->
+        <!--</div>-->
+        <!--&lt;!&ndash;/ BAR ITEM&ndash;&gt;-->
+        <!---->
+        <!--&lt;!&ndash; BAR ITEM&ndash;&gt;-->
+        <!--<h4>HTML5</h4>-->
+        <!--<div class="progress">-->
+        <!--<div class="bar bar-danger notactive" style="width: 60%;"></div>-->
+        <!--</div>-->
+        <!--&lt;!&ndash;/ BAR ITEM&ndash;&gt;-->
+        <!---->
+        <!--&lt;!&ndash; BAR ITEM&ndash;&gt;-->
+        <!--<h4>CSS3</h4>-->
+        <!--<div class="progress">-->
+        <!--<div class="bar bar-success notactive" style="width: 55%;"></div>-->
+        <!--</div>-->
+        <!--&lt;!&ndash;/ BAR ITEM&ndash;&gt;-->
+        <!---->
+        <!--&lt;!&ndash; BAR ITEM&ndash;&gt;-->
+        <!--<h4>JQUERY</h4>-->
+        <!--<div class="progress">-->
+        <!--<div class="bar bar-warning notactive" style="width: 75%;"></div>-->
+        <!--</div>-->
+        <!--&lt;!&ndash;/ BAR ITEM&ndash;&gt;-->
+        <!---->
+        <!--&lt;!&ndash; BAR ITEM&ndash;&gt;-->
+        <!--<h4>PHP</h4>-->
+        <!--<div class="progress">-->
+        <!--<div class="bar bar-info notactive" style="width: 55%;"></div>-->
+        <!--</div>-->
+        <!--&lt;!&ndash; / BAR ITEM&ndash;&gt;-->
+        <!---->
+        <!--</div>-->
+        <!--&lt;!&ndash;/ SKILLS BAR SIDE&ndash;&gt;-->
+
+        <!--</div>-->
+        <!--&lt;!&ndash; / SKILLS ROW &ndash;&gt;-->
+        <!--&lt;!&ndash; / SERVICE SIDE&ndash;&gt;-->
+        <!--</div>-->
+        <!--&lt;!&ndash;/CONTAINER&ndash;&gt;-->
+        <!--</section>-->
+        <!-- /TEAM SECTION-->
 
 
         <section id="price-section">
