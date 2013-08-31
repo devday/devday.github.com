@@ -466,8 +466,6 @@ i.or {
 }
 
 .hero-unit {
-    color: #fff;
-    text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
     background: none /*#ECF0F1*/;
     padding-top: 160px;
     z-index: 2;
@@ -483,7 +481,7 @@ i.or {
         margin-bottom: 40px;
     }
 
-    .hero-unit h1, .hero-unit h2, .hero-unit h3 {
+    .hero-unit h1, .hero-unit h2 {
         color: #fff;
         font-weight: 700;
         text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
