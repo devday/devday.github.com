@@ -1,7 +1,6 @@
 
 
 /******************** GLOBAL ******************************/
-
 body {
     background: #f5f5f5 /*f1f7fe*/;
     font-family: 'Noto Sans', sans-serif;
@@ -468,7 +467,7 @@ i.or {
 
 .hero-unit {
     background: none /*#ECF0F1*/;
-    /*padding-top: 160px;*/
+    padding-top: 160px;
     z-index: 2;
     position: relative;
 }
@@ -1350,25 +1349,3 @@ footer address {
         min-height: 450px;
         height: 100%;
     }
-
-}
-
-div.keynote .text-center {
-    width: 300px;
-    margin: -1 0 0 0;
-    z-index: 2;
-}
-
-div.keynote .box {
-    width: 300px;
-    margin: 0 0 0 0;
-}
-
-div.keynote .box .thumbnail {
-    width: 300px;
-    margin: 0 0 0 0;
-}
-
-div.keynote .box .thumbnail img {
-    width: 300px;
-}
