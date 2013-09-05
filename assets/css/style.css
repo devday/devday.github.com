@@ -511,6 +511,21 @@ i.or {
         padding-bottom: 50px;
     }
 
+    #header-section .innerbgC {
+        background: rgba(44, 62, 80, 0.8)url(../../assets/img/CanecaDev.jpg) 50% 0 fixed repeat;
+        min-height: 650px;
+        width: 100%;
+        display: inline-block;
+        margin: 0px;
+        padding: 0px;
+        background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        -webkit-background-size: cover;
+        position: relative;
+        padding-bottom: 50px;
+    }
+
 
 
     #header-section .leftbg {
