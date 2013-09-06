@@ -415,16 +415,15 @@ p {
 }
 
 .camein {
-    width: 100%;
-    min-width: 100%;
-    display: block;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-    .camein p {
-        min-width: 35%;
+        width: 100%;
+        min-width: 100%;
+        display:block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        }
+    .camein p{
+        min-width:50%;
         background: rgba(250,250,250, 0.15);
         position: relative;
         margin-left: auto;
@@ -433,26 +432,18 @@ p {
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
         border-radius: 5px;
-        text-align: center;
-        text-align: center;
-        padding-left: auto;
-        padding-right: auto;
-        display: inline-block;
-        border: 1px solid rgba(250,250,250, 0.28);
+        text-align:center;
+        text-align:center;
+        padding-left:auto;
+        padding-right:auto;
+        display:inline-block;
+        border:1px solid rgba(250,250,250, 0.28);
     }
 
-.btn-block-third {
-    display: block;
-    padding-right: 0;
-    padding-left: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
 
 i.or {
-    float: left;
-    display: block;
+    float: none;
+    display: inline-block;
     width: 20%;
     padding-top: 10px;
     text-align: center;
@@ -1219,7 +1210,7 @@ footer address {
 
     .btn-block-third {
         display: block;
-        width: 100%;
+        width: 60%;
         padding-right: 10px;
         padding-left: 10px;
         -webkit-box-sizing: border-box;
@@ -1232,13 +1223,11 @@ footer address {
     i.or {
         float: none;
         display: block;
-        width: 100%;
+        width: 20%;
         margin-bottom: 10px;
     }
 
-    .camein p {
-        width: 60%;
-    }
+    
 
     #header-section .hero-unit {
         background: none /*#ECF0F1*/;
