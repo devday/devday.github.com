@@ -7,6 +7,16 @@
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
     <style>
       .hotel {
+        background-color: #FFF;
+        display: block;
+        border-bottom-right-radius: 3px;
+        border-bottom-left-radius: 3px;
+        overflow: hidden;
+        box-shadow: rgb(153, 153, 153) 0px 1px 1px;
+        -webkit-box-shadow: rgb(153, 153, 153) 0px 1px 1px;
+        -moz-box-shadow: rgb(153, 153, 153) 0px 1px 1px;
+        margin-bottom: 30px;
+        padding: 10px 10px 10px 10px;
       }
 
       .hotel p {
@@ -18,33 +28,35 @@
     <div class="container">
       <div class="row">
         <div data-bind="foreach: hotels">
-          <div class="col-md-4 col-xs-12 hotel">
-            <blockquote>
-              <span data-bind="text: Name"></span>
-              <small>
-                <span data-bind="text: Description"></span><i class="icon-map-marker"></i>
-                </cite>
-              </small>
-            </blockquote>
-            <p>
-              <i class="glyphicon glyphicon-map-marker"></i>
-              <span data-bind="text: Address"></span>
-              <br />
-              <i class="glyphicon glyphicon-earphone"></i>
-              <span data-bind="text: Telephone"></span>
-              <br />
-              <i class="glyphicon glyphicon-road"></i>
-              Distância do local do evento: <span data-bind="text: Distance"></span>
-              <br />
-              <i class="glyphicon glyphicon-random"></i>
-              <a data-bind="attr: { href: Directions, title: Name }" target="_blank">Como chegar</a>
-              <br />
-              <i class="glyphicon glyphicon-home"></i>
-              <a data-bind="attr: { href: Website, title: Name }" target="_blank">Website</a>
-              <br />
-            </p>
-          </div>
-        </div> <!-- </div hotéis> -->
+          <div class="col-md-4 col-xs-12">
+              <div class="hotel">
+              <blockquote>
+                <span data-bind="text: Name"></span>
+                <small>
+                  <span data-bind="text: Description"></span><i class="icon-map-marker"></i>
+                  </cite>
+                </small>
+              </blockquote>
+              <p>
+                <i class="glyphicon glyphicon-map-marker"></i>
+                <span data-bind="text: Address"></span>
+                <br />
+                <i class="glyphicon glyphicon-earphone"></i>
+                <span data-bind="text: Telephone"></span>
+                <br />
+                <i class="glyphicon glyphicon-road"></i>
+                Distância do local do evento: <span data-bind="text: Distance"></span>
+                <br />
+                <i class="glyphicon glyphicon-random"></i>
+                <a data-bind="attr: { href: Directions, title: Name }" target="_blank">Como chegar</a>
+                <br />
+                <i class="glyphicon glyphicon-home"></i>
+                <a data-bind="attr: { href: Website, title: Name }" target="_blank">Website</a>
+                <br />
+              </p>
+            </div> <!-- </hotel> -->
+          </div> 
+        </div> <!-- </foreach hotel> -->
       </div> <!-- </row> -->
     </div> <!-- </container> -->
 
