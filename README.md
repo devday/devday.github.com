@@ -22,5 +22,5 @@ Sábado, 19 de outubro de 2013 de 8:00 às 19:00
 ## Onde
 
 UNI-BH (campus Estoril)
-Av. Prof. Mário Werneck, 1685, Estoril - Belo Horizonte, 
+Portaria II, Rua Líbero Leoni, 259.
 Minas Gerais - Brasil
