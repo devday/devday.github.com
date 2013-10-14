@@ -102,7 +102,7 @@ jQuery(document).ready(function(){
 		//  COMMENT 	
 				jQuery(document).ready(function(){
 
-				jQuery('#map').gMap({ address: 'Universidade Uni BH',
+				jQuery('#map').gMap({ address: '-19.972233,-43.96397',
 							   panControl: true,
 						   zoomControl: true,
 							   zoomControlOptions: {
