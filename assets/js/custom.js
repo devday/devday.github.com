@@ -123,7 +123,7 @@ jQuery(document).ready(function(){
 					},
 						zoom:15,
 							   markers: [
-							{ 'address' : 'Universidade Uni BH'}
+							{ 'address' : '-19.972233,-43.96397'}
 						]
 							   });
 				});
