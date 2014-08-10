@@ -1,7 +1,7 @@
 # [DEVDAY 2014](http://devday.devisland.com/) 
 O EVENTO DE DESENVOLVEDORES PARA DESENVOLVEDORES ESTÁ DE VOLTA!
 
-* Contributors: [Douglas Aguiar](https://github.com/douglasaguiar),[Gibran Silva](https://github.com/gibran),[Renato Saito](https://github.com/renatosaito ),[Vitor A. Vale](https://github.com/vitoravale)
+* Contributors: [Douglas Aguiar](https://github.com/douglasaguiar),[Gibran Silva](https://github.com/gibran),[Renato Saito](https://github.com/renatosaito )
 
 ## Sobre o evento
  
@@ -17,10 +17,9 @@ Durante o evento, serão abordados diversos assuntos focados em desenvolvimento 
 
 ## Quando
 
-Sábado, 19 de outubro de 2013 de 8:00 às 19:00
+Sábado, 1 de novembro de 2014 de 8:00 às 18:00
 
 ## Onde
 
-UNI-BH (campus Estoril)
-Portaria II, Rua Líbero Leoni, 259.
-Minas Gerais - Brasil
+Escola de Engenharia da UFMG
+Belo Horizonte - Minas Gerais - Brasil
