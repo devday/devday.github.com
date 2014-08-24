@@ -1,0 +1,14 @@
+# Site settings
+title: DevIsland
+email: devday@devisland.com
+description: > # this means to ignore newlines until "baseurl:"
+  O DevIsland é uma comunidade desenvolvimento plural,
+  não pertencemos a uma tecnologia, muito menos a uma linguagem,
+  amamos código e tudo o que permeia este meio.
+  Todo o assunto cujo o foco seja melhorar a vida do desenvolvedor
+  e a qualidade do código que o mesmo escreve apoiamos, estudamos, pesquisamos e divulgamos.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://devday.devisland.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
