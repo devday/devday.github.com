@@ -502,6 +502,23 @@ label.error { display: block; }
   font-size: 18px; }
 #speakers .social-link a:Hover { opacity: 1; color:#2da9ff; border-color:#2da9ff; }
 
+#organizacao { background-image: url('../img/sound-wave.jpg'); background-repeat: no-repeat; background-position: center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+#organizacao .speaker-item { padding-bottom: 50px; }
+#organizacao .img-wrapper { text-align: center; }
+#organizacao .img-wrapper img { margin: 0 auto; }
+#organizacao .name { font-size: 25px; margin: 10px 0 2px; }
+#organizacao .sub { font-size: 18px; color: #2da9ff; margin: 0 0 15px; }
+#organizacao p { padding: 0 20px; margin-bottom: 15px; opacity: 0.7; }
+#organizacao .social-link a {
+  opacity: .3;
+  color: #fff;
+  padding: 2px 5px;
+  display: inline-block;
+  width: 31px;
+  height: 31px;
+  font-size: 18px; }
+#organizacao .social-link a:Hover { opacity: 1; color:#2da9ff; border-color:#2da9ff; }
+
 .pricing-cols { margin-top: 30px; width: 100%; display: inline-block; border-collapse: collapse; margin-bottom: -20px; }
 .pricing-col {
   float: left;
