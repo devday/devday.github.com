@@ -1,14 +1,9 @@
 <ul class="list-inline">
-  <li><div class="thumbnail">
-  <a href="http://eventick.com.br" target="_blank"><img src="assets/img/patrocinadores/apoio/eventick.png" alt="Eventick"/></a>
-  </div></li>
-  <li><div class="thumbnail">
-  <a href="https://www.facebook.com/grupython.ufla" target="_blank"><img src="assets/img/patrocinadores/apoio/grupython.png" alt="Grupo Python UFLA"/></a>
-  </div></li>
-  <li><div class="thumbnail">
-  <a href="http://agiletourbh.com.br/" target="_blank"><img src="assets/img/patrocinadores/apoio/agiletourbh.jpg" alt="Agile Tour BH"/></a>
-  </div></li>
-  <li><div class="thumbnail">
-  <a href="https://www.womenwhocode.com/" target="_blank"><img src="assets/img/patrocinadores/apoio/wwc.png" alt="Women Who Code"/></a>
-  </div></li>
+{% for apoio in site.data.apoio %}
+  <li>
+    <div class="thumbnail">
+    <a href="{{ apoio.link }}" target="_blank"><img src="assets/img/patrocinadores/apoio/{{ apoio.imagen }}" alt="{{ apoio.nome }}"/></a>
+    </div>
+  </li>
+{% endfor %}
 </ul>
