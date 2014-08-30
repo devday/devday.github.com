@@ -22,3 +22,9 @@
 .idea/.name
 
 .idea/workspace.xml
+
+_site/
+
+_site/english.html
+
+_site/index.html
