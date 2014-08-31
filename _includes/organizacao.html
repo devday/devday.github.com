@@ -7,49 +7,22 @@
   <br>
   <br>
   <section class="row">
-    <div class="col-md-offset-2 col-md-3 col-sm-3 col-xs-6">
-      <div class="speaker-item animated fadeInUp visible" data-animation="fadeInUp" data-delay="0">
-        <div class="img-wrapper">
-          <img src="http://gravatar.com/avatar/97b0376c35b278395c719e145e4d1dc6?s=142" class="img-responsive img-circle" alt="speaker-1">
-        </div>
-        <div class="name">Douglas Aguiar</div>
-        <div class="social-link">
-          <a href="http://twitter.com/DouglasAguiar" target="_blank"><span class="fa fa-twitter"></span></a>
-          <a href="http://github.com/douglasaguiar" target="_blank"><span class="fa fa-github"></span></a>
-          <a href="https://www.linkedin.com/in/douglasaguiarreis" target="_blank"><span class="fa fa-linkedin"></span></a>
-          <a href="http://facebook.com/douglas.aguiar.reis" target="_blank"><span class="fa fa-facebook"></span></a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-3 col-sm-3 col-xs-6">
-      <div class="speaker-item animated fadeInUp visible" data-animation="fadeInUp" data-delay="500">
-        <div class="img-wrapper">
-          <img src="http://gravatar.com/avatar/dcba87f498b792756a0db3324408ccc4?s=142" class="img-responsive img-circle" alt="speaker-2">
-        </div>
-        <div class="name">Gibran Silva</div>
-        <div class="social-link">
-          <a href="http://twitter.com/ggibran" target="_blank"><span class="fa fa-twitter"></span></a>
-          <a href="http://github.com/gibran" target="_blank"><span class="fa fa-github"></span></a>
-          <a href="http://br.linkedin.com/pub/gibran-silva/5/692/426" target="_blank"><span class="fa fa-linkedin"/a>
-          <a href="http://facebook.com/silva.gibran" target="_blank"><span class="fa fa-facebook"></span></a>
+    {% for organizador in site.data.organizacao %}
+      <div class="col-md-3 col-sm-3 col-xs-6">
+        <div class="speaker-item animated fadeInUp visible" data-animation="fadeInUp" data-delay="0">
+          <div class="img-wrapper">
+            <img src="http://gravatar.com/avatar/{{ organizador.avatar }}?s=142" class="img-responsive img-circle" alt="speaker-1">
+          </div>
+          <div class="name">{{ organizador.nome }}</div>
+          <div class="social-link">
+            <a href="http://twitter.com/{{ organizador.twitter }}" target="_blank"><span class="fa fa-twitter"></span></a>
+            <a href="http://github.com/{{ organizador.github }}" target="_blank"><span class="fa fa-github"></span></a>
+            <a href="{{ organizador.linkedin }}" target="_blank"><span class="fa fa-linkedin"></span></a>
+            <a href="http://facebook.com/{{ organizador.facebook }}" target="_blank"><span class="fa fa-facebook"></span></a>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col-md-3 col-sm-3 col-xs-6">
-      <div class="speaker-item animated fadeInUp visible" data-animation="fadeInUp" data-delay="500">
-        <div class="img-wrapper">
-          <img src="http://www.gravatar.com/avatar/b255d59b3c84e40f5a04eb1e88223570?size=142" class="img-responsive img-circle" alt="speaker-3">
-        </div>
-        <div class="name">Bruno Leite Alves</div>
-        <div class="social-link">
-          <a href="http://twitter.com/bleitea" target="_blank"><span class="fa fa-twitter"></span></a>
-          <a href="http://github.com/brunoleite" target="_blank"><span class="fa fa-github"></span></a>
-          <a href="https://www.linkedin.com/in/brunoleitealves" target="_blank"><span class="fa fa-linkedin"/a>
-          <a href="http://www.facebook.com/bruno.leitealves" target="_blank"><span class="fa fa-facebook"></span></a>
-        </div>
-      </div>
-    </div>
-    <div class="clearfix visible-xs"></div>
+    {% endfor %}
   </section>
 </div>
 </section>
