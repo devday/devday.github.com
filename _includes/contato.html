@@ -2,14 +2,17 @@
 <div id="canvas-map"></div>
 <div class="container">
   <div class="row">
-    <div class="col-md-5 col-sm-7 animated hiding location" data-animation="fadeInLeft" data-delay="0">
+    <div itemscope="" itemtype="http://schema.org/PostalAddress" class="col-md-5 col-sm-7 animated hiding location" data-animation="fadeInLeft" data-delay="0">
       <h3>{{ include.contato }}</h3>
-        <ul itemscope="" itemtype="http://schema.org/PostalAddress">
+        <ul>
           <li itemprop="email"><i class="fa fa-envelope highlight"></i>devday@devisland.com</li>
           <li itemprop="telephone"><i class="fa fa-phone highlight"></i>+55 (31) 8635-9259 - Douglas</li>
           <li itemprop="telephone"><i class="fa fa-phone highlight"></i>+55 (31) 9204-2324 - Gibran</li>
+        </ul>
+      <h4>{{ include.local }}</h4>
+        <ul>
           <li itemprop="address"><i class="fa fa-map-marker highlight"></i>Escola de Engenharia da UFMG, Belo Horizonte, Minas Gerias</li>
-          <li itemscope="" itemtype="http://schema.org/Event"><i class="fa fa-clock-o highlight"></i><time itemprop="startDate" datetime="2014-11-01T08:30">8:30</time> - <time itemprop="endDate" datetime="2014-11-01T18:00">18:00</time></li>
+          <li><i class="fa fa-clock-o highlight"></i><time itemprop="startDate" datetime="2014-11-01T08:30">8:30</time> - <time itemprop="endDate" datetime="2014-11-01T18:00">18:00</time></li>
         </ul>
     </div>
   </div>
