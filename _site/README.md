@@ -1,13 +1,13 @@
 # [DEVDAY 2014](http://devday.devisland.com/) 
 O EVENTO DE DESENVOLVEDORES PARA DESENVOLVEDORES ESTÁ DE VOLTA!
 
-* Contributors: [Douglas Aguiar](https://github.com/douglasaguiar),[Gibran Silva](https://github.com/gibran),[Renato Saito](https://github.com/renatosaito )
+* Contributors: [Douglas Aguiar](https://github.com/douglasaguiar),[Gibran Silva](https://github.com/gibran),[Renato Saito](https://github.com/renatosaito ),[Flávio Silva](https://github.com/flavio1110 )
 
 ## Sobre o evento
  
 A comunidade de desenvolvimento DevIsland está organizando novamente o DEVDAY, um evento para desenvolvedores de software.
 
-Na sua quarta edição, o DEVDAY 2013 irá reunir aproximadamente 400 desenvolvedores.  
+Na sua quarta edição, o DEVDAY 2014 irá reunir aproximadamente 400 desenvolvedores.  
 
 Contaremos com profissionais reconhecidos pelo mercado nacional que irão compartilhar seus conhecimentos nas 30 palestras que compõem a grade do evento.  
 
