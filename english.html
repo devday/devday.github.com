@@ -20,11 +20,12 @@ layout: default
         <!--<li><a href="#stat">Number Facts</a></li>-->
         <li><a href="#inscricoes">Tickets</a></li>
         <li><a href="#speakers">Speakers</a></li>
+        <li><a href="#schedule">Schedule</a></li>
         <li><a href="#sponsors">Sponsor</a></li>
         <li><a href="#organizacao">Curators</a></li>
         <!--li><a href="#hoteis">Hotels</a></li-->
         <li><a href="#map">Contact</a></li>
-        <li><a href="/">Português</a></li>
+        <!--li><a href="/">Português</a></li-->
         <li class="featured"><a href="http://even.tc/devday-2014" target="_blank"><i class="fa fa-ticket fa-1x"></i>Get your tickets</a></li>
       </ul>
     </nav>
@@ -188,6 +189,8 @@ layout: default
 <!-- End Register Section -->
 
 {% include palestrantes.html palestrantes="Speakers" embreve="Coming soon..." lang="en" %}
+
+{% include agenda.html agenda="Schedule" auditorio="Auditorium" sala1="Room 1" sala2="Room 2" comunidade="Community Space" %}
 
 <!-- Sponsors Section -->
 <section id="sponsors" class="section dark">

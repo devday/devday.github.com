@@ -1,0 +1,7 @@
+- numero: 3
+  nome: Em breve
+  horario : "08:00 - 18:00"
+  avatar: assets/img/speaker/speaker-1.jpg
+  possuiConteudo: false
+  conteudo :
+  palestrante :
