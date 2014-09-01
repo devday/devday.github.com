@@ -502,6 +502,16 @@ label.error { display: block; }
   font-size: 18px; }
 #speakers .social-link a:Hover { opacity: 1; color:#2da9ff; border-color:#2da9ff; }
 
+.bio
+{
+  height: 25px;
+  text-overflow: ellipsis;
+  width:213px;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: help;
+}
+
 #organizacao { background-image: url('../img/sound-wave.jpg'); background-repeat: no-repeat; background-position: center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 #organizacao .speaker-item { padding-bottom: 50px; }
 #organizacao .img-wrapper { text-align: center; }

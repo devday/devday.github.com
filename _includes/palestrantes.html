@@ -15,10 +15,10 @@
           </div>
           <div class="name">{{ palestrante.nome }}</div>
 
-          {% if(include == "pt") %}
-            <p class="small">{{ palestrante.bio }}</p>
+          {% if(include.lang == "pt") %}
+            <p class="small bio" data-toggle="tooltip" data-placement="bottom" title="{{ palestrante.bio }}">{{ palestrante.bio }}</p>
           {% else %}
-            <p class="small">{{ palestrante.enBio }}</p>
+            <p class="small bio" data-toggle="tooltip" data-placement="bottom" title="{{ palestrante.enBio }}">{{ palestrante.enBio }}</p>
           {% endif %}
 
           <div class="social-link">
