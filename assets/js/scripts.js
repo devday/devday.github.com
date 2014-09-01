@@ -21,7 +21,7 @@
 		// console.log( size, width );
 	};
 
-$(function(){ $("[data-toggle=tooltip]").tooltip(); })
+$(function(){ $("[data-toggle=tooltip]").tooltip({container:'body'}); })
 
 	$(function() {
     //Preloader

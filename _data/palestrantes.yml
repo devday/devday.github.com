@@ -7,11 +7,11 @@
   facebook: pantuza
   avatar: assets/img/palestrantes/pantuza.jpg
 
-#- nome: Beto Muniz
-#  bio: Beto Muniz é um Mineiro-Capixaba apaixonado por Front End e que atualmente trabalha na Questrade pela Augix Outsourcing, inspirado pelo estudo de novas tecnologias e pela comunidade, Beto está sempre antenado no que esta acontecendo e disposto a contribuir com a comunidade e prova disso é sua participação em Projetos Open-Source, Eventos e Organizações como LearnLayout.com, Google I/O Extended, TDC, EmberJS Meetup, NodeJS Meetup, GoLangBr, MinasDev, Webcomponents.org etc.
-#  enBio: Beto Muniz é um Mineiro-Capixaba apaixonado por Front End e que atualmente trabalha na Questrade pela Augix Outsourcing, inspirado pelo estudo de novas tecnologias e pela comunidade, Beto está sempre antenado no que esta acontecendo e disposto a contribuir com a comunidade e prova disso é sua participação em Projetos Open-Source, Eventos e Organizações como LearnLayout.com, Google I/O Extended, TDC, EmberJS Meetup, NodeJS Meetup, GoLangBr, MinasDev, Webcomponents.org etc.
-#  twitter: obetomuniz
-#  github: obetomuniz
-#  linkedin: https://linkedin.com/in/obetomuniz
-#  facebook: obetomuniz
-#  avatar: assets/img/palestrantes/beto-muniz.png
+- nome: Beto Muniz
+  bio: Beto Muniz é um Mineiro-Capixaba apaixonado por Front End e que atualmente trabalha na Questrade pela Augix Outsourcing, inspirado pelo estudo de novas tecnologias e pela comunidade, Beto está sempre antenado no que esta acontecendo e disposto a contribuir com a comunidade e prova disso é sua participação em Projetos Open-Source, Eventos e Organizações como LearnLayout.com, Google I/O Extended, TDC, EmberJS Meetup, NodeJS Meetup, GoLangBr, MinasDev, Webcomponents.org etc.
+  enBio: Beto Muniz é um Mineiro-Capixaba apaixonado por Front End e que atualmente trabalha na Questrade pela Augix Outsourcing, inspirado pelo estudo de novas tecnologias e pela comunidade, Beto está sempre antenado no que esta acontecendo e disposto a contribuir com a comunidade e prova disso é sua participação em Projetos Open-Source, Eventos e Organizações como LearnLayout.com, Google I/O Extended, TDC, EmberJS Meetup, NodeJS Meetup, GoLangBr, MinasDev, Webcomponents.org etc.
+  twitter: obetomuniz
+  github: obetomuniz
+  linkedin: https://linkedin.com/in/obetomuniz
+  facebook: obetomuniz
+  avatar: assets/img/palestrantes/beto-muniz.png
