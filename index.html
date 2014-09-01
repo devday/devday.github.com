@@ -16,12 +16,13 @@ layout: default
       </button>
       <ul class="navigation-bar navigation-bar-left">
         <li><img class="hidden-xs" style="width:80px" src="assets/img/DevIsland_logo.png" alt="DevIsland"/></li>
-        <li><a href="#about">Sobre</a></li>
+        <!--li><a href="#about">Sobre</a></li-->
         <!--<li><a href="#stat">Number Facts</a></li>-->
         <li><a href="#inscricoes">Inscrições</a></li>
+        <li><a href="#speakers">Palestrantes</a></li>
         <li><a href="#sponsors">Patrocínio</a></li>
         <li><a href="#organizacao">Organização</a></li>
-        <li><a href="#hoteis">Hotéis</a></li>
+        <!--li><a href="#hoteis">Hotéis</a></li-->
         <li><a href="#map">Contato</a></li>
         <li><a href="english.html">English</a></li>
         <li class="featured"><a href="http://even.tc/devday-2014" target="_blank"><i class="fa fa-ticket fa-1x"></i>Inscreva-se</a></li>
@@ -187,6 +188,9 @@ layout: default
   </div>
 </section>
 <!-- End Register Section -->
+
+{% include palestrantes.html palestrantes="Palestrantes" embreve="Em breve..." lang="pt" %}
+
 <!-- Sponsors Section -->
 <section id="sponsors" class="section dark">
   <div class="container">
@@ -211,6 +215,8 @@ layout: default
   </div>
 </section>
 <!-- End Price Section -->
+
+
 
 {% include organizacao.html organizacao="Organização" nosso_time="Nosso time" %}
 
