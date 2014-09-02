@@ -1,3 +1,12 @@
+- nome: Beto Muniz
+  bio: Beto Muniz é um Mineiro-Capixaba apaixonado por Front End e que atualmente trabalha na Questrade pela Augix Outsourcing, inspirado pelo estudo de novas tecnologias e pela comunidade, Beto está sempre antenado no que esta acontecendo e disposto a contribuir com a comunidade e prova disso é sua participação em Projetos Open-Source, Eventos e Organizações como LearnLayout.com, Google I/O Extended, TDC, EmberJS Meetup, NodeJS Meetup, GoLangBr, MinasDev, Webcomponents.org etc.
+  enBio: Beto Muniz é um Mineiro-Capixaba apaixonado por Front End e que atualmente trabalha na Questrade pela Augix Outsourcing, inspirado pelo estudo de novas tecnologias e pela comunidade, Beto está sempre antenado no que esta acontecendo e disposto a contribuir com a comunidade e prova disso é sua participação em Projetos Open-Source, Eventos e Organizações como LearnLayout.com, Google I/O Extended, TDC, EmberJS Meetup, NodeJS Meetup, GoLangBr, MinasDev, Webcomponents.org etc.
+  twitter: obetomuniz
+  github: obetomuniz
+  linkedin: https://linkedin.com/in/obetomuniz
+  facebook: obetomuniz
+  avatar: assets/img/palestrantes/beto-muniz.png
+
 - nome: Gustavo Pantuza
   bio: Pesquisador/aluno de mestrado no departamento de computação da UFMG. Membro fundador do Área31 Hackerspace. Nas horas vagas gosta de construir robôs e disseminar a cultura hacker.
   enBio: Pesquisador/aluno de mestrado no departamento de computação da UFMG. Membro fundador do Área31 Hackerspace. Nas horas vagas gosta de construir robôs e disseminar a cultura hacker.
@@ -7,11 +16,11 @@
   facebook: pantuza
   avatar: assets/img/palestrantes/pantuza.jpg
 
-- nome: Beto Muniz
-  bio: Beto Muniz é um Mineiro-Capixaba apaixonado por Front End e que atualmente trabalha na Questrade pela Augix Outsourcing, inspirado pelo estudo de novas tecnologias e pela comunidade, Beto está sempre antenado no que esta acontecendo e disposto a contribuir com a comunidade e prova disso é sua participação em Projetos Open-Source, Eventos e Organizações como LearnLayout.com, Google I/O Extended, TDC, EmberJS Meetup, NodeJS Meetup, GoLangBr, MinasDev, Webcomponents.org etc.
-  enBio: Beto Muniz é um Mineiro-Capixaba apaixonado por Front End e que atualmente trabalha na Questrade pela Augix Outsourcing, inspirado pelo estudo de novas tecnologias e pela comunidade, Beto está sempre antenado no que esta acontecendo e disposto a contribuir com a comunidade e prova disso é sua participação em Projetos Open-Source, Eventos e Organizações como LearnLayout.com, Google I/O Extended, TDC, EmberJS Meetup, NodeJS Meetup, GoLangBr, MinasDev, Webcomponents.org etc.
-  twitter: obetomuniz
-  github: obetomuniz
-  linkedin: https://linkedin.com/in/obetomuniz
-  facebook: obetomuniz
-  avatar: assets/img/palestrantes/beto-muniz.png
+- nome: Nessa Guedes
+  bio: Fundadora do MariaLab Hackerspace, membro do Garoa Hacker Clube, e desenvolvedora fundadora da Plano Hype. Há muito tempo trabalha como front-end, mas começou mesmo foi na área de redes de computadores. Já participou da comunidade da Mozilla Foundation, e participa de eventos na área de TI há nove anos. Foi jurada da hackatona do Transporte Público da prefeitura de São Paulo, em 2013. É gaúcha, vegetariana, e também curte muito uma cerveja artesanal.
+  enBio: Fundadora do MariaLab Hackerspace, membro do Garoa Hacker Clube, e desenvolvedora fundadora da Plano Hype. Há muito tempo trabalha como front-end, mas começou mesmo foi na área de redes de computadores. Já participou da comunidade da Mozilla Foundation, e participa de eventos na área de TI há nove anos. Foi jurada da hackatona do Transporte Público da prefeitura de São Paulo, em 2013. É gaúcha, vegetariana, e também curte muito uma cerveja artesanal.
+  twitter: nessoila
+  github: nessoila
+  linkedin: https://www.linkedin.com/pub/nessa-guedes/20/967/959
+  facebook: nessaguedes
+  avatar: assets/img/palestrantes/nessa-guedes.jpg
