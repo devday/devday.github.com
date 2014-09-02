@@ -7,6 +7,15 @@
   facebook: obetomuniz
   avatar: assets/img/palestrantes/beto-muniz.png
 
+- nome: Francisco Souza
+  bio: Mundialmente conhecido no interior de Cachoeiro de Itapemirim, Francisco Souza é desenvolvedor na globo.com, onde ajuda a construir o tsuru. É apaixonado por desenvolvimento de softwares, entusiasta em Python, Django, Go e software livre, associado à Associação Python Brasil e membro do \#cobrateam. Por último, mas não menos importante, é PMP (Professional Mario Player) certificado, com mais de 10 anos de experiência.
+  enBio: Mundialmente conhecido no interior de Cachoeiro de Itapemirim, Francisco Souza é desenvolvedor na globo.com, onde ajuda a construir o tsuru. É apaixonado por desenvolvimento de softwares, entusiasta em Python, Django, Go e software livre, associado à Associação Python Brasil e membro do \#cobrateam. Por último, mas não menos importante, é PMP (Professional Mario Player) certificado, com mais de 10 anos de experiência.
+  twitter: franciscosouza
+  github: fsouza
+  linkedin: https://www.linkedin.com/in/franciscosouza
+  facebook: franciscossouza
+  avatar: assets/img/palestrantes/francisco-souza.jpg
+
 - nome: Gustavo Pantuza
   bio: Pesquisador/aluno de mestrado no departamento de computação da UFMG. Membro fundador do Área31 Hackerspace. Nas horas vagas gosta de construir robôs e disseminar a cultura hacker.
   enBio: Pesquisador/aluno de mestrado no departamento de computação da UFMG. Membro fundador do Área31 Hackerspace. Nas horas vagas gosta de construir robôs e disseminar a cultura hacker.
