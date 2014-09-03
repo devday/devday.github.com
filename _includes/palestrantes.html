@@ -11,7 +11,7 @@
       <div class="col-md-3 col-sm-3 col-xs-6">
         <div class="speaker-item animated fadeInUp visible" data-animation="fadeInUp" data-delay="500">
           <div class="img-wrapper">
-            <img src="{{ palestrante.avatar }}" class="img-responsive img-circle" alt="{{ palestrante.nome }}">
+            <img src="{{ palestrante.avatar }}" style="heigth:142px; width:142px" class="img-responsive img-circle" alt="{{ palestrante.nome }}">
           </div>
           <div class="name">{{ palestrante.nome }}</div>
 
@@ -22,7 +22,9 @@
           {% endif %}
 
           <div class="social-link">
+            {% if(palestrante.twitter != "nil") %}
             <a href="http://twitter.com/{{ palestrante.twitter }}" target="_blank"><span class="fa fa-twitter"></span></a>
+            {% endif %}
             <a href="http://github.com/{{ palestrante.github }}" target="_blank"><span class="fa fa-github"></span></a>
             <a href="{{ palestrante.linkedin }}" target="_blank"><span class="fa fa-linkedin"></span></a>
             <a href="http://facebook.com/{{ palestrante.facebook }}" target="_blank"><span class="fa fa-facebook"></span></a>
