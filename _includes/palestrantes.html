@@ -25,9 +25,19 @@
             {% if(palestrante.twitter != "nil") %}
             <a href="http://twitter.com/{{ palestrante.twitter }}" target="_blank"><span class="fa fa-twitter"></span></a>
             {% endif %}
+
+            {% if(palestrante.github != "nil") %}
             <a href="http://github.com/{{ palestrante.github }}" target="_blank"><span class="fa fa-github"></span></a>
+            {% endif %}
+
+            {% if(palestrante.linkedin != "nil") %}
             <a href="{{ palestrante.linkedin }}" target="_blank"><span class="fa fa-linkedin"></span></a>
+            {% endif %}
+
+            {% if(palestrante.facebook != "nil") %}
             <a href="http://facebook.com/{{ palestrante.facebook }}" target="_blank"><span class="fa fa-facebook"></span></a>
+            {% endif %}
+
           </div>
         </div>
       </div>

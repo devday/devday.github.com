@@ -25,6 +25,15 @@
   facebook: obetomuniz
   avatar: assets/img/palestrantes/beto-muniz.png
 
+#- nome: Danilo Bordini
+#  bio: Graduado em Tecnologia da Informação pela FATEC – Sorocaba, com Especialização em Marketing pela FGV. Certificado como MCSE e MCSA em Windows 2000 / 2003 / 2008, trabalha na trabalha na área de informática desde 1996, passando pelas disciplinas de Desenvolvimento de Software e Redes de Computadores.Hoje, ocupa a função de  “Technical Evangelist Manager”, liderando um time de Especialistas em Desenvolvimento de Software & Infraestrutura, onde consegue conciliar sua paixão por Tecnologia com Negócios e Inovação. Ultimamente, discute com parceiros, clientes e membros das Comunidades Técnicas tendências tecnológicas, tais como Desenvolvimento Móvel, Cloud Computing, Consumerização, Social Media e Aplicativos.
+#  enBio: Graduado em Tecnologia da Informação pela FATEC – Sorocaba, com Especialização em Marketing pela FGV. Certificado como MCSE e MCSA em Windows 2000 / 2003 / 2008, trabalha na trabalha na área de informática desde 1996, passando pelas disciplinas de Desenvolvimento de Software e Redes de Computadores.Hoje, ocupa a função de  “Technical Evangelist Manager”, liderando um time de Especialistas em Desenvolvimento de Software & Infraestrutura, onde consegue conciliar sua paixão por Tecnologia com Negócios e Inovação. Ultimamente, discute com parceiros, clientes e membros das Comunidades Técnicas tendências tecnológicas, tais como Desenvolvimento Móvel, Cloud Computing, Consumerização, Social Media e Aplicativos.
+#  twitter: dbordini
+#  github: nil
+#  linkedin: https://www.linkedin.com/in/dbordini
+#  facebook: dbordini
+#  avatar: assets/img/palestrantes/danilo-bordini.jpg
+
 - nome: Francisco Souza
   bio: Mundialmente conhecido no interior de Cachoeiro de Itapemirim, Francisco Souza é desenvolvedor na globo.com, onde ajuda a construir o tsuru. É apaixonado por desenvolvimento de softwares, entusiasta em Python, Django, Go e software livre, associado à Associação Python Brasil e membro do \#cobrateam. Por último, mas não menos importante, é PMP (Professional Mario Player) certificado, com mais de 10 anos de experiência.
   enBio: Mundialmente conhecido no interior de Cachoeiro de Itapemirim, Francisco Souza é desenvolvedor na globo.com, onde ajuda a construir o tsuru. É apaixonado por desenvolvimento de softwares, entusiasta em Python, Django, Go e software livre, associado à Associação Python Brasil e membro do \#cobrateam. Por último, mas não menos importante, é PMP (Professional Mario Player) certificado, com mais de 10 anos de experiência.
@@ -33,6 +42,15 @@
   linkedin: https://www.linkedin.com/in/franciscosouza
   facebook: franciscossouza
   avatar: assets/img/palestrantes/francisco-souza.jpg
+
+#- nome: Giovanni La Porta
+#  bio: Diretor e Co-Fundador da Framework System, graduado em Ciência da Computação na UFMG. Iniciou sua carreira profissional como Desenvolver Java no Tribunal de Justiça do Estado de Minas Gerais no ano de 1997, onde certificou-se Java Programmer e DBA Oracle, passando a assumir este posto no corpo de DBAs do TJMG até meados de 2003. Neste mesmo ano juntou-se à fábrica de softwares de uma renomada empresa de Belo Horizonte como líder Técnico de Projetos/Instrutor, onde permaneceu atuando em diversos projetos nacionais tendo como sucessos Telemar-SIS, Telemig Celular, Força Aérea Brasileira, Mannesmann, Drograria Araújo até o ano de 2007, quando mudou-se para Londres-Inglaterra para atuar como Arquiteto Java na empresa Britânica Boltblue Corp. Mais tarde, juntou-se ao grupo de desenvolvedores da empresa HandBuzz International atuando em projetos de Mobile Content and Games para Irlanda, Áustria, Holanda, Alemanha e Austrália. Já de volta ao Brasil no ano de 2009, consolidou a Framework System como Fábrica de Softwares e Centro de Treinamento onde permanece como sócio-diretor.
+#  enBio: Diretor e Co-Fundador da Framework System, graduado em Ciência da Computação na UFMG. Iniciou sua carreira profissional como Desenvolver Java no Tribunal de Justiça do Estado de Minas Gerais no ano de 1997, onde certificou-se Java Programmer e DBA Oracle, passando a assumir este posto no corpo de DBAs do TJMG até meados de 2003. Neste mesmo ano juntou-se à fábrica de softwares de uma renomada empresa de Belo Horizonte como líder Técnico de Projetos/Instrutor, onde permaneceu atuando em diversos projetos nacionais tendo como sucessos Telemar-SIS, Telemig Celular, Força Aérea Brasileira, Mannesmann, Drograria Araújo até o ano de 2007, quando mudou-se para Londres-Inglaterra para atuar como Arquiteto Java na empresa Britânica Boltblue Corp. Mais tarde, juntou-se ao grupo de desenvolvedores da empresa HandBuzz International atuando em projetos de Mobile Content and Games para Irlanda, Áustria, Holanda, Alemanha e Austrália. Já de volta ao Brasil no ano de 2009, consolidou a Framework System como Fábrica de Softwares e Centro de Treinamento onde permanece como sócio-diretor.
+#  twitter: frameworksystem
+#  github: nil
+#  linkedin: nil
+#  facebook: FrameworkSystem
+#  avatar: assets/img/palestrantes/giovanni-porta.png
 
 - nome: Gustavo Noronha
   bio: Gustavo Noronha é desenvolvedor de Software Livre há mais de 10 anos, contribui com os projetos Debian, GNOME e WebKit e é engenheiro de software da empresa inglesa Collabora. Se interessa pelo tema de dados abertos desde 2010, quando começou o projeto Olho Neles, então apelidado de Montanha, para obter insumos objetivos para escolha de seu candidato a deputado estadual.
