@@ -7,6 +7,15 @@
   facebook: alebinhara
   avatar: assets/img/palestrantes/alessandro-binhara.jpg
 
+#- nome: Alexandre Costa
+#  bio: Desenvolvedor e deficient visual apaixonado por tecnologia e  ativo divulgador da acessibilidade.
+#  enBio: Desenvolvedor e deficient visual apaixonado por tecnologia e  ativo divulgador da acessibilidade.
+#  twitter: magoolation
+#  github: magoolation
+#  linkedin: nil
+#  facebook: magoolation
+#  avatar: assets/img/palestrantes/alexandre-magoo.jpg
+
 - nome: Alexandre Freire
   bio: Alexandre foi um dos pioneiros Ágeis e desde então é um pensador influente nas comunidades Ágil e Lean. Fundou a Agilcoop, cooperativa de alunos e professores da USP que cumpriu seu objetivo de divulgar conhecimento sobre as metodologias ágeis no Brasil. Foi assistente de ensino do Laboratório de Programação eXtrema do IME/USP e ensina cursos sobre programação orientada à objetos; desenvolvimento para mobile, web, plataformas ricas e sistemas distribuídos; padrões de design; testes automatizados, refatoração, TDD e metodologias ágeis.  Seu mestrado versou sobre "Reflexões sobre o ensino de Metodologias Ágeis na Academia, Indústria e Governo". Trabalhou com organizações como a Apple Brasil, Americanas.com, Mandic Internet, Ministério da Cultura, Locaweb, Oi Filmes, Globo.com, Yahoo e Schlumberger ajudando-as organizar equipes ágeis para desenvolver software the qualidade. Regularmente fala sobre o que pensa em conferências de nível internacional. Com a Industrial Logic ele trabalha com muitas das empresas mais admiradas do mundo desenvolvendo produtos de educação à distância, ensinando e atuando como coach em 4 continentes. Como artista pesquisa o convívio das pessoas e táticas criativas de aplicação de tecnologias sustentáveis.
   enBio: Alexandre foi um dos pioneiros Ágeis e desde então é um pensador influente nas comunidades Ágil e Lean. Fundou a Agilcoop, cooperativa de alunos e professores da USP que cumpriu seu objetivo de divulgar conhecimento sobre as metodologias ágeis no Brasil. Foi assistente de ensino do Laboratório de Programação eXtrema do IME/USP e ensina cursos sobre programação orientada à objetos; desenvolvimento para mobile, web, plataformas ricas e sistemas distribuídos; padrões de design; testes automatizados, refatoração, TDD e metodologias ágeis.  Seu mestrado versou sobre "Reflexões sobre o ensino de Metodologias Ágeis na Academia, Indústria e Governo". Trabalhou com organizações como a Apple Brasil, Americanas.com, Mandic Internet, Ministério da Cultura, Locaweb, Oi Filmes, Globo.com, Yahoo e Schlumberger ajudando-as organizar equipes ágeis para desenvolver software the qualidade. Regularmente fala sobre o que pensa em conferências de nível internacional. Com a Industrial Logic ele trabalha com muitas das empresas mais admiradas do mundo desenvolvendo produtos de educação à distância, ensinando e atuando como coach em 4 continentes. Como artista pesquisa o convívio das pessoas e táticas criativas de aplicação de tecnologias sustentáveis.
@@ -69,6 +78,15 @@
   linkedin: https://linkedin.com/pub/gustavo-pantuza/25/898/460
   facebook: pantuza
   avatar: assets/img/palestrantes/pantuza.jpg
+
+#- nome: João Lucas Santana
+#  bio: João Lucas é desenvolvedor web full-stack, apaixonado por computação, tecnologia e desenvolvimento de software. Começou sua  carreira escrevendo códigos em Java para web, desktop e app's com J2ME. Hoje considera Ruby como sua linguagem favorita, trabalha com muito JavaScript em projetos desafiadores e de larga  escala na Avenue Code, e acredita que JavaScript é o que realmente 'write once, run anywhere'.
+#  enBio: João Lucas é desenvolvedor web full-stack, apaixonado por computação, tecnologia e desenvolvimento de software. Começou sua  carreira escrevendo códigos em Java para web, desktop e app's com J2ME. Hoje considera Ruby como sua linguagem favorita, trabalha com muito JavaScript em projetos desafiadores e de larga  escala na Avenue Code, e acredita que JavaScript é o que realmente 'write once, run anywhere'.
+#  twitter: jlucasps
+#  github: jlucasps
+#  linkedin: https://www.linkedin.com/in/jlucasps
+#  facebook: jlucasps
+#  avatar: assets/img/palestrantes/joao-santana.jpg
 
 - nome: Luciana Fujii
   bio: Luciana Fujii é desenvolvedora, formada em Ciência da Computação pela UFMG e contribuidora do Projeto GNOME. Participou em 2010 do programa GNOME Outreach for Women e foi mentora no Google Summer of Code. Hoje trabalha com desenvolvimento principalmente na área de multimídia.
