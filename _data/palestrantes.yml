@@ -7,14 +7,14 @@
   facebook: alebinhara
   avatar: assets/img/palestrantes/alessandro-binhara.jpg
 
-#- nome: Alexandre Costa
-#  bio: Desenvolvedor e deficient visual apaixonado por tecnologia e  ativo divulgador da acessibilidade.
-#  enBio: Desenvolvedor e deficient visual apaixonado por tecnologia e  ativo divulgador da acessibilidade.
-#  twitter: magoolation
-#  github: magoolation
-#  linkedin: nil
-#  facebook: magoolation
-#  avatar: assets/img/palestrantes/alexandre-magoo.jpg
+- nome: Alexandre Costa
+  bio: Desenvolvedor e deficiente visual apaixonado por tecnologia e  ativo divulgador da acessibilidade.
+  enBio: Desenvolvedor e deficiente visual apaixonado por tecnologia e  ativo divulgador da acessibilidade.
+  twitter: magoolation
+  github: magoolation
+  linkedin: nil
+  facebook: magoolation
+  avatar: assets/img/palestrantes/alexandre-magoo.jpg
 
 - nome: Alexandre Freire
   bio: Alexandre foi um dos pioneiros Ágeis e desde então é um pensador influente nas comunidades Ágil e Lean. Fundou a Agilcoop, cooperativa de alunos e professores da USP que cumpriu seu objetivo de divulgar conhecimento sobre as metodologias ágeis no Brasil. Foi assistente de ensino do Laboratório de Programação eXtrema do IME/USP e ensina cursos sobre programação orientada à objetos; desenvolvimento para mobile, web, plataformas ricas e sistemas distribuídos; padrões de design; testes automatizados, refatoração, TDD e metodologias ágeis.  Seu mestrado versou sobre "Reflexões sobre o ensino de Metodologias Ágeis na Academia, Indústria e Governo". Trabalhou com organizações como a Apple Brasil, Americanas.com, Mandic Internet, Ministério da Cultura, Locaweb, Oi Filmes, Globo.com, Yahoo e Schlumberger ajudando-as organizar equipes ágeis para desenvolver software the qualidade. Regularmente fala sobre o que pensa em conferências de nível internacional. Com a Industrial Logic ele trabalha com muitas das empresas mais admiradas do mundo desenvolvendo produtos de educação à distância, ensinando e atuando como coach em 4 continentes. Como artista pesquisa o convívio das pessoas e táticas criativas de aplicação de tecnologias sustentáveis.
