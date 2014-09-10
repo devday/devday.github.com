@@ -79,14 +79,14 @@
   facebook: pantuza
   avatar: assets/img/palestrantes/pantuza.jpg
 
-#- nome: João Lucas Santana
-#  bio: João Lucas é desenvolvedor web full-stack, apaixonado por computação, tecnologia e desenvolvimento de software. Começou sua  carreira escrevendo códigos em Java para web, desktop e app's com J2ME. Hoje considera Ruby como sua linguagem favorita, trabalha com muito JavaScript em projetos desafiadores e de larga  escala na Avenue Code, e acredita que JavaScript é o que realmente 'write once, run anywhere'.
-#  enBio: João Lucas é desenvolvedor web full-stack, apaixonado por computação, tecnologia e desenvolvimento de software. Começou sua  carreira escrevendo códigos em Java para web, desktop e app's com J2ME. Hoje considera Ruby como sua linguagem favorita, trabalha com muito JavaScript em projetos desafiadores e de larga  escala na Avenue Code, e acredita que JavaScript é o que realmente 'write once, run anywhere'.
-#  twitter: jlucasps
-#  github: jlucasps
-#  linkedin: https://www.linkedin.com/in/jlucasps
-#  facebook: jlucasps
-#  avatar: assets/img/palestrantes/joao-santana.jpg
+- nome: João Lucas Santana
+  bio: João Lucas é desenvolvedor web full-stack, apaixonado por computação, tecnologia e desenvolvimento de software. Começou sua  carreira escrevendo códigos em Java para web, desktop e app's com J2ME. Hoje considera Ruby como sua linguagem favorita, trabalha com muito JavaScript em projetos desafiadores e de larga  escala na Avenue Code, e acredita que JavaScript é o que realmente 'write once, run anywhere'.
+  enBio: João Lucas é desenvolvedor web full-stack, apaixonado por computação, tecnologia e desenvolvimento de software. Começou sua  carreira escrevendo códigos em Java para web, desktop e app's com J2ME. Hoje considera Ruby como sua linguagem favorita, trabalha com muito JavaScript em projetos desafiadores e de larga  escala na Avenue Code, e acredita que JavaScript é o que realmente 'write once, run anywhere'.
+  twitter: jlucasps
+  github: jlucasps
+  linkedin: https://www.linkedin.com/in/jlucasps
+  facebook: jlucasps
+  avatar: assets/img/palestrantes/joao-santana.jpg
 
 - nome: Luciana Fujii
   bio: Luciana Fujii é desenvolvedora, formada em Ciência da Computação pela UFMG e contribuidora do Projeto GNOME. Participou em 2010 do programa GNOME Outreach for Women e foi mentora no Google Summer of Code. Hoje trabalha com desenvolvimento principalmente na área de multimídia.
