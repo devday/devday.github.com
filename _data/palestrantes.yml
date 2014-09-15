@@ -79,7 +79,7 @@
   facebook: pantuza
   avatar: assets/img/palestrantes/pantuza.jpg
 
-- nome: João Lucas Santana
+- nome: João Lucas
   bio: João Lucas é desenvolvedor web full-stack, apaixonado por computação, tecnologia e desenvolvimento de software. Começou sua  carreira escrevendo códigos em Java para web, desktop e app's com J2ME. Hoje considera Ruby como sua linguagem favorita, trabalha com muito JavaScript em projetos desafiadores e de larga  escala na Avenue Code, e acredita que JavaScript é o que realmente 'write once, run anywhere'.
   enBio: João Lucas é desenvolvedor web full-stack, apaixonado por computação, tecnologia e desenvolvimento de software. Começou sua  carreira escrevendo códigos em Java para web, desktop e app's com J2ME. Hoje considera Ruby como sua linguagem favorita, trabalha com muito JavaScript em projetos desafiadores e de larga  escala na Avenue Code, e acredita que JavaScript é o que realmente 'write once, run anywhere'.
   twitter: jlucasps
@@ -105,3 +105,12 @@
   linkedin: https://www.linkedin.com/pub/nessa-guedes/20/967/959
   facebook: nessaguedes
   avatar: assets/img/palestrantes/nessa-guedes.jpg
+
+- nome: Vinicius Senger
+  bio: Vinicius Senger é fundador da Globalcode, uma empresa treinamentos, eventos e inovação com reconhecimento nacional e internacional. Vinicius trabalha como programador desde os 13 anos de idade atravessando a velha geração de desenvolvimento com Clipper e C passando por Perl, VB, VC e dedicando sua carreira para a plataforma Java.
+  enBio: Vinicius Senger é fundador da Globalcode, uma empresa treinamentos, eventos e inovação com reconhecimento nacional e internacional. Vinicius trabalha como programador desde os 13 anos de idade atravessando a velha geração de desenvolvimento com Clipper e C passando por Perl, VB, VC e dedicando sua carreira para a plataforma Java.
+  twitter: vsenger
+  github: vsenger
+  linkedin: nil
+  facebook: vsenger
+  avatar: assets/img/palestrantes/vinicius-senger.jpg
