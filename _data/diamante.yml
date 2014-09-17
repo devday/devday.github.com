@@ -5,3 +5,7 @@
 - nome: CI&T
   imagen: ciandt.png
   link: http://www.ciandt.com/
+
+- nome: Google
+  imagen: google-developers.png
+  link: https://developers.google.com/?hl=pt-BR
