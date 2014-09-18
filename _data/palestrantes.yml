@@ -88,6 +88,15 @@
   facebook: pantuza
   avatar: assets/img/palestrantes/pantuza.jpg
 
+- nome: Henrique Lobo
+  bio: Henrique Lobo Weissmann (ou Kico) é sócio fundador da itexto, atuando no projeto e desenvolvimento de sistemas desde 1997. Já atuou em projetos que vão de micro a grandes empresas nos mercados de comércio, comunicação, mineração, telecomunicações e aeroespacial. É autor do livro "Vire o Jogo com Spring Framework", publicado pela Casa do Código e está finalizando seu próximo sobre Groovy e Grails. Também é o fundador do Grails Brasil, que atualmente é uma das maiores comunidades de desenvolvedores Groovy e Grails do mundo. Mais a seu respeito pode ser descoberto em seu blog, /dev/kico http://devkico.itexto.com.br.
+  enBio: Henrique Lobo Weissmann (ou Kico) é sócio fundador da itexto, atuando no projeto e desenvolvimento de sistemas desde 1997. Já atuou em projetos que vão de micro a grandes empresas nos mercados de comércio, comunicação, mineração, telecomunicações e aeroespacial. É autor do livro "Vire o Jogo com Spring Framework", publicado pela Casa do Código e está finalizando seu próximo sobre Groovy e Grails. Também é o fundador do Grails Brasil, que atualmente é uma das maiores comunidades de desenvolvedores Groovy e Grails do mundo. Mais a seu respeito pode ser descoberto em seu blog, /dev/kico http://devkico.itexto.com.br.
+  twitter: loboweissmann
+  github: loboweissmann
+  linkedin: http://www.linkedin.com/in/kicolobo
+  facebook: nil
+  avatar: assets/img/palestrantes/henrique-logo.jpg
+
 - nome: João Lucas
   bio: João Lucas é desenvolvedor web full-stack, apaixonado por computação, tecnologia e desenvolvimento de software. Começou sua  carreira escrevendo códigos em Java para web, desktop e app's com J2ME. Hoje considera Ruby como sua linguagem favorita, trabalha com muito JavaScript em projetos desafiadores e de larga  escala na Avenue Code, e acredita que JavaScript é o que realmente 'write once, run anywhere'.
   enBio: João Lucas é desenvolvedor web full-stack, apaixonado por computação, tecnologia e desenvolvimento de software. Começou sua  carreira escrevendo códigos em Java para web, desktop e app's com J2ME. Hoje considera Ruby como sua linguagem favorita, trabalha com muito JavaScript em projetos desafiadores e de larga  escala na Avenue Code, e acredita que JavaScript é o que realmente 'write once, run anywhere'.
