@@ -134,6 +134,15 @@
   facebook: nil
   avatar: assets/img/palestrantes/neto-marin.png
 
+- nome: Osvaldo Daibert
+  bio: Osvaldo Daibert já foi Arquiteto de Soluções na HP do Brasil e atualmente é Technical Evangelist com foco em desenvolvimento, em especial com Windows 8 e Windows Phone 8. Possui grande experiência como Arquiteto de Soluções de Telecomunicação e Soluções do Segmento financeiro como bolsa de valores. Em seus momentos de folga o Daibert curte viajar, estudar tecnologias e muita música!
+  enBio: Osvaldo Daibert já foi Arquiteto de Soluções na HP do Brasil e atualmente é Technical Evangelist com foco em desenvolvimento, em especial com Windows 8 e Windows Phone 8. Possui grande experiência como Arquiteto de Soluções de Telecomunicação e Soluções do Segmento financeiro como bolsa de valores. Em seus momentos de folga o Daibert curte viajar, estudar tecnologias e muita música!
+  twitter: daibert
+  github: nil
+  linkedin: nil
+  facebook: nil
+  avatar: assets/img/palestrantes/osvaldo-dibert.png
+
 - nome: Vinicius Senger
   bio: Vinicius Senger é fundador da Globalcode, uma empresa treinamentos, eventos e inovação com reconhecimento nacional e internacional. Vinicius trabalha como programador desde os 13 anos de idade atravessando a velha geração de desenvolvimento com Clipper e C passando por Perl, VB, VC e dedicando sua carreira para a plataforma Java.
   enBio: Vinicius Senger é fundador da Globalcode, uma empresa treinamentos, eventos e inovação com reconhecimento nacional e internacional. Vinicius trabalha como programador desde os 13 anos de idade atravessando a velha geração de desenvolvimento com Clipper e C passando por Perl, VB, VC e dedicando sua carreira para a plataforma Java.
