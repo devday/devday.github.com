@@ -5,7 +5,7 @@
   github: adrianotavares
   linkedin: http://br.linkedin.com/in/adrianotavares
   facebook: adriano.tavares
-  avatar: assets/img/palestrantes/adriano-tavares.jpg
+  avatar: adriano-tavares.jpg
 
 - nome: Alessandro Binhara
   bio: Mestre em Gestão de Projetos Complexos pela UTF-PR, também formado como Bacharel em Tecnologia da Informação e Técnico Eletrônica no CEFET-PR. Desenvolvedor de Software Livre a 14 anos trabalhou em empresas como CREA-PR, TRE-PR, CELEPAR, usando tecnologias como C++, ASM, Pascal, Java, IL, C#, PHP, Ruby, Boo. Fundador do Grupo de Usuários OpenSystem Sucesu-PR(1998). Foi Coordenador Adjunto do Instituto de Tecnologia do Paraná (TECPAR) no Programa Classe Mundial, onde coordena o Projeto REDE SOL o qual ganhou o Prêmio Finep de Inovação Tecnológica na Categoria Produto para região sul em 2002 para o Projeto Caderno Digital. Foi Diretor de Software Livre da SUCESU-PR, membro do Projeto Software Livre Brasil, destaque na Revista do Linux como personalidade do software livre brasileiro, fundador do Projeto Mono Brasil.
@@ -14,7 +14,7 @@
   github: binhara
   linkedin: https://linkedin.com/in/binhara/
   facebook: alebinhara
-  avatar: assets/img/palestrantes/alessandro-binhara.jpg
+  avatar: alessandro-binhara.jpg
 
 - nome: Alexandre Costa
   bio: Desenvolvedor e deficiente visual apaixonado por tecnologia e  ativo divulgador da acessibilidade.
@@ -23,7 +23,7 @@
   github: magoolation
   linkedin: nil
   facebook: magoolation
-  avatar: assets/img/palestrantes/alexandre-magoo.jpg
+  avatar: alexandre-magoo.jpg
 
 - nome: Alexandre Freire
   bio: Alexandre foi um dos pioneiros Ágeis e desde então é um pensador influente nas comunidades Ágil e Lean. Fundou a Agilcoop, cooperativa de alunos e professores da USP que cumpriu seu objetivo de divulgar conhecimento sobre as metodologias ágeis no Brasil. Foi assistente de ensino do Laboratório de Programação eXtrema do IME/USP e ensina cursos sobre programação orientada à objetos; desenvolvimento para mobile, web, plataformas ricas e sistemas distribuídos; padrões de design; testes automatizados, refatoração, TDD e metodologias ágeis.  Seu mestrado versou sobre "Reflexões sobre o ensino de Metodologias Ágeis na Academia, Indústria e Governo". Trabalhou com organizações como a Apple Brasil, Americanas.com, Mandic Internet, Ministério da Cultura, Locaweb, Oi Filmes, Globo.com, Yahoo e Schlumberger ajudando-as organizar equipes ágeis para desenvolver software the qualidade. Regularmente fala sobre o que pensa em conferências de nível internacional. Com a Industrial Logic ele trabalha com muitas das empresas mais admiradas do mundo desenvolvendo produtos de educação à distância, ensinando e atuando como coach em 4 continentes. Como artista pesquisa o convívio das pessoas e táticas criativas de aplicação de tecnologias sustentáveis.
@@ -32,7 +32,7 @@
   github: alexandrefreire
   linkedin: https://www.linkedin.com/pub/alexandre-freire/0/1b3/600
   facebook: alexandre.freire.7587
-  avatar: assets/img/palestrantes/alexandre-freire.jpg
+  avatar: alexandre-freire.jpg
 
 - nome: Beto Muniz
   bio: Beto Muniz é um Mineiro-Capixaba apaixonado por Front End e que atualmente trabalha na Questrade pela Augix Outsourcing, inspirado pelo estudo de novas tecnologias e pela comunidade, Beto está sempre antenado no que esta acontecendo e disposto a contribuir com a comunidade e prova disso é sua participação em Projetos Open-Source, Eventos e Organizações como LearnLayout.com, Google I/O Extended, TDC, EmberJS Meetup, NodeJS Meetup, GoLangBr, MinasDev, Webcomponents.org etc.
@@ -41,7 +41,7 @@
   github: obetomuniz
   linkedin: https://linkedin.com/in/obetomuniz
   facebook: obetomuniz
-  avatar: assets/img/palestrantes/beto-muniz.png
+  avatar: beto-muniz.png
 
 - nome: Danilo Bordini
   bio: Graduado em Tecnologia da Informação pela FATEC – Sorocaba, com Especialização em Marketing pela FGV. Certificado como MCSE e MCSA em Windows 2000 / 2003 / 2008, trabalha na trabalha na área de informática desde 1996, passando pelas disciplinas de Desenvolvimento de Software e Redes de Computadores.Hoje, ocupa a função de  “Technical Evangelist Manager”, liderando um time de Especialistas em Desenvolvimento de Software & Infraestrutura, onde consegue conciliar sua paixão por Tecnologia com Negócios e Inovação. Ultimamente, discute com parceiros, clientes e membros das Comunidades Técnicas tendências tecnológicas, tais como Desenvolvimento Móvel, Cloud Computing, Consumerização, Social Media e Aplicativos.
@@ -50,7 +50,7 @@
   github: nil
   linkedin: https://www.linkedin.com/in/dbordini
   facebook: dbordini
-  avatar: assets/img/palestrantes/danilo-bordini.jpg
+  avatar: danilo-bordini.jpg
 
 - nome: Francisco Souza
   bio: Mundialmente conhecido no interior de Cachoeiro de Itapemirim, Francisco Souza é desenvolvedor na globo.com, onde ajuda a construir o tsuru. É apaixonado por desenvolvimento de softwares, entusiasta em Python, Django, Go e software livre, associado à Associação Python Brasil e membro do \#cobrateam. Por último, mas não menos importante, é PMP (Professional Mario Player) certificado, com mais de 10 anos de experiência.
@@ -59,7 +59,7 @@
   github: fsouza
   linkedin: https://www.linkedin.com/in/franciscosouza
   facebook: franciscossouza
-  avatar: assets/img/palestrantes/francisco-souza.jpg
+  avatar: francisco-souza.jpg
 
 - nome: Giovanni La Porta
   bio: Diretor e Co-Fundador da Framework System, graduado em Ciência da Computação na UFMG. Iniciou sua carreira profissional como Desenvolver Java no Tribunal de Justiça do Estado de Minas Gerais no ano de 1997, onde certificou-se Java Programmer e DBA Oracle, passando a assumir este posto no corpo de DBAs do TJMG até meados de 2003. Neste mesmo ano juntou-se à fábrica de softwares de uma renomada empresa de Belo Horizonte como líder Técnico de Projetos/Instrutor, onde permaneceu atuando em diversos projetos nacionais tendo como sucessos Telemar-SIS, Telemig Celular, Força Aérea Brasileira, Mannesmann, Drograria Araújo até o ano de 2007, quando mudou-se para Londres-Inglaterra para atuar como Arquiteto Java na empresa Britânica Boltblue Corp. Mais tarde, juntou-se ao grupo de desenvolvedores da empresa HandBuzz International atuando em projetos de Mobile Content and Games para Irlanda, Áustria, Holanda, Alemanha e Austrália. Já de volta ao Brasil no ano de 2009, consolidou a Framework System como Fábrica de Softwares e Centro de Treinamento onde permanece como sócio-diretor.
@@ -68,7 +68,7 @@
   github: nil
   linkedin: nil
   facebook: FrameworkSystem
-  avatar: assets/img/palestrantes/giovanni-porta.png
+  avatar: giovanni-porta.png
 
 - nome: Gustavo Noronha
   bio: Gustavo Noronha é desenvolvedor de Software Livre há mais de 10 anos, contribui com os projetos Debian, GNOME e WebKit e é engenheiro de software da empresa inglesa Collabora. Se interessa pelo tema de dados abertos desde 2010, quando começou o projeto Olho Neles, então apelidado de Montanha, para obter insumos objetivos para escolha de seu candidato a deputado estadual.
@@ -77,7 +77,7 @@
   github: gnoronha
   linkedin: https://linkedin.com/in/gustavonoronha
   facebook: gustavo.noronha
-  avatar: assets/img/palestrantes/gustavo-noronha-kov.jpg
+  avatar: gustavo-noronha-kov.jpg
 
 - nome: Gustavo Pantuza
   bio: Pesquisador/aluno de mestrado no departamento de computação da UFMG. Membro fundador do Área31 Hackerspace. Nas horas vagas gosta de construir robôs e disseminar a cultura hacker.
@@ -86,7 +86,7 @@
   github: pantuza
   linkedin: https://linkedin.com/pub/gustavo-pantuza/25/898/460
   facebook: pantuza
-  avatar: assets/img/palestrantes/pantuza.jpg
+  avatar: pantuza.jpg
 
 - nome: Henrique Lobo
   bio: Henrique Lobo Weissmann (ou Kico) é sócio fundador da itexto, atuando no projeto e desenvolvimento de sistemas desde 1997. Já atuou em projetos que vão de micro a grandes empresas nos mercados de comércio, comunicação, mineração, telecomunicações e aeroespacial. É autor do livro "Vire o Jogo com Spring Framework", publicado pela Casa do Código e está finalizando seu próximo sobre Groovy e Grails. Também é o fundador do Grails Brasil, que atualmente é uma das maiores comunidades de desenvolvedores Groovy e Grails do mundo. Mais a seu respeito pode ser descoberto em seu blog, /dev/kico http://devkico.itexto.com.br.
@@ -95,7 +95,7 @@
   github: loboweissmann
   linkedin: http://www.linkedin.com/in/kicolobo
   facebook: nil
-  avatar: assets/img/palestrantes/henrique-logo.jpg
+  avatar: henrique-logo.jpg
 
 - nome: João Lucas
   bio: João Lucas é desenvolvedor web full-stack, apaixonado por computação, tecnologia e desenvolvimento de software. Começou sua  carreira escrevendo códigos em Java para web, desktop e app's com J2ME. Hoje considera Ruby como sua linguagem favorita, trabalha com muito JavaScript em projetos desafiadores e de larga  escala na Avenue Code, e acredita que JavaScript é o que realmente 'write once, run anywhere'.
@@ -104,7 +104,7 @@
   github: jlucasps
   linkedin: https://www.linkedin.com/in/jlucasps
   facebook: jlucasps
-  avatar: assets/img/palestrantes/joao-santana.jpg
+  avatar: joao-santana.jpg
 
 - nome: Luciana Fujii
   bio: Luciana Fujii é desenvolvedora, formada em Ciência da Computação pela UFMG e contribuidora do Projeto GNOME. Participou em 2010 do programa GNOME Outreach for Women e foi mentora no Google Summer of Code. Hoje trabalha com desenvolvimento principalmente na área de multimídia.
@@ -113,7 +113,7 @@
   github: lucianafujii
   linkedin: https://www.linkedin.com/in/lucianafujii
   facebook: lucianafujii
-  avatar: assets/img/palestrantes/luciana-fujii.jpg
+  avatar: luciana-fujii.jpg
 
 - nome: Nessa Guedes
   bio: Fundadora do MariaLab Hackerspace, membro do Garoa Hacker Clube, e desenvolvedora fundadora da Plano Hype. Há muito tempo trabalha como front-end, mas começou mesmo foi na área de redes de computadores. Já participou da comunidade da Mozilla Foundation, e participa de eventos na área de TI há nove anos. Foi jurada da hackatona do Transporte Público da prefeitura de São Paulo, em 2013. É gaúcha, vegetariana, e também curte muito uma cerveja artesanal.
@@ -122,7 +122,7 @@
   github: nessoila
   linkedin: https://www.linkedin.com/pub/nessa-guedes/20/967/959
   facebook: nessaguedes
-  avatar: assets/img/palestrantes/nessa-guedes.jpg
+  avatar: nessa-guedes.jpg
 
 - nome: Neto Marin
   bio: Neto Marin é Developer Advocate da equipe de Android no Brasil, com o principal objetivo de disseminar conteúdo sobre a plataforma e ajudar os desenvolvedores a produzirem apps de alta qualidade.
@@ -132,7 +132,7 @@
   linkedin: https://linkedin.com/in/netomarin
   googleplus: netomarin
   facebook: nil
-  avatar: assets/img/palestrantes/neto-marin.png
+  avatar: neto-marin.png
 
 - nome: Osvaldo Daibert
   bio: Osvaldo Daibert já foi Arquiteto de Soluções na HP do Brasil e atualmente é Technical Evangelist com foco em desenvolvimento, em especial com Windows 8 e Windows Phone 8. Possui grande experiência como Arquiteto de Soluções de Telecomunicação e Soluções do Segmento financeiro como bolsa de valores. Em seus momentos de folga o Daibert curte viajar, estudar tecnologias e muita música!
@@ -141,7 +141,7 @@
   github: nil
   linkedin: nil
   facebook: nil
-  avatar: assets/img/palestrantes/osvaldo-daibert.png
+  avatar: osvaldo-daibert.png
 
 - nome: Vinicius Senger
   bio: Vinicius Senger é fundador da Globalcode, uma empresa treinamentos, eventos e inovação com reconhecimento nacional e internacional. Vinicius trabalha como programador desde os 13 anos de idade atravessando a velha geração de desenvolvimento com Clipper e C passando por Perl, VB, VC e dedicando sua carreira para a plataforma Java.
@@ -150,4 +150,4 @@
   github: vsenger
   linkedin: nil
   facebook: vsenger
-  avatar: assets/img/palestrantes/vinicius-senger.jpg
+  avatar: vinicius-senger.jpg

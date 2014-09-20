@@ -8,7 +8,10 @@
     <section class="nav-tabs-default hidden-xs">
       <!-- Parent Nav Tabs -->
       <ul class="nav nav-tabs">
-        <li class="active"><a href="#TabOne" data-toggle="tab">
+        <li class="active"><a href="#geral" data-toggle="tab">
+          <div class="title">{{ include.geral }}</div>
+        </a></li>
+        <li><a href="#TabOne" data-toggle="tab">
           <div class="title">{{ include.auditorio }}</div>
         </a></li>
         <li><a href="#TabTwo" data-toggle="tab">
@@ -24,7 +27,56 @@
 
       <!-- Parent Tab panes -->
       <div class="tab-content">
-        <div class="tab-pane fade in active" id="TabOne">
+        <div class="tab-pane fade in active" id="geral">
+
+            <!-- Child 1 Tab panes -->
+            <div class="tab-content">
+              <div class="tab-pane fade in active">
+                <div class="panel-group timeline-schedule" id="panelTimelineOne">
+
+                  {% for item in site.data.agenda_geral %}
+                    <div class="panel panel-default">
+                      <div class="speaker-wrapper">
+                        <img src="assets/img/palestrantes/{{ item.avatar }}" class="img-responsive img-circle" alt="{{ item.palestrante }}" />
+                      </div>
+                      <div class="panel-heading">
+                        <div class="panel-title">
+                          <div class="time"><i class="fa fa-clock-o"></i> {{ item.horario }}</div>
+
+                          {% if(item.possuiConteudo) %}
+                            <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#item{{ item.numero }}" class="collapsed">
+                              {{ item.nome }}
+                              <div class="pull-right fa fa-angle-up"></div>
+                              <div class="pull-right fa fa-angle-down"></div>
+                            </a>
+                          {% else %}
+                            <a>{{ item.nome }}</a>
+                          {% endif %}
+                        </div>
+                      </div>
+
+                      {% if(item.possuiConteudo) %}
+                        <div id="item{{ item.numero }}" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            <article>
+                              <p>{{ item.conteudo }}</p>
+                              <p class="author"><a href="#"><strong><i class="fa fa-user"></i> {{ item.palestrante }}</strong></a></p>
+                            </article>
+                          </div>
+                        </div>
+                      {% endif %}
+
+                    </div>
+                  {% endfor %}
+
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+
+        </div>
+
+        <div class="tab-pane fade" id="TabOne">
 
             <!-- Child 1 Tab panes -->
             <div class="tab-content">
