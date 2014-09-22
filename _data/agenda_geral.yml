@@ -95,11 +95,11 @@
   palestrante : João Lucas
 
 - numero: 13
-  nome: "A definir"
+  nome: Streaming de vídeo 101
   horario : "A definir"
   avatar: luciana-fujii.jpg
   possuiConteudo: true
-  conteudo : "A definir"
+  conteudo : Atualmente é comum e popular assistir vídeos diretamente da internet e transmitir vídeos ao vivo, para isso existem diferentes tecnologias e novas continuam aparecendo. Falarei um pouco sobre tecnologias que podem ser usadas para streaming e as vantagens e desvantagens para cada caso e apresentarei o básico de como desenvolver aplicações de streaming de vídeo com GStreamer.
   palestrante : Luciana Fujii
 
 - numero: 14
