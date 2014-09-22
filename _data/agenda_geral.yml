@@ -47,6 +47,14 @@
   palestrante : Danilo Bordini
 
 - numero: 7
+  nome: Os 4 Pilares de DevOps - Acelerando os Ciclos de Entrega Contínua
+  horario : "A definir"
+  avatar: fernando-sousa.jpg
+  possuiConteudo: true
+  conteudo : A abordagem de soluções específicas de silos de desenvolvimento e operações se mostra ineficaz para remover restrições críticas para os ciclos de construção e entrega de inovação para o negócio. Nesta apresentação abordaremos uma visão em 4 pilares do DevOps com o objetivo de remover tais obstáculos através da proposição de unificação colaborativa dos silos. Veremos como Agilidade e ITIL podem andar lado a lado em benefício da velocidade, qualidade e otimização de custos nas entregas de software.
+  palestrante : Fernando Sousa
+
+- numero: 8
   nome: "A definir"
   horario : "A definir"
   avatar: francisco-souza.jpg
@@ -54,7 +62,7 @@
   conteudo : "A definir"
   palestrante : Francisco Souza
 
-- numero: 8
+- numero: 9
   nome: O Futuro dos Drones - De Máquinas de Guerra a Entregadores de Pizza
   horario : "A definir"
   avatar: giovanni-porta.png
@@ -62,7 +70,7 @@
   conteudo : Esqueça por um momento as dramáticas notícias que você viu na TV sobre drones decolando para os campos de batalha repleto de bombas e tente ver como estes fantásticos aparelhos podem mudar nossas vidas para melhor. Sim, os drones vieram para ficar. Estes veículos não tripulados saídos dos filmes de ficção científica podem voar, navegar e rodar sem assistência humana e começam a representar uma fatia interessante no mercado de tecnologia. Há um enorme potencial nestes robôs autônomos para o mercado comercial privado e isso pode realmente mudar a maneira como vemos o futuro.  "O setor comercial vai ultrapassar o setor militar em poucos anos.", disse Bill Powers, pesquisador do Centro de Ameaças e Oportunidades Emergentes do Instituto Potomac para Estudos Políticos, "... este vai se tornar um mercado real até 2030 e será dominado pelos pioneiros da década atual.". A partir dos primeiros experimentos feitos pela Amazon Drone Delivery e seguidas pelas Zookal Australiana, United States Postal Service, Caterpillar e outras, vamos fazer uma análise das possibilidades nascentes para este mercado, um exercício de futurologia e uma demonstração prática como transformar estes dispositivos em robôs autônomos a serviço da humanidade.
   palestrante : Giovanni La Porta
 
-- numero: 9
+- numero: 10
   nome: Projetos de Software Livre - Como criar e participar
   horario : "A definir"
   avatar: gustavo-noronha-kov.jpg
@@ -70,7 +78,7 @@
   conteudo : Há diversos tipos de projetos de software livre, dos pequenos projetos pessoais a grandes projetos que precisam de uma estrutura de governança. Esses tipos de projetos serão explicados e explorados com ajuda de algumas dicas de como participar de cada um deles.
   palestrante : Gustavo Noronha
 
-- numero: 10
+- numero: 11
   nome: "A definir"
   horario : "A definir"
   avatar: pantuza.jpg
@@ -78,7 +86,7 @@
   conteudo : "A definir"
   palestrante : Gustavo Pantuza
 
-- numero: 11
+- numero: 12
   nome: Grails - alta produtividade em Java
   horario : "A definir"
   avatar: henrique-logo.jpg
@@ -86,7 +94,7 @@
   conteudo : Grails é um framework baseado na linguagem Groovy que oferece altíssima produtividade no desenvolvimento de aplicações Java EE, adotando como base os princípios de convenção sobre configuração, DRY (Don't Repeat Yourself - Não se repita) e um ambiente de desenvolvimento extremamente ágil. Trata-se de uma alternativa bastante interessante tanto para equipes já acostumadas com o stack Java como aquelas que pretendem adotar a plataforma Java EE da forma mais suave possível.
   palestrante : Henrique Lobo
 
-- numero: 12
+- numero: 13
   nome: Critical Rendering Path - Velocidade também é uma funcionalidade
   horario : "A definir"
   avatar: joao-santana.jpg
@@ -94,7 +102,7 @@
   conteudo : Desenvolver aplicações web requer que você entenda seus usuários e o que eles precisam, mas também requer que você entenda como o Browser funciona, como seu conteúdo é entregue e exibido aos usuários. Dessa forma, você fornece uma boa experiência com performance apropriada. Nesta palestra introduziremos os conceitos presentes no campo de Web Performance Optimization, desde as requisições de rede, passando pela sequência de passos utilizados pelos Browsers para converter e executar os conteúdos (HTML, Javascript e CSS), definir o layout e, por fim, exibir as informações.
   palestrante : João Lucas
 
-- numero: 13
+- numero: 14
   nome: Streaming de vídeo 101
   horario : "A definir"
   avatar: luciana-fujii.jpg
@@ -102,7 +110,7 @@
   conteudo : Atualmente é comum e popular assistir vídeos diretamente da internet e transmitir vídeos ao vivo, para isso existem diferentes tecnologias e novas continuam aparecendo. Falarei um pouco sobre tecnologias que podem ser usadas para streaming e as vantagens e desvantagens para cada caso e apresentarei o básico de como desenvolver aplicações de streaming de vídeo com GStreamer.
   palestrante : Luciana Fujii
 
-- numero: 14
+- numero: 15
   nome: Desenvolvedor e empreendedor no software livre, o que você precisa saber
   horario : "A definir"
   avatar: nessa-guedes.jpg
@@ -110,7 +118,7 @@
   conteudo : Hoje a qualidade de vida é mais importante do que estabilidade em um emprego formal. O que pouca gente descobre, é que existe a possibilidade de ser estável e ter qualidade de vida dentro de carreiras independentes no desenvolvimento de software livre. Aprenda como lidar com o mercado atual e seja dono do seu próprio tempo.
   palestrante : Nessa Guedes
 
-- numero: 15
+- numero: 16
   nome: Introdução ao Android Wear
   horario : "A definir"
   avatar: neto-marin.png
@@ -118,7 +126,7 @@
   conteudo : É possível integrar seus aplicativos de várias formas ao Android Wear. Nessa palestra serão abordados questões de design da plataforma, interação com aplicativos, APIs e melhores práticas na hora de desenvolver wearable apps.
   palestrante : Neto Marin
 
-- numero: 16
+- numero: 17
   nome: "A definir"
   horario : "A definir"
   avatar: osvaldo-daibert.png
@@ -126,7 +134,7 @@
   conteudo : "A definir"
   palestrante : Osvaldo Daibert
 
-- numero: 17
+- numero: 18
   nome: Internet das Coisas na Real - arquiteturas, devices e demonstrações doidas!
   horario : "A definir"
   avatar: vinicius-senger.jpg
