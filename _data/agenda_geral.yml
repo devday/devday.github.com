@@ -55,11 +55,11 @@
   palestrante : Fernando Sousa
 
 - numero: 8
-  nome: "A definir"
+  nome: tsuru, o PaaS open source
   horario : "A definir"
   avatar: francisco-souza.jpg
   possuiConteudo: true
-  conteudo : "A definir"
+  conteudo : tsuru é um PaaS open source, que nasceu na Globo.com e é utilizado pela empresa em produção. O objetivo do tsuru é ser um PaaS escalável, componentizável e 100% open source, permitindo ao desenvolvedor focar no mais importante, a aplicação, sem se preocupar com o processo de deploy ou a administração de serviços; através do uso de ferramentas já conhecidas pelos desenvolvedores, como a linha de comando e o git. Esta palestra tem como objetivo apresentar o Tsuru do ponto de vista do contribuidor, o funcionamento e a arquitetura do projeto, além de alguns insights para desenvolvedores que têm interesse em ingressar no mundo open source.
   palestrante : Francisco Souza
 
 - numero: 9
@@ -79,11 +79,11 @@
   palestrante : Gustavo Noronha
 
 - numero: 11
-  nome: "A definir"
+  nome: Software Defined Networking e as inovações em redes
   horario : "A definir"
   avatar: pantuza.jpg
   possuiConteudo: true
-  conteudo : "A definir"
+  conteudo : Software Defined Networking (SDN) é uma arquitetura emergente dinâmica, flexível e de baixo custo. Esse modelo arquitetural possibilita inovações nas áreas de redes e cria novos paradigmas de programação. De onde surgiu esse modelo, como ele funciona e o que é possível fazer com ele? Porque ele é tão importante para grandes empresas como Google, Cisco, Intel e Nicira?
   palestrante : Gustavo Pantuza
 
 - numero: 12
