@@ -23,11 +23,11 @@
   palestrante : Alexandre Costa
 
 - numero: 4
-  nome: "A definir"
+  nome: Como não testar o seu projeto!
   horario : "A definir"
   avatar: alexandre-freire.jpg
   possuiConteudo: true
-  conteudo : "A definir"
+  conteudo : Nos últimos dois anos acompanhamos algumas discussões sobre testes de projeto de software nas quais grandes nomes da área como DHH e Kent Beck apresentavam suas opiniões. A discussão culminou com a aclamada morte do TDD. Será que TDD morreu mesmo? Ou nós que não sabemos testar nossos projetos? Nós vemos muito valor em TDD, BDD e outros tipos de teste, mas não somos obcecados cegamente por essas práticas. Claro que não questionamos o valor de ter testes no seu projeto, mas questionamos o valor de tentar absolutamente tudo, com testes antes. Achamos que TDD não morreu, mas queremos ajudar a matar algumas práticas de testes que trazem mais danos do que benefícios. Nesta palestra vamos compartilhar várias idéias (baseadas em código real de projetos reais) de como NÃO testar o seu projeto, o que não testar antes, e além disso, vamos ajudá-lo a entender como testar o que é essencial.
   palestrante : Alexandre Freire
 
 - numero: 5
