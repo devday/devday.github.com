@@ -141,3 +141,11 @@
   possuiConteudo: true
   conteudo : Nesta palestra vamos abordar diversos assuntos ao redor da Internet das Coisas mostrando arquiteturas de hardware e software, prototipos, produtos e projetos de devices que venho criando nos últimos anos.
   palestrante : Vinicius Senger
+
+- numero: 19
+  nome: UX Design For Developers: Construa um produto conciso, e não mais features.
+  horario : "A definir"
+  avatar: pedro-marques.jpg
+  possuiConteudo: true
+  conteudo : Muitas vezes nos pegamos criando features e mais features em uma aplicação e não nos importamos com a melhoria continua de coisas já implementadas. Esta palestra trata de assuntos relativos à experiência do usuário, a importância da usabilidade e da performance na criação de uma aplicação.
+  palestrante : Pedro Marques
