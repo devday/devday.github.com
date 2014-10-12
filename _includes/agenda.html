@@ -1,3 +1,5 @@
+{% assign count = '0' %}
+
 <section id="schedule" class="section dark">
   <div class="container">
     <div class="icon-wrap"><span class="icon icon-active icon-text-hierarchy-07"></span></div>
@@ -8,9 +10,9 @@
     <section class="nav-tabs-default hidden-xs">
       <!-- Parent Nav Tabs -->
       <ul class="nav nav-tabs">
-        <li class="active"><a href="#geral" data-toggle="tab">
+        <!--li class="active"><a href="#geral" data-toggle="tab">
           <div class="title">{{ include.geral }}</div>
-        </a></li>
+        </a></li-->
         <li><a href="#TabOne" data-toggle="tab">
           <div class="title">{{ include.auditorio }}</div>
         </a></li>
@@ -27,7 +29,7 @@
 
       <!-- Parent Tab panes -->
       <div class="tab-content">
-        <div class="tab-pane fade in active" id="geral">
+        <div class="tab-pane fade" id="geral">
 
             <!-- Child 1 Tab panes -->
             <div class="tab-content">
@@ -35,6 +37,7 @@
                 <div class="panel-group timeline-schedule" id="panelTimelineOne">
 
                   {% for item in site.data.agenda_geral %}
+                  {% capture count %}{{ count | plus: '1' }}{% endcapture %}
                     <div class="panel panel-default">
                       <div class="speaker-wrapper">
                         <img src="assets/img/palestrantes/{{ item.avatar }}" class="img-responsive img-circle" alt="{{ item.palestrante }}" />
@@ -44,7 +47,7 @@
                           <div class="time"><i class="fa fa-clock-o"></i> {{ item.horario }}</div>
 
                           {% if(item.possuiConteudo) %}
-                            <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#item{{ item.numero }}" class="collapsed">
+                            <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#item{{ count }}" class="collapsed">
                               {{ item.nome }}
                               <div class="pull-right fa fa-angle-up"></div>
                               <div class="pull-right fa fa-angle-down"></div>
@@ -56,7 +59,7 @@
                       </div>
 
                       {% if(item.possuiConteudo) %}
-                        <div id="item{{ item.numero }}" class="panel-collapse collapse">
+                        <div id="item{{ count }}" class="panel-collapse collapse">
                           <div class="panel-body">
                             <article>
                               <p>{{ item.conteudo }}</p>
@@ -76,7 +79,7 @@
 
         </div>
 
-        <div class="tab-pane fade" id="TabOne">
+        <div class="tab-pane fade in active" id="TabOne">
 
             <!-- Child 1 Tab panes -->
             <div class="tab-content">
@@ -84,16 +87,17 @@
                 <div class="panel-group timeline-schedule" id="panelTimelineOne">
 
                   {% for item in site.data.agenda_auditorio %}
+                  {% capture count %}{{ count | plus: '1' }}{% endcapture %}
                     <div class="panel panel-default">
                       <div class="speaker-wrapper">
-                        <img src="{{ item.avatar }}" class="img-responsive img-circle" alt="{{ item.palestrante }}" />
+                        <img src="assets/img/palestrantes/{{ item.avatar }}" class="img-responsive img-circle" alt="{{ item.palestrante }}" />
                       </div>
                       <div class="panel-heading">
                         <div class="panel-title">
                           <div class="time"><i class="fa fa-clock-o"></i> {{ item.horario }}</div>
 
                           {% if(item.possuiConteudo) %}
-                            <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#item{{ item.numero }}" class="collapsed">
+                            <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#item{{ count }}" class="collapsed">
                               {{ item.nome }}
                               <div class="pull-right fa fa-angle-up"></div>
                               <div class="pull-right fa fa-angle-down"></div>
@@ -105,7 +109,7 @@
                       </div>
 
                       {% if(item.possuiConteudo) %}
-                        <div id="item{{ item.numero }}" class="panel-collapse collapse">
+                        <div id="item{{ count }}" class="panel-collapse collapse">
                           <div class="panel-body">
                             <article>
                               <p>{{ item.conteudo }}</p>
@@ -131,16 +135,17 @@
               <div class="tab-pane fade in active">
                 <div class="panel-group timeline-schedule" id="panelTimelineTwo">
                   {% for item in site.data.agenda_sala1 %}
+                  {% capture count %}{{ count | plus: '1' }}{% endcapture %}
                     <div class="panel panel-default">
                       <div class="speaker-wrapper">
-                        <img src="{{ item.avatar }}" class="img-responsive img-circle" alt="{{ item.palestrante }}" />
+                        <img src="assets/img/palestrantes/{{ item.avatar }}" class="img-responsive img-circle" alt="{{ item.palestrante }}" />
                       </div>
                       <div class="panel-heading">
                         <div class="panel-title">
                           <div class="time"><i class="fa fa-clock-o"></i> {{ item.horario }}</div>
 
                           {% if(item.possuiConteudo) %}
-                            <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#item{{ item.numero }}" class="collapsed">
+                            <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#item{{ count }}" class="collapsed">
                               {{ item.nome }}
                               <div class="pull-right fa fa-angle-up"></div>
                               <div class="pull-right fa fa-angle-down"></div>
@@ -152,7 +157,7 @@
                       </div>
 
                       {% if(item.possuiConteudo) %}
-                        <div id="item{{ item.numero }}" class="panel-collapse collapse">
+                        <div id="item{{ count }}" class="panel-collapse collapse">
                           <div class="panel-body">
                             <article>
                               <p>{{ item.conteudo }}</p>
@@ -178,16 +183,17 @@
               <div class="tab-pane fade in active">
                 <div class="panel-group timeline-schedule" id="panelTimelineThree">
                   {% for item in site.data.agenda_sala2 %}
+                  {% capture count %}{{ count | plus: '1' }}{% endcapture %}
                     <div class="panel panel-default">
                       <div class="speaker-wrapper">
-                        <img src="{{ item.avatar }}" class="img-responsive img-circle" alt="{{ item.palestrante }}" />
+                        <img src="assets/img/palestrantes/{{ item.avatar }}" class="img-responsive img-circle" alt="{{ item.palestrante }}" />
                       </div>
                       <div class="panel-heading">
                         <div class="panel-title">
                           <div class="time"><i class="fa fa-clock-o"></i> {{ item.horario }}</div>
 
                           {% if(item.possuiConteudo) %}
-                            <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#item{{ item.numero }}" class="collapsed">
+                            <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#item{{ count }}" class="collapsed">
                               {{ item.nome }}
                               <div class="pull-right fa fa-angle-up"></div>
                               <div class="pull-right fa fa-angle-down"></div>
@@ -199,7 +205,7 @@
                       </div>
 
                       {% if(item.possuiConteudo) %}
-                        <div id="item{{ item.numero }}" class="panel-collapse collapse">
+                        <div id="item{{ count }}" class="panel-collapse collapse">
                           <div class="panel-body">
                             <article>
                               <p>{{ item.conteudo }}</p>
@@ -224,16 +230,17 @@
               <div class="tab-pane fade in active">
                 <div class="panel-group timeline-schedule" id="panelTimelineFour">
                   {% for item in site.data.agenda_comunidade %}
+                  {% capture count %}{{ count | plus: '1' }}{% endcapture %}
                     <div class="panel panel-default">
                       <div class="speaker-wrapper">
-                        <img src="{{ item.avatar }}" class="img-responsive img-circle" alt="{{ item.palestrante }}" />
+                        <img src="assets/img/palestrantes/{{ item.avatar }}" class="img-responsive img-circle" alt="{{ item.palestrante }}" />
                       </div>
                       <div class="panel-heading">
                         <div class="panel-title">
                           <div class="time"><i class="fa fa-clock-o"></i> {{ item.horario }}</div>
 
                           {% if(item.possuiConteudo) %}
-                            <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#item{{ item.numero }}" class="collapsed">
+                            <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#item{{ count }}" class="collapsed">
                               {{ item.nome }}
                               <div class="pull-right fa fa-angle-up"></div>
                               <div class="pull-right fa fa-angle-down"></div>
@@ -245,7 +252,7 @@
                       </div>
 
                       {% if(item.possuiConteudo) %}
-                        <div id="item{{ item.numero }}" class="panel-collapse collapse">
+                        <div id="item{{ count }}" class="panel-collapse collapse">
                           <div class="panel-body">
                             <article>
                               <p>{{ item.conteudo }}</p>

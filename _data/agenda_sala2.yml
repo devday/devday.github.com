@@ -1,7 +1,85 @@
-- numero: 3
-  nome: Em breve
-  horario : "08:00 - 18:00"
-  avatar: assets/img/speaker/speaker-1.jpg
+- nome: Credenciamento
+  horario : "08:00 - 9:00"
+  avatar: speaker-1.jpg
+  possuiConteudo: false
+  conteudo :
+  palestrante :
+
+- nome: Abertura (Auditório)
+  horario : "09:00 - 9:10"
+  avatar: speaker-1.jpg
+  possuiConteudo: false
+  conteudo :
+  palestrante :
+
+- nome: Keynote - Como não testar o seu projeto! (Auditório)
+  horario : "9:10 - 10:00"
+  avatar: alexandre-freire.jpg
+  possuiConteudo: true
+  conteudo : Nos últimos dois anos acompanhamos algumas discussões sobre testes de projeto de software nas quais grandes nomes da área como DHH e Kent Beck apresentavam suas opiniões. A discussão culminou com a aclamada morte do TDD. Será que TDD morreu mesmo? Ou nós que não sabemos testar nossos projetos? Nós vemos muito valor em TDD, BDD e outros tipos de teste, mas não somos obcecados cegamente por essas práticas. Claro que não questionamos o valor de ter testes no seu projeto, mas questionamos o valor de tentar absolutamente tudo, com testes antes. Achamos que TDD não morreu, mas queremos ajudar a matar algumas práticas de testes que trazem mais danos do que benefícios. Nesta palestra vamos compartilhar várias idéias (baseadas em código real de projetos reais) de como NÃO testar o seu projeto, o que não testar antes, e além disso, vamos ajudá-lo a entender como testar o que é essencial.
+  palestrante : Alexandre Freire
+
+
+- nome: Software Defined Networking e as inovações em redes
+  horario : "10:15 - 11:00"
+  avatar: pantuza.jpg
+  possuiConteudo: true
+  conteudo : Software Defined Networking (SDN) é uma arquitetura emergente dinâmica, flexível e de baixo custo. Esse modelo arquitetural possibilita inovações nas áreas de redes e cria novos paradigmas de programação. De onde surgiu esse modelo, como ele funciona e o que é possível fazer com ele? Porque ele é tão importante para grandes empresas como Google, Cisco, Intel e Nicira?
+  palestrante : Gustavo Pantuza
+
+- nome: Streaming de vídeo 101
+  horario : "11:15 - 12:00"
+  avatar: luciana-fujii.jpg
+  possuiConteudo: true
+  conteudo : Atualmente é comum e popular assistir vídeos diretamente da internet e transmitir vídeos ao vivo, para isso existem diferentes tecnologias e novas continuam aparecendo. Falarei um pouco sobre tecnologias que podem ser usadas para streaming e as vantagens e desvantagens para cada caso e apresentarei o básico de como desenvolver aplicações de streaming de vídeo com GStreamer.
+  palestrante : Luciana Fujii
+
+- nome: Almoço
+  horario : "12:00 - 13:30"
+  avatar: speaker-1.jpg
+  possuiConteudo: false
+  conteudo :
+  palestrante :
+
+- nome: tsuru, o PaaS open source
+  horario : "13:30  - 14:15"
+  avatar: francisco-souza.jpg
+  possuiConteudo: true
+  conteudo : tsuru é um PaaS open source, que nasceu na Globo.com e é utilizado pela empresa em produção. O objetivo do tsuru é ser um PaaS escalável, componentizável e 100% open source, permitindo ao desenvolvedor focar no mais importante, a aplicação, sem se preocupar com o processo de deploy ou a administração de serviços; através do uso de ferramentas já conhecidas pelos desenvolvedores, como a linha de comando e o git. Esta palestra tem como objetivo apresentar o Tsuru do ponto de vista do contribuidor, o funcionamento e a arquitetura do projeto, além de alguns insights para desenvolvedores que têm interesse em ingressar no mundo open source.
+  palestrante : Francisco Souza
+
+- nome: UX Design For Developers - Construa um produto conciso, e não mais features.
+  horario : "14:30 - 15:15"
+  avatar: pedro-marques.jpg
+  possuiConteudo: true
+  conteudo : Muitas vezes nos pegamos criando features e mais features em uma aplicação e não nos importamos com a melhoria continua de coisas já implementadas. Esta palestra trata de assuntos relativos à experiência do usuário, a importância da usabilidade e da performance na criação de uma aplicação.
+  palestrante : Pedro Marques
+
+- nome: Quando TDD não é o suficiente
+  horario : "15:30 - 16:15"
+  avatar: camilo-ribeiro.jpg
+  possuiConteudo: true
+  conteudo : Testar não é instalar uma ferramenta e nem deixar o estagiário clicando na aplicação, mas sim criar, aplicar e evoluir uma estratégia inteligente de testes automatizados muito além do TDD, cobrindo múltiplos níveis para reduzir riscos em várias áreas da sua aplicação, do seu deploy e do seu ambiente. Nessa palestra vamos discutir sobre como planejar e priorizar os seus testes em um projeto ágil, da inception até a produção, com o objetivo de gradativamente melhorar os processos de teste automatizado na sua empresa ou projeto.
+  palestrante : Camilo Ribeiro
+
+- nome: Coffe Break
+  horario : "16:15 - 16:45"
+  avatar: speaker-1.jpg
+  possuiConteudo: false
+  conteudo :
+  palestrante :
+
+
+- nome: Keynote - A Definir  (Auditório)
+  horario : "17:30 - 18:20"
+  avatar: speaker-1.jpg
+  possuiConteudo: false
+  conteudo :
+  palestrante :
+
+- nome: Encerramento  (Auditório)
+  horario : "18:20 - 18:30"
+  avatar: speaker-1.jpg
   possuiConteudo: false
   conteudo :
   palestrante :

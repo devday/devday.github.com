@@ -1,7 +1,85 @@
-- numero: 4
-  nome: Em breve
-  horario : "08:00 - 18:00"
-  avatar: assets/img/speaker/speaker-1.jpg
+- nome: Credenciamento
+  horario : "08:00 - 9:00"
+  avatar: speaker-1.jpg
+  possuiConteudo: false
+  conteudo :
+  palestrante :
+
+- nome: Abertura (Auditório)
+  horario : "09:00 - 9:10"
+  avatar: speaker-1.jpg
+  possuiConteudo: false
+  conteudo :
+  palestrante :
+
+- nome: Keynote - Como não testar o seu projeto! (Auditório)
+  horario : "9:10 - 10:00"
+  avatar: alexandre-freire.jpg
+  possuiConteudo: true
+  conteudo : Nos últimos dois anos acompanhamos algumas discussões sobre testes de projeto de software nas quais grandes nomes da área como DHH e Kent Beck apresentavam suas opiniões. A discussão culminou com a aclamada morte do TDD. Será que TDD morreu mesmo? Ou nós que não sabemos testar nossos projetos? Nós vemos muito valor em TDD, BDD e outros tipos de teste, mas não somos obcecados cegamente por essas práticas. Claro que não questionamos o valor de ter testes no seu projeto, mas questionamos o valor de tentar absolutamente tudo, com testes antes. Achamos que TDD não morreu, mas queremos ajudar a matar algumas práticas de testes que trazem mais danos do que benefícios. Nesta palestra vamos compartilhar várias idéias (baseadas em código real de projetos reais) de como NÃO testar o seu projeto, o que não testar antes, e além disso, vamos ajudá-lo a entender como testar o que é essencial.
+  palestrante : Alexandre Freire
+
+- nome: Python UFLA
+  horario : "9:10 - 10:00"
+  avatar: speaker-1.jpg
+  possuiConteudo: false
+  conteudo :
+  palestrante :
+
+
+- nome: Minas DEV
+  horario : "10:15 - 11:00"
+  avatar: speaker-1.jpg
+  possuiConteudo: false
+  conteudo :
+  palestrante :
+
+- nome: Almoço
+  horario : "12:00 - 13:30"
+  avatar: speaker-1.jpg
+  possuiConteudo: false
+  conteudo :
+  palestrante :
+
+- nome: Women who code
+  horario : "13:30 - 14:15"
+  avatar: speaker-1.jpg
+  possuiConteudo: false
+  conteudo :
+  palestrante :
+
+- nome: Area 31
+  horario : "14:30 - 15:15"
+  avatar: speaker-1.jpg
+  possuiConteudo: false
+  conteudo :
+  palestrante :
+
+- nome: DevIsland
+  horario : "15:30 - 16:15"
+  avatar: speaker-1.jpg
+  possuiConteudo: false
+  conteudo :
+  palestrante :
+
+- nome: Coffe Break
+  horario : "16:15 - 16:45"
+  avatar: speaker-1.jpg
+  possuiConteudo: false
+  conteudo :
+  palestrante :
+
+
+- nome: Keynote - A Definir  (Auditório)
+  horario : "17:30 - 18:20"
+  avatar: speaker-1.jpg
+  possuiConteudo: false
+  conteudo :
+  palestrante :
+
+- nome: Encerramento  (Auditório)
+  horario : "18:20 - 18:30"
+  avatar: speaker-1.jpg
   possuiConteudo: false
   conteudo :
   palestrante :
