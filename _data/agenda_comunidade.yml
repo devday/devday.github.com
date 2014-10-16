@@ -20,7 +20,7 @@
   palestrante : Alexandre Freire
 
 - nome: Python UFLA
-  horario : "9:10 - 10:00"
+  horario : "10:15 - 11:00"
   avatar: speaker-1.jpg
   possuiConteudo: false
   conteudo :
@@ -28,7 +28,7 @@
 
 
 - nome: Minas DEV
-  horario : "10:15 - 11:00"
+  horario : "11:15 - 12:00"
   avatar: speaker-1.jpg
   possuiConteudo: false
   conteudo :
