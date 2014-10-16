@@ -19,19 +19,19 @@
   conteudo : Nos últimos dois anos acompanhamos algumas discussões sobre testes de projeto de software nas quais grandes nomes da área como DHH e Kent Beck apresentavam suas opiniões. A discussão culminou com a aclamada morte do TDD. Será que TDD morreu mesmo? Ou nós que não sabemos testar nossos projetos? Nós vemos muito valor em TDD, BDD e outros tipos de teste, mas não somos obcecados cegamente por essas práticas. Claro que não questionamos o valor de ter testes no seu projeto, mas questionamos o valor de tentar absolutamente tudo, com testes antes. Achamos que TDD não morreu, mas queremos ajudar a matar algumas práticas de testes que trazem mais danos do que benefícios. Nesta palestra vamos compartilhar várias idéias (baseadas em código real de projetos reais) de como NÃO testar o seu projeto, o que não testar antes, e além disso, vamos ajudá-lo a entender como testar o que é essencial.
   palestrante : Alexandre Freire
 
-- nome: Web Components - A próxima revolução do desenvolvimento web
+- nome: Os 4 Pilares de DevOps - Acelerando os Ciclos de Entrega Contínua
   horario : "10:15 - 11:00"
+  avatar: fernando-sousa.jpg
+  possuiConteudo: true
+  conteudo : A abordagem de soluções específicas de silos de desenvolvimento e operações se mostra ineficaz para remover restrições críticas para os ciclos de construção e entrega de inovação para o negócio. Nesta apresentação abordaremos uma visão em 4 pilares do DevOps com o objetivo de remover tais obstáculos através da proposição de unificação colaborativa dos silos. Veremos como Agilidade e ITIL podem andar lado a lado em benefício da velocidade, qualidade e otimização de custos nas entregas de software.
+  palestrante : Fernando Sousa
+
+- nome: Web Components - A próxima revolução do desenvolvimento web
+  horario : "11:15 - 12:00"
   avatar: beto-muniz.png
   possuiConteudo: true
   conteudo : Nesta palestra é abordado conceitos envolvendo Web Components e exemplos práticos. Nela é avaliado todo o poder que este novo padrão trás consigo e também tópicos relacionados a como utilizá-la desde já de forma funcional, cross-browser e multi-plataforma. Sem dúvidas, esta apresentação deixará qualquer um fascinado por este novo mundo que está surgindo e que não está tão distante da realidade dos desenvolveres atuais.
   palestrante : Beto Muniz
-
-- nome: Desenvolvimento cross-mobile de verdade
-  horario : "11:15 - 12:00"
-  avatar: alessandro-binhara.jpg
-  possuiConteudo: true
-  conteudo : Tudo que as empresas querem é uma solução rapida , eficiente e que reduza custos. E no desenvolvimento Mobile não é diferente as empresa querem aplicações sejam criara para todoas as plataforma de forma nativa reaproveitando o máximo de cada plataforma. Com aplataforma Xamarin é possivel sem usar html ou java script ou qualquer tipo de solução cross-compile.
-  palestrante : Alessandro Binhara
 
 - nome: Almoço
   horario : "12:00 - 13:30"
@@ -47,19 +47,19 @@
   conteudo : É possível integrar seus aplicativos de várias formas ao Android Wear. Nessa palestra serão abordados questões de design da plataforma, interação com aplicativos, APIs e melhores práticas na hora de desenvolver wearable apps.
   palestrante : Neto Marin
 
-- nome: O Futuro dos Drones - De Máquinas de Guerra a Entregadores de Pizza
+- nome: Desenvolvimento cross-mobile de verdade
   horario : "14:30 - 15:15"
+  avatar: alessandro-binhara.jpg
+  possuiConteudo: true
+  conteudo : Tudo que as empresas querem é uma solução rapida , eficiente e que reduza custos. E no desenvolvimento Mobile não é diferente as empresa querem aplicações sejam criara para todoas as plataforma de forma nativa reaproveitando o máximo de cada plataforma. Com aplataforma Xamarin é possivel sem usar html ou java script ou qualquer tipo de solução cross-compile.
+  palestrante : Alessandro Binhara
+
+- nome: O Futuro dos Drones - De Máquinas de Guerra a Entregadores de Pizza
+  horario : "15:30 - 16:15"
   avatar: giovanni-porta.png
   possuiConteudo: true
   conteudo : Esqueça por um momento as dramáticas notícias que você viu na TV sobre drones decolando para os campos de batalha repleto de bombas e tente ver como estes fantásticos aparelhos podem mudar nossas vidas para melhor. Sim, os drones vieram para ficar. Estes veículos não tripulados saídos dos filmes de ficção científica podem voar, navegar e rodar sem assistência humana e começam a representar uma fatia interessante no mercado de tecnologia. Há um enorme potencial nestes robôs autônomos para o mercado comercial privado e isso pode realmente mudar a maneira como vemos o futuro.  "O setor comercial vai ultrapassar o setor militar em poucos anos.", disse Bill Powers, pesquisador do Centro de Ameaças e Oportunidades Emergentes do Instituto Potomac para Estudos Políticos, "... este vai se tornar um mercado real até 2030 e será dominado pelos pioneiros da década atual.". A partir dos primeiros experimentos feitos pela Amazon Drone Delivery e seguidas pelas Zookal Australiana, United States Postal Service, Caterpillar e outras, vamos fazer uma análise das possibilidades nascentes para este mercado, um exercício de futurologia e uma demonstração prática como transformar estes dispositivos em robôs autônomos a serviço da humanidade.
   palestrante : Giovanni La Porta
-
-- nome: Desenvolvedor e empreendedor no software livre, o que você precisa saber
-  horario : "15:30 - 16:15"
-  avatar: nessa-guedes.jpg
-  possuiConteudo: true
-  conteudo : Hoje a qualidade de vida é mais importante do que estabilidade em um emprego formal. O que pouca gente descobre, é que existe a possibilidade de ser estável e ter qualidade de vida dentro de carreiras independentes no desenvolvimento de software livre. Aprenda como lidar com o mercado atual e seja dono do seu próprio tempo.
-  palestrante : Nessa Guedes
 
 - nome: Coffe Break
   horario : "16:15 - 16:45"
@@ -68,16 +68,14 @@
   conteudo :
   palestrante :
 
-
-- nome: Os 4 Pilares de DevOps - Acelerando os Ciclos de Entrega Contínua
+- nome: Desenvolvedor e empreendedor no software livre, o que você precisa saber
   horario : "16:45 - 17:30"
-  avatar: fernando-sousa.jpg
+  avatar: nessa-guedes.jpg
   possuiConteudo: true
-  conteudo : A abordagem de soluções específicas de silos de desenvolvimento e operações se mostra ineficaz para remover restrições críticas para os ciclos de construção e entrega de inovação para o negócio. Nesta apresentação abordaremos uma visão em 4 pilares do DevOps com o objetivo de remover tais obstáculos através da proposição de unificação colaborativa dos silos. Veremos como Agilidade e ITIL podem andar lado a lado em benefício da velocidade, qualidade e otimização de custos nas entregas de software.
-  palestrante : Fernando Sousa
+  conteudo : Hoje a qualidade de vida é mais importante do que estabilidade em um emprego formal. O que pouca gente descobre, é que existe a possibilidade de ser estável e ter qualidade de vida dentro de carreiras independentes no desenvolvimento de software livre. Aprenda como lidar com o mercado atual e seja dono do seu próprio tempo.
+  palestrante : Nessa Guedes
 
-
-- nome: Keynote - A Definir
+- nome: Keynote
   horario : "17:30 - 18:20"
   avatar: speaker-1.jpg
   possuiConteudo: false

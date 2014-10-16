@@ -19,19 +19,19 @@
   conteudo : Nos últimos dois anos acompanhamos algumas discussões sobre testes de projeto de software nas quais grandes nomes da área como DHH e Kent Beck apresentavam suas opiniões. A discussão culminou com a aclamada morte do TDD. Será que TDD morreu mesmo? Ou nós que não sabemos testar nossos projetos? Nós vemos muito valor em TDD, BDD e outros tipos de teste, mas não somos obcecados cegamente por essas práticas. Claro que não questionamos o valor de ter testes no seu projeto, mas questionamos o valor de tentar absolutamente tudo, com testes antes. Achamos que TDD não morreu, mas queremos ajudar a matar algumas práticas de testes que trazem mais danos do que benefícios. Nesta palestra vamos compartilhar várias idéias (baseadas em código real de projetos reais) de como NÃO testar o seu projeto, o que não testar antes, e além disso, vamos ajudá-lo a entender como testar o que é essencial.
   palestrante : Alexandre Freire
 
-- nome: Projetos de Software Livre - Como criar e participar
+- nome: Critical Rendering Path - Velocidade também é uma funcionalidade
   horario : "10:15 - 11:00"
-  avatar: gustavo-noronha-kov.jpg
+  avatar: joao-santana.jpg
   possuiConteudo: true
-  conteudo : Há diversos tipos de projetos de software livre, dos pequenos projetos pessoais a grandes projetos que precisam de uma estrutura de governança. Esses tipos de projetos serão explicados e explorados com ajuda de algumas dicas de como participar de cada um deles.
-  palestrante : Gustavo Noronha
+  conteudo : Desenvolver aplicações web requer que você entenda seus usuários e o que eles precisam, mas também requer que você entenda como o Browser funciona, como seu conteúdo é entregue e exibido aos usuários. Dessa forma, você fornece uma boa experiência com performance apropriada. Nesta palestra introduziremos os conceitos presentes no campo de Web Performance Optimization, desde as requisições de rede, passando pela sequência de passos utilizados pelos Browsers para converter e executar os conteúdos (HTML, Javascript e CSS), definir o layout e, por fim, exibir as informações.
+  palestrante : João Lucas
 
-- nome: Criando processos de desenvolvimento inclusivos com o uso de Driven Designs
+- nome: DevOps - Isso existe mesmo?
   horario : "11:15 - 12:00"
-  avatar: alexandre-magoo.jpg
+  avatar: danilo-bordini.jpg
   possuiConteudo: true
-  conteudo : A comunicação é um pilar fundamental do desenvolvimento de software e em ambientes onde se incluem pessoas com deficiência ela se torna primordial para a inclusão e bom desempenho dos mesmos na realização das suas atividades. Nesta palestra proponho o uso dos Driven Designs (Test, Behavior e Domain) como ferramentas que transformam o código fonte, artefato mais atualizado e confiável do processo, em um protocolo de comunicação.
-  palestrante : Alexandre Costa
+  conteudo : Não há dúvidas de que tendências tecnologias tais como Cloud e Mobilidade mudaram a maneira de se desenvolver e gerenciar software. Mas outro movimento que se fortalece é o de DevOps, onde o time de Desenvolvimento e Operações trabalham juntos, lado a lado, com um objetivo comum. É isso possível? Quais as recomendações para se aplicar uma prática de DevOps? Onde pode ser aplicado? Que ferramentas posso usar? Conversaremos sobre esses tópicos e mostraremos a visão de Microsoft, utilizando ferramentas open source também, de como se construir uma solução de DevOps.
+  palestrante : Danilo Bordini
 
 - nome: Almoço
   horario : "12:00 - 13:30"
@@ -40,12 +40,12 @@
   conteudo :
   palestrante :
 
-- nome: DevOps - Isso existe mesmo?
+- nome: Projetos de Software Livre - Como criar e participar
   horario : "13:30 - 14:15"
-  avatar: danilo-bordini.jpg
+  avatar: gustavo-noronha-kov.jpg
   possuiConteudo: true
-  conteudo : Não há dúvidas de que tendências tecnologias tais como Cloud e Mobilidade mudaram a maneira de se desenvolver e gerenciar software. Mas outro movimento que se fortalece é o de DevOps, onde o time de Desenvolvimento e Operações trabalham juntos, lado a lado, com um objetivo comum. É isso possível? Quais as recomendações para se aplicar uma prática de DevOps? Onde pode ser aplicado? Que ferramentas posso usar? Conversaremos sobre esses tópicos e mostraremos a visão de Microsoft, utilizando ferramentas open source também, de como se construir uma solução de DevOps.
-  palestrante : Danilo Bordini
+  conteudo : Há diversos tipos de projetos de software livre, dos pequenos projetos pessoais a grandes projetos que precisam de uma estrutura de governança. Esses tipos de projetos serão explicados e explorados com ajuda de algumas dicas de como participar de cada um deles.
+  palestrante : Gustavo Noronha
 
 - nome: Grails - alta produtividade em Java
   horario : "14:30 - 15:15"
@@ -54,12 +54,12 @@
   conteudo : Grails é um framework baseado na linguagem Groovy que oferece altíssima produtividade no desenvolvimento de aplicações Java EE, adotando como base os princípios de convenção sobre configuração, DRY (Don't Repeat Yourself - Não se repita) e um ambiente de desenvolvimento extremamente ágil. Trata-se de uma alternativa bastante interessante tanto para equipes já acostumadas com o stack Java como aquelas que pretendem adotar a plataforma Java EE da forma mais suave possível.
   palestrante : Henrique Lobo
 
-- nome: Escalando e levando sua aplicação ao topo com Hazelcast e Spring
+- nome: Streaming de vídeo 101
   horario : "15:30 - 16:15"
-  avatar: adriano-tavares.jpg
+  avatar: luciana-fujii.jpg
   possuiConteudo: true
-  conteudo : Sua aplicação não escala? Está lenta? E agora? O que fazer para melhorar o desempenho? Já tentou cache? A apresentação tem como objetivo descrever como implementar um mecanismo de cache de objetos para melhoria de desempenho de aplicações corporativas. Serão apresentadas a arquitetura e topologia do mecanismo usando Hazelcast e Spring com diagramas de arquitetura e demonstrações de código. O hazelcast é um framework open-source da categoria "in-memory data grid" e o Spring possui uma abstração para uso do cache.
-  palestrante : Adriano Tavares
+  conteudo : Atualmente é comum e popular assistir vídeos diretamente da internet e transmitir vídeos ao vivo, para isso existem diferentes tecnologias e novas continuam aparecendo. Falarei um pouco sobre tecnologias que podem ser usadas para streaming e as vantagens e desvantagens para cada caso e apresentarei o básico de como desenvolver aplicações de streaming de vídeo com GStreamer.
+  palestrante : Luciana Fujii
 
 - nome: Coffe Break
   horario : "16:15 - 16:45"
@@ -68,14 +68,12 @@
   conteudo :
   palestrante :
 
-
-- nome: Critical Rendering Path - Velocidade também é uma funcionalidade
+- nome: Criando processos de desenvolvimento inclusivos com o uso de Driven Designs
   horario : "16:45 - 17:30"
-  avatar: joao-santana.jpg
+  avatar: alexandre-magoo.jpg
   possuiConteudo: true
-  conteudo : Desenvolver aplicações web requer que você entenda seus usuários e o que eles precisam, mas também requer que você entenda como o Browser funciona, como seu conteúdo é entregue e exibido aos usuários. Dessa forma, você fornece uma boa experiência com performance apropriada. Nesta palestra introduziremos os conceitos presentes no campo de Web Performance Optimization, desde as requisições de rede, passando pela sequência de passos utilizados pelos Browsers para converter e executar os conteúdos (HTML, Javascript e CSS), definir o layout e, por fim, exibir as informações.
-  palestrante : João Lucas
-
+  conteudo : A comunicação é um pilar fundamental do desenvolvimento de software e em ambientes onde se incluem pessoas com deficiência ela se torna primordial para a inclusão e bom desempenho dos mesmos na realização das suas atividades. Nesta palestra proponho o uso dos Driven Designs (Test, Behavior e Domain) como ferramentas que transformam o código fonte, artefato mais atualizado e confiável do processo, em um protocolo de comunicação.
+  palestrante : Alexandre Costa
 
 - nome: Keynote - A Definir  (Auditório)
   horario : "17:30 - 18:20"

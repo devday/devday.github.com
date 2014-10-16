@@ -27,12 +27,15 @@
   conteudo : Software Defined Networking (SDN) é uma arquitetura emergente dinâmica, flexível e de baixo custo. Esse modelo arquitetural possibilita inovações nas áreas de redes e cria novos paradigmas de programação. De onde surgiu esse modelo, como ele funciona e o que é possível fazer com ele? Porque ele é tão importante para grandes empresas como Google, Cisco, Intel e Nicira?
   palestrante : Gustavo Pantuza
 
-- nome: Streaming de vídeo 101
+
+
+- nome: Escalando e levando sua aplicação ao topo com Hazelcast e Spring
   horario : "11:15 - 12:00"
-  avatar: luciana-fujii.jpg
+  avatar: adriano-tavares.jpg
   possuiConteudo: true
-  conteudo : Atualmente é comum e popular assistir vídeos diretamente da internet e transmitir vídeos ao vivo, para isso existem diferentes tecnologias e novas continuam aparecendo. Falarei um pouco sobre tecnologias que podem ser usadas para streaming e as vantagens e desvantagens para cada caso e apresentarei o básico de como desenvolver aplicações de streaming de vídeo com GStreamer.
-  palestrante : Luciana Fujii
+  conteudo : Sua aplicação não escala? Está lenta? E agora? O que fazer para melhorar o desempenho? Já tentou cache? A apresentação tem como objetivo descrever como implementar um mecanismo de cache de objetos para melhoria de desempenho de aplicações corporativas. Serão apresentadas a arquitetura e topologia do mecanismo usando Hazelcast e Spring com diagramas de arquitetura e demonstrações de código. O hazelcast é um framework open-source da categoria "in-memory data grid" e o Spring possui uma abstração para uso do cache.
+  palestrante : Adriano Tavares
+
 
 - nome: Almoço
   horario : "12:00 - 13:30"
@@ -41,26 +44,26 @@
   conteudo :
   palestrante :
 
+- nome: Quando TDD não é o suficiente
+  horario : "13:30 - 14:15"
+  avatar: camilo-ribeiro.jpg
+  possuiConteudo: true
+  conteudo : Testar não é instalar uma ferramenta e nem deixar o estagiário clicando na aplicação, mas sim criar, aplicar e evoluir uma estratégia inteligente de testes automatizados muito além do TDD, cobrindo múltiplos níveis para reduzir riscos em várias áreas da sua aplicação, do seu deploy e do seu ambiente. Nessa palestra vamos discutir sobre como planejar e priorizar os seus testes em um projeto ágil, da inception até a produção, com o objetivo de gradativamente melhorar os processos de teste automatizado na sua empresa ou projeto.
+  palestrante : Camilo Ribeiro
+
 - nome: tsuru, o PaaS open source
-  horario : "13:30  - 14:15"
+  horario : "14:30  - 15:15"
   avatar: francisco-souza.jpg
   possuiConteudo: true
   conteudo : tsuru é um PaaS open source, que nasceu na Globo.com e é utilizado pela empresa em produção. O objetivo do tsuru é ser um PaaS escalável, componentizável e 100% open source, permitindo ao desenvolvedor focar no mais importante, a aplicação, sem se preocupar com o processo de deploy ou a administração de serviços; através do uso de ferramentas já conhecidas pelos desenvolvedores, como a linha de comando e o git. Esta palestra tem como objetivo apresentar o Tsuru do ponto de vista do contribuidor, o funcionamento e a arquitetura do projeto, além de alguns insights para desenvolvedores que têm interesse em ingressar no mundo open source.
   palestrante : Francisco Souza
 
-- nome: UX Design For Developers - Construa um produto conciso, e não mais features.
-  horario : "14:30 - 15:15"
-  avatar: pedro-marques.jpg
-  possuiConteudo: true
-  conteudo : Muitas vezes nos pegamos criando features e mais features em uma aplicação e não nos importamos com a melhoria continua de coisas já implementadas. Esta palestra trata de assuntos relativos à experiência do usuário, a importância da usabilidade e da performance na criação de uma aplicação.
-  palestrante : Pedro Marques
-
-- nome: Quando TDD não é o suficiente
+- nome: Padrões de deploy para DevOps e Entrega Contínua
   horario : "15:30 - 16:15"
-  avatar: camilo-ribeiro.jpg
+  avatar: danilo-sato.jpg
   possuiConteudo: true
-  conteudo : Testar não é instalar uma ferramenta e nem deixar o estagiário clicando na aplicação, mas sim criar, aplicar e evoluir uma estratégia inteligente de testes automatizados muito além do TDD, cobrindo múltiplos níveis para reduzir riscos em várias áreas da sua aplicação, do seu deploy e do seu ambiente. Nessa palestra vamos discutir sobre como planejar e priorizar os seus testes em um projeto ágil, da inception até a produção, com o objetivo de gradativamente melhorar os processos de teste automatizado na sua empresa ou projeto.
-  palestrante : Camilo Ribeiro
+  conteudo : Práticas de DevOps e Entrega Contínua ajudam a aumentar a frequência de deploys na sua empresa, ao mesmo tempo aumentando a estabilidade e robustez do sistema em produção. Com o foco em automação, é possível realizar diversos deploys por dia, porém é comum encontrar resistência do time de operações quando você tenta colocar isso em prática. Nesta palestra iremos apresentar alguns padrões de deploy que irão te ajudar a diminuir o risco ao implantar novas versões de seus sistemas e aplicativos em produção e discutiremos como estreitar a colaboração entre as equipes de desenvolvimento e de operações para implantar DevOps na sua empresa.
+  palestrante : Danilo Sato
 
 - nome: Coffe Break
   horario : "16:15 - 16:45"
@@ -69,6 +72,12 @@
   conteudo :
   palestrante :
 
+- nome: UX Design For Developers - Construa um produto conciso, e não mais features.
+  horario : "16:45 - 17:30"
+  avatar: pedro-marques.jpg
+  possuiConteudo: true
+  conteudo : Muitas vezes nos pegamos criando features e mais features em uma aplicação e não nos importamos com a melhoria continua de coisas já implementadas. Esta palestra trata de assuntos relativos à experiência do usuário, a importância da usabilidade e da performance na criação de uma aplicação.
+  palestrante : Pedro Marques
 
 - nome: Keynote - A Definir  (Auditório)
   horario : "17:30 - 18:20"
