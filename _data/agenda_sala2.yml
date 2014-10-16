@@ -1,25 +1,3 @@
-- nome: Credenciamento
-  horario : "08:00 - 9:00"
-  avatar: speaker-1.jpg
-  possuiConteudo: false
-  conteudo :
-  palestrante :
-
-- nome: Abertura (Auditório)
-  horario : "09:00 - 9:10"
-  avatar: speaker-1.jpg
-  possuiConteudo: false
-  conteudo :
-  palestrante :
-
-- nome: Keynote - Como não testar o seu projeto! (Auditório)
-  horario : "9:10 - 10:00"
-  avatar: alexandre-freire.jpg
-  possuiConteudo: true
-  conteudo : Nos últimos dois anos acompanhamos algumas discussões sobre testes de projeto de software nas quais grandes nomes da área como DHH e Kent Beck apresentavam suas opiniões. A discussão culminou com a aclamada morte do TDD. Será que TDD morreu mesmo? Ou nós que não sabemos testar nossos projetos? Nós vemos muito valor em TDD, BDD e outros tipos de teste, mas não somos obcecados cegamente por essas práticas. Claro que não questionamos o valor de ter testes no seu projeto, mas questionamos o valor de tentar absolutamente tudo, com testes antes. Achamos que TDD não morreu, mas queremos ajudar a matar algumas práticas de testes que trazem mais danos do que benefícios. Nesta palestra vamos compartilhar várias idéias (baseadas em código real de projetos reais) de como NÃO testar o seu projeto, o que não testar antes, e além disso, vamos ajudá-lo a entender como testar o que é essencial.
-  palestrante : Alexandre Freire
-
-
 - nome: Software Defined Networking e as inovações em redes
   horario : "10:15 - 11:00"
   avatar: pantuza.jpg
@@ -78,17 +56,3 @@
   possuiConteudo: true
   conteudo : Muitas vezes nos pegamos criando features e mais features em uma aplicação e não nos importamos com a melhoria continua de coisas já implementadas. Esta palestra trata de assuntos relativos à experiência do usuário, a importância da usabilidade e da performance na criação de uma aplicação.
   palestrante : Pedro Marques
-
-- nome: Keynote - A Definir  (Auditório)
-  horario : "17:30 - 18:20"
-  avatar: speaker-1.jpg
-  possuiConteudo: false
-  conteudo :
-  palestrante :
-
-- nome: Encerramento  (Auditório)
-  horario : "18:20 - 18:30"
-  avatar: speaker-1.jpg
-  possuiConteudo: false
-  conteudo :
-  palestrante :
