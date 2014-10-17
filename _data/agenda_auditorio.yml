@@ -78,7 +78,7 @@
 - nome: Keynote - Wearables e internet das coisas
   horario : "17:30 - 18:20"
   avatar: luis-leao.jpg
-  possuiConteudo: false
+  possuiConteudo: true
   conteudo : Android Wear, Google Glass e outros produtos que estão surgindo no mercado apontam uma tendência de que a tecnologia está mais inserida nas novas vidas (e no nosso corpo). Entenda quais são as possibilidades dessas tecnologias e como dispositivos de internet das coisas podem se apropriar disso.
   palestrante : Luís Leão
 
