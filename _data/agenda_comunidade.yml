@@ -1,4 +1,4 @@
-- nome: Python UFLA
+- nome: Minas DEV
   horario : "10:15 - 11:00"
   avatar: speaker-1.jpg
   possuiConteudo: false
@@ -6,7 +6,7 @@
   palestrante :
 
 
-- nome: Minas DEV
+- nome: Python UFLA
   horario : "11:15 - 12:00"
   avatar: speaker-1.jpg
   possuiConteudo: false
