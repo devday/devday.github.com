@@ -53,10 +53,11 @@ hr.white { border-color: #F3AE9B; }
 .btn:Hover { opacity: 1; }
 .btn-lg { font-size: 28px; }
 .btn-3d {
+  font-weight: bold;
   background: #ddb539;
   color: #fff;
   border:1px solid transparent;
-  border-bottom: 5px solid #BA3512;
+  border-bottom: 5px solid #2da9ff;
   border-radius: 4px; }
 .btn-3d .fa { opacity: .4; color: #333; margin-right: 10px; }
 .btn-3d span { position: relative; top:-8px; }
@@ -68,7 +69,7 @@ hr.white { border-color: #F3AE9B; }
 
 .btn-primary { opacity: 1; background: #ddb539; color: #fff; border-color:#ddb539;}
 .btn-primary:Hover { background: #4BB4FD; color: #fff; border-color:#ddb539; }
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary { background: #f2613a; color: #fff; border-color:#fe4918; }
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary { background: #2da9ff; color: #fff; border-color:#2da9ff; }
 .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary { color: #fff; background-color: #f2613a !important; border-color: #fe4918 !important; }
 
 .btn-secondary { opacity: 1; background: #25201f; color: #fff; border-color:#4d4645;}
@@ -113,7 +114,7 @@ hr.white { border-color: #F3AE9B; }
 /* Content */
 #hero { background: url('../img/fundo.png') center center no-repeat; background-size: cover; background-attachment: fixed; min-height: 500px; position: relative; overflow:hidden;}
 #hero .container { position: static; }
-#hero .hero-content { position: absolute; top: 50%; left: 0; right: 0; margin-top: -195px; }
+#hero .hero-content { position: absolute; top: 40%; left: 0; right: 0; margin-top: -195px; }
 #hero hr { width: 11%; border: 0; border-top: 1px solid #FFF; display: inline-block; }
 #hero .hero-small span  { font-size: 18pt; font-weight:300; display: inline-block; margin: 0 20px 15px; position: relative; top: -12px; }
 #hero .hero-small .sep  { width: 15px; display: inline-block; }
@@ -163,11 +164,12 @@ hr.white { border-color: #F3AE9B; }
   background:#ddb539;
   outline: 1px solid #ddb539;
   text-decoration: none;
+  font-weight: bold;
   padding-left: 10px;
   padding-right: 15px;
   margin-left: 15px;
   font-size: 14px; }
-.navigation-bar > li.featured a:hover {background:#ddb539; color:#fff; outline:1px solid #ddb539;}
+.navigation-bar > li.featured a:hover {background:#2da9ff; color:#fff; outline:5px solid #ddb539;}
 .navigation-social li { padding-top: 45px; padding-bottom: 15px; }
 .navigation-social li a { font-size:15pt; padding-left: 20px; padding-right: 20px; }
 .navigation-social { z-index: 100; position: relative; }
@@ -502,6 +504,33 @@ label.error { display: block; }
   font-size: 18px; }
 #speakers .social-link a:Hover { opacity: 1; color:#ddb539; border-color:#ddb539; }
 
+.bio
+{
+  height: 25px;
+  text-overflow: ellipsis;
+  width:213px;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: help;
+}
+
+#organizacao { background-image: url('../img/sound-wave.jpg'); background-repeat: no-repeat; background-position: center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+#organizacao .speaker-item { padding-bottom: 50px; }
+#organizacao .img-wrapper { text-align: center; }
+#organizacao .img-wrapper img { margin: 0 auto; }
+#organizacao .name { font-size: 25px; margin: 10px 0 2px; }
+#organizacao .sub { font-size: 18px; color: #2da9ff; margin: 0 0 15px; }
+#organizacao p { padding: 0 20px; margin-bottom: 15px; opacity: 0.7; }
+#organizacao .social-link a {
+  opacity: .3;
+  color: #fff;
+  padding: 2px 5px;
+  display: inline-block;
+  width: 31px;
+  height: 31px;
+  font-size: 18px; }
+#organizacao .social-link a:Hover { opacity: 1; color:#2da9ff; border-color:#2da9ff; }
+
 .pricing-cols { margin-top: 30px; width: 100%; display: inline-block; border-collapse: collapse; margin-bottom: -20px; }
 .pricing-col {
   float: left;
@@ -678,7 +707,7 @@ label.error { display: block; }
   #hero hr { width: 70%; display: block; margin-top: 5px; margin-bottom: 5px; }
   #hero .hero-small span { margin: 0 !important; }
   .navigation-social li a { padding-left: 12px; padding-right: 12px; }
-  #hero .hero-content { top: 57%; }
+  #hero .hero-content { top: 40%; }
   #hero .hero-big { font-size: 50px !important;  line-height: 70px; margin-top: 10px;}
   #hero .btn-3d { margin: 0px 0px 15px 0px; }
   .pricing-col { width: 100% !important; }

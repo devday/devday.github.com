@@ -15,21 +15,24 @@
           <hr/>
           <span>
             <span class="fa fa-calendar hidden-xs"></span>
-            <span class="fa" itemprop="startDate" content="2014-11-01">{{ include.data }}</span>,
-            <div class="sep hidden-xs"></div>
+            <span class="fa" itemprop="startDate" content="2014-11-01">{{ include.data }},</span>
+            <!-- <div class="sep hidden-xs"></div> -->
             <span class="fa fa-map-marker hidden-xs"></span>
             <span class="fa" itemprop="location" itemscope itemtype="http://schema.org/Place">
-              <span class="fa" itemprop="name">Escola de Engenharia, UFMG</span>
+              Escola de Engenharia, UFMG
             </span>
           </span>
           <hr/>
         </div>
-        <div class="hero-big" itemprop="name">DEVDAY<span class="highlight">2014</span></div>
-        <img class="hidden-xs" src="assets/img/DevIsland_logo.png" alt="DevIsland"/>
+        <div class="hero-big" itemprop="name">
+          <img class="img-responsive center-block" src="assets/img/logo-devday-2015.png" alt="DEVDAY 2015"/>
+          <img class="img-responsive center-block" src="assets/img/DevIsland_logo.png" alt="DevIsland"/>
+        </div>
         <div class="hero-normal">
           <span class="highlight">DEVELOPERS</span>, WHAT'S YOUR PROFESSION ???</div>
-        <a href="caneca/index.html" class="btn btn-lg btn-3d"><i class="fa fa-beer fa-2x"></i><span>{{ include.caneca }}</span></a>
-        <a href="assets/img/mapa_local2.jpg" class="fancybox btn btn-lg btn-3d"><i class="fa fa-map-marker  fa-2x"></i><span>Mapa do local</span></a>
+        <!-- <a href="caneca/index.html" class="btn btn-lg btn-3d"><i class="fa fa-beer fa-2x"></i><span>{{ include.caneca }}</span></a> -->
+        <!-- <a href="assets/img/mapa_local2.jpg" class="fancybox btn btn-lg btn-3d"><i class="fa fa-map-marker  fa-2x"></i><span>Mapa do local</span></a> -->
+        <a href="http://even.tc/devday-2015" class="btn btn-lg btn-3d" target="_blank"><i class="fa fa-ticket fa-2x"></i><span>{{ include.inscreva_se }}</span></a>
       </div>
     </div>
   </div>

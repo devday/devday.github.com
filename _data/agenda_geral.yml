@@ -1,159 +1,159 @@
-- numero: 1
-  nome: Escalando e levando sua aplicação ao topo com Hazelcast e Spring
-  horario : "A definir"
-  avatar: adriano-tavares.jpg
-  possuiConteudo: true
-  conteudo : Sua aplicação não escala? Está lenta? E agora? O que fazer para melhorar o desempenho? Já tentou cache? A apresentação tem como objetivo descrever como implementar um mecanismo de cache de objetos para melhoria de desempenho de aplicações corporativas. Serão apresentadas a arquitetura e topologia do mecanismo usando Hazelcast e Spring com diagramas de arquitetura e demonstrações de código. O hazelcast é um framework open-source da categoria "in-memory data grid" e o Spring possui uma abstração para uso do cache.
-  palestrante : Adriano Tavares
-
-- numero: 2
-  nome: Desenvolvimento cross-mobile de verdade
-  horario : "A definir"
-  avatar: alessandro-binhara.jpg
-  possuiConteudo: true
-  conteudo : Tudo que as empresas querem é uma solução rapida , eficiente e que reduza custos. E no desenvolvimento Mobile não é diferente as empresa querem aplicações sejam criara para todoas as plataforma de forma nativa reaproveitando o máximo de cada plataforma. Com aplataforma Xamarin é possivel sem usar html ou java script ou qualquer tipo de solução cross-compile.
-  palestrante : Alessandro Binhara
-
-- numero: 3
-  nome: Criando processos de desenvolvimento inclusivos com o uso de Driven Designs
-  horario : "A definir"
-  avatar: alexandre-magoo.jpg
-  possuiConteudo: true
-  conteudo : A comunicação é um pilar fundamental do desenvolvimento de software e em ambientes onde se incluem pessoas com deficiência ela se torna primordial para a inclusão e bom desempenho dos mesmos na realização das suas atividades. Nesta palestra proponho o uso dos Driven Designs (Test, Behavior e Domain) como ferramentas que transformam o código fonte, artefato mais atualizado e confiável do processo, em um protocolo de comunicação.
-  palestrante : Alexandre Costa
-
-- numero: 4
-  nome: Como não testar o seu projeto!
-  horario : "A definir"
-  avatar: alexandre-freire.jpg
-  possuiConteudo: true
-  conteudo : Nos últimos dois anos acompanhamos algumas discussões sobre testes de projeto de software nas quais grandes nomes da área como DHH e Kent Beck apresentavam suas opiniões. A discussão culminou com a aclamada morte do TDD. Será que TDD morreu mesmo? Ou nós que não sabemos testar nossos projetos? Nós vemos muito valor em TDD, BDD e outros tipos de teste, mas não somos obcecados cegamente por essas práticas. Claro que não questionamos o valor de ter testes no seu projeto, mas questionamos o valor de tentar absolutamente tudo, com testes antes. Achamos que TDD não morreu, mas queremos ajudar a matar algumas práticas de testes que trazem mais danos do que benefícios. Nesta palestra vamos compartilhar várias idéias (baseadas em código real de projetos reais) de como NÃO testar o seu projeto, o que não testar antes, e além disso, vamos ajudá-lo a entender como testar o que é essencial.
-  palestrante : Alexandre Freire
-
-- numero: 5
-  nome: Web Components - A próxima revolução do desenvolvimento web
-  horario : "A definir"
-  avatar: beto-muniz.png
-  possuiConteudo: true
-  conteudo : Nesta palestra é abordado conceitos envolvendo Web Components e exemplos práticos. Nela é avaliado todo o poder que este novo padrão trás consigo e também tópicos relacionados a como utilizá-la desde já de forma funcional, cross-browser e multi-plataforma. Sem dúvidas, esta apresentação deixará qualquer um fascinado por este novo mundo que está surgindo e que não está tão distante da realidade dos desenvolveres atuais.
-  palestrante : Beto Muniz
-
-- numero: 6
-  nome: DevOps - Isso existe mesmo?
-  horario : "A definir"
-  avatar: danilo-bordini.jpg
-  possuiConteudo: true
-  conteudo : Não há dúvidas de que tendências tecnologias tais como Cloud e Mobilidade mudaram a maneira de se desenvolver e gerenciar software. Mas outro movimento que se fortalece é o de DevOps, onde o time de Desenvolvimento e Operações trabalham juntos, lado a lado, com um objetivo comum. É isso possível? Quais as recomendações para se aplicar uma prática de DevOps? Onde pode ser aplicado? Que ferramentas posso usar? Conversaremos sobre esses tópicos e mostraremos a visão de Microsoft, utilizando ferramentas open source também, de como se construir uma solução de DevOps.
-  palestrante : Danilo Bordini
-
-- numero: 7
-  nome: Padrões de deploy para DevOps e Entrega Contínua
-  horario : "A definir"
-  avatar: danilo-sato.jpg
-  possuiConteudo: true
-  conteudo : Práticas de DevOps e Entrega Contínua ajudam a aumentar a frequência de deploys na sua empresa, ao mesmo tempo aumentando a estabilidade e robustez do sistema em produção. Com o foco em automação, é possível realizar diversos deploys por dia, porém é comum encontrar resistência do time de operações quando você tenta colocar isso em prática. Nesta palestra iremos apresentar alguns padrões de deploy que irão te ajudar a diminuir o risco ao implantar novas versões de seus sistemas e aplicativos em produção e discutiremos como estreitar a colaboração entre as equipes de desenvolvimento e de operações para implantar DevOps na sua empresa.
-  palestrante : Danilo Sato
-
-- numero: 8
-  nome: Os 4 Pilares de DevOps - Acelerando os Ciclos de Entrega Contínua
-  horario : "A definir"
-  avatar: fernando-sousa.jpg
-  possuiConteudo: true
-  conteudo : A abordagem de soluções específicas de silos de desenvolvimento e operações se mostra ineficaz para remover restrições críticas para os ciclos de construção e entrega de inovação para o negócio. Nesta apresentação abordaremos uma visão em 4 pilares do DevOps com o objetivo de remover tais obstáculos através da proposição de unificação colaborativa dos silos. Veremos como Agilidade e ITIL podem andar lado a lado em benefício da velocidade, qualidade e otimização de custos nas entregas de software.
-  palestrante : Fernando Sousa
-
-- numero: 9
-  nome: tsuru, o PaaS open source
-  horario : "A definir"
-  avatar: francisco-souza.jpg
-  possuiConteudo: true
-  conteudo : tsuru é um PaaS open source, que nasceu na Globo.com e é utilizado pela empresa em produção. O objetivo do tsuru é ser um PaaS escalável, componentizável e 100% open source, permitindo ao desenvolvedor focar no mais importante, a aplicação, sem se preocupar com o processo de deploy ou a administração de serviços; através do uso de ferramentas já conhecidas pelos desenvolvedores, como a linha de comando e o git. Esta palestra tem como objetivo apresentar o Tsuru do ponto de vista do contribuidor, o funcionamento e a arquitetura do projeto, além de alguns insights para desenvolvedores que têm interesse em ingressar no mundo open source.
-  palestrante : Francisco Souza
-
-- numero: 10
-  nome: O Futuro dos Drones - De Máquinas de Guerra a Entregadores de Pizza
-  horario : "A definir"
-  avatar: giovanni-porta.png
-  possuiConteudo: true
-  conteudo : Esqueça por um momento as dramáticas notícias que você viu na TV sobre drones decolando para os campos de batalha repleto de bombas e tente ver como estes fantásticos aparelhos podem mudar nossas vidas para melhor. Sim, os drones vieram para ficar. Estes veículos não tripulados saídos dos filmes de ficção científica podem voar, navegar e rodar sem assistência humana e começam a representar uma fatia interessante no mercado de tecnologia. Há um enorme potencial nestes robôs autônomos para o mercado comercial privado e isso pode realmente mudar a maneira como vemos o futuro.  "O setor comercial vai ultrapassar o setor militar em poucos anos.", disse Bill Powers, pesquisador do Centro de Ameaças e Oportunidades Emergentes do Instituto Potomac para Estudos Políticos, "... este vai se tornar um mercado real até 2030 e será dominado pelos pioneiros da década atual.". A partir dos primeiros experimentos feitos pela Amazon Drone Delivery e seguidas pelas Zookal Australiana, United States Postal Service, Caterpillar e outras, vamos fazer uma análise das possibilidades nascentes para este mercado, um exercício de futurologia e uma demonstração prática como transformar estes dispositivos em robôs autônomos a serviço da humanidade.
-  palestrante : Giovanni La Porta
-
-- numero: 11
-  nome: Projetos de Software Livre - Como criar e participar
-  horario : "A definir"
-  avatar: gustavo-noronha-kov.jpg
-  possuiConteudo: true
-  conteudo : Há diversos tipos de projetos de software livre, dos pequenos projetos pessoais a grandes projetos que precisam de uma estrutura de governança. Esses tipos de projetos serão explicados e explorados com ajuda de algumas dicas de como participar de cada um deles.
-  palestrante : Gustavo Noronha
-
-- numero: 12
-  nome: Software Defined Networking e as inovações em redes
-  horario : "A definir"
-  avatar: pantuza.jpg
-  possuiConteudo: true
-  conteudo : Software Defined Networking (SDN) é uma arquitetura emergente dinâmica, flexível e de baixo custo. Esse modelo arquitetural possibilita inovações nas áreas de redes e cria novos paradigmas de programação. De onde surgiu esse modelo, como ele funciona e o que é possível fazer com ele? Porque ele é tão importante para grandes empresas como Google, Cisco, Intel e Nicira?
-  palestrante : Gustavo Pantuza
-
-- numero: 13
-  nome: Grails - alta produtividade em Java
-  horario : "A definir"
-  avatar: henrique-logo.jpg
-  possuiConteudo: true
-  conteudo : Grails é um framework baseado na linguagem Groovy que oferece altíssima produtividade no desenvolvimento de aplicações Java EE, adotando como base os princípios de convenção sobre configuração, DRY (Don't Repeat Yourself - Não se repita) e um ambiente de desenvolvimento extremamente ágil. Trata-se de uma alternativa bastante interessante tanto para equipes já acostumadas com o stack Java como aquelas que pretendem adotar a plataforma Java EE da forma mais suave possível.
-  palestrante : Henrique Lobo
-
-- numero: 14
-  nome: Critical Rendering Path - Velocidade também é uma funcionalidade
-  horario : "A definir"
-  avatar: joao-santana.jpg
-  possuiConteudo: true
-  conteudo : Desenvolver aplicações web requer que você entenda seus usuários e o que eles precisam, mas também requer que você entenda como o Browser funciona, como seu conteúdo é entregue e exibido aos usuários. Dessa forma, você fornece uma boa experiência com performance apropriada. Nesta palestra introduziremos os conceitos presentes no campo de Web Performance Optimization, desde as requisições de rede, passando pela sequência de passos utilizados pelos Browsers para converter e executar os conteúdos (HTML, Javascript e CSS), definir o layout e, por fim, exibir as informações.
-  palestrante : João Lucas
-
-- numero: 15
-  nome: Streaming de vídeo 101
-  horario : "A definir"
-  avatar: luciana-fujii.jpg
-  possuiConteudo: true
-  conteudo : Atualmente é comum e popular assistir vídeos diretamente da internet e transmitir vídeos ao vivo, para isso existem diferentes tecnologias e novas continuam aparecendo. Falarei um pouco sobre tecnologias que podem ser usadas para streaming e as vantagens e desvantagens para cada caso e apresentarei o básico de como desenvolver aplicações de streaming de vídeo com GStreamer.
-  palestrante : Luciana Fujii
-
-- numero: 16
-  nome: Desenvolvedor e empreendedor no software livre, o que você precisa saber
-  horario : "A definir"
-  avatar: nessa-guedes.jpg
-  possuiConteudo: true
-  conteudo : Hoje a qualidade de vida é mais importante do que estabilidade em um emprego formal. O que pouca gente descobre, é que existe a possibilidade de ser estável e ter qualidade de vida dentro de carreiras independentes no desenvolvimento de software livre. Aprenda como lidar com o mercado atual e seja dono do seu próprio tempo.
-  palestrante : Nessa Guedes
-
-- numero: 17
-  nome: Introdução ao Android Wear
-  horario : "A definir"
-  avatar: neto-marin.png
-  possuiConteudo: true
-  conteudo : É possível integrar seus aplicativos de várias formas ao Android Wear. Nessa palestra serão abordados questões de design da plataforma, interação com aplicativos, APIs e melhores práticas na hora de desenvolver wearable apps.
-  palestrante : Neto Marin
-
-- numero: 18
-  nome: Internet das Coisas na Real - arquiteturas, devices e demonstrações doidas!
-  horario : "A definir"
-  avatar: vinicius-senger.jpg
-  possuiConteudo: true
-  conteudo : Nesta palestra vamos abordar diversos assuntos ao redor da Internet das Coisas mostrando arquiteturas de hardware e software, prototipos, produtos e projetos de devices que venho criando nos últimos anos.
-  palestrante : Vinicius Senger
-
-- numero: 19
-  nome: Quando TDD não é o suficiente
-  horario : "A definir"
-  avatar: camilo-ribeiro.jpg
-  possuiConteudo: true
-  conteudo : Testar não é instalar uma ferramenta e nem deixar o estagiário clicando na aplicação, mas sim criar, aplicar e evoluir uma estratégia inteligente de testes automatizados muito além do TDD, cobrindo múltiplos níveis para reduzir riscos em várias áreas da sua aplicação, do seu deploy e do seu ambiente. Nessa palestra vamos discutir sobre como planejar e priorizar os seus testes em um projeto ágil, da inception até a produção, com o objetivo de gradativamente melhorar os processos de teste automatizado na sua empresa ou projeto.
-  palestrante : Camilo Ribeiro
-
-- numero: 20
-  nome: UX Design For Developers - Construa um produto conciso, e não mais features.
-  horario : "A definir"
-  avatar: pedro-marques.jpg
-  possuiConteudo: true
-  conteudo : Muitas vezes nos pegamos criando features e mais features em uma aplicação e não nos importamos com a melhoria continua de coisas já implementadas. Esta palestra trata de assuntos relativos à experiência do usuário, a importância da usabilidade e da performance na criação de uma aplicação.
-  palestrante : Pedro Marques
+# - numero: 1
+#   nome: Escalando e levando sua aplicação ao topo com Hazelcast e Spring
+#   horario : "A definir"
+#   avatar: adriano-tavares.jpg
+#   possuiConteudo: true
+#   conteudo : Sua aplicação não escala? Está lenta? E agora? O que fazer para melhorar o desempenho? Já tentou cache? A apresentação tem como objetivo descrever como implementar um mecanismo de cache de objetos para melhoria de desempenho de aplicações corporativas. Serão apresentadas a arquitetura e topologia do mecanismo usando Hazelcast e Spring com diagramas de arquitetura e demonstrações de código. O hazelcast é um framework open-source da categoria "in-memory data grid" e o Spring possui uma abstração para uso do cache.
+#   palestrante : Adriano Tavares
+#
+# - numero: 2
+#   nome: Desenvolvimento cross-mobile de verdade
+#   horario : "A definir"
+#   avatar: alessandro-binhara.jpg
+#   possuiConteudo: true
+#   conteudo : Tudo que as empresas querem é uma solução rapida , eficiente e que reduza custos. E no desenvolvimento Mobile não é diferente as empresa querem aplicações sejam criara para todoas as plataforma de forma nativa reaproveitando o máximo de cada plataforma. Com aplataforma Xamarin é possivel sem usar html ou java script ou qualquer tipo de solução cross-compile.
+#   palestrante : Alessandro Binhara
+#
+# - numero: 3
+#   nome: Criando processos de desenvolvimento inclusivos com o uso de Driven Designs
+#   horario : "A definir"
+#   avatar: alexandre-magoo.jpg
+#   possuiConteudo: true
+#   conteudo : A comunicação é um pilar fundamental do desenvolvimento de software e em ambientes onde se incluem pessoas com deficiência ela se torna primordial para a inclusão e bom desempenho dos mesmos na realização das suas atividades. Nesta palestra proponho o uso dos Driven Designs (Test, Behavior e Domain) como ferramentas que transformam o código fonte, artefato mais atualizado e confiável do processo, em um protocolo de comunicação.
+#   palestrante : Alexandre Costa
+#
+# - numero: 4
+#   nome: Como não testar o seu projeto!
+#   horario : "A definir"
+#   avatar: alexandre-freire.jpg
+#   possuiConteudo: true
+#   conteudo : Nos últimos dois anos acompanhamos algumas discussões sobre testes de projeto de software nas quais grandes nomes da área como DHH e Kent Beck apresentavam suas opiniões. A discussão culminou com a aclamada morte do TDD. Será que TDD morreu mesmo? Ou nós que não sabemos testar nossos projetos? Nós vemos muito valor em TDD, BDD e outros tipos de teste, mas não somos obcecados cegamente por essas práticas. Claro que não questionamos o valor de ter testes no seu projeto, mas questionamos o valor de tentar absolutamente tudo, com testes antes. Achamos que TDD não morreu, mas queremos ajudar a matar algumas práticas de testes que trazem mais danos do que benefícios. Nesta palestra vamos compartilhar várias idéias (baseadas em código real de projetos reais) de como NÃO testar o seu projeto, o que não testar antes, e além disso, vamos ajudá-lo a entender como testar o que é essencial.
+#   palestrante : Alexandre Freire
+#
+# - numero: 5
+#   nome: Web Components - A próxima revolução do desenvolvimento web
+#   horario : "A definir"
+#   avatar: beto-muniz.png
+#   possuiConteudo: true
+#   conteudo : Nesta palestra é abordado conceitos envolvendo Web Components e exemplos práticos. Nela é avaliado todo o poder que este novo padrão trás consigo e também tópicos relacionados a como utilizá-la desde já de forma funcional, cross-browser e multi-plataforma. Sem dúvidas, esta apresentação deixará qualquer um fascinado por este novo mundo que está surgindo e que não está tão distante da realidade dos desenvolveres atuais.
+#   palestrante : Beto Muniz
+#
+# - numero: 6
+#   nome: DevOps - Isso existe mesmo?
+#   horario : "A definir"
+#   avatar: danilo-bordini.jpg
+#   possuiConteudo: true
+#   conteudo : Não há dúvidas de que tendências tecnologias tais como Cloud e Mobilidade mudaram a maneira de se desenvolver e gerenciar software. Mas outro movimento que se fortalece é o de DevOps, onde o time de Desenvolvimento e Operações trabalham juntos, lado a lado, com um objetivo comum. É isso possível? Quais as recomendações para se aplicar uma prática de DevOps? Onde pode ser aplicado? Que ferramentas posso usar? Conversaremos sobre esses tópicos e mostraremos a visão de Microsoft, utilizando ferramentas open source também, de como se construir uma solução de DevOps.
+#   palestrante : Danilo Bordini
+#
+# - numero: 7
+#   nome: Padrões de deploy para DevOps e Entrega Contínua
+#   horario : "A definir"
+#   avatar: danilo-sato.jpg
+#   possuiConteudo: true
+#   conteudo : Práticas de DevOps e Entrega Contínua ajudam a aumentar a frequência de deploys na sua empresa, ao mesmo tempo aumentando a estabilidade e robustez do sistema em produção. Com o foco em automação, é possível realizar diversos deploys por dia, porém é comum encontrar resistência do time de operações quando você tenta colocar isso em prática. Nesta palestra iremos apresentar alguns padrões de deploy que irão te ajudar a diminuir o risco ao implantar novas versões de seus sistemas e aplicativos em produção e discutiremos como estreitar a colaboração entre as equipes de desenvolvimento e de operações para implantar DevOps na sua empresa.
+#   palestrante : Danilo Sato
+#
+# - numero: 8
+#   nome: Os 4 Pilares de DevOps - Acelerando os Ciclos de Entrega Contínua
+#   horario : "A definir"
+#   avatar: fernando-sousa.jpg
+#   possuiConteudo: true
+#   conteudo : A abordagem de soluções específicas de silos de desenvolvimento e operações se mostra ineficaz para remover restrições críticas para os ciclos de construção e entrega de inovação para o negócio. Nesta apresentação abordaremos uma visão em 4 pilares do DevOps com o objetivo de remover tais obstáculos através da proposição de unificação colaborativa dos silos. Veremos como Agilidade e ITIL podem andar lado a lado em benefício da velocidade, qualidade e otimização de custos nas entregas de software.
+#   palestrante : Fernando Sousa
+#
+# - numero: 9
+#   nome: tsuru, o PaaS open source
+#   horario : "A definir"
+#   avatar: francisco-souza.jpg
+#   possuiConteudo: true
+#   conteudo : tsuru é um PaaS open source, que nasceu na Globo.com e é utilizado pela empresa em produção. O objetivo do tsuru é ser um PaaS escalável, componentizável e 100% open source, permitindo ao desenvolvedor focar no mais importante, a aplicação, sem se preocupar com o processo de deploy ou a administração de serviços; através do uso de ferramentas já conhecidas pelos desenvolvedores, como a linha de comando e o git. Esta palestra tem como objetivo apresentar o Tsuru do ponto de vista do contribuidor, o funcionamento e a arquitetura do projeto, além de alguns insights para desenvolvedores que têm interesse em ingressar no mundo open source.
+#   palestrante : Francisco Souza
+#
+# - numero: 10
+#   nome: O Futuro dos Drones - De Máquinas de Guerra a Entregadores de Pizza
+#   horario : "A definir"
+#   avatar: giovanni-porta.png
+#   possuiConteudo: true
+#   conteudo : Esqueça por um momento as dramáticas notícias que você viu na TV sobre drones decolando para os campos de batalha repleto de bombas e tente ver como estes fantásticos aparelhos podem mudar nossas vidas para melhor. Sim, os drones vieram para ficar. Estes veículos não tripulados saídos dos filmes de ficção científica podem voar, navegar e rodar sem assistência humana e começam a representar uma fatia interessante no mercado de tecnologia. Há um enorme potencial nestes robôs autônomos para o mercado comercial privado e isso pode realmente mudar a maneira como vemos o futuro.  "O setor comercial vai ultrapassar o setor militar em poucos anos.", disse Bill Powers, pesquisador do Centro de Ameaças e Oportunidades Emergentes do Instituto Potomac para Estudos Políticos, "... este vai se tornar um mercado real até 2030 e será dominado pelos pioneiros da década atual.". A partir dos primeiros experimentos feitos pela Amazon Drone Delivery e seguidas pelas Zookal Australiana, United States Postal Service, Caterpillar e outras, vamos fazer uma análise das possibilidades nascentes para este mercado, um exercício de futurologia e uma demonstração prática como transformar estes dispositivos em robôs autônomos a serviço da humanidade.
+#   palestrante : Giovanni La Porta
+#
+# - numero: 11
+#   nome: Projetos de Software Livre - Como criar e participar
+#   horario : "A definir"
+#   avatar: gustavo-noronha-kov.jpg
+#   possuiConteudo: true
+#   conteudo : Há diversos tipos de projetos de software livre, dos pequenos projetos pessoais a grandes projetos que precisam de uma estrutura de governança. Esses tipos de projetos serão explicados e explorados com ajuda de algumas dicas de como participar de cada um deles.
+#   palestrante : Gustavo Noronha
+#
+# - numero: 12
+#   nome: Software Defined Networking e as inovações em redes
+#   horario : "A definir"
+#   avatar: pantuza.jpg
+#   possuiConteudo: true
+#   conteudo : Software Defined Networking (SDN) é uma arquitetura emergente dinâmica, flexível e de baixo custo. Esse modelo arquitetural possibilita inovações nas áreas de redes e cria novos paradigmas de programação. De onde surgiu esse modelo, como ele funciona e o que é possível fazer com ele? Porque ele é tão importante para grandes empresas como Google, Cisco, Intel e Nicira?
+#   palestrante : Gustavo Pantuza
+#
+# - numero: 13
+#   nome: Grails - alta produtividade em Java
+#   horario : "A definir"
+#   avatar: henrique-logo.jpg
+#   possuiConteudo: true
+#   conteudo : Grails é um framework baseado na linguagem Groovy que oferece altíssima produtividade no desenvolvimento de aplicações Java EE, adotando como base os princípios de convenção sobre configuração, DRY (Don't Repeat Yourself - Não se repita) e um ambiente de desenvolvimento extremamente ágil. Trata-se de uma alternativa bastante interessante tanto para equipes já acostumadas com o stack Java como aquelas que pretendem adotar a plataforma Java EE da forma mais suave possível.
+#   palestrante : Henrique Lobo
+#
+# - numero: 14
+#   nome: Critical Rendering Path - Velocidade também é uma funcionalidade
+#   horario : "A definir"
+#   avatar: joao-santana.jpg
+#   possuiConteudo: true
+#   conteudo : Desenvolver aplicações web requer que você entenda seus usuários e o que eles precisam, mas também requer que você entenda como o Browser funciona, como seu conteúdo é entregue e exibido aos usuários. Dessa forma, você fornece uma boa experiência com performance apropriada. Nesta palestra introduziremos os conceitos presentes no campo de Web Performance Optimization, desde as requisições de rede, passando pela sequência de passos utilizados pelos Browsers para converter e executar os conteúdos (HTML, Javascript e CSS), definir o layout e, por fim, exibir as informações.
+#   palestrante : João Lucas
+#
+# - numero: 15
+#   nome: Streaming de vídeo 101
+#   horario : "A definir"
+#   avatar: luciana-fujii.jpg
+#   possuiConteudo: true
+#   conteudo : Atualmente é comum e popular assistir vídeos diretamente da internet e transmitir vídeos ao vivo, para isso existem diferentes tecnologias e novas continuam aparecendo. Falarei um pouco sobre tecnologias que podem ser usadas para streaming e as vantagens e desvantagens para cada caso e apresentarei o básico de como desenvolver aplicações de streaming de vídeo com GStreamer.
+#   palestrante : Luciana Fujii
+#
+# - numero: 16
+#   nome: Desenvolvedor e empreendedor no software livre, o que você precisa saber
+#   horario : "A definir"
+#   avatar: nessa-guedes.jpg
+#   possuiConteudo: true
+#   conteudo : Hoje a qualidade de vida é mais importante do que estabilidade em um emprego formal. O que pouca gente descobre, é que existe a possibilidade de ser estável e ter qualidade de vida dentro de carreiras independentes no desenvolvimento de software livre. Aprenda como lidar com o mercado atual e seja dono do seu próprio tempo.
+#   palestrante : Nessa Guedes
+#
+# - numero: 17
+#   nome: Introdução ao Android Wear
+#   horario : "A definir"
+#   avatar: neto-marin.png
+#   possuiConteudo: true
+#   conteudo : É possível integrar seus aplicativos de várias formas ao Android Wear. Nessa palestra serão abordados questões de design da plataforma, interação com aplicativos, APIs e melhores práticas na hora de desenvolver wearable apps.
+#   palestrante : Neto Marin
+#
+# - numero: 18
+#   nome: Internet das Coisas na Real - arquiteturas, devices e demonstrações doidas!
+#   horario : "A definir"
+#   avatar: vinicius-senger.jpg
+#   possuiConteudo: true
+#   conteudo : Nesta palestra vamos abordar diversos assuntos ao redor da Internet das Coisas mostrando arquiteturas de hardware e software, prototipos, produtos e projetos de devices que venho criando nos últimos anos.
+#   palestrante : Vinicius Senger
+#
+# - numero: 19
+#   nome: Quando TDD não é o suficiente
+#   horario : "A definir"
+#   avatar: camilo-ribeiro.jpg
+#   possuiConteudo: true
+#   conteudo : Testar não é instalar uma ferramenta e nem deixar o estagiário clicando na aplicação, mas sim criar, aplicar e evoluir uma estratégia inteligente de testes automatizados muito além do TDD, cobrindo múltiplos níveis para reduzir riscos em várias áreas da sua aplicação, do seu deploy e do seu ambiente. Nessa palestra vamos discutir sobre como planejar e priorizar os seus testes em um projeto ágil, da inception até a produção, com o objetivo de gradativamente melhorar os processos de teste automatizado na sua empresa ou projeto.
+#   palestrante : Camilo Ribeiro
+#
+# - numero: 20
+#   nome: UX Design For Developers - Construa um produto conciso, e não mais features.
+#   horario : "A definir"
+#   avatar: pedro-marques.jpg
+#   possuiConteudo: true
+#   conteudo : Muitas vezes nos pegamos criando features e mais features em uma aplicação e não nos importamos com a melhoria continua de coisas já implementadas. Esta palestra trata de assuntos relativos à experiência do usuário, a importância da usabilidade e da performance na criação de uma aplicação.
+#   palestrante : Pedro Marques

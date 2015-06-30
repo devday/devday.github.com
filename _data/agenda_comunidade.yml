@@ -1,49 +1,49 @@
-- nome: Minas DEV
-  horario : "10:15 - 11:00"
-  avatar: speaker-1.jpg
-  possuiConteudo: false
-  conteudo :
-  palestrante :
-
-
-- nome: Python UFLA
-  horario : "11:15 - 12:00"
-  avatar: speaker-1.jpg
-  possuiConteudo: false
-  conteudo :
-  palestrante :
-
-- nome: Almoço
-  horario : "12:00 - 13:30"
-  avatar: speaker-1.jpg
-  possuiConteudo: false
-  conteudo :
-  palestrante :
-
-- nome: Women who code
-  horario : "13:30 - 14:15"
-  avatar: speaker-1.jpg
-  possuiConteudo: false
-  conteudo :
-  palestrante :
-
-- nome: Area 31
-  horario : "14:30 - 15:15"
-  avatar: speaker-1.jpg
-  possuiConteudo: false
-  conteudo :
-  palestrante :
-
-- nome: DevIsland
-  horario : "15:30 - 16:15"
-  avatar: speaker-1.jpg
-  possuiConteudo: false
-  conteudo :
-  palestrante :
-
-- nome: Coffe Break
-  horario : "16:15 - 16:45"
-  avatar: speaker-1.jpg
-  possuiConteudo: false
-  conteudo :
-  palestrante :
+# - nome: Minas DEV
+#   horario : "10:15 - 11:00"
+#   avatar: speaker-1.jpg
+#   possuiConteudo: false
+#   conteudo :
+#   palestrante :
+#
+#
+# - nome: Python UFLA
+#   horario : "11:15 - 12:00"
+#   avatar: speaker-1.jpg
+#   possuiConteudo: false
+#   conteudo :
+#   palestrante :
+#
+# - nome: Almoço
+#   horario : "12:00 - 13:30"
+#   avatar: speaker-1.jpg
+#   possuiConteudo: false
+#   conteudo :
+#   palestrante :
+#
+# - nome: Women who code
+#   horario : "13:30 - 14:15"
+#   avatar: speaker-1.jpg
+#   possuiConteudo: false
+#   conteudo :
+#   palestrante :
+#
+# - nome: Area 31
+#   horario : "14:30 - 15:15"
+#   avatar: speaker-1.jpg
+#   possuiConteudo: false
+#   conteudo :
+#   palestrante :
+#
+# - nome: DevIsland
+#   horario : "15:30 - 16:15"
+#   avatar: speaker-1.jpg
+#   possuiConteudo: false
+#   conteudo :
+#   palestrante :
+#
+# - nome: Coffe Break
+#   horario : "16:15 - 16:45"
+#   avatar: speaker-1.jpg
+#   possuiConteudo: false
+#   conteudo :
+#   palestrante :

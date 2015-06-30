@@ -1,47 +1,47 @@
-- nome: Eventick
-  imagen: eventick.png
-  link: http://eventick.com
-
-- nome: Grupo Python UFLA
-  imagen: grupython.png
-  link: https://www.facebook.com/grupython.ufla
-
-- nome: Agile Tour BH
-  imagen: agiletourbh.jpg
-  link: http://agiletourbh.com.br/
-
-- nome: Women Who Code
-  imagen: wwc.png
-  link: https://www.womenwhocode.com/
-
-- nome: Área31 Hackerspace
-  imagen: area31.png
-  link: http://www.area31.net.br/
-
-- nome: Minas Dev
-  imagen: minasdev.png
-  link: http://minasdev.org/
-
-- nome: Casa do Código
-  imagen: casa-do-codigo.png
-  link: http://casadocodigo.com.br/
-
-- nome: Caelum
-  imagen: caelum.png
-  link: http://caelum.com.br/
-
-- nome: Treina Web
-  imagen: treina-web.png
-  link: http://treinaweb.com.br/
-
-- nome: iGO Solution
-  imagen: igosolution.png
-  link: http://igosolution.com.br/
-
-- nome: Globo.com
-  imagen: globocom.png
-  link: http://globo.com/
-
-- nome: InfoQ
-  imagen: infoq-brasil.jpg
-  link: http://infoq.com.br/
+# - nome: Eventick
+#   imagen: eventick.png
+#   link: http://eventick.com
+#
+# - nome: Grupo Python UFLA
+#   imagen: grupython.png
+#   link: https://www.facebook.com/grupython.ufla
+#
+# - nome: Agile Tour BH
+#   imagen: agiletourbh.jpg
+#   link: http://agiletourbh.com.br/
+#
+# - nome: Women Who Code
+#   imagen: wwc.png
+#   link: https://www.womenwhocode.com/
+#
+# - nome: Área31 Hackerspace
+#   imagen: area31.png
+#   link: http://www.area31.net.br/
+#
+# - nome: Minas Dev
+#   imagen: minasdev.png
+#   link: http://minasdev.org/
+#
+# - nome: Casa do Código
+#   imagen: casa-do-codigo.png
+#   link: http://casadocodigo.com.br/
+#
+# - nome: Caelum
+#   imagen: caelum.png
+#   link: http://caelum.com.br/
+#
+# - nome: Treina Web
+#   imagen: treina-web.png
+#   link: http://treinaweb.com.br/
+#
+# - nome: iGO Solution
+#   imagen: igosolution.png
+#   link: http://igosolution.com.br/
+#
+# - nome: Globo.com
+#   imagen: globocom.png
+#   link: http://globo.com/
+#
+# - nome: InfoQ
+#   imagen: infoq-brasil.jpg
+#   link: http://infoq.com.br/
