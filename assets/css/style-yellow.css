@@ -605,7 +605,7 @@ label.error { display: block; }
 .pricing-col-featured .pricing-col-button { margin: 0; margin-top: 25px; background: #ddb539; }
 .pricing-col-featured .pricing-col-button:hover { opacity: 0.9; }
 
-#sponsors .list-inline li { width: 19%; padding-left: 0; padding-right: 0; }
+#sponsors .list-inline li { padding-left: 0; padding-right: 0; }
 #sponsors .list-inline { margin-bottom:30px;}
 #sponsors img{ width: 100%;}
 
