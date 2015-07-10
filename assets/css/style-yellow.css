@@ -114,7 +114,7 @@ hr.white { border-color: #F3AE9B; }
 /* Content */
 #hero { background: url('../img/fundo.png') center center no-repeat; background-size: cover; background-attachment: fixed; min-height: 500px; position: relative; overflow:hidden;}
 #hero .container { position: static; }
-#hero .hero-content { position: absolute; top: 40%; left: 0; right: 0; margin-top: -195px; }
+#hero .hero-content { margin-top: 20px; }
 #hero hr { width: 11%; border: 0; border-top: 1px solid #FFF; display: inline-block; }
 #hero .hero-small span  { font-size: 18pt; font-weight:300; display: inline-block; margin: 0 20px 15px; position: relative; top: -12px; }
 #hero .hero-small .sep  { width: 15px; display: inline-block; }
