@@ -16,6 +16,24 @@
   facebook: nil
   avatar: gustavo-caetano.png
 
+- nome: Ana Paula Gomes
+  bio: Baiana com muito orgulho, inquieta, curiosa e completamente apaixonada por tecnologia. Atualmente faz o mestrado em Ciência da Computação na Universidade Federal de Minas Gerais e tem bacharelado em Análise de Sistemas pela Universidade do Estado da Bahia. Acredita que a participação em comunidades traz crescimento profissional e pessoal. É organizadora do Google Developers Group e do Women Techmakers, ambos de Belo Horizonte. Sua linguagem do coração é o Python. Adora viajar, boas conversas (preferencialmente acompanhada de uma gelada) e pensar em aplicativos que tornem a vida das pessoas melhor. Nas horas vagas é titular do time de futsal Boas Esporte.
+  enBio: Baiana com muito orgulho, inquieta, curiosa e completamente apaixonada por tecnologia. Atualmente faz o mestrado em Ciência da Computação na Universidade Federal de Minas Gerais e tem bacharelado em Análise de Sistemas pela Universidade do Estado da Bahia. Acredita que a participação em comunidades traz crescimento profissional e pessoal. É organizadora do Google Developers Group e do Women Techmakers, ambos de Belo Horizonte. Sua linguagem do coração é o Python. Adora viajar, boas conversas (preferencialmente acompanhada de uma gelada) e pensar em aplicativos que tornem a vida das pessoas melhor. Nas horas vagas é titular do time de futsal Boas Esporte.
+  twitter: AnaPaulaGomess
+  github: anapaulagomes
+  linkedin: https://www.linkedin.com/in/anapaulagomess/pt
+  facebook: nil
+  avatar: ana-paula-gomes.jpg
+
+- nome: Giovanni La Porta
+  bio: Diretor e Co-Fundador da Framework System, graduado em Ciência da Computação na UFMG. Iniciou sua carreira profissional como Desenvolver Java no Tribunal de Justiça do Estado de Minas Gerais no ano de 1997, onde certificou-se Java Programmer e DBA Oracle, passando a assumir este posto no corpo de DBAs do TJMG até meados de 2003. Neste mesmo ano juntou-se à fábrica de softwares de uma renomada empresa de Belo Horizonte como líder Técnico de Projetos/Instrutor, onde permaneceu atuando em diversos projetos nacionais tendo como sucessos Telemar-SIS, Telemig Celular, Força Aérea Brasileira, Mannesmann, Drograria Araújo até o ano de 2007, quando mudou-se para Londres-Inglaterra para atuar como Arquiteto Java na empresa Britânica Boltblue Corp. Mais tarde, juntou-se ao grupo de desenvolvedores da empresa HandBuzz International atuando em projetos de Mobile Content and Games para Irlanda, Áustria, Holanda, Alemanha e Austrália. Já de volta ao Brasil no ano de 2009, consolidou a Framework System como Fábrica de Softwares e Centro de Treinamento onde permanece como sócio-diretor.
+  enBio: Diretor e Co-Fundador da Framework System, graduado em Ciência da Computação na UFMG. Iniciou sua carreira profissional como Desenvolver Java no Tribunal de Justiça do Estado de Minas Gerais no ano de 1997, onde certificou-se Java Programmer e DBA Oracle, passando a assumir este posto no corpo de DBAs do TJMG até meados de 2003. Neste mesmo ano juntou-se à fábrica de softwares de uma renomada empresa de Belo Horizonte como líder Técnico de Projetos/Instrutor, onde permaneceu atuando em diversos projetos nacionais tendo como sucessos Telemar-SIS, Telemig Celular, Força Aérea Brasileira, Mannesmann, Drograria Araújo até o ano de 2007, quando mudou-se para Londres-Inglaterra para atuar como Arquiteto Java na empresa Britânica Boltblue Corp. Mais tarde, juntou-se ao grupo de desenvolvedores da empresa HandBuzz International atuando em projetos de Mobile Content and Games para Irlanda, Áustria, Holanda, Alemanha e Austrália. Já de volta ao Brasil no ano de 2009, consolidou a Framework System como Fábrica de Softwares e Centro de Treinamento onde permanece como sócio-diretor.
+  twitter: frameworksystem
+  github: nil
+  linkedin: nil
+  facebook: FrameworkSystem
+  avatar: giovanni-porta.png
+
 - nome: Em breve
   bio: Até o dia 30/08 divulgaremos todos os palestrantes.
   enBio: Até o dia 30/08 divulgaremos todos os palestrantes.
