@@ -1,34 +1,34 @@
-# - numero: 1
-#   nome: Escalando e levando sua aplicação ao topo com Hazelcast e Spring
-#   horario : "A definir"
-#   avatar: adriano-tavares.jpg
-#   possuiConteudo: true
-#   conteudo : Sua aplicação não escala? Está lenta? E agora? O que fazer para melhorar o desempenho? Já tentou cache? A apresentação tem como objetivo descrever como implementar um mecanismo de cache de objetos para melhoria de desempenho de aplicações corporativas. Serão apresentadas a arquitetura e topologia do mecanismo usando Hazelcast e Spring com diagramas de arquitetura e demonstrações de código. O hazelcast é um framework open-source da categoria "in-memory data grid" e o Spring possui uma abstração para uso do cache.
-#   palestrante : Adriano Tavares
-#
-# - numero: 2
-#   nome: Desenvolvimento cross-mobile de verdade
-#   horario : "A definir"
-#   avatar: alessandro-binhara.jpg
-#   possuiConteudo: true
-#   conteudo : Tudo que as empresas querem é uma solução rapida , eficiente e que reduza custos. E no desenvolvimento Mobile não é diferente as empresa querem aplicações sejam criara para todoas as plataforma de forma nativa reaproveitando o máximo de cada plataforma. Com aplataforma Xamarin é possivel sem usar html ou java script ou qualquer tipo de solução cross-compile.
-#   palestrante : Alessandro Binhara
-#
-# - numero: 3
-#   nome: Criando processos de desenvolvimento inclusivos com o uso de Driven Designs
-#   horario : "A definir"
-#   avatar: alexandre-magoo.jpg
-#   possuiConteudo: true
-#   conteudo : A comunicação é um pilar fundamental do desenvolvimento de software e em ambientes onde se incluem pessoas com deficiência ela se torna primordial para a inclusão e bom desempenho dos mesmos na realização das suas atividades. Nesta palestra proponho o uso dos Driven Designs (Test, Behavior e Domain) como ferramentas que transformam o código fonte, artefato mais atualizado e confiável do processo, em um protocolo de comunicação.
-#   palestrante : Alexandre Costa
-#
-# - numero: 4
-#   nome: Como não testar o seu projeto!
-#   horario : "A definir"
-#   avatar: alexandre-freire.jpg
-#   possuiConteudo: true
-#   conteudo : Nos últimos dois anos acompanhamos algumas discussões sobre testes de projeto de software nas quais grandes nomes da área como DHH e Kent Beck apresentavam suas opiniões. A discussão culminou com a aclamada morte do TDD. Será que TDD morreu mesmo? Ou nós que não sabemos testar nossos projetos? Nós vemos muito valor em TDD, BDD e outros tipos de teste, mas não somos obcecados cegamente por essas práticas. Claro que não questionamos o valor de ter testes no seu projeto, mas questionamos o valor de tentar absolutamente tudo, com testes antes. Achamos que TDD não morreu, mas queremos ajudar a matar algumas práticas de testes que trazem mais danos do que benefícios. Nesta palestra vamos compartilhar várias idéias (baseadas em código real de projetos reais) de como NÃO testar o seu projeto, o que não testar antes, e além disso, vamos ajudá-lo a entender como testar o que é essencial.
-#   palestrante : Alexandre Freire
+- numero: 1
+  nome: Inove ou morra tentando!
+  horario : "A definir"
+  avatar: gustavo-caetano.png
+  possuiConteudo: true
+  conteudo : Descreve o que as empresas devem fazer para conseguir inovar e assim se diferenciar num mercado cada vez mais competitivo e incerto, sendo que cada ponto descrito é exemplificado com um case de uma empresa de sucesso mundial.
+  palestrante : Gustavo Caetano
+
+- numero: 2
+  nome: A Arquitetura (Peculiar) do Stack Overflow
+  horario : "A definir"
+  avatar: roberta-arcoverde.png
+  possuiConteudo: true
+  conteudo : Na Stack Exchange, estamos acostumados a desobedecer convenções e quebrar paradigmas. Indo frequentemente na contramão do que é considerado boa prática, conseguimos manter no ar uma rede de sites que recebe 20 milhões de visitantes únicos por mês usando apenas 9 servidores web. Nossa arquitetura é monolítica, usamos nosso próprio data center (nada de cloud!), metade do nosso time trabalha remotamente (e em diferentes fusos), não escrevemos testes automatizados e frequentemente reinventamos rodas. Nossa obsessão por performance gerou vários projetos open source interessantes, e permitiu que tivéssemos uma infra estrutura até vinte vezes mais enxuta que sites de tamanho similar. Nessa palestra vou explicar como funciona nossa arquitetura e as motivações por trás de tantas escolhas controversas. A julgar pelos números, <a target="_blank" href="http://stackexchange.com/about/performance">está dando certo</a>.
+  palestrante : Roberta Arcoverde
+
+- numero: 3
+  nome: Arquitetura na prática – 1 input, 1 minuto, 1 carro
+  horario : "A definir"
+  avatar: alex-souza.jpg
+  possuiConteudo: true
+  conteudo : Nesta palestra vamos falar sobre decisões arquiteturais, envolvendo hardware e software, que permitiram que a solução de Autoatendimento da Localiza pudesse diminuir em mais de 80% o tempo de atendimento aos clientes. Como a visão computacional ajudou? Por que usamos WPF?
+  palestrante : Alex Souza
+
+- numero: 4
+  nome: Desenvolvimento de Jogos Mobile com Unity 3D
+  horario : "A definir"
+  avatar: giovanni-porta.png
+  possuiConteudo: true
+  conteudo : Os jogos eletrônicos deixaram de ser apenas passatempo de adolescente. Hoje, também são uma das alternativas de negócio de maior rendimento. O mercado de games já cria quatro mil empregos e movimenta R$ 900 milhões de reais por ano no país. O mercado de smartphone e tablets popularizou muito os jogos, fazendo com que muito mais gente jogue hoje em dia. É com essa premissa, que a Framework System apresenta na versão 2015 do DevDay a ferramenta Unity 3D para desenvolvimento de jogos 2D e 3D com foco em Android, IOS e Windows Phone.
+  palestrante : Giovanni La Porta
 #
 # - numero: 5
 #   nome: Web Components - A próxima revolução do desenvolvimento web
