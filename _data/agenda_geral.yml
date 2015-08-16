@@ -29,15 +29,15 @@
   possuiConteudo: true
   conteudo : Os jogos eletrônicos deixaram de ser apenas passatempo de adolescente. Hoje, também são uma das alternativas de negócio de maior rendimento. O mercado de games já cria quatro mil empregos e movimenta R$ 900 milhões de reais por ano no país. O mercado de smartphone e tablets popularizou muito os jogos, fazendo com que muito mais gente jogue hoje em dia. É com essa premissa, que a Framework System apresenta na versão 2015 do DevDay a ferramenta Unity 3D para desenvolvimento de jogos 2D e 3D com foco em Android, IOS e Windows Phone.
   palestrante : Giovanni La Porta
-#
-# - numero: 5
-#   nome: Web Components - A próxima revolução do desenvolvimento web
-#   horario : "A definir"
-#   avatar: beto-muniz.png
-#   possuiConteudo: true
-#   conteudo : Nesta palestra é abordado conceitos envolvendo Web Components e exemplos práticos. Nela é avaliado todo o poder que este novo padrão trás consigo e também tópicos relacionados a como utilizá-la desde já de forma funcional, cross-browser e multi-plataforma. Sem dúvidas, esta apresentação deixará qualquer um fascinado por este novo mundo que está surgindo e que não está tão distante da realidade dos desenvolveres atuais.
-#   palestrante : Beto Muniz
-#
+
+- numero: 5
+  nome: House of Data - ciência de dados para desenvolvedores
+  horario : "A definir"
+  avatar: ana-paula-gomes.jpg
+  possuiConteudo: true
+  conteudo : Hoje produzimos milhões de dados e temos o desafio de extrair informações relevantes desses dados. Nesta palestra serão exibidas técnicas e bibliotecas que o desenvolvedor poderá utilizar para extrair informações úteis e produzir softwares mais inteligentes.
+  palestrante : Ana Paula Gomes
+
 # - numero: 6
 #   nome: DevOps - Isso existe mesmo?
 #   horario : "A definir"
