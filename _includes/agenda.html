@@ -7,6 +7,255 @@
     <!--div class="sub-title">Shortest way to explore what will happen on Ventcamp</div-->
     <br />
     <br />
+    <section class="nav-tabs-default visible-xs">
+      <!-- Parent Nav Tabs -->
+      <ul class="nav nav-tabs nav-stacked">
+        <li class="active"><a href="#geral" data-toggle="tab">
+          <div class="title">{{ include.geral }}</div>
+        </a></li>
+        <li><a href="#TabOne" data-toggle="tab">
+          <div class="title">{{ include.auditorio }}</div>
+        </a></li>
+        <li><a href="#TabTwo" data-toggle="tab">
+          <div class="title">{{ include.sala1 }}</div>
+        </a></li>
+        <li><a href="#TabThree" data-toggle="tab">
+          <div class="title">{{ include.sala2 }}</div>
+        </a></li>
+        <li><a href="#TabFour" data-toggle="tab">
+          <div class="title">{{ include.comunidade }}</div>
+        </a></li>
+      </ul>
+
+      <!-- Parent Tab panes -->
+      <div class="tab-content">
+        <div class="tab-pane fade in active" id="geral">
+
+            <!-- Child 1 Tab panes -->
+            <div class="tab-content">
+              <div class="tab-pane fade in active">
+                <div>
+                  {% for item in site.data.agenda_geral %}
+                  {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+                    <div class="panel panel-default" style="padding-left:15px">
+                      <div class="panel-heading">
+                        <div class="panel-title">
+                          <div class="time"><i class="fa fa-clock-o"></i> {{ item.horario }}</div>
+
+                          {% if(item.possuiConteudo) %}
+                            <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#item{{ count }}" class="collapsed">
+                              {{ item.nome }}
+                              <div class="pull-right fa fa-angle-up"></div>
+                              <div class="pull-right fa fa-angle-down"></div>
+                            </a>
+                          {% else %}
+                            <a>{{ item.nome }}</a>
+                          {% endif %}
+                        </div>
+                      </div>
+
+                      {% if(item.possuiConteudo) %}
+                        <div id="item{{ count }}" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            <article>
+                              <p>{{ item.conteudo }}</p>
+                              <p class="author"><a href="#"><strong><i class="fa fa-user"></i> {{ item.palestrante }}</strong></a></p>
+                            </article>
+                          </div>
+                        </div>
+                      {% endif %}
+
+                    </div>
+                  {% endfor %}
+
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+
+        </div>
+
+        <div class="tab-pane fade" id="TabOne">
+
+            <!-- Child 1 Tab panes -->
+            <div class="tab-content">
+              <div class="tab-pane fade in active">
+                <div>
+                  {% for item in site.data.agenda_auditorio %}
+                  {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+                    <div class="panel panel-default" style="padding-left:15px">
+                      <div class="panel-heading">
+                        <div class="panel-title">
+                          <div class="time"><i class="fa fa-clock-o"></i> {{ item.horario }}</div>
+
+                          {% if(item.possuiConteudo) %}
+                            <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#item{{ count }}" class="collapsed">
+                              {{ item.nome }}
+                              <div class="pull-right fa fa-angle-up"></div>
+                              <div class="pull-right fa fa-angle-down"></div>
+                            </a>
+                          {% else %}
+                            <a>{{ item.nome }}</a>
+                          {% endif %}
+                        </div>
+                      </div>
+
+                      {% if(item.possuiConteudo) %}
+                        <div id="item{{ count }}" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            <article>
+                              <p>{{ item.conteudo }}</p>
+                              <p class="author"><a href="#speakers"><strong><i class="fa fa-user"></i> {{ item.palestrante }}</strong></a></p>
+                            </article>
+                          </div>
+                        </div>
+                      {% endif %}
+
+                    </div>
+                  {% endfor %}
+
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+
+        </div>
+        <div class="tab-pane fade" id="TabTwo">
+
+            <!-- Child 2 Tab panes -->
+            <div class="tab-content">
+              <div class="tab-pane fade in active">
+                <div>
+                  {% for item in site.data.agenda_sala1 %}
+                  {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+                    <div class="panel panel-default" style="padding-left:15px">
+                      <div class="panel-heading">
+                        <div class="panel-title">
+                          <div class="time"><i class="fa fa-clock-o"></i> {{ item.horario }}</div>
+
+                          {% if(item.possuiConteudo) %}
+                            <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#item{{ count }}" class="collapsed">
+                              {{ item.nome }}
+                              <div class="pull-right fa fa-angle-up"></div>
+                              <div class="pull-right fa fa-angle-down"></div>
+                            </a>
+                          {% else %}
+                            <a>{{ item.nome }}</a>
+                          {% endif %}
+                        </div>
+                      </div>
+
+                      {% if(item.possuiConteudo) %}
+                        <div id="item{{ count }}" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            <article>
+                              <p>{{ item.conteudo }}</p>
+                              <p class="author"><a href="#"><strong><i class="fa fa-user"></i> {{ item.palestrante }}</strong></a></p>
+                            </article>
+                          </div>
+                        </div>
+                      {% endif %}
+
+                    </div>
+                  {% endfor %}
+
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+
+        </div>
+        <div class="tab-pane fade" id="TabThree">
+
+            <!-- Child 3 Tab panes -->
+            <div class="tab-content">
+              <div class="tab-pane fade in active">
+                <div>
+                  {% for item in site.data.agenda_sala2 %}
+                  {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+                    <div class="panel panel-default" style="padding-left:15px">
+                      <div class="panel-heading">
+                        <div class="panel-title">
+                          <div class="time"><i class="fa fa-clock-o"></i> {{ item.horario }}</div>
+
+                          {% if(item.possuiConteudo) %}
+                            <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#item{{ count }}" class="collapsed">
+                              {{ item.nome }}
+                              <div class="pull-right fa fa-angle-up"></div>
+                              <div class="pull-right fa fa-angle-down"></div>
+                            </a>
+                          {% else %}
+                            <a>{{ item.nome }}</a>
+                          {% endif %}
+                        </div>
+                      </div>
+
+                      {% if(item.possuiConteudo) %}
+                        <div id="item{{ count }}" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            <article>
+                              <p>{{ item.conteudo }}</p>
+                              <p class="author"><a href="#"><strong><i class="fa fa-user"></i> {{ item.palestrante }}</strong></a></p>
+                            </article>
+                          </div>
+                        </div>
+                      {% endif %}
+
+                    </div>
+                  {% endfor %}
+
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="tab-pane fade" id="TabFour">
+
+            <!-- Child 3 Tab panes -->
+            <div class="tab-content">
+              <div class="tab-pane fade in active">
+                <div>
+                  {% for item in site.data.agenda_comunidade %}
+                  {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+                    <div class="panel panel-default" style="padding-left:15px">
+                      <div class="panel-heading">
+                        <div class="panel-title">
+                          <div class="time"><i class="fa fa-clock-o"></i> {{ item.horario }}</div>
+
+                          {% if(item.possuiConteudo) %}
+                            <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#item{{ count }}" class="collapsed">
+                              {{ item.nome }}
+                              <div class="pull-right fa fa-angle-up"></div>
+                              <div class="pull-right fa fa-angle-down"></div>
+                            </a>
+                          {% else %}
+                            <a>{{ item.nome }}</a>
+                          {% endif %}
+                        </div>
+                      </div>
+
+                      {% if(item.possuiConteudo) %}
+                        <div id="item{{ count }}" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            <article>
+                              <p>{{ item.conteudo }}</p>
+                              <p class="author"><a href="#"><strong><i class="fa fa-user"></i> {{ item.palestrante }}</strong></a></p>
+                            </article>
+                          </div>
+                        </div>
+                      {% endif %}
+
+                    </div>
+                  {% endfor %}
+
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+      </div>
+    </section>
+
     <section class="nav-tabs-default hidden-xs">
       <!-- Parent Nav Tabs -->
       <ul class="nav nav-tabs">
