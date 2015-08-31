@@ -61,9 +61,27 @@
   facebook: marlon.luz
   avatar: marlon-luz.jpg
 
+- nome: Rafael Moura
+  bio: Rafael Moura atua com desenvolvimento .NET a 6 anos, Consultor Mobile, Desenvolvedor Windows Phone e Especialista Xamarin, sendo reconhecido com XAmarin Certified Mobile Developer esse ano. Hoje líder regional do projeto Xamarin Student Partner e escritor do blog Studyxnet tem grande paixão pelas tecnologias móveis e não mede esforços para auxiliar a comunidade a conhecer e desenvolver aplicações móveis utilizando C#. Finalizando seu Bacharel em Sistemas de Informação e Formado no ensino Técnico no Colégio Cotemig, trabalha na PRODEMGE e possui conhecimento em Automação, IoT, Mobile e Web.
+  enBio: Rafael Moura atua com desenvolvimento .NET a 6 anos, Consultor Mobile, Desenvolvedor Windows Phone e Especialista Xamarin, sendo reconhecido com XAmarin Certified Mobile Developer esse ano. Hoje líder regional do projeto Xamarin Student Partner e escritor do blog Studyxnet tem grande paixão pelas tecnologias móveis e não mede esforços para auxiliar a comunidade a conhecer e desenvolver aplicações móveis utilizando C#. Finalizando seu Bacharel em Sistemas de Informação e Formado no ensino Técnico no Colégio Cotemig, trabalha na PRODEMGE e possui conhecimento em Automação, IoT, Mobile e Web.
+  twitter: nil
+  github: rafaelrmou
+  linkedin: http://linkedin.com/in/rafaelrmou
+  facebook: nil
+  avatar: rafael-moura.jpeg
+
+- nome: Petterson Henrique
+  bio: Bacharel em ciência da computação e pós graduado em Gestão Empresarial. Trabalhando com java desde 2004 e por algum tempo desenvolvedor Android. Arquiteto de software na Sensedia e com foco em APIs, arquitetura de software na nuvem e Analytics.
+  enBio: Bacharel em ciência da computação e pós graduado em Gestão Empresarial. Trabalhando com java desde 2004 e por algum tempo desenvolvedor Android. Arquiteto de software na Sensedia e com foco em APIs, arquitetura de software na nuvem e Analytics.
+  twitter: pett4j
+  github: pett4j
+  linkedin: https://br.linkedin.com/pub/petterson-henrique-andrade/9/417/3
+  facebook: nil
+  avatar: petterson-henrique.jpg
+
 - nome: Em breve
-  bio: Até o dia 30/08 divulgaremos todos os palestrantes.
-  enBio: Até o dia 30/08 divulgaremos todos os palestrantes.
+  bio: Estamos um pouco atrasados, mas até o dia 04/09 liberamos todos os palestrantes e palestras.
+  enBio: Estamos um pouco atrasados, mas até o dia 04/09 liberamos todos os palestrantes e palestras.
   twitter: nil
   github: nil
   linkedin: nil
