@@ -79,14 +79,6 @@
   palestrante : Marlon Luz
 
 - numero: 11
-  nome: Desenvolvimento Mobile Cross-Platform com Xamarin
-  horario : "A definir"
-  avatar: rafael-moura.jpeg
-  possuiConteudo: true
-  conteudo : O desenvolvimento de aplicações móveis tem tomado uma fatia importante do mercado, para poder agilizar e trazer mobilidade dos processos de empresas, além de facilitar o dia a dia de vários usuários com novas formas de atendimento ao público. Essa palestra tem o intuito de explicar o funcionamento da plataforma de desenvolvimento mobile Cross-Platform Xamarin, mostrando cada passo do processo de desenvolvimento, compilação e execução do código desenvolvido em C# e funcionando no Android, iOS e Windows Phone.
-  palestrante : Rafael Moura
-
-- numero: 12
   nome: Usabilidade e a pseudociência da interface intuitiva
   horario : "A definir"
   avatar: luiz-lage.jpg
@@ -94,7 +86,7 @@
   conteudo : Desculpe, interface intuitiva não existe. Mostraremos como um teste de usabilidade evidenciou a curva de aprendizado dos usuários e revelou falhas na nossa “API” Humano-Computador. Detalhes ignorados pela equipe do projeto tornaram-se obstáculos para os usuários durante o teste.
   palestrante : Luiz Lage
 
-# - numero: 13
+# - numero: 12
 #   nome: Grails - alta produtividade em Java
 #   horario : "A definir"
 #   avatar: henrique-logo.jpg
@@ -102,7 +94,7 @@
 #   conteudo : Grails é um framework baseado na linguagem Groovy que oferece altíssima produtividade no desenvolvimento de aplicações Java EE, adotando como base os princípios de convenção sobre configuração, DRY (Don't Repeat Yourself - Não se repita) e um ambiente de desenvolvimento extremamente ágil. Trata-se de uma alternativa bastante interessante tanto para equipes já acostumadas com o stack Java como aquelas que pretendem adotar a plataforma Java EE da forma mais suave possível.
 #   palestrante : Henrique Lobo
 #
-# - numero: 14
+# - numero: 13
 #   nome: Critical Rendering Path - Velocidade também é uma funcionalidade
 #   horario : "A definir"
 #   avatar: joao-santana.jpg
@@ -110,7 +102,7 @@
 #   conteudo : Desenvolver aplicações web requer que você entenda seus usuários e o que eles precisam, mas também requer que você entenda como o Browser funciona, como seu conteúdo é entregue e exibido aos usuários. Dessa forma, você fornece uma boa experiência com performance apropriada. Nesta palestra introduziremos os conceitos presentes no campo de Web Performance Optimization, desde as requisições de rede, passando pela sequência de passos utilizados pelos Browsers para converter e executar os conteúdos (HTML, Javascript e CSS), definir o layout e, por fim, exibir as informações.
 #   palestrante : João Lucas
 #
-# - numero: 15
+# - numero: 14
 #   nome: Streaming de vídeo 101
 #   horario : "A definir"
 #   avatar: luciana-fujii.jpg
@@ -118,7 +110,7 @@
 #   conteudo : Atualmente é comum e popular assistir vídeos diretamente da internet e transmitir vídeos ao vivo, para isso existem diferentes tecnologias e novas continuam aparecendo. Falarei um pouco sobre tecnologias que podem ser usadas para streaming e as vantagens e desvantagens para cada caso e apresentarei o básico de como desenvolver aplicações de streaming de vídeo com GStreamer.
 #   palestrante : Luciana Fujii
 #
-# - numero: 16
+# - numero: 15
 #   nome: Desenvolvedor e empreendedor no software livre, o que você precisa saber
 #   horario : "A definir"
 #   avatar: nessa-guedes.jpg
@@ -126,7 +118,7 @@
 #   conteudo : Hoje a qualidade de vida é mais importante do que estabilidade em um emprego formal. O que pouca gente descobre, é que existe a possibilidade de ser estável e ter qualidade de vida dentro de carreiras independentes no desenvolvimento de software livre. Aprenda como lidar com o mercado atual e seja dono do seu próprio tempo.
 #   palestrante : Nessa Guedes
 #
-# - numero: 17
+# - numero: 16
 #   nome: Introdução ao Android Wear
 #   horario : "A definir"
 #   avatar: neto-marin.png
@@ -134,7 +126,7 @@
 #   conteudo : É possível integrar seus aplicativos de várias formas ao Android Wear. Nessa palestra serão abordados questões de design da plataforma, interação com aplicativos, APIs e melhores práticas na hora de desenvolver wearable apps.
 #   palestrante : Neto Marin
 #
-# - numero: 18
+# - numero: 17
 #   nome: Internet das Coisas na Real - arquiteturas, devices e demonstrações doidas!
 #   horario : "A definir"
 #   avatar: vinicius-senger.jpg
@@ -142,7 +134,7 @@
 #   conteudo : Nesta palestra vamos abordar diversos assuntos ao redor da Internet das Coisas mostrando arquiteturas de hardware e software, prototipos, produtos e projetos de devices que venho criando nos últimos anos.
 #   palestrante : Vinicius Senger
 #
-# - numero: 19
+# - numero: 18
 #   nome: Quando TDD não é o suficiente
 #   horario : "A definir"
 #   avatar: camilo-ribeiro.jpg
@@ -150,7 +142,7 @@
 #   conteudo : Testar não é instalar uma ferramenta e nem deixar o estagiário clicando na aplicação, mas sim criar, aplicar e evoluir uma estratégia inteligente de testes automatizados muito além do TDD, cobrindo múltiplos níveis para reduzir riscos em várias áreas da sua aplicação, do seu deploy e do seu ambiente. Nessa palestra vamos discutir sobre como planejar e priorizar os seus testes em um projeto ágil, da inception até a produção, com o objetivo de gradativamente melhorar os processos de teste automatizado na sua empresa ou projeto.
 #   palestrante : Camilo Ribeiro
 #
-# - numero: 20
+# - numero: 19
 #   nome: UX Design For Developers - Construa um produto conciso, e não mais features.
 #   horario : "A definir"
 #   avatar: pedro-marques.jpg
