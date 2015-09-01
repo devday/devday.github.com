@@ -86,14 +86,14 @@
   conteudo : O desenvolvimento de aplicações móveis tem tomado uma fatia importante do mercado, para poder agilizar e trazer mobilidade dos processos de empresas, além de facilitar o dia a dia de vários usuários com novas formas de atendimento ao público. Essa palestra tem o intuito de explicar o funcionamento da plataforma de desenvolvimento mobile Cross-Platform Xamarin, mostrando cada passo do processo de desenvolvimento, compilação e execução do código desenvolvido em C# e funcionando no Android, iOS e Windows Phone.
   palestrante : Rafael Moura
 
-# - numero: 12
-#   nome: Software Defined Networking e as inovações em redes
-#   horario : "A definir"
-#   avatar: pantuza.jpg
-#   possuiConteudo: true
-#   conteudo : Software Defined Networking (SDN) é uma arquitetura emergente dinâmica, flexível e de baixo custo. Esse modelo arquitetural possibilita inovações nas áreas de redes e cria novos paradigmas de programação. De onde surgiu esse modelo, como ele funciona e o que é possível fazer com ele? Porque ele é tão importante para grandes empresas como Google, Cisco, Intel e Nicira?
-#   palestrante : Gustavo Pantuza
-#
+- numero: 12
+  nome: Usabilidade e a pseudociência da interface intuitiva
+  horario : "A definir"
+  avatar: luiz-lage.jpg
+  possuiConteudo: true
+  conteudo : Desculpe, interface intuitiva não existe. Mostraremos como um teste de usabilidade evidenciou a curva de aprendizado dos usuários e revelou falhas na nossa “API” Humano-Computador. Detalhes ignorados pela equipe do projeto tornaram-se obstáculos para os usuários durante o teste.
+  palestrante : Luiz Lage
+
 # - numero: 13
 #   nome: Grails - alta produtividade em Java
 #   horario : "A definir"
