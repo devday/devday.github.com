@@ -62,30 +62,30 @@
   conteudo : Migrar para um arquitetura de microservices pode ser uma estratégia de sucesso para sua aplicação ou pode ser um suicídio. Alguns detalhes podem ajudar você a expor seus serviços internamente e externamente através de APIs. Vamos conversar nessa palestra sobre como uma API bem modelada e o pattern API gateway podem ajudar a garantir o sucesso de uma arquitetura de microservices.
   palestrante : Petterson Henrique
 
-# - numero: 9
-#   nome: tsuru, o PaaS open source
-#   horario : "A definir"
-#   avatar: francisco-souza.jpg
-#   possuiConteudo: true
-#   conteudo : tsuru é um PaaS open source, que nasceu na Globo.com e é utilizado pela empresa em produção. O objetivo do tsuru é ser um PaaS escalável, componentizável e 100% open source, permitindo ao desenvolvedor focar no mais importante, a aplicação, sem se preocupar com o processo de deploy ou a administração de serviços; através do uso de ferramentas já conhecidas pelos desenvolvedores, como a linha de comando e o git. Esta palestra tem como objetivo apresentar o Tsuru do ponto de vista do contribuidor, o funcionamento e a arquitetura do projeto, além de alguns insights para desenvolvedores que têm interesse em ingressar no mundo open source.
-#   palestrante : Francisco Souza
-#
-# - numero: 10
-#   nome: O Futuro dos Drones - De Máquinas de Guerra a Entregadores de Pizza
-#   horario : "A definir"
-#   avatar: giovanni-porta.png
-#   possuiConteudo: true
-#   conteudo : Esqueça por um momento as dramáticas notícias que você viu na TV sobre drones decolando para os campos de batalha repleto de bombas e tente ver como estes fantásticos aparelhos podem mudar nossas vidas para melhor. Sim, os drones vieram para ficar. Estes veículos não tripulados saídos dos filmes de ficção científica podem voar, navegar e rodar sem assistência humana e começam a representar uma fatia interessante no mercado de tecnologia. Há um enorme potencial nestes robôs autônomos para o mercado comercial privado e isso pode realmente mudar a maneira como vemos o futuro.  "O setor comercial vai ultrapassar o setor militar em poucos anos.", disse Bill Powers, pesquisador do Centro de Ameaças e Oportunidades Emergentes do Instituto Potomac para Estudos Políticos, "... este vai se tornar um mercado real até 2030 e será dominado pelos pioneiros da década atual.". A partir dos primeiros experimentos feitos pela Amazon Drone Delivery e seguidas pelas Zookal Australiana, United States Postal Service, Caterpillar e outras, vamos fazer uma análise das possibilidades nascentes para este mercado, um exercício de futurologia e uma demonstração prática como transformar estes dispositivos em robôs autônomos a serviço da humanidade.
-#   palestrante : Giovanni La Porta
-#
-# - numero: 11
-#   nome: Projetos de Software Livre - Como criar e participar
-#   horario : "A definir"
-#   avatar: gustavo-noronha-kov.jpg
-#   possuiConteudo: true
-#   conteudo : Há diversos tipos de projetos de software livre, dos pequenos projetos pessoais a grandes projetos que precisam de uma estrutura de governança. Esses tipos de projetos serão explicados e explorados com ajuda de algumas dicas de como participar de cada um deles.
-#   palestrante : Gustavo Noronha
-#
+- numero: 9
+  nome: Qualidade de ponta a ponta - DevOps, Entrega Contínua e Teste de Infraestrutura
+  horario : "A definir"
+  avatar: guilherme-froes.jpg
+  possuiConteudo: true
+  conteudo :  Nesta apresentação, conversaremos sobre a cultura DevOps e como a Entrega Contínua propicia mais qualidade e competitividade ao software entregue. Abordaremos o "o que" e o "porquê" de algumas práticas e focaremos no "como" tratar infraestrutura como código por meio de um possível fluxo de trabalho, usando ferramentas como Chef, Vagrant, ServerSpec, Cucumber, entre outras.
+  palestrante : Guilherme Froes
+
+- numero: 10
+  nome: Sua App em 1 BILHÃO de dispositivos
+  horario : "A definir"
+  avatar: marlon-luz.jpg
+  possuiConteudo: true
+  conteudo : A quantidade de dispositivos que rodam apps cresce absurdamente e o mercado tem sido bastante diversificado com vários sistemas operacionais. Pensando em facilitar a vida do desenvolvedor e também do usuário, a Microsoft criou no Windows 10 a plataforma Universal Windows. Nessa palestra será mostrado como sua mesma app pode estar em todos os dispositivos Windows (Celular, Tablet, Notebook, Desktop, Xbox, Surface Hub, etc) usando apenas 1 código. Vamos ver também sobre como portar suas Apps Android e iOS para o Windows 10.
+  palestrante : Marlon Luz
+
+- numero: 11
+  nome: Desenvolvimento Mobile Cross-Platform com Xamarin
+  horario : "A definir"
+  avatar: rafael-moura.jpeg
+  possuiConteudo: true
+  conteudo : O desenvolvimento de aplicações móveis tem tomado uma fatia importante do mercado, para poder agilizar e trazer mobilidade dos processos de empresas, além de facilitar o dia a dia de vários usuários com novas formas de atendimento ao público. Essa palestra tem o intuito de explicar o funcionamento da plataforma de desenvolvimento mobile Cross-Platform Xamarin, mostrando cada passo do processo de desenvolvimento, compilação e execução do código desenvolvido em C# e funcionando no Android, iOS e Windows Phone.
+  palestrante : Rafael Moura
+
 # - numero: 12
 #   nome: Software Defined Networking e as inovações em redes
 #   horario : "A definir"
