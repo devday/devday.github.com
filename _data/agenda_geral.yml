@@ -79,14 +79,6 @@
   palestrante : Marlon Luz
 
 - numero: 11
-  nome: Desenvolvimento Mobile Cross-Platform com Xamarin
-  horario : "A definir"
-  avatar: rafael-moura.jpeg
-  possuiConteudo: true
-  conteudo : O desenvolvimento de aplicações móveis tem tomado uma fatia importante do mercado, para poder agilizar e trazer mobilidade dos processos de empresas, além de facilitar o dia a dia de vários usuários com novas formas de atendimento ao público. Essa palestra tem o intuito de explicar o funcionamento da plataforma de desenvolvimento mobile Cross-Platform Xamarin, mostrando cada passo do processo de desenvolvimento, compilação e execução do código desenvolvido em C# e funcionando no Android, iOS e Windows Phone.
-  palestrante : Rafael Moura
-
-- numero: 12
   nome: Usabilidade e a pseudociência da interface intuitiva
   horario : "A definir"
   avatar: luiz-lage.jpg
@@ -94,6 +86,14 @@
   conteudo : Desculpe, interface intuitiva não existe. Mostraremos como um teste de usabilidade evidenciou a curva de aprendizado dos usuários e revelou falhas na nossa “API” Humano-Computador. Detalhes ignorados pela equipe do projeto tornaram-se obstáculos para os usuários durante o teste.
   palestrante : Luiz Lage
 
+# - numero: 12
+#   nome: Usabilidade e a pseudociência da interface intuitiva
+#   horario : "A definir"
+#   avatar: luiz-lage.jpg
+#   possuiConteudo: true
+#   conteudo : Desculpe, interface intuitiva não existe. Mostraremos como um teste de usabilidade evidenciou a curva de aprendizado dos usuários e revelou falhas na nossa “API” Humano-Computador. Detalhes ignorados pela equipe do projeto tornaram-se obstáculos para os usuários durante o teste.
+#   palestrante : Luiz Lage
+#
 # - numero: 13
 #   nome: Grails - alta produtividade em Java
 #   horario : "A definir"
