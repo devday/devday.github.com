@@ -86,14 +86,14 @@
   conteudo : Desculpe, interface intuitiva não existe. Mostraremos como um teste de usabilidade evidenciou a curva de aprendizado dos usuários e revelou falhas na nossa “API” Humano-Computador. Detalhes ignorados pela equipe do projeto tornaram-se obstáculos para os usuários durante o teste.
   palestrante : Luiz Lage
 
-# - numero: 12
-#   nome: Usabilidade e a pseudociência da interface intuitiva
-#   horario : "A definir"
-#   avatar: luiz-lage.jpg
-#   possuiConteudo: true
-#   conteudo : Desculpe, interface intuitiva não existe. Mostraremos como um teste de usabilidade evidenciou a curva de aprendizado dos usuários e revelou falhas na nossa “API” Humano-Computador. Detalhes ignorados pela equipe do projeto tornaram-se obstáculos para os usuários durante o teste.
-#   palestrante : Luiz Lage
-#
+- numero: 12
+  nome: A evolução de uma arquitetura distribuída
+  horario : "A definir"
+  avatar: guilherme-garnier.jpg
+  possuiConteudo: true
+  conteudo : Quando um produto cresce, um dos maiores desafios é como evoluir a arquitetura de maneira sustentável. Nesta palestra, será apresentado como a plataforma criada para o Globo.tv cresceu e evoluiu com o projeto Globosat Play.  Serão apresentados os principais pontos positivos e negativos da arquitetura com micro serviços e a importância da disseminação da cultura DevOps neste contexto. Entre os desafios, como permitir que mais de um time trabalhe na mesma plataforma, como compartilhar componentes e como atualizar um projeto sem quebrar o outro.
+  palestrante : Guilherme Garnier
+
 # - numero: 13
 #   nome: Critical Rendering Path - Velocidade também é uma funcionalidade
 #   horario : "A definir"
