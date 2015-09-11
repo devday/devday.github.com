@@ -94,14 +94,14 @@
   conteudo : Quando um produto cresce, um dos maiores desafios é como evoluir a arquitetura de maneira sustentável. Nesta palestra, será apresentado como a plataforma criada para o Globo.tv cresceu e evoluiu com o projeto Globosat Play.  Serão apresentados os principais pontos positivos e negativos da arquitetura com micro serviços e a importância da disseminação da cultura DevOps neste contexto. Entre os desafios, como permitir que mais de um time trabalhe na mesma plataforma, como compartilhar componentes e como atualizar um projeto sem quebrar o outro.
   palestrante : Guilherme Garnier
 
-# - numero: 13
-#   nome: Critical Rendering Path - Velocidade também é uma funcionalidade
-#   horario : "A definir"
-#   avatar: joao-santana.jpg
-#   possuiConteudo: true
-#   conteudo : Desenvolver aplicações web requer que você entenda seus usuários e o que eles precisam, mas também requer que você entenda como o Browser funciona, como seu conteúdo é entregue e exibido aos usuários. Dessa forma, você fornece uma boa experiência com performance apropriada. Nesta palestra introduziremos os conceitos presentes no campo de Web Performance Optimization, desde as requisições de rede, passando pela sequência de passos utilizados pelos Browsers para converter e executar os conteúdos (HTML, Javascript e CSS), definir o layout e, por fim, exibir as informações.
-#   palestrante : João Lucas
-#
+- numero: 13
+  nome: Cuidando de mais de 1 milhão de usuários por rodada no CartolaFC
+  horario : "A definir"
+  avatar: alexandre-saboia.jpg
+  possuiConteudo: true
+  conteudo : O CartolaFC é o maior fantasy game do Brasil. Não só pela quantidade de usuários, como também pela quantidade de dados manipulados durante as 38 rodadas do Campeonato Brasileiro de futebol. São mais de 3 milhões de usuários que a cada rodada geram 26 milhões de novas linhas no banco de dados. Do lançamento em 2006 até hoje, evoluímos nossa arquitetura para uma aplicação web capaz de suportar milhares de acessos simultâneos e um grande volume de dados, utilizando tecnologias open source. Nessa palestra iremos apresentar uma visão aprofundada e técnica sobre a aplicação atual e os desafios encontrados ao escalá-la. Ao assistir a apresentação, você entenderá nossas decisões técnicas – da escolha do banco de dados à definição dos servidores, passando por desafios ao escalar o CartolaFC. Também conhecerá dicas e experiências para auxiliar na construção de suas aplicações web e domar questões de desempenho e escalabilidade.
+  palestrante : Alexandre Saboia
+
 # - numero: 14
 #   nome: Streaming de vídeo 101
 #   horario : "A definir"
