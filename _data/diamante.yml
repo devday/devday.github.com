@@ -1,9 +1,9 @@
 - nome: CI&T
   imagen: ciandt.png
   link: http://www.ciandt.com/
-# - nome: DTI Sistemas
-#   imagen: dti-sistemas.jpg
-#   link: http://dtisistemas.com.br
+- nome: Microsoft
+  imagen: microsoft.png
+  link: http://microsoft.com.br
 #
 # - nome: Google
 #   imagen: google-developers.png
