@@ -124,6 +124,24 @@
   facebook: nil
   avatar: alexandre-saboia.jpg
 
+- nome: Gleison Fernandes
+  bio: Graduado em Ciência da Computação pela Universidade de Itaúna (2005). Inventor do Teclado Iconográfico Combinatório, patenteado no INPI. Exerce o segundo mandato consecutivo como vereador na Câmara Municipal de Itaúna/MG.
+  enBio: Graduado em Ciência da Computação pela Universidade de Itaúna (2005). Inventor do Teclado Iconográfico Combinatório, patenteado no INPI. Exerce o segundo mandato consecutivo como vereador na Câmara Municipal de Itaúna/MG.
+  twitter: nil
+  github: nil
+  linkedin: nil
+  facebook: Gleisinhoo
+  avatar: gleison-fernandes.jpg
+
+- nome: Adriano Rabelo
+  bio: Graduado em Engenharia Elétrica pela Universidade Federal de Minas Gerais (2007), especialista em sistemas embutidos e desenvolvimento de hardware e software embarcado. Diretor e sócio fundador da Geraes Tecnologia Assistiva, empresa vencedora do Prêmio Finep de Inovação 2013 da Região Sudeste, categoria Tecnologia Assistiva.
+  enBio: Graduado em Engenharia Elétrica pela Universidade Federal de Minas Gerais (2007), especialista em sistemas embutidos e desenvolvimento de hardware e software embarcado. Diretor e sócio fundador da Geraes Tecnologia Assistiva, empresa vencedora do Prêmio Finep de Inovação 2013 da Região Sudeste, categoria Tecnologia Assistiva.
+  twitter: nil
+  github: nil
+  linkedin: https://br.linkedin.com/pub/adriano-assis/8/459/510
+  facebook: adriano.assis.56
+  avatar: adriano-rabelo.jpg
+
 - nome: Em breve
   bio: Estamos um pouco atrasados, mas até o dia 04/09 liberamos todos os palestrantes e palestras.
   enBio: Estamos um pouco atrasados, mas até o dia 04/09 liberamos todos os palestrantes e palestras.
