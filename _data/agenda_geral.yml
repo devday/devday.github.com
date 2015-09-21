@@ -49,7 +49,7 @@
 - numero: 7
   nome: Conheça o desenvolvedor do futuro!
   horario : "A definir"
-  avatar: pedro-henrique-carrijo.jpg
+  avatar: pedro-danilo.jpg
   possuiConteudo: true
   conteudo : Mobilidade, Cloud, Big Data, IOT.... cross-platform e outros termos bonitos; o mundo evoluiu e as oportunidades aos desenvolvedores só cresceram. Como se destacar nesse mercado tão competitivo e fazer a diferença? Nesse papo vamos falar sobre as oportunidades e competências do desenvolvedor do futuro, e mostrar casos de developers que já estão se destacando nesse mundo novo!!!
   palestrante : Danilo Bordini e Pedro Henrique Carrijo
@@ -110,14 +110,14 @@
   conteudo : Será contada a inspiradora história de Gleison Fernandes Faria (Gleisinho), que superou a falta de coordenação motora, desequilíbrio do corpo e dificuldades da fala para se graduar em Ciência da Computação e criar um inovador dispositivo eletrônico capaz de permitir o uso pleno do computador até mesmo para quem tem as mais severas limitações motoras.
   palestrante : Gleison Fernandes e Adriano Rabelo
 
-# - numero: 15
-#   nome: Desenvolvedor e empreendedor no software livre, o que você precisa saber
-#   horario : "A definir"
-#   avatar: nessa-guedes.jpg
-#   possuiConteudo: true
-#   conteudo : Hoje a qualidade de vida é mais importante do que estabilidade em um emprego formal. O que pouca gente descobre, é que existe a possibilidade de ser estável e ter qualidade de vida dentro de carreiras independentes no desenvolvimento de software livre. Aprenda como lidar com o mercado atual e seja dono do seu próprio tempo.
-#   palestrante : Nessa Guedes
-#
+- numero: 15
+  nome: Angular 2 - É uma cilada Bino
+  horario : "A definir"
+  avatar: romulo-bruno.jpg
+  possuiConteudo: true
+  conteudo : "Bruno Leite e Rômulo, exploram algumas das decisões de design que levaram o criador do Durandal, Rob Einsenberg, a sair da equipe do angular 2 e liderar a criação de um framework open-source modular, testável e dinâmico: o aurelia."
+  palestrante : Bruno Leite e Rômulo Santos
+
 # - numero: 16
 #   nome: Introdução ao Android Wear
 #   horario : "A definir"
