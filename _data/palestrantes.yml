@@ -160,6 +160,15 @@
   facebook: nil
   avatar: bruno-leite.jpg
 
+- nome: Rafael Lobato
+  bio: "Arquiteto de Sistemas na CI&T. Graduado em Ciências da Computação e especializado em Engenharia de Software pela PUC-MG. Atua com desenvolvimento de software a 15 anos, 8 deles no papel de Arquiteto. Acredita que código de qualidade é aquele performático, seguro e que qualquer desenvolvedor consiga dar manutenção, sem complicações. Curte Rock and Roll e já comprovou em campo que desenvolvedores que codificam escutando rock codificam melhor! Graduado também em Kung Fu e Krav Maga :)"
+  enBio: "Arquiteto de Sistemas na CI&T. Graduado em Ciências da Computação e especializado em Engenharia de Software pela PUC-MG. Atua com desenvolvimento de software a 15 anos, 8 deles no papel de Arquiteto. Acredita que código de qualidade é aquele performático, seguro e que qualquer desenvolvedor consiga dar manutenção, sem complicações. Curte Rock and Roll e já comprovou em campo que desenvolvedores que codificam escutando rock codificam melhor! Graduado também em Kung Fu e Krav Maga :)"
+  twitter: nil
+  github: rafaelvslobato
+  linkedin: https://br.linkedin.com/pub/rafael-lobato/35/b68/81a
+  facebook: nil
+  avatar: rafael-lobato.jpg
+
 - nome: Em breve
   bio: Estamos um pouco atrasados, mas até o dia 04/09 liberamos todos os palestrantes e palestras.
   enBio: Estamos um pouco atrasados, mas até o dia 04/09 liberamos todos os palestrantes e palestras.

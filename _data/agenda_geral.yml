@@ -118,14 +118,14 @@
   conteudo : "Bruno Leite e Rômulo, exploram algumas das decisões de design que levaram o criador do Durandal, Rob Einsenberg, a sair da equipe do angular 2 e liderar a criação de um framework open-source modular, testável e dinâmico: o aurelia."
   palestrante : Bruno Leite e Rômulo Santos
 
-# - numero: 16
-#   nome: Introdução ao Android Wear
-#   horario : "A definir"
-#   avatar: neto-marin.png
-#   possuiConteudo: true
-#   conteudo : É possível integrar seus aplicativos de várias formas ao Android Wear. Nessa palestra serão abordados questões de design da plataforma, interação com aplicativos, APIs e melhores práticas na hora de desenvolver wearable apps.
-#   palestrante : Neto Marin
-#
+- numero: 16
+  nome: Automatização resindencial com Arduino
+  horario : "A definir"
+  avatar: rafael-lobato.png
+  possuiConteudo: true
+  conteudo : Arquitetura elaborada para controle de dispositivos residenciais remotamente pela internet. Componentes utilizados, bibliotecas, exemplos de código e demonstração do case.
+  palestrante : Rafael Lobato
+
 # - numero: 17
 #   nome: Internet das Coisas na Real - arquiteturas, devices e demonstrações doidas!
 #   horario : "A definir"
