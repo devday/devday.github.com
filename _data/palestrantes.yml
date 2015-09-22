@@ -169,11 +169,11 @@
   facebook: nil
   avatar: rafael-lobato.jpg
 
-- nome: Em breve
-  bio: Estamos um pouco atrasados, mas até o dia 04/09 liberamos todos os palestrantes e palestras.
-  enBio: Estamos um pouco atrasados, mas até o dia 04/09 liberamos todos os palestrantes e palestras.
-  twitter: nil
-  github: nil
-  linkedin: nil
-  facebook: nil
-  avatar: speaker-1.png
+- nome: Sidharta Noleto
+  bio: "Arquiteto de Sistemas na CI&T Software, Pós-Graduado em MBA de Gestão de Projetos pelo IETEC e Graduado em Ciência da Computação pela PUC-Minas. Trabalhando como Arquiteto de Sistemas, Sidharta atua na CI&T há 7 anos com experiência em arquiteturas Java/JEE, .NET e PHP. Mesmo em diferentes plataformas mas com objetivo em garantir a qualidade, manutenabilidade e performance da arquitetura. Músico e Yogui nas horas vagas, mas predominantemente geek!"
+  enBio: "Arquiteto de Sistemas na CI&T Software, Pós-Graduado em MBA de Gestão de Projetos pelo IETEC e Graduado em Ciência da Computação pela PUC-Minas. Trabalhando como Arquiteto de Sistemas, Sidharta atua na CI&T há 7 anos com experiência em arquiteturas Java/JEE, .NET e PHP. Mesmo em diferentes plataformas mas com objetivo em garantir a qualidade, manutenabilidade e performance da arquitetura. Músico e Yogui nas horas vagas, mas predominantemente geek!"
+  twitter: sidhartanoleto
+  github: sidharta
+  linkedin: https://br.linkedin.com/in/sidhartanoleto
+  facebook: sidharta.noleto
+  avatar: sidharta-noleto.jpg

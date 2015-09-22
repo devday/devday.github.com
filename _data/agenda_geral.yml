@@ -126,14 +126,14 @@
   conteudo : Arquitetura elaborada para controle de dispositivos residenciais remotamente pela internet. Componentes utilizados, bibliotecas, exemplos de código e demonstração do case.
   palestrante : Rafael Lobato
 
-# - numero: 17
-#   nome: Internet das Coisas na Real - arquiteturas, devices e demonstrações doidas!
-#   horario : "A definir"
-#   avatar: vinicius-senger.jpg
-#   possuiConteudo: true
-#   conteudo : Nesta palestra vamos abordar diversos assuntos ao redor da Internet das Coisas mostrando arquiteturas de hardware e software, prototipos, produtos e projetos de devices que venho criando nos últimos anos.
-#   palestrante : Vinicius Senger
-#
+- numero: 17
+  nome: Yo! Geradores para Aplicações modernas!
+  horario : "A definir"
+  avatar: sidharta-noleto.jpg
+  possuiConteudo: true
+  conteudo : "O que acha de utilizar técnicas de scaffolding para suas aplicações? Gerando funcionalidades, entidades e com isso melhorando a produtividade do seu projeto? O Yeoman é um ecossistema de geração de código implementado em cima do Node.js. Mostraremos como é possível utilizar o Yo! para geração de código e melhoria de produtividade em sua arquitetura e os benefícios que você terá!"
+  palestrante : Sidharta Noleto
+
 # - numero: 18
 #   nome: Quando TDD não é o suficiente
 #   horario : "A definir"
