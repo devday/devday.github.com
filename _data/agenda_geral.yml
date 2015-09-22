@@ -121,7 +121,7 @@
 - numero: 16
   nome: Automatização resindencial com Arduino
   horario : "A definir"
-  avatar: rafael-lobato.png
+  avatar: rafael-lobato.jpg
   possuiConteudo: true
   conteudo : Arquitetura elaborada para controle de dispositivos residenciais remotamente pela internet. Componentes utilizados, bibliotecas, exemplos de código e demonstração do case.
   palestrante : Rafael Lobato
