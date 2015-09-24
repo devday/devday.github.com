@@ -134,13 +134,13 @@
   conteudo : "O que acha de utilizar técnicas de scaffolding para suas aplicações? Gerando funcionalidades, entidades e com isso melhorando a produtividade do seu projeto? O Yeoman é um ecossistema de geração de código implementado em cima do Node.js. Mostraremos como é possível utilizar o Yo! para geração de código e melhoria de produtividade em sua arquitetura e os benefícios que você terá!"
   palestrante : Sidharta Noleto
 
-# - numero: 18
-#   nome: Quando TDD não é o suficiente
-#   horario : "A definir"
-#   avatar: camilo-ribeiro.jpg
-#   possuiConteudo: true
-#   conteudo : Testar não é instalar uma ferramenta e nem deixar o estagiário clicando na aplicação, mas sim criar, aplicar e evoluir uma estratégia inteligente de testes automatizados muito além do TDD, cobrindo múltiplos níveis para reduzir riscos em várias áreas da sua aplicação, do seu deploy e do seu ambiente. Nessa palestra vamos discutir sobre como planejar e priorizar os seus testes em um projeto ágil, da inception até a produção, com o objetivo de gradativamente melhorar os processos de teste automatizado na sua empresa ou projeto.
-#   palestrante : Camilo Ribeiro
+- numero: 18
+  nome: Monitoramento em tempo real com Elasticsearch e Kibana
+  horario : "A definir"
+  avatar: marcus-lacerda.jpg
+  possuiConteudo: true
+  conteudo : "Descubra o que acontece com o seu código em produção, com Elasticsearch, Kibana e Codahale Metrics. Nessa apresentação explicarei como indexar em uma base nosql uma quantidade massiva de informações sobre a utilização do seu sistema, proporcionando uma forma de antecipar problemas e responder rapidamente sobre anomalias no seu código, em tempo real."
+  palestrante : Marcus Lacerda
 #
 # - numero: 19
 #   nome: UX Design For Developers - Construa um produto conciso, e não mais features.
