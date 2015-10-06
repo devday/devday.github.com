@@ -8,18 +8,25 @@
   <br>
   <section class="row">
     {% for palestrante in site.data.palestrantes %}
+    {% capture count %}{{ count | plus: '1' }}{% endcapture %}
       <div class="col-md-3 col-sm-3 col-xs-6">
         <div class="speaker-item animated fadeInUp visible" data-animation="fadeInUp" data-delay="500">
           <div class="img-wrapper">
             <img src="assets/img/palestrantes/{{ palestrante.avatar }}" style="heigth:142px; width:142px" class="img-responsive img-circle" alt="{{ palestrante.nome }}">
           </div>
-          <div class="name">{{ palestrante.nome }}</div>
+          <a class="name fancybox" href="#palestrante{{ count }}">{{ palestrante.nome }}</a>
 
-          {% if(include.lang == "pt") %}
-            <p class="small bio" data-toggle="tooltip" data-placement="bottom" title="{{ palestrante.bio }}">{{ palestrante.bio }}</p>
-          {% else %}
-            <p class="small bio" data-toggle="tooltip" data-placement="bottom" title="{{ palestrante.enBio }}">{{ palestrante.enBio }}</p>
-          {% endif %}
+          <div class="none center" id="palestrante{{ count }}">
+            <div class="img-wrapper center">
+              <img src="assets/img/palestrantes/{{ palestrante.avatar }}" style="heigth:142px; width:142px;display:inline;" class="img-responsive img-circle" alt="{{ palestrante.nome }}">
+            </div>
+            <span style="font-weight:bolder;">{{ palestrante.nome }}</span>
+              {% if(include.lang == "pt") %}
+                <p>{{ palestrante.bio }}</p>
+              {% else %}
+                <p>{{ palestrante.enBio }}</p>
+              {% endif %}
+          </div>
 
           <div class="social-link">
             {% if(palestrante.twitter != "nil") %}

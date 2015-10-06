@@ -60,7 +60,7 @@
 			height    : 600,
 			minWidth  : 100,
 			minHeight : 100,
-			maxWidth  : 9999,
+			maxWidth  : 400,
 			maxHeight : 9999,
 			pixelRatio: 1, // Set to 2 for retina display support
 
