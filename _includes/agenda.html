@@ -2,7 +2,8 @@
 
 <section id="schedule" class="section dark">
   <div class="container">
-    <div class="icon-wrap"><span class="icon icon-active icon-text-hierarchy-07"></span></div>
+    <h2 class="sr-only">Sessão que descreve a agenda do evento</h2>
+    <div class="icon-wrap"><span class="icon icon-active icon-text-hierarchy-07" aria-hidden="true"></span></div>
     <h3>{{ include.agenda }}</h3>
     <!--div class="sub-title">Shortest way to explore what will happen on Ventcamp</div-->
     <br />
@@ -40,13 +41,13 @@
                     <div class="panel panel-default" style="padding-left:15px">
                       <div class="panel-heading">
                         <div class="panel-title">
-                          <div class="time"><i class="fa fa-clock-o"></i> {{ item.horario }}</div>
+                          <div class="time"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ item.horario }}</div>
 
                           {% if(item.possuiConteudo) %}
                             <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#item{{ count }}" class="collapsed">
                               {{ item.nome }}
-                              <div class="pull-right fa fa-angle-up"></div>
-                              <div class="pull-right fa fa-angle-down"></div>
+                              <div class="pull-right fa fa-angle-up" aria-hidden="true"></div>
+                              <div class="pull-right fa fa-angle-down" aria-hidden="true"></div>
                             </a>
                           {% else %}
                             <a>{{ item.nome }}</a>
@@ -59,7 +60,7 @@
                           <div class="panel-body">
                             <article>
                               <p>{{ item.conteudo }}</p>
-                              <p class="author"><a href="#"><strong><i class="fa fa-user"></i> {{ item.palestrante }}</strong></a></p>
+                              <p class="author"><a href="#"><strong><i class="fa fa-user" aria-hidden="true">aria-hidden="true"></i> {{ item.palestrante }}</strong></a></p>
                             </article>
                           </div>
                         </div>
@@ -86,13 +87,13 @@
                     <div class="panel panel-default" style="padding-left:15px">
                       <div class="panel-heading">
                         <div class="panel-title">
-                          <div class="time"><i class="fa fa-clock-o"></i> {{ item.horario }}</div>
+                          <div class="time"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ item.horario }}</div>
 
                           {% if(item.possuiConteudo) %}
                             <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#item{{ count }}" class="collapsed">
                               {{ item.nome }}
-                              <div class="pull-right fa fa-angle-up"></div>
-                              <div class="pull-right fa fa-angle-down"></div>
+                              <div class="pull-right fa fa-angle-up" aria-hidden="true"></div>
+                              <div class="pull-right fa fa-angle-down" aria-hidden="true"></div>
                             </a>
                           {% else %}
                             <a>{{ item.nome }}</a>
@@ -105,7 +106,7 @@
                           <div class="panel-body">
                             <article>
                               <p>{{ item.conteudo }}</p>
-                              <p class="author"><a href="#speakers"><strong><i class="fa fa-user"></i> {{ item.palestrante }}</strong></a></p>
+                              <p class="author"><a href="#speakers"><strong><i class="fa fa-user" aria-hidden="true">aria-hidden="true"></i> {{ item.palestrante }}</strong></a></p>
                             </article>
                           </div>
                         </div>
@@ -131,13 +132,13 @@
                     <div class="panel panel-default" style="padding-left:15px">
                       <div class="panel-heading">
                         <div class="panel-title">
-                          <div class="time"><i class="fa fa-clock-o"></i> {{ item.horario }}</div>
+                          <div class="time"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ item.horario }}</div>
 
                           {% if(item.possuiConteudo) %}
                             <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#item{{ count }}" class="collapsed">
                               {{ item.nome }}
-                              <div class="pull-right fa fa-angle-up"></div>
-                              <div class="pull-right fa fa-angle-down"></div>
+                              <div class="pull-right fa fa-angle-up" aria-hidden="true"></div>
+                              <div class="pull-right fa fa-angle-down" aria-hidden="true"></div>
                             </a>
                           {% else %}
                             <a>{{ item.nome }}</a>
@@ -150,7 +151,7 @@
                           <div class="panel-body">
                             <article>
                               <p>{{ item.conteudo }}</p>
-                              <p class="author"><a href="#"><strong><i class="fa fa-user"></i> {{ item.palestrante }}</strong></a></p>
+                              <p class="author"><a href="#"><strong><i class="fa fa-user" aria-hidden="true"></i> {{ item.palestrante }}</strong></a></p>
                             </article>
                           </div>
                         </div>
@@ -176,13 +177,13 @@
                     <div class="panel panel-default" style="padding-left:15px">
                       <div class="panel-heading">
                         <div class="panel-title">
-                          <div class="time"><i class="fa fa-clock-o"></i> {{ item.horario }}</div>
+                          <div class="time"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ item.horario }}</div>
 
                           {% if(item.possuiConteudo) %}
                             <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#item{{ count }}" class="collapsed">
                               {{ item.nome }}
-                              <div class="pull-right fa fa-angle-up"></div>
-                              <div class="pull-right fa fa-angle-down"></div>
+                              <div class="pull-right fa fa-angle-up" aria-hidden="true"></div>
+                              <div class="pull-right fa fa-angle-down" aria-hidden="true"></div>
                             </a>
                           {% else %}
                             <a>{{ item.nome }}</a>
@@ -195,7 +196,7 @@
                           <div class="panel-body">
                             <article>
                               <p>{{ item.conteudo }}</p>
-                              <p class="author"><a href="#"><strong><i class="fa fa-user"></i> {{ item.palestrante }}</strong></a></p>
+                              <p class="author"><a href="#"><strong><i class="fa fa-user" aria-hidden="true"></i> {{ item.palestrante }}</strong></a></p>
                             </article>
                           </div>
                         </div>
@@ -220,13 +221,13 @@
                     <div class="panel panel-default" style="padding-left:15px">
                       <div class="panel-heading">
                         <div class="panel-title">
-                          <div class="time"><i class="fa fa-clock-o"></i> {{ item.horario }}</div>
+                          <div class="time"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ item.horario }}</div>
 
                           {% if(item.possuiConteudo) %}
                             <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#item{{ count }}" class="collapsed">
                               {{ item.nome }}
-                              <div class="pull-right fa fa-angle-up"></div>
-                              <div class="pull-right fa fa-angle-down"></div>
+                              <div class="pull-right fa fa-angle-up" aria-hidden="true"></div>
+                              <div class="pull-right fa fa-angle-down" aria-hidden="true"></div>
                             </a>
                           {% else %}
                             <a>{{ item.nome }}</a>
@@ -239,7 +240,7 @@
                           <div class="panel-body">
                             <article>
                               <p>{{ item.conteudo }}</p>
-                              <p class="author"><a href="#"><strong><i class="fa fa-user"></i> {{ item.palestrante }}</strong></a></p>
+                              <p class="author"><a href="#"><strong><i class="fa fa-user" aria-hidden="true"></i> {{ item.palestrante }}</strong></a></p>
                             </article>
                           </div>
                         </div>
@@ -293,13 +294,13 @@
                       </div>
                       <div class="panel-heading">
                         <div class="panel-title">
-                          <div class="time"><i class="fa fa-clock-o"></i> {{ item.horario }}</div>
+                          <div class="time"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ item.horario }}</div>
 
                           {% if(item.possuiConteudo) %}
                             <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#item{{ count }}" class="collapsed">
                               {{ item.nome }}
-                              <div class="pull-right fa fa-angle-up"></div>
-                              <div class="pull-right fa fa-angle-down"></div>
+                              <div class="pull-right fa fa-angle-up" aria-hidden="true"></div>
+                              <div class="pull-right fa fa-angle-down" aria-hidden="true"></div>
                             </a>
                           {% else %}
                             <a>{{ item.nome }}</a>
@@ -312,7 +313,7 @@
                           <div class="panel-body">
                             <article>
                               <p>{{ item.conteudo }}</p>
-                              <p class="author"><a href="#"><strong><i class="fa fa-user"></i> {{ item.palestrante }}</strong></a></p>
+                              <p class="author"><a href="#"><strong><i class="fa fa-user" aria-hidden="true"></i> {{ item.palestrante }}</strong></a></p>
                             </article>
                           </div>
                         </div>
@@ -343,13 +344,13 @@
                       </div>
                       <div class="panel-heading">
                         <div class="panel-title">
-                          <div class="time"><i class="fa fa-clock-o"></i> {{ item.horario }}</div>
+                          <div class="time"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ item.horario }}</div>
 
                           {% if(item.possuiConteudo) %}
                             <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#item{{ count }}" class="collapsed">
                               {{ item.nome }}
-                              <div class="pull-right fa fa-angle-up"></div>
-                              <div class="pull-right fa fa-angle-down"></div>
+                              <div class="pull-right fa fa-angle-up" aria-hidden="true"></div>
+                              <div class="pull-right fa fa-angle-down" aria-hidden="true"></div>
                             </a>
                           {% else %}
                             <a>{{ item.nome }}</a>
@@ -362,7 +363,7 @@
                           <div class="panel-body">
                             <article>
                               <p>{{ item.conteudo }}</p>
-                              <p class="author"><a href="#speakers"><strong><i class="fa fa-user"></i> {{ item.palestrante }}</strong></a></p>
+                              <p class="author"><a href="#speakers"><strong><i class="fa fa-user" aria-hidden="true"></i> {{ item.palestrante }}</strong></a></p>
                             </article>
                           </div>
                         </div>
@@ -391,13 +392,13 @@
                       </div>
                       <div class="panel-heading">
                         <div class="panel-title">
-                          <div class="time"><i class="fa fa-clock-o"></i> {{ item.horario }}</div>
+                          <div class="time"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ item.horario }}</div>
 
                           {% if(item.possuiConteudo) %}
                             <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#item{{ count }}" class="collapsed">
                               {{ item.nome }}
-                              <div class="pull-right fa fa-angle-up"></div>
-                              <div class="pull-right fa fa-angle-down"></div>
+                              <div class="pull-right fa fa-angle-up" aria-hidden="true"></div>
+                              <div class="pull-right fa fa-angle-down" aria-hidden="true"></div>
                             </a>
                           {% else %}
                             <a>{{ item.nome }}</a>
@@ -410,7 +411,7 @@
                           <div class="panel-body">
                             <article>
                               <p>{{ item.conteudo }}</p>
-                              <p class="author"><a href="#"><strong><i class="fa fa-user"></i> {{ item.palestrante }}</strong></a></p>
+                              <p class="author"><a href="#"><strong><i class="fa fa-user" aria-hidden="true"></i> {{ item.palestrante }}</strong></a></p>
                             </article>
                           </div>
                         </div>
@@ -439,13 +440,13 @@
                       </div>
                       <div class="panel-heading">
                         <div class="panel-title">
-                          <div class="time"><i class="fa fa-clock-o"></i> {{ item.horario }}</div>
+                          <div class="time"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ item.horario }}</div>
 
                           {% if(item.possuiConteudo) %}
                             <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#item{{ count }}" class="collapsed">
                               {{ item.nome }}
-                              <div class="pull-right fa fa-angle-up"></div>
-                              <div class="pull-right fa fa-angle-down"></div>
+                              <div class="pull-right fa fa-angle-up" aria-hidden="true"></div>
+                              <div class="pull-right fa fa-angle-down" aria-hidden="true"></div>
                             </a>
                           {% else %}
                             <a>{{ item.nome }}</a>
@@ -458,7 +459,7 @@
                           <div class="panel-body">
                             <article>
                               <p>{{ item.conteudo }}</p>
-                              <p class="author"><a href="#"><strong><i class="fa fa-user"></i> {{ item.palestrante }}</strong></a></p>
+                              <p class="author"><a href="#"><strong><i class="fa fa-user" aria-hidden="true"></i> {{ item.palestrante }}</strong></a></p>
                             </article>
                           </div>
                         </div>
@@ -486,13 +487,13 @@
                       </div>
                       <div class="panel-heading">
                         <div class="panel-title">
-                          <div class="time"><i class="fa fa-clock-o"></i> {{ item.horario }}</div>
+                          <div class="time"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ item.horario }}</div>
 
                           {% if(item.possuiConteudo) %}
                             <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#item{{ count }}" class="collapsed">
                               {{ item.nome }}
-                              <div class="pull-right fa fa-angle-up"></div>
-                              <div class="pull-right fa fa-angle-down"></div>
+                              <div class="pull-right fa fa-angle-up" aria-hidden="true"></div>
+                              <div class="pull-right fa fa-angle-down" aria-hidden="true"></div>
                             </a>
                           {% else %}
                             <a>{{ item.nome }}</a>
@@ -505,7 +506,7 @@
                           <div class="panel-body">
                             <article>
                               <p>{{ item.conteudo }}</p>
-                              <p class="author"><a href="#"><strong><i class="fa fa-user"></i> {{ item.palestrante }}</strong></a></p>
+                              <p class="author"><a href="#"><strong><i class="fa fa-user" aria-hidden="true"></i> {{ item.palestrante }}</strong></a></p>
                             </article>
                           </div>
                         </div>
