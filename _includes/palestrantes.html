@@ -1,7 +1,7 @@
 <section id="speakers" class="section light">
 <div class="overlay"></div>
 <div class="container">
-  <div class="icon-wrap"><span class="icon icon-active icon-multimedia-12"></span></div>
+  <div class="icon-wrap"><span class="icon icon-active icon-multimedia-12" aria-hidden="true"></span></div>
   <h3>{{ include.palestrantes }}</h3>
   <br>
   <br>
@@ -29,23 +29,23 @@
 
           <div class="social-link">
             {% if(palestrante.twitter != "nil") %}
-            <a href="http://twitter.com/{{ palestrante.twitter }}" target="_blank"><span class="fa fa-twitter"></span></a>
+            <a href="http://twitter.com/{{ palestrante.twitter }}" target="_blank"><span class="fa fa-twitter" aria-label="Twitter"></span></a>
             {% endif %}
 
             {% if(palestrante.github != "nil") %}
-            <a href="http://github.com/{{ palestrante.github }}" target="_blank"><span class="fa fa-github"></span></a>
+            <a href="http://github.com/{{ palestrante.github }}" target="_blank"><span class="fa fa-github" aria-label="Github"></span></a>
             {% endif %}
 
             {% if(palestrante.linkedin != "nil") %}
-            <a href="{{ palestrante.linkedin }}" target="_blank"><span class="fa fa-linkedin"></span></a>
+            <a href="{{ palestrante.linkedin }}" target="_blank"><span class="fa fa-linkedin" aria-label="Linkedin"></span></a>
             {% endif %}
 
             {% if(palestrante.facebook != "nil") %}
-            <a href="http://facebook.com/{{ palestrante.facebook }}" target="_blank"><span class="fa fa-facebook"></span></a>
+            <a href="http://facebook.com/{{ palestrante.facebook }}" target="_blank"><span class="fa fa-facebook" aria-label="Facebook"></span></a>
             {% endif %}
 
             {% if palestrante.googleplus != null %}
-            <a href="http://google.com/+{{ palestrante.googleplus }}" target="_blank"><span class="fa fa-google-plus"></span></a>
+            <a href="http://google.com/+{{ palestrante.googleplus }}" target="_blank"><span class="fa fa-google-plus" aria-label="Google Plus"></span></a>
             {% endif %}
 
           </div>

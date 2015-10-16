@@ -1,7 +1,8 @@
 /* **	Ventcamp v1.0 custom styles**   http://themeforest.net/user/Vivaco***	Orange - #fe4918*	Blue - #ddb539*	Green - #57c2be*	Pink - #dd3e98*	Berry - #ff8208**/
 
 body,
-li.featured a { font-family: 'Roboto', sans-serif; font-weight: 100; font-style: normal; }
+li.featured a { font-family: 'Roboto', sans-serif; font-weight: 200; font-style: normal; }
+
 
 .btn,
 .hero-txt,
@@ -11,6 +12,9 @@ li.featured a { font-family: 'Roboto', sans-serif; font-weight: 100; font-style:
 strong { font-family: 'Roboto', sans-serif; font-weight: 400; font-style: normal; }
 
 .hero-big { font-family: 'Ubuntu', sans-serif; }
+
+.headline { font-size: 62px; }
+.subtitle { font-size: 30px; }
 
 /* Global & Helper */
 
@@ -24,7 +28,7 @@ h5 { font-size: 40px; }
 h6 { font-size: 30px; }
 h7,.h7 { font-size: 24px; }
 h8,.h8 { font-size: 22px; }
-h1,h2,h3,h4,h5,h6,h7,h8,.h7,.h8 { font-weight: 100; display: block; }
+h1,h2,h3,h4,h5,h6,h7,h8,.h7,.h8 { font-weight: 200; display: block; }
 
 h1, h2, h3 { margin-top: 10px; margin-bottom: 10px; }
 h4, h5, h6 { margin-top: 10px; margin-bottom: 20px; }
@@ -271,8 +275,18 @@ hr.white { border-color: #F3AE9B; }
 .nav-tabs-simple .nav-tabs { position: relative; top:-30px; margin-bottom: 20px; }
 .nav-tabs-simple .tab-content { position: relative; margin-top: -10px; padding-bottom: 10px; }
 .nav-tabs-simple .nav-tabs li { border-bottom:1px solid #cecece; padding-bottom: 40px; text-align: center; }
-.nav-tabs-simple .nav-tabs li a { border: 1px solid transparent; font-size: 25px; color: #000; }
-.nav-tabs-simple .nav-tabs li a:Hover { background: none; color: #ddb539; }
+
+.nav-tabs-simple .nav-tabs li a {
+  border: 1px solid transparent;
+  font-size: 25px;
+  color: #000;
+}
+
+@media (max-width: 1199px) {
+  .nav-tabs-simple .nav-tabs li a { font-size: 20px; }
+}
+
+.nav-tabs-simple .nav-tabs li a:hover { background: none; color: #ddb539; }
 .nav-tabs-simple .nav-tabs li.active a { color: #ddb539; }
 .nav-tabs-simple .nav-tabs li.active { position: relative; z-index: 1; }
 .nav-tabs-simple .nav-tabs li.active:after,
