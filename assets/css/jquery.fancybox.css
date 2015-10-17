@@ -1,4 +1,4 @@
-/*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
+G/*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
 .fancybox-wrap,
 .fancybox-skin,
 .fancybox-outer,
@@ -76,7 +76,7 @@
 }
 
 #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-	background-image: url("assets/img/sprite/sprite-patrocinadores.png");
+	  background-image: url('../img/fancybox/fancybox_sprite.png');
     background-position: -0px -0px;
     background-size: 44px 152px!important;
 }
@@ -265,7 +265,7 @@
 	   only screen and (min-device-pixel-ratio: 1.5){
 
 	#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-		background-image: url("assets/img/sprite/sprite-patrocinadores.@2x.png");
+		background-image: url('../img/fancybox/fancybox_sprite.png');
     background-position: -0px -0px;
     background-size: 44px 152px!important;
 		background-size: 44px 152px; /*The size of the normal image, half the size of the hi-res image*/
