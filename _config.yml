@@ -12,3 +12,13 @@ url: "http://devday.devisland.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# exclude my node related stuff
+exclude: ['package.json', 'node_modules']
