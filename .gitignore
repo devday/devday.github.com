@@ -28,3 +28,5 @@ _site/
 _site/english.html
 
 _site/index.html
+
+node_modules/
