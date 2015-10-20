@@ -1,16 +1,16 @@
-- nome: Palestra
+- nome: A evolução de uma arquitetura distribuída
   horario : "10:15 - 11:00"
-  avatar: speaker-1.png
-  possuiConteudo: false
-  conteudo :
-  palestrante :
+  avatar: guilherme-garnier.jpg
+  possuiConteudo: true
+  conteudo : Quando um produto cresce, um dos maiores desafios é como evoluir a arquitetura de maneira sustentável. Nesta palestra, será apresentado como a plataforma criada para o Globo.tv cresceu e evoluiu com o projeto Globosat Play.  Serão apresentados os principais pontos positivos e negativos da arquitetura com micro serviços e a importância da disseminação da cultura DevOps neste contexto. Entre os desafios, como permitir que mais de um time trabalhe na mesma plataforma, como compartilhar componentes e como atualizar um projeto sem quebrar o outro.
+  palestrante : Guilherme Garnier
 
-- nome: Palestra
+- nome: Desenvolvimento Mobile Cross-Platform com Xamarin
   horario : "11:15 - 12:00"
-  avatar: speaker-1.png
-  possuiConteudo: false
-  conteudo :
-  palestrante :
+  avatar: rafael-moura.jpeg
+  possuiConteudo: true
+  conteudo : O desenvolvimento de aplicações móveis tem tomado uma fatia importante do mercado, para poder agilizar e trazer mobilidade dos processos de empresas, além de facilitar o dia a dia de vários usuários com novas formas de atendimento ao público. Essa palestra tem o intuito de explicar o funcionamento da plataforma de desenvolvimento mobile Cross-Platform Xamarin, mostrando cada passo do processo de desenvolvimento, compilação e execução do código desenvolvido em C# e funcionando no Android, iOS e Windows Phone.
+  palestrante : Rafael Moura
 
 - nome: Almoço
   horario : "12:00 - 13:30"
@@ -19,26 +19,26 @@
   conteudo :
   palestrante :
 
-- nome: Palestra
+- nome: Usabilidade e a pseudociência da interface intuitiva
   horario : "13:30 - 14:15"
-  avatar: speaker-1.png
-  possuiConteudo: false
-  conteudo :
-  palestrante :
+  avatar: luiz-lage.jpg
+  possuiConteudo: true
+  conteudo : Desculpe, interface intuitiva não existe. Mostraremos como um teste de usabilidade evidenciou a curva de aprendizado dos usuários e revelou falhas na nossa “API” Humano-Computador. Detalhes ignorados pela equipe do projeto tornaram-se obstáculos para os usuários durante o teste.
+  palestrante : Luiz Lage
 
-- nome: Palestra
+- nome: Yo! Geradores para Aplicações modernas!
   horario : "14:30  - 15:15"
-  avatar: speaker-1.png
-  possuiConteudo: false
-  conteudo :
-  palestrante :
+  avatar: sidharta-noleto.jpg
+  possuiConteudo: true
+  conteudo : "O que acha de utilizar técnicas de scaffolding para suas aplicações? Gerando funcionalidades, entidades e com isso melhorando a produtividade do seu projeto? O Yeoman é um ecossistema de geração de código implementado em cima do Node.js. Mostraremos como é possível utilizar o Yo! para geração de código e melhoria de produtividade em sua arquitetura e os benefícios que você terá!"
+  palestrante : Sidharta Noleto
 
-- nome: Palestra
+- nome: Angular 2 - É uma cilada Bino
   horario : "15:30 - 16:15"
-  avatar: speaker-1.png
-  possuiConteudo: false
-  conteudo :
-  palestrante :
+  avatar: romulo-bruno.jpg
+  possuiConteudo: true
+  conteudo : "Bruno Leite e Rômulo, exploram algumas das decisões de design que levaram o criador do Durandal, Rob Einsenberg, a sair da equipe do angular 2 e liderar a criação de um framework open-source modular, testável e dinâmico: o aurelia."
+  palestrante : Bruno Leite e Rômulo Santos
 
 - nome: Coffe Break
   horario : "16:15 - 16:45"

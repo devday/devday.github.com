@@ -1,11 +1,11 @@
-- nome: Comunidade
+- nome: Women Techmakers - Belo Horizonte
   horario : "10:15 - 11:00"
   avatar: speaker-1.png
   possuiConteudo: false
   conteudo :
   palestrante :
 
-- nome: Comunidade
+- nome: GDG BH
   horario : "11:15 - 12:00"
   avatar: speaker-1.png
   possuiConteudo: false
@@ -19,14 +19,14 @@
   conteudo :
   palestrante :
 
-- nome: Comunidade
+- nome: Python MG
   horario : "13:30 - 14:15"
   avatar: speaker-1.png
-  possuiConteudo: false
-  conteudo :
-  palestrante :
+  possuiConteudo: true
+  conteudo : Porque Minas não tem mar mas tem Python uai. Live coding com exemplos de Python para desktop, web, crawler e mais uma infinidade de coisas legais.
+  palestrante : Cássio Botaro
 
-- nome: Comunidade
+- nome: Pangea
   horario : "14:30 - 15:15"
   avatar: speaker-1.png
   possuiConteudo: false
@@ -47,7 +47,7 @@
   conteudo :
   palestrante :
 
-- nome: Comunidade
+- nome: Node.js BH
   horario : "16:45 - 17:30"
   avatar: speaker-1.png
   possuiConteudo: false
