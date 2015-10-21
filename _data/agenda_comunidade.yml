@@ -1,15 +1,15 @@
 - nome: Women Techmakers - Belo Horizonte
   horario : "10:15 - 11:00"
-  avatar: speaker-1.png
-  possuiConteudo: false
-  conteudo :
+  avatar: women-techmakers-bh.jpg
+  possuiConteudo: true
+  conteudo : "Neste espaço nós vamos falar sobre o que você sempre quis saber mas talvez não teve coragem de perguntar! Desde sobre o porquê incentivar mulheres na área de tecnologia às causas do problema de poucas mulheres na área de exatas. Além desses temas, você poderá saber quais são as iniciativas que já existem em Belo Horizonte e no mundo e como você pode participar!"
   palestrante :
 
 - nome: GDG BH
   horario : "11:15 - 12:00"
-  avatar: speaker-1.png
-  possuiConteudo: false
-  conteudo :
+  avatar: gdg-bh.jpg
+  possuiConteudo: true
+  conteudo : "O que é um GDG? O que faz? Como posso participar? Essas e outras perguntas serão respondidas de uma maneira dinâmica e descontraída pelos organizadores do GDG BH, atualmente uma das comunidades de desenvolvimento mais movimentadas de Belo Horizonte. Aqui você ficará sabendo sobre como a participação em comunidades como esta podem alavancar a sua carreira e também como você pode contribuir!"
   palestrante :
 
 - nome: Almoço
@@ -21,9 +21,9 @@
 
 - nome: Python MG
   horario : "13:30 - 14:15"
-  avatar: speaker-1.png
+  avatar: python-mg.png
   possuiConteudo: true
-  conteudo : Porque Minas não tem mar mas tem Python uai. Live coding com exemplos de Python para desktop, web, crawler e mais uma infinidade de coisas legais.
+  conteudo : "Porque Minas não tem mar mas tem <a href=\"http://pythonmg.com.br/\" target='_blank'>Python uai</a>. Live coding com exemplos de Python para desktop, web, crawler e mais uma infinidade de coisas legais. Mais sobre a comunidade em <a href=\"http://pythonmg.com.br/\" target='_blank'>http://pythonmg.com.br/</a>"
   palestrante : Cássio Botaro
 
 - nome: Pangea
@@ -47,9 +47,9 @@
   conteudo :
   palestrante :
 
-- nome: Node.js BH
+- nome: JavaScript
   horario : "16:45 - 17:30"
   avatar: speaker-1.png
-  possuiConteudo: false
-  conteudo :
+  possuiConteudo: true
+  conteudo : Debate sobre o cenário do Javascript e da sua comunidade no Brasil e no Exterior.
   palestrante :
