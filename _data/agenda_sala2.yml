@@ -47,9 +47,9 @@
   conteudo :
   palestrante :
 
-- nome: Palestra
+- nome: Pare de sofrer com controle de versão
   horario : "16:45 - 17:30"
-  avatar: speaker-1.png
-  possuiConteudo: false
-  conteudo :
-  palestrante :
+  avatar: douglas-aguiar.jpg
+  possuiConteudo: true
+  conteudo : "Controlar versões de software não deveria ser complicado. E não deve ser, entenda o porque controlar versões da maneira devida e sem dor tem muito mais haver com a abordagem do que com as ferramentas que você irá usar."
+  palestrante : Douglas Aguiar
