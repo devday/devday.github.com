@@ -28,16 +28,16 @@
 
 - nome: Pangea
   horario : "14:30 - 15:15"
-  avatar: speaker-1.png
-  possuiConteudo: false
-  conteudo :
-  palestrante :
+  avatar: logo_pangea.png
+  possuiConteudo: true
+  conteudo : "A arquitetura de software é uma das carreiras mais desafiadoras do mercado de software. Venha bater um papo sobre arquitetura de software, carreira em arquitetura, soft skills para arquitetos de software e como participar da comunidade PanGea."
+  palestrante : Adriano Tavares
 
-- nome: DevIsland
+- nome: DevIsland - Painel da Carreira do Desenvolvedor
   horario : "15:30 - 16:15"
   avatar: speaker-1.png
-  possuiConteudo: false
-  conteudo :
+  possuiConteudo: true
+  conteudo : "Você que quer discutir sobre a carreira de desenvolvedor, sobre o processo seletivo, critérios de seleção, trabalho remoto, entre outras coisas. Apareça no Painel de Carreira, para ver e fazer um debate construtivo sobre estes assuntos, inclusive com as próprias empresas e pessoas que selecionam."
   palestrante :
 
 - nome: Coffe Break
