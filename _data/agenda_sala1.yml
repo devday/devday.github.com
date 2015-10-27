@@ -33,7 +33,7 @@
   conteudo : O CartolaFC é o maior fantasy game do Brasil. Não só pela quantidade de usuários, como também pela quantidade de dados manipulados durante as 38 rodadas do Campeonato Brasileiro de futebol. São mais de 3 milhões de usuários que a cada rodada geram 26 milhões de novas linhas no banco de dados. Do lançamento em 2006 até hoje, evoluímos nossa arquitetura para uma aplicação web capaz de suportar milhares de acessos simultâneos e um grande volume de dados, utilizando tecnologias open source. Nessa palestra iremos apresentar uma visão aprofundada e técnica sobre a aplicação atual e os desafios encontrados ao escalá-la. Ao assistir a apresentação, você entenderá nossas decisões técnicas – da escolha do banco de dados à definição dos servidores, passando por desafios ao escalar o CartolaFC. Também conhecerá dicas e experiências para auxiliar na construção de suas aplicações web e domar questões de desempenho e escalabilidade.
   palestrante : Alexandre Saboia
 
-- nome: Escalando uma startup global em 4 anos
+- nome: Escalando tecnicamente uma startup global em 4 anos
   horario : "15:30 - 16:15"
   avatar: felipe-silvestre.jpg
   possuiConteudo: true
