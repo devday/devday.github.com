@@ -1,0 +1,90 @@
+- nome: Credenciamento
+  horario : "08:00 - 9:00"
+  avatar: speaker-1.jpg
+  possuiConteudo: false
+  conteudo :
+  palestrante :
+
+- nome: Abertura
+  horario : "09:00 - 9:10"
+  avatar: speaker-1.png
+  possuiConteudo: true
+  conteudo : O futuro do DevIsland e do DEVDAY, novidades \o/.
+  palestrante : Douglas e Gibran
+
+- nome: Inove ou morra tentando!
+  horario : "9:10 - 10:00"
+  avatar: gustavo-caetano.png
+  possuiConteudo: true
+  conteudo : Descreve o que as empresas devem fazer para conseguir inovar e assim se diferenciar num mercado cada vez mais competitivo e incerto, sendo que cada ponto descrito é exemplificado com um case de uma empresa de sucesso mundial.
+  palestrante : Gustavo Caetano
+
+- nome: Automatização residencial com Arduino
+  horario : "10:15 - 11:00"
+  avatar: rafael-lobato.jpg
+  possuiConteudo: true
+  conteudo : Arquitetura elaborada para controle de dispositivos residenciais remotamente pela internet. Componentes utilizados, bibliotecas, exemplos de código e demonstração do case.
+  palestrante : Rafael Lobato
+
+- nome: Sua App em 1 BILHÃO de dispositivos
+  horario : "11:15 - 12:00"
+  avatar: marlon-luz.jpg
+  possuiConteudo: true
+  conteudo : A quantidade de dispositivos que rodam apps cresce absurdamente e o mercado tem sido bastante diversificado com vários sistemas operacionais. Pensando em facilitar a vida do desenvolvedor e também do usuário, a Microsoft criou no Windows 10 a plataforma Universal Windows. Nessa palestra será mostrado como sua mesma app pode estar em todos os dispositivos Windows (Celular, Tablet, Notebook, Desktop, Xbox, Surface Hub, etc) usando apenas 1 código. Vamos ver também sobre como portar suas Apps Android e iOS para o Windows 10.
+  palestrante : Marlon Luz
+
+- nome: Almoço
+  horario : "12:00 - 13:30"
+  avatar: speaker-1.jpg
+  possuiConteudo: false
+  conteudo :
+  palestrante :
+
+- nome: Qualidade de ponta a ponta - DevOps, Entrega Contínua e Teste de Infraestrutura
+  horario : "13:30 - 14:15"
+  avatar: guilherme-froes.jpg
+  possuiConteudo: true
+  conteudo :  Nesta apresentação, conversaremos sobre a cultura DevOps e como a Entrega Contínua propicia mais qualidade e competitividade ao software entregue. Abordaremos o "o que" e o "porquê" de algumas práticas e focaremos no "como" tratar infraestrutura como código por meio de um possível fluxo de trabalho, usando ferramentas como Chef, Vagrant, ServerSpec, Cucumber, entre outras.
+  palestrante : Guilherme Froes
+
+- nome: Conheça o desenvolvedor do futuro!
+  horario : "14:30 - 15:15"
+  avatar: pedro-marlon.jpg
+  possuiConteudo: true
+  conteudo : Mobilidade, Cloud, Big Data, IOT.... cross-platform e outros termos bonitos; o mundo evoluiu e as oportunidades aos desenvolvedores só cresceram. Como se destacar nesse mercado tão competitivo e fazer a diferença? Nesse papo vamos falar sobre as oportunidades e competências do desenvolvedor do futuro, e mostrar casos de developers que já estão se destacando nesse mundo novo!
+  palestrante : Pedro Henrique Carrijo e Marlon Luz
+
+- nome: Arquitetura na prática – 1 input, 1 minuto, 1 carro
+  horario : "15:30 - 16:15"
+  avatar: alex-souza.jpg
+  possuiConteudo: true
+  conteudo : Nesta palestra vamos falar sobre decisões arquiteturais, envolvendo hardware e software, que permitiram que a solução de Autoatendimento da Localiza pudesse diminuir em mais de 80% o tempo de atendimento aos clientes. Como a visão computacional ajudou? Por que usamos WPF?
+  palestrante : Alex Souza
+
+- nome: Coffe Break
+  horario : "16:15 - 16:45"
+  avatar: speaker-1.jpg
+  possuiConteudo: false
+  conteudo :
+  palestrante :
+
+- nome: House of Data - ciência de dados para desenvolvedores
+  horario : "16:45 - 17:30"
+  avatar: ana-paula-gomes.jpg
+  possuiConteudo: true
+  conteudo : Hoje produzimos milhões de dados e temos o desafio de extrair informações relevantes desses dados. Nesta palestra serão exibidas técnicas e bibliotecas que o desenvolvedor poderá utilizar para extrair informações úteis e produzir softwares mais inteligentes.
+  palestrante : Ana Paula Gomes
+
+- nome: A Arquitetura (Peculiar) do Stack Overflow
+  horario : "17:30 - 18:20"
+  avatar: roberta-arcoverde.png
+  possuiConteudo: true
+  conteudo : Na Stack Exchange, estamos acostumados a desobedecer convenções e quebrar paradigmas. Indo frequentemente na contramão do que é considerado boa prática, conseguimos manter no ar uma rede de sites que recebe 20 milhões de visitantes únicos por mês usando apenas 9 servidores web. Nossa arquitetura é monolítica, usamos nosso próprio data center (nada de cloud!), metade do nosso time trabalha remotamente (e em diferentes fusos), não escrevemos testes automatizados e frequentemente reinventamos rodas. Nossa obsessão por performance gerou vários projetos open source interessantes, e permitiu que tivéssemos uma infra estrutura até vinte vezes mais enxuta que sites de tamanho similar. Nessa palestra vou explicar como funciona nossa arquitetura e as motivações por trás de tantas escolhas controversas. A julgar pelos números, <a target="_blank" href="http://stackexchange.com/about/performance">está dando certo</a>.
+  palestrante : Roberta Arcoverde
+
+- nome: Encerramento
+  horario : "18:20 - 18:30"
+  avatar: speaker-1.png
+  possuiConteudo: true
+  conteudo : Sorteio de brindes \o/ e mensagem dos patrocinadores.
+  palestrante : Douglas, Gibran e Patrocinadores
