@@ -1,0 +1,9 @@
+<ul class="list-inline">
+{% for apoio in site.data.apoio %}
+  <li>
+    <div class="thumbnail">
+    <a href="{{ apoio.link }}" target="_blank"><img src="assets/img/patrocinadores/apoio/{{ apoio.imagen }}" alt="{{ apoio.nome }}"/></a>
+    </div>
+  </li>
+{% endfor %}
+</ul>

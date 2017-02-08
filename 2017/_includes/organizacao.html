@@ -1,0 +1,28 @@
+<section id="organizacao" class="section light">
+<div class="overlay"></div>
+<div class="container">
+  <div class="icon-wrap"><span class="icon icon-active icon-faces-users-04" aria-hidden="true"></span></div>
+  <h3>{{ include.organizacao }}</h3>
+  <div class="sub-title">{{ include.nosso_time }}</div>
+  <br>
+  <br>
+  <section class="row">
+    {% for organizador in site.data.organizacao %}
+      <div class="col-md-3 col-sm-3 col-xs-6">
+        <div class="speaker-item animated fadeInUp visible" data-animation="fadeInUp" data-delay="0">
+          <div class="img-wrapper">
+            <img src="assets/img/organizadores/{{ organizador.img }}?s=142" class="img-responsive img-circle" alt="speaker-1">
+          </div>
+          <div class="name">{{ organizador.nome }}</div>
+          <div class="social-link">
+            <a href="http://twitter.com/{{ organizador.twitter }}" target="_blank"><span class="fa fa-twitter" aria-label="Twitter do organizador"></span></a>
+            <a href="http://github.com/{{ organizador.github }}" target="_blank"><span class="fa fa-github" aria-label="Github do organizador"></span></a>
+            <a href="{{ organizador.linkedin }}" target="_blank"><span class="fa fa-linkedin" aria-label="Linkedin do organizador"></span></a>
+            <a href="http://facebook.com/{{ organizador.facebook }}" target="_blank"><span class="fa fa-facebook" aria-label="Facebook do organizador"></span></a>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </section>
+</div>
+</section>

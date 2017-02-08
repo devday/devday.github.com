@@ -1,0 +1,31 @@
+{
+  "name": "devday.github.com",
+  "version": "1.0.0",
+  "description": "O DevIsland é uma comunidade desenvolvimento plural,",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.0"
+  },
+  "devDependencies": {
+    "gulp-imagemin": "^2.3.0",
+    "gulp-sprite-generator": "^0.2.3",
+    "imagemin-pngquant": "^4.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devday/devday.github.com.git"
+  },
+  "keywords": [
+    "devday",
+    "devisland"
+  ],
+  "author": "Bruno Pulis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devday/devday.github.com/issues"
+  },
+  "homepage": "https://github.com/devday/devday.github.com#readme"
+}
