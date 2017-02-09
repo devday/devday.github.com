@@ -1,16 +1,16 @@
-- nome: A evolução de uma arquitetura distribuída
+- nome: Palestra 1
   horario : "10:15 - 11:00"
-  avatar: guilherme-garnier.jpg
-  possuiConteudo: true
-  conteudo : Quando um produto cresce, um dos maiores desafios é como evoluir a arquitetura de maneira sustentável. Nesta palestra, será apresentado como a plataforma criada para o Globo.tv cresceu e evoluiu com o projeto Globosat Play.  Serão apresentados os principais pontos positivos e negativos da arquitetura com micro serviços e a importância da disseminação da cultura DevOps neste contexto. Entre os desafios, como permitir que mais de um time trabalhe na mesma plataforma, como compartilhar componentes e como atualizar um projeto sem quebrar o outro.
-  palestrante : Guilherme Garnier
+  avatar: speaker-1.png
+  possuiConteudo: false
+  conteudo :
+  palestrante :
 
-- nome: Desenvolvimento Mobile Cross-Platform com Xamarin
+- nome: Palestra 2
   horario : "11:15 - 12:00"
-  avatar: rafael-moura.jpeg
-  possuiConteudo: true
-  conteudo : O desenvolvimento de aplicações móveis tem tomado uma fatia importante do mercado, para poder agilizar e trazer mobilidade dos processos de empresas, além de facilitar o dia a dia de vários usuários com novas formas de atendimento ao público. Essa palestra tem o intuito de explicar o funcionamento da plataforma de desenvolvimento mobile Cross-Platform Xamarin, mostrando cada passo do processo de desenvolvimento, compilação e execução do código desenvolvido em C# e funcionando no Android, iOS e Windows Phone.
-  palestrante : Rafael Moura
+  avatar: speaker-1.png
+  possuiConteudo: false
+  conteudo :
+  palestrante :
 
 - nome: Almoço
   horario : "12:00 - 13:30"
@@ -18,38 +18,38 @@
   possuiConteudo: false
   conteudo :
   palestrante :
-
-- nome: Usabilidade e a pseudociência da interface intuitiva
+    
+- nome: Palestra 3
   horario : "13:30 - 14:15"
-  avatar: luiz-lage.jpg
-  possuiConteudo: true
-  conteudo : Desculpe, interface intuitiva não existe. Mostraremos como um teste de usabilidade evidenciou a curva de aprendizado dos usuários e revelou falhas na nossa “API” Humano-Computador. Detalhes ignorados pela equipe do projeto tornaram-se obstáculos para os usuários durante o teste.
-  palestrante : Luiz Lage
-
-- nome: Yo! Geradores para Aplicações modernas!
-  horario : "14:30  - 15:15"
-  avatar: sidharta-noleto.jpg
-  possuiConteudo: true
-  conteudo : "O que acha de utilizar técnicas de scaffolding para suas aplicações? Gerando funcionalidades, entidades e com isso melhorando a produtividade do seu projeto? O Yeoman é um ecossistema de geração de código implementado em cima do Node.js. Mostraremos como é possível utilizar o Yo! para geração de código e melhoria de produtividade em sua arquitetura e os benefícios que você terá!"
-  palestrante : Sidharta Noleto
-
-- nome: Angular 2 - É uma cilada Bino
+  avatar: speaker-1.png
+  possuiConteudo: false
+  conteudo :
+  palestrante :
+    
+- nome: Palestra 4
+  horario : "14:30 - 15:15"
+  avatar: speaker-1.png
+  possuiConteudo: false
+  conteudo :
+  palestrante :
+  
+- nome: Palestra 5
   horario : "15:30 - 16:15"
-  avatar: romulo-santos.jpg
-  possuiConteudo: true
-  conteudo : "Rômulo irá explorar algumas das decisões de design que levaram o criador do Durandal, Rob Einsenberg, a sair da equipe do angular 2 e liderar a criação de um framework open-source modular, testável e dinâmico: o aurelia."
-  palestrante : Rômulo Santos
+  avatar: speaker-1.png
+  possuiConteudo: false
+  conteudo :
+  palestrante :
 
 - nome: Coffe Break
   horario : "16:15 - 16:45"
   avatar: speaker-1.jpg
   possuiConteudo: false
   conteudo :
-  palestrante :
-
-- nome: Pare de sofrer com controle de versão
+  palestrante :   
+  
+- nome: Palestra 6
   horario : "16:45 - 17:30"
-  avatar: douglas-aguiar.jpg
-  possuiConteudo: true
-  conteudo : "Controlar versões de software não deveria ser complicado. E não deve ser, entenda o porque controlar versões da maneira devida e sem dor tem muito mais a ver com a abordagem do que com as ferramentas que você irá usar."
-  palestrante : Douglas Aguiar
+  avatar: speaker-1.png
+  possuiConteudo: false
+  conteudo :
+  palestrante : 

@@ -1,15 +1,15 @@
-- nome: Women Techmakers - Belo Horizonte
+- nome: Palestra 1
   horario : "10:15 - 11:00"
-  avatar: women-techmakers-bh.jpg
-  possuiConteudo: true
-  conteudo : "Neste espaço nós vamos falar sobre o que você sempre quis saber mas talvez não teve coragem de perguntar! Desde sobre o porquê incentivar mulheres na área de tecnologia às causas do problema de poucas mulheres na área de exatas. Além desses temas, você poderá saber quais são as iniciativas que já existem em Belo Horizonte e no mundo e como você pode participar!"
+  avatar: speaker-1.png
+  possuiConteudo: false
+  conteudo :
   palestrante :
 
-- nome: GDG BH
+- nome: Palestra 2
   horario : "11:15 - 12:00"
-  avatar: gdg-bh.jpg
-  possuiConteudo: true
-  conteudo : "O que é um GDG? O que faz? Como posso participar? Essas e outras perguntas serão respondidas de uma maneira dinâmica e descontraída pelos organizadores do GDG BH, atualmente uma das comunidades de desenvolvimento mais movimentadas de Belo Horizonte. Aqui você ficará sabendo sobre como a participação em comunidades como esta podem alavancar a sua carreira e também como você pode contribuir!"
+  avatar: speaker-1.png
+  possuiConteudo: false
+  conteudo :
   palestrante :
 
 - nome: Almoço
@@ -18,26 +18,26 @@
   possuiConteudo: false
   conteudo :
   palestrante :
-
-- nome: Python MG
+    
+- nome: Palestra 3
   horario : "13:30 - 14:15"
-  avatar: python-mg.png
-  possuiConteudo: true
-  conteudo : "Porque Minas não tem mar mas tem <a href=\"http://pythonmg.com.br/\" target='_blank'>Python uai</a>. Live coding com exemplos de Python para desktop, web, crawler e mais uma infinidade de coisas legais. Mais sobre a comunidade em <a href=\"http://pythonmg.com.br/\" target='_blank'>http://pythonmg.com.br/</a>"
-  palestrante : Cássio Botaro
-
-- nome: Pangea
+  avatar: speaker-1.png
+  possuiConteudo: false
+  conteudo :
+  palestrante :
+    
+- nome: Palestra 4
   horario : "14:30 - 15:15"
-  avatar: logo_pangea.png
-  possuiConteudo: true
-  conteudo : "A arquitetura de software é uma das áreas mais desafiadoras do mercado de TI. Venha bater um papo sobre arquitetura de software, carreira em arquitetura, soft skills para arquitetos e como participar da comunidade PanGea."
-  palestrante : Adriano Tavares
-
-- nome: DevIsland - Painel da Carreira do Desenvolvedor
+  avatar: speaker-1.png
+  possuiConteudo: false
+  conteudo :
+  palestrante :
+  
+- nome: Palestra 5
   horario : "15:30 - 16:15"
   avatar: speaker-1.png
-  possuiConteudo: true
-  conteudo : "Você que quer discutir sobre a carreira de desenvolvedor, sobre o processo seletivo, critérios de seleção, trabalho remoto, entre outras coisas. Apareça no Painel de Carreira, para ver e fazer um debate construtivo sobre estes assuntos, inclusive com as próprias empresas e pessoas que selecionam."
+  possuiConteudo: false
+  conteudo :
   palestrante :
 
 - nome: Coffe Break
@@ -45,11 +45,11 @@
   avatar: speaker-1.jpg
   possuiConteudo: false
   conteudo :
-  palestrante :
-
-- nome: JavaScript
+  palestrante :   
+  
+- nome: Palestra 6
   horario : "16:45 - 17:30"
-  avatar: javascript.jpg
-  possuiConteudo: true
-  conteudo : Debate sobre o cenário do Javascript e da sua comunidade no Brasil e no Exterior.
-  palestrante :
+  avatar: speaker-1.png
+  possuiConteudo: false
+  conteudo :
+  palestrante : 
