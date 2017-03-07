@@ -1,4 +1,4 @@
-
+*.sh
 *.iml
 
 .idea/devday.github.com.iml
