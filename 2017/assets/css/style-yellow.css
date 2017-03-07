@@ -824,3 +824,98 @@ label.error { display: block; }
 		width: 970px;
 	}
 }
+
+
+
+/*** new thing ***/
+.white {
+    color: #fff;
+}
+
+.mrgn-20-top {
+    margin-top: 20px;
+}
+.mrgn-50-top {
+    margin-top: 50px;
+}
+.mrgn-70-top {
+    margin-top: 70px;
+}
+
+.sm-title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    line-height: 1.1
+}
+
+h3 span.date {
+    border: 2px solid #FFF;
+    padding: 10px;
+    letter-spacing: 6px;
+}
+
+.hero-normal {
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px !important;
+    letter-spacing: 2px;
+}
+
+.register {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-transform: uppercase;
+    line-height: 1.1;
+}
+
+.fill { 
+    min-height: 100%;
+    height: 100%;
+}
+
+.navigation-bar > li.logo {
+    margin-right: 25px;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important
+}
+
+.vertical-center {
+  height:100%;
+  width:100%;
+
+  text-align: center;  /* align the inline(-block) elements horizontally */
+  font: 0/0 a;         /* remove the gap between inline(-block) elements */
+}
+
+.vertical-center:before {    /* create a full-height inline block pseudo=element */
+  display: inline-block;
+  vertical-align: middle;    /* vertical alignment of the inline element */
+  height: 100%;
+}
+
+.absolute-center {
+  margin: auto;
+  position: absolute;
+  top: 17%; left: 0; bottom: 0; right: 0;
+}
+
+.navigation-bar li {
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.navigation-bar > li.featured {
+    padding-top: 15px;
+}
+
+.yellow { 
+    color: #ddb539;
+}
+
+.icon-wrap > .fa {
+    font-size: 1.2em !important;
+}

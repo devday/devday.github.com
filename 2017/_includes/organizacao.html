@@ -15,10 +15,18 @@
           </div>
           <div class="name">{{ organizador.nome }}</div>
           <div class="social-link">
+            {% if organizador.twitter %}
             <a href="http://twitter.com/{{ organizador.twitter }}" target="_blank"><span class="fa fa-twitter" aria-label="Twitter do organizador"></span></a>
+            {% endif %}
+            {% if organizador.github %}
             <a href="http://github.com/{{ organizador.github }}" target="_blank"><span class="fa fa-github" aria-label="Github do organizador"></span></a>
+            {% endif %}
+            {% if organizador.linkedin %}
             <a href="{{ organizador.linkedin }}" target="_blank"><span class="fa fa-linkedin" aria-label="Linkedin do organizador"></span></a>
+            {% endif %}
+            {% if organizador.facebook %}
             <a href="http://facebook.com/{{ organizador.facebook }}" target="_blank"><span class="fa fa-facebook" aria-label="Facebook do organizador"></span></a>
+            {% endif %}
           </div>
         </div>
       </div>
