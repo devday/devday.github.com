@@ -1,6 +1,6 @@
 <section id="hero" class="light">
-  <div class="container">
-    <div class="home-bg">
+  <div class="container fill">
+    <div class="home-bg fill">
       <nav class="navigation navigation-social">
         <ul class="navigation-bar">
           <li><a target="_blank" href="http://twitter.com/devisland"><span class="fa fa-twitter" aria-label="Nos siga no twitter"></span></a>
@@ -10,30 +10,31 @@
           <li><a target="_blank" href="https://plus.google.com/communities/102004757201027948555"><span class="fa fa-google-plus" aria-label="Acompanhe nossa página no Google Plus"></span></a>
         </ul>
       </nav>
-      <div class="hero-content text-center ">
-        <div class="hero-small">
-          <hr/>
-          <span>
-            <span class="fa fa-calendar hidden-xs" aria-hidden="true"></span>
-            <span class="fa" itemprop="startDate" content="2014-11-01">{{ include.data }},</span>
-            <!-- <div class="sep hidden-xs"></div> -->
-            <span class="fa fa-map-marker hidden-xs" aria-hidden="true"></span>
-            <span class="fa" itemprop="location" itemscope itemtype="http://schema.org/Place">
-              Escola de Engenharia, UFMG
-            </span>
-          </span>
-          <hr/>
+        <div class="hero-content text-center vertical-center">
+          <div class="absolute-center">
+            <hr/>
+            <div class="hero-big" itemprop="name">
+              <img class="img-responsive center-block" src="assets/img/logo-devday-2017.png" alt="DEVDAY 2017"/>
+              <!-- <img class="img-responsive center-block" src="assets/img/DevIsland_logo.png" alt="DevIsland"/> -->
+            </div>
+            <div class="hero-normal"><span class="highlight" lang="en">DEVELOPERS</span>, WHAT'S YOUR PROFESSION???</div>
+            <hr/>
+
+            <h3 class="mrgn-20-top white sm-title">
+              <span class="date">{{ include.data }}, {{ include.local }}</span>
+            </h3>
+            
+            <div class="mrgn-70-top">
+              <a href="http://even.tc/devday-2015" class="btn btn-lg btn-3d register" target="_blank">
+                <i class="fa fa-ticket fa-2x" aria-hidden="true"></i>
+                <span>{{ include.inscreva_se }}</span>
+              </a>
+            </div>
+          </div>
+          <!-- <a href="caneca/index.html" class="btn btn-lg btn-3d"><i class="fa fa-beer fa-2x"></i><span>{{ include.caneca }}</span></a> -->
+          <!-- <a href="assets/img/mapa_local2.jpg" class="fancybox btn btn-lg btn-3d"><i class="fa fa-map-marker fa-2x"></i><span>Mapa do local</span></a> -->
+            
         </div>
-        <div class="hero-big" itemprop="name">
-          <img class="img-responsive center-block" src="assets/img/logo-devday-2015.png" alt="DEVDAY 2015"/>
-          <img class="img-responsive center-block" src="assets/img/DevIsland_logo.png" alt="DevIsland"/>
-        </div>
-        <div class="hero-normal">
-          <span class="highlight" lang="en">DEVELOPERS</span>, WHAT'S YOUR PROFESSION ???</div>
-        <!-- <a href="caneca/index.html" class="btn btn-lg btn-3d"><i class="fa fa-beer fa-2x"></i><span>{{ include.caneca }}</span></a> -->
-        <!-- <a href="assets/img/mapa_local2.jpg" class="fancybox btn btn-lg btn-3d"><i class="fa fa-map-marker  fa-2x"></i><span>Mapa do local</span></a> -->
-        <a href="http://even.tc/devday-2015" class="btn btn-lg btn-3d" target="_blank"><i class="fa fa-ticket fa-2x" aria-hidden="true"></i><span>{{ include.inscreva_se }}</span></a>
-      </div>
     </div>
   </div>
 </section>

@@ -11,14 +11,22 @@
       <div class="col-md-3 col-sm-3 col-xs-6">
         <div class="speaker-item animated fadeInUp visible" data-animation="fadeInUp" data-delay="0">
           <div class="img-wrapper">
-            <img src="http://gravatar.com/avatar/{{ organizador.avatar }}?s=142" class="img-responsive img-circle" alt="speaker-1">
+            <img src="assets/img/organizadores/{{ organizador.img }}?s=142" class="img-responsive img-circle" alt="speaker-1">
           </div>
           <div class="name">{{ organizador.nome }}</div>
           <div class="social-link">
+            {% if organizador.twitter %}
             <a href="http://twitter.com/{{ organizador.twitter }}" target="_blank"><span class="fa fa-twitter" aria-label="Twitter do organizador"></span></a>
+            {% endif %}
+            {% if organizador.github %}
             <a href="http://github.com/{{ organizador.github }}" target="_blank"><span class="fa fa-github" aria-label="Github do organizador"></span></a>
+            {% endif %}
+            {% if organizador.linkedin %}
             <a href="{{ organizador.linkedin }}" target="_blank"><span class="fa fa-linkedin" aria-label="Linkedin do organizador"></span></a>
+            {% endif %}
+            {% if organizador.facebook %}
             <a href="http://facebook.com/{{ organizador.facebook }}" target="_blank"><span class="fa fa-facebook" aria-label="Facebook do organizador"></span></a>
+            {% endif %}
           </div>
         </div>
       </div>
