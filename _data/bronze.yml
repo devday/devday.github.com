@@ -1,13 +1,12 @@
-#- nome: Siteware
-#  imagen: siteware.png
-#  link: http://siteware.com.br
-#- nome: Pluralsight
-#  imagen: pluralsight_logo.png
-#  link: http://pluralsight.com
-#- nome: Take.net
-#  imagen: logo-takenet.png
-#  link: http://www.take.net
-#- nome: Globo.com
-#  imagen: Globocom.jpg
-#  link: http://globo.com
-#
+- nome: Siteware
+  imagen: siteware.png
+  link: http://siteware.com.br
+- nome: Pluralsight
+  imagen: pluralsight_logo.png
+  link: http://pluralsight.com
+- nome: Take.net
+  imagen: logo-takenet.png
+  link: http://www.take.net
+- nome: Globo.com
+  imagen: Globocom.jpg
+  link: http://globo.com

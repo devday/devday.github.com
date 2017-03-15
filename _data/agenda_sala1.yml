@@ -1,16 +1,16 @@
-- nome: Palestra 1
+- nome: Desenvolvimento de Jogos Mobile com Unity 3D
   horario : "10:15 - 11:00"
-  avatar: speaker-1.png
-  possuiConteudo: false
-  conteudo :
-  palestrante :
+  avatar: giovanni-porta.png
+  possuiConteudo: true
+  conteudo : Os jogos eletrônicos deixaram de ser apenas passatempo de adolescente. Hoje, também são uma das alternativas de negócio de maior rendimento. O mercado de games já cria quatro mil empregos e movimenta R$ 900 milhões de reais por ano no país. O mercado de smartphone e tablets popularizou muito os jogos, fazendo com que muito mais gente jogue hoje em dia. É com essa premissa, que a Framework System apresenta na versão 2015 do DevDay a ferramenta Unity 3D para desenvolvimento de jogos 2D e 3D com foco em Android, IOS e Windows Phone.
+  palestrante : Giovanni La Porta
 
-- nome: Palestra 2
+- nome: Tecnologia Assistiva Inédita Criada por Desenvolvedor com Paralisia Cerebral
   horario : "11:15 - 12:00"
-  avatar: speaker-1.png
-  possuiConteudo: false
-  conteudo :
-  palestrante :
+  avatar: adriano-gleison.jpg
+  possuiConteudo: true
+  conteudo : Será contada a inspiradora história de Gleison Fernandes Faria (Gleisinho), que superou a falta de coordenação motora, desequilíbrio do corpo e dificuldades da fala para se graduar em Ciência da Computação e criar um inovador dispositivo eletrônico capaz de permitir o uso pleno do computador até mesmo para quem tem as mais severas limitações motoras.
+  palestrante : Gleison Fernandes e Adriano Rabelo
 
 - nome: Almoço
   horario : "12:00 - 13:30"
@@ -18,38 +18,38 @@
   possuiConteudo: false
   conteudo :
   palestrante :
-    
-- nome: Palestra 3
+
+- nome: Pattern API Gateway - APIs em uma arquitetura de microservices
   horario : "13:30 - 14:15"
-  avatar: speaker-1.png
-  possuiConteudo: false
-  conteudo :
-  palestrante :
-  
-- nome: Palestra 4
+  avatar: petterson-henrique.jpg
+  possuiConteudo: true
+  conteudo : Migrar para um arquitetura de microservices pode ser uma estratégia de sucesso para sua aplicação ou pode ser um suicídio. Alguns detalhes podem ajudar você a expor seus serviços internamente e externamente através de APIs. Vamos conversar nessa palestra sobre como uma API bem modelada e o pattern API gateway podem ajudar a garantir o sucesso de uma arquitetura de microservices.
+  palestrante : Petterson Henrique
+
+- nome: Cuidando de mais de 1 milhão de usuários por rodada no CartolaFC
   horario : "14:30 - 15:15"
-  avatar: speaker-1.png
-  possuiConteudo: false
-  conteudo :
-  palestrante :
-  
-- nome: Palestra 5
+  avatar: alexandre-saboia.jpg
+  possuiConteudo: true
+  conteudo : O CartolaFC é o maior fantasy game do Brasil. Não só pela quantidade de usuários, como também pela quantidade de dados manipulados durante as 38 rodadas do Campeonato Brasileiro de futebol. São mais de 3 milhões de usuários que a cada rodada geram 26 milhões de novas linhas no banco de dados. Do lançamento em 2006 até hoje, evoluímos nossa arquitetura para uma aplicação web capaz de suportar milhares de acessos simultâneos e um grande volume de dados, utilizando tecnologias open source. Nessa palestra iremos apresentar uma visão aprofundada e técnica sobre a aplicação atual e os desafios encontrados ao escalá-la. Ao assistir a apresentação, você entenderá nossas decisões técnicas – da escolha do banco de dados à definição dos servidores, passando por desafios ao escalar o CartolaFC. Também conhecerá dicas e experiências para auxiliar na construção de suas aplicações web e domar questões de desempenho e escalabilidade.
+  palestrante : Alexandre Saboia
+
+- nome: Escalando tecnicamente uma startup global em 4 anos
   horario : "15:30 - 16:15"
-  avatar: speaker-1.png
-  possuiConteudo: false
-  conteudo :
-  palestrante :
+  avatar: felipe-silvestre.jpg
+  possuiConteudo: true
+  conteudo : Conheça os bastidores que tornaram a Hotmart, uma startup de dois programadores, em um negócio de escala global.
+  palestrante : Felipe Silvestre
 
 - nome: Coffe Break
   horario : "16:15 - 16:45"
   avatar: speaker-1.jpg
   possuiConteudo: false
   conteudo :
-  palestrante :   
-  
-- nome: Palestra 6
+  palestrante :
+
+- nome: Monitoramento em tempo real com Elasticsearch e Kibana
   horario : "16:45 - 17:30"
-  avatar: speaker-1.png
-  possuiConteudo: false
-  conteudo :
-  palestrante : 
+  avatar: marcus-lacerda.jpg
+  possuiConteudo: true
+  conteudo : "Descubra o que acontece com o seu código em produção, com Elasticsearch, Kibana e Codahale Metrics. Nessa apresentação explicarei como indexar em uma base nosql uma quantidade massiva de informações sobre a utilização do seu sistema, proporcionando uma forma de antecipar problemas e responder rapidamente sobre anomalias no seu código, em tempo real."
+  palestrante : Marcus Lacerda
