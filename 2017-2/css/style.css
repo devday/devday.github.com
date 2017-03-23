@@ -561,9 +561,9 @@ body { font-family: 'Open Sans', sans-serif; }
 .nav-tab.style-2 .nav-tab-item { padding: 17px 17px; color: #848484; background: transparent; border: none; border-bottom: 1px solid transparent; }
 .nav-tab.style-2 .nav-tab-item.active { color: #000; background: transparent; border-bottom: 4px solid #feca16; }
 .nav-tab.style-2 .nav-tab-item:hover { color: #000; background: transparent; border-bottom: 4px solid #feca16; }
-.shedule-block { position: relative; text-align: center; padding-top: 150px; padding-bottom: 100px; }
+.shedule-block { position: relative; text-align: center; padding-top: 0px; padding-bottom: 200px; }
 .shedule-block:before { content: ''; display: block; position: absolute; top: 0px; left: 50%; bottom: 0px; width: 1px; margin-left: -0.5px; background: #e1e1e1; }
-.shedule-block:after { content: ''; display: block; position: absolute; top: 195px; left: 0px; right: 50%; height: 1px; background: #e1e1e1; z-index: 1; }
+.shedule-block:after { content: ''; display: block; position: absolute; top: 45px; left: 0px; right: 50%; height: 1px; background: #e1e1e1; z-index: 1; }
 .shedule-block.left:after { left: 8.33333333%; right: 50%; }
 .shedule-block.right:after { left: 50%; right: 8.33333333%; }
 .shedule-block:last-child { padding-bottom: 177px; }
@@ -683,19 +683,19 @@ body { font-family: 'Open Sans', sans-serif; }
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 .price { border: 2px solid #eaeaea; padding: 8px; text-align: center; }
 .price-top { background: #f9f9f9; margin-bottom: 2px; padding-top: 47px; padding-bottom: 42px; }
-.price-title { font-size: 20px; line-height: 24px; font-weight: 400; color: #222; letter-spacing: 2px; margin-bottom: 15px; }
+.price-title { font-size: 20px; line-height: 24px; font-weight: 400; color: #222; letter-spacing: 2px; margin-bottom: 15px; text-transform: uppercase; }
 .price-category { display: inline-block; font-size: 12px; line-height: 15px; font-weight: 400; color: #fff; text-transform: uppercase; background: #feca16; padding: 8px 9px; margin-bottom: 44px; }
 .price-per { font-size: 42px; line-height: 42px; font-weight: 800; color: #222; letter-spacing: 4px; margin-bottom: 9px; }
 .price-per sup { font-size: 20px; line-height: 20px; font-weight: 400; letter-spacing: 0px; }
 .price-per sub { font-size: 16px; line-height: 20px; font-weight: 300; letter-spacing: 0px; }
 .price-desc { font-size: 13px; line-height: 24px; font-weight: 400; color: #bbbbbb; padding: 0px 15%; }
-.price-bottom { background: #f9f9f9; padding-top: 47px; padding-bottom: 45px; }
+.price-bottom { background: #feca16; padding-top: 20px; padding-bottom: 20px; }
 .price-row { margin-bottom: 20px; margin-bottom: 46px; }
 .price-row p { font-size: 13px; line-height: 15px; font-weight: 400; color: #bbbbbb; margin-bottom: 10px; margin-bottom: 19px; }
 .price-row p:last-child { margin-bottom: 0px; }
 .price.left { border-right: none; margin-top: 26px; }
 .price.center { border: 2px solid #feca16; }
-.price.center .price-bottom { padding-bottom: 98px; }
+.price.center .price-bottom { padding-top: 50px; padding-bottom: 46px; }
 .price.right { border-left: none; margin-top: 26px; }
 .price.style-2 { padding: 0; border: 1px solid #f1f1f1; }
 .price.style-2 .price-top { background: transparent; }
@@ -703,6 +703,7 @@ body { font-family: 'Open Sans', sans-serif; }
 .price.style-2 .price-img { width: 100%; margin-bottom: 35px; }
 .price.style-2 .price-bottom { background: transparent; padding-top: 0; }
 .price.style-2.center .price-per { color: #f3dd02; }
+.price .register-link { font-size: 24px; line-height: 68px; }
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 20 - VIDEO */
 /*-------------------------------------------------------------------------------------------------------------------------------*/

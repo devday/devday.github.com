@@ -238,10 +238,11 @@ $(function() {
 	});	
 
 	//popup
-	$(document).on("click", '.register-link', function(){
-		$('.register-popup').show('slow');
-		return false;
-	});
+	// $(document).on("click", '.register-link', function(){
+	// 	$('.register-popup').show('slow');
+	// 	return false;
+	// });
+    // 
 	$('.search-link').on("click", function(){
 		$(this).siblings('.search-popup').show('slow');
 		return false;

@@ -1,0 +1,21 @@
+- position: "left"
+  title: Segundo Lote
+  period: "01 Jun - 30 Jul"
+  price: 80
+  amount: 200 vagas
+  description: 
+
+# selling
+- position: "center"
+  title: Primeiro Lote
+  period: "01 Mai - 30 Mai"
+  price: 80
+  amount: 200 vagas
+  description: 
+
+- position: "right"
+  title: Terceiro Lote
+  period: "01 Ago - 30 Ago"
+  price: 130
+  amount: 100 vagas
+  description: 

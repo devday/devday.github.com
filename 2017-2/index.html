@@ -2,7 +2,7 @@
 layout: default
 ---
 <!-- MAIN-SLIDER -->                    
-<div id="about" class="main-slider bordered clearfix">
+<div class="main-slider bordered clearfix">
     <div class="swiper-container" data-autoplay="0" data-loop="0" data-speed="0" data-center="0" data-slides-per-view="1" data-add-slides="1">
         <div class="swiper-wrapper">
             <div class="swiper-slide active" data-val="0">
@@ -24,6 +24,37 @@ layout: default
     </div>
 </div>
 
+<!-- COUNTERS -->
+<div class="counter-wrapper clearfix">
+    <div class="conteiner">
+        <h4 class="counter-title">Time Left To Conference:</h4>
+        <div class="counters-block clearfix" data-finaldate="02 sep 2017">
+            <div class="counters-entry">
+                <div class="counters-count days">21</div>
+                <div class="counters-label">days</div>
+            </div>
+            <div class="counters-entry">
+                <div class="counters-count hours">10</div>
+                <div class="counters-label">hours</div>
+            </div>
+            <div class="counters-entry">
+                <div class="counters-count minutes">48</div>
+                <div class="counters-label">minutes</div>
+            </div>
+            <div class="counters-entry">
+                <div class="counters-count seconds">37</div>
+                <div class="counters-label">seconds</div>
+            </div>
+        </div>
+        <a class="register-link c-btn b-50 yellow hv-yellow-o" href="#">joing us now</a>                
+    </div>
+</div>
+
+<!-- SOBRE O EVENTO -->
+{% include about.html category="DevDay" title="sobre o nosso evento" lang="pt" %}
+
+<!-- PALESTRANTES -->
+{% include speakers.html category="Nossos Convidados" title="Conheça os palestrantes" lang="pt" %}
 
 <!-- INSCRICOES -->
 <div id="sing" class="message-line">
@@ -36,488 +67,22 @@ layout: default
     </div>
 </div>
 
-
-
-
-<!-- PALESTRANTES -->
-<div id="speakers" class="main-block clearfix">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-                <div class="block-header">
-                    <h4 class="block-category">conheça os</h4>
-                    <h2 class="block-title">palestrantes</h2>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="slider-wth-thumbs">
-        <div class="swiper-container thumbnails-preview" data-autoplay="0" data-loop="1" data-speed="500" data-center="0" data-slides-per-view="1">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide active" data-val="0">
-                    <div class="speaker-img"><img class="center-image" src="img/slide_2.jpg" alt=""></div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-12 col-md-6">
-                                <div class="speaker-block">
-                                    <div class="speaker-title">Michale Takel</div>
-                                    <div class="speaker-category">Founder N-IX</div>
-                                    <div class="speaker-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
-                                    <div class="speaker-social clearfix">
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                        <a href="#"><i class="fa fa-skype"></i></a>
-                                    </div>
-                                    <div class="speaker-change clearfix">
-                                        <img src="img/speaker_change_1.jpg" data-image="img/speaker_change_1_b.jpg" alt="">
-                                        <img src="img/speaker_change_2.jpg" data-image="img/speaker_change_2_b.jpg" alt="">
-                                        <img src="img/speaker_change_3.jpg" data-image="img/speaker_change_3_b.jpg" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide" data-val="1">
-                    <div class="speaker-img"><img class="center-image" src="img/slide_3.jpg" alt=""></div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-12 col-md-6">
-                                <div class="speaker-block">
-                                    <div class="speaker-title">Michale Takel</div>
-                                    <div class="speaker-category">Founder N-IX</div>
-                                    <div class="speaker-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
-                                    <div class="speaker-social clearfix">
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                        <a href="#"><i class="fa fa-skype"></i></a>
-                                    </div>
-                                    <div class="speaker-change clearfix">
-                                        <img src="img/speaker_change_1.jpg" data-image="img/speaker_change_1_b.jpg" alt="">
-                                        <img src="img/speaker_change_2.jpg" data-image="img/speaker_change_2_b.jpg" alt="">
-                                        <img src="img/speaker_change_3.jpg" data-image="img/speaker_change_3_b.jpg" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide" data-val="2">
-                    <div class="speaker-img"><img class="center-image" src="img/slide_4.jpg" alt=""></div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-12 col-md-6">
-                                <div class="speaker-block">
-                                    <div class="speaker-title">Michale Takel</div>
-                                    <div class="speaker-category">Founder N-IX</div>
-                                    <div class="speaker-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
-                                    <div class="speaker-social clearfix">
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                        <a href="#"><i class="fa fa-skype"></i></a>
-                                    </div>
-                                    <div class="speaker-change clearfix">
-                                        <img src="img/speaker_change_1.jpg" data-image="img/speaker_change_1_b.jpg" alt="">
-                                        <img src="img/speaker_change_2.jpg" data-image="img/speaker_change_2_b.jpg" alt="">
-                                        <img src="img/speaker_change_3.jpg" data-image="img/speaker_change_3_b.jpg" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide" data-val="3">
-                    <div class="speaker-img"><img class="center-image" src="img/slide_5.jpg" alt=""></div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-12 col-md-6">
-                                <div class="speaker-block">
-                                    <div class="speaker-title">Michale Takel</div>
-                                    <div class="speaker-category">Founder N-IX</div>
-                                    <div class="speaker-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
-                                    <div class="speaker-social clearfix">
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                        <a href="#"><i class="fa fa-skype"></i></a>
-                                    </div>
-                                    <div class="speaker-change clearfix">
-                                        <img src="img/speaker_change_1.jpg" data-image="img/speaker_change_1_b.jpg" alt="">
-                                        <img src="img/speaker_change_2.jpg" data-image="img/speaker_change_2_b.jpg" alt="">
-                                        <img src="img/speaker_change_3.jpg" data-image="img/speaker_change_3_b.jpg" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide" data-val="4">
-                    <div class="speaker-img"><img class="center-image" src="img/slide_6.jpg" alt=""></div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-12 col-md-6">
-                                <div class="speaker-block">
-                                    <div class="speaker-title">Michale Takel</div>
-                                    <div class="speaker-category">Founder N-IX</div>
-                                    <div class="speaker-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
-                                    <div class="speaker-social clearfix">
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                        <a href="#"><i class="fa fa-skype"></i></a>
-                                    </div>
-                                    <div class="speaker-change clearfix">
-                                        <img src="img/speaker_change_1.jpg" data-image="img/speaker_change_1_b.jpg" alt="">
-                                        <img src="img/speaker_change_2.jpg" data-image="img/speaker_change_2_b.jpg" alt="">
-                                        <img src="img/speaker_change_3.jpg" data-image="img/speaker_change_3_b.jpg" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide" data-val="5">
-                    <div class="speaker-img"><img class="center-image" src="img/slide_7.jpg" alt=""></div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-12 col-md-6">
-                                <div class="speaker-block">
-                                    <div class="speaker-title">Michale Takel</div>
-                                    <div class="speaker-category">Founder N-IX</div>
-                                    <div class="speaker-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
-                                    <div class="speaker-social clearfix">
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                        <a href="#"><i class="fa fa-skype"></i></a>
-                                    </div>
-                                    <div class="speaker-change clearfix">
-                                        <img src="img/speaker_change_1.jpg" data-image="img/speaker_change_1_b.jpg" alt="">
-                                        <img src="img/speaker_change_2.jpg" data-image="img/speaker_change_2_b.jpg" alt="">
-                                        <img src="img/speaker_change_3.jpg" data-image="img/speaker_change_3_b.jpg" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide" data-val="6">
-                    <div class="speaker-img"><img class="center-image" src="img/slide_8.jpg" alt=""></div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-12 col-md-6">
-                                <div class="speaker-block">
-                                    <div class="speaker-title">Michale Takel</div>
-                                    <div class="speaker-category">Founder N-IX</div>
-                                    <div class="speaker-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
-                                    <div class="speaker-social clearfix">
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                        <a href="#"><i class="fa fa-skype"></i></a>
-                                    </div>
-                                    <div class="speaker-change clearfix">
-                                        <img src="img/speaker_change_1.jpg" data-image="img/speaker_change_1_b.jpg" alt="">
-                                        <img src="img/speaker_change_2.jpg" data-image="img/speaker_change_2_b.jpg" alt="">
-                                        <img src="img/speaker_change_3.jpg" data-image="img/speaker_change_3_b.jpg" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide" data-val="7">
-                    <div class="speaker-img"><img class="center-image" src="img/slide_9.jpg" alt=""></div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-12 col-md-6">
-                                <div class="speaker-block">
-                                    <div class="speaker-title">Michale Takel</div>
-                                    <div class="speaker-category">Founder N-IX</div>
-                                    <div class="speaker-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
-                                    <div class="speaker-social clearfix">
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                        <a href="#"><i class="fa fa-skype"></i></a>
-                                    </div>
-                                    <div class="speaker-change clearfix">
-                                        <img src="img/speaker_change_1.jpg" data-image="img/speaker_change_1_b.jpg" alt="">
-                                        <img src="img/speaker_change_2.jpg" data-image="img/speaker_change_2_b.jpg" alt="">
-                                        <img src="img/speaker_change_3.jpg" data-image="img/speaker_change_3_b.jpg" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>                                                                        
-            </div>
-            <div class="pagination"></div>
-            <div class="swiper-arrow-left style-1"><img src="img/arrow_left.png" alt=""></div>
-            <div class="swiper-arrow-right style-1"><img src="img/arrow_right.png" alt=""></div>
-        </div>
-        <div class="swiper-container thumbnails" data-autoplay="0" 
-        data-loop="0" data-speed="500" data-center="0" 
-        data-slides-per-view="responsive" data-mob-slides="3"  data-xs-slides="4" 
-        data-sm-slides="6" data-md-slides="7" data-lg-slides="8" 
-        data-add-slides="8">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide current active" data-val="0">
-                    <img class="img-responsive img-full" src="img/thumb_1.jpg" alt="">
-                    <div class="thumb-desc">
-                        <div class="thumb-title">Sandra Doe</div>
-                        <div class="thumb-text">Project-manager</div>
-                    </div>
-                    <div class="thumb-overlay"></div>
-                </div>
-                <div class="swiper-slide" data-val="1">
-                    <img class="img-responsive img-full" src="img/thumb_2.jpg" alt="">
-                    <div class="thumb-desc">
-                        <div class="thumb-title">Sandra Doe</div>
-                        <div class="thumb-text">Project-manager</div>
-                    </div>                            
-                    <div class="thumb-overlay"></div>                            
-                </div>
-                <div class="swiper-slide" data-val="2">
-                    <img class="img-responsive img-full" src="img/thumb_3.jpg" alt="">
-                    <div class="thumb-desc">
-                        <div class="thumb-title">Sandra Doe</div>
-                        <div class="thumb-text">Project-manager</div>
-                    </div>                            
-                    <div class="thumb-overlay"></div>                            
-                </div>
-                <div class="swiper-slide" data-val="3">
-                    <img class="img-responsive img-full" src="img/thumb_4.jpg" alt="">
-                    <div class="thumb-desc">
-                        <div class="thumb-title">Sandra Doe</div>
-                        <div class="thumb-text">Project-manager</div>
-                    </div>                            
-                    <div class="thumb-overlay"></div>                            
-                </div>
-                <div class="swiper-slide" data-val="4">
-                    <img class="img-responsive img-full" src="img/thumb_5.jpg" alt="">
-                    <div class="thumb-desc">
-                        <div class="thumb-title">Sandra Doe</div>
-                        <div class="thumb-text">Project-manager</div>
-                    </div>                            
-                    <div class="thumb-overlay"></div>                            
-                </div>
-                <div class="swiper-slide" data-val="5">
-                    <img class="img-responsive img-full" src="img/thumb_6.jpg" alt="">
-                    <div class="thumb-desc">
-                        <div class="thumb-title">Sandra Doe</div>
-                        <div class="thumb-text">Project-manager</div>
-                    </div>                            
-                    <div class="thumb-overlay"></div>                            
-                </div>
-                <div class="swiper-slide" data-val="6">
-                    <img class="img-responsive img-full" src="img/thumb_7.jpg" alt="">
-                    <div class="thumb-desc">
-                        <div class="thumb-title">Sandra Doe</div>
-                        <div class="thumb-text">Project-manager</div>
-                    </div>                            
-                    <div class="thumb-overlay"></div>                            
-                </div>
-                <div class="swiper-slide" data-val="7">
-                    <img class="img-responsive img-full" src="img/thumb_8.jpg" alt="">
-                    <div class="thumb-desc">
-                        <div class="thumb-title">Sandra Doe</div>
-                        <div class="thumb-text">Project-manager</div>
-                    </div>                            
-                    <div class="thumb-overlay"></div>                            
-                </div>                                                                         
-            </div>
-            <div class="pagination hidden"></div>
-        </div>
-    </div>            
-</div>
-
 <!-- AGENDA -->
-<div id="schedule" class="main-block bg-grey">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-                <div class="block-header">
-                    <h4 class="block-category">fique ligado na </h4>
-                    <h2 class="block-title">AGENDA</h2>
-                </div>
-            </div>
-        </div>
-        <div class="tab-wrapper">
-            <div class="tab-nav-wrapper">
-                <div  class="nav-tab">
-                    <div class="nav-tab-item active">
-                        Day 1
-                    </div>
-                    <div class="nav-tab-item">
-                        Day 2
-                    </div>
-                    <div class="nav-tab-item">
-                        Day 3
-                    </div>                              
-                </div>
-            </div>
-            <div class="tabs-content clearfix">
-                <div class="tab-info active">  
-                    <div class="shedule-block left">
-                        <img class="shedule-user" src="img/user_1.jpg" alt="">
-                        <div class="shedule-entry">
-                            <div class="shedule-date">9:30 am - 11:30 am / 19.09.2015</div>
-                            <h4><a class="shedule-speaker" href="#">Sandra Doe</a></h4>
-                            <div class="shedule-position">Project-manager</div>
-                            <div class="shedule-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
-                            <img class="img-responsive" src="img/shedule_1.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="shedule-block right">
-                        <img class="shedule-user" src="img/user_2.jpg" alt="">
-                        <div class="shedule-entry">
-                            <div class="shedule-date">9:30 am - 11:30 am / 19.09.2015</div>
-                            <h4><a class="shedule-speaker" href="#">Sandra Doe</a></h4>
-                            <div class="shedule-position">Project-manager</div>
-                            <div class="shedule-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
-                            <img class="img-responsive" src="img/shedule_2.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="shedule-block left">
-                        <img class="shedule-user" src="img/user_3.jpg" alt="">
-                        <div class="shedule-entry">
-                            <div class="shedule-date">9:30 am - 11:30 am / 19.09.2015</div>
-                            <h4><a class="shedule-speaker" href="#">Mike Polsone</a></h4>
-                            <div class="shedule-position">Project-manager</div>
-                            <div class="shedule-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
-                            <img class="img-responsive" src="img/shedule_3.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="shedule-block right">
-                        <img class="shedule-user" src="img/user_4.jpg" alt="">
-                        <div class="shedule-entry">
-                            <div class="shedule-date">9:30 am - 11:30 am / 19.09.2015</div>
-                            <h4><a class="shedule-speaker" href="#">Mark Gatta</a></h4>
-                            <div class="shedule-position">Project-manager</div>
-                            <div class="shedule-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
-                            <img class="img-responsive" src="img/shedule_4.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="shedule-block left">
-                        <img class="shedule-user" src="img/user_5.jpg" alt="">
-                        <div class="shedule-entry">
-                            <div class="shedule-date">9:30 am - 11:30 am / 19.09.2015</div>
-                            <h4><a class="shedule-speaker" href="#">Mike Polsone</a></h4>
-                            <div class="shedule-position">Project-manager</div>
-                            <div class="shedule-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
-                            <img class="img-responsive" src="img/shedule_5.jpg" alt="">
-                        </div>
-                    </div>                                     
-                </div>
-                <div class="tab-info">
-                    <div class="shedule-block left">
-                        <img class="shedule-user" src="img/user_3.jpg" alt="">
-                        <div class="shedule-entry">
-                            <div class="shedule-date">9:30 am - 11:30 am / 19.09.2015</div>
-                            <h4><a class="shedule-speaker" href="#">Mike Polsone</a></h4>
-                            <div class="shedule-position">Project-manager</div>
-                            <div class="shedule-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
-                            <img class="img-responsive" src="img/shedule_3.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="shedule-block right">
-                        <img class="shedule-user" src="img/user_4.jpg" alt="">
-                        <div class="shedule-entry">
-                            <div class="shedule-date">9:30 am - 11:30 am / 19.09.2015</div>
-                            <h4><a class="shedule-speaker" href="#">Mark Gatta</a></h4>
-                            <div class="shedule-position">Project-manager</div>
-                            <div class="shedule-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
-                            <img class="img-responsive" src="img/shedule_4.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="shedule-block left">
-                        <img class="shedule-user" src="img/user_5.jpg" alt="">
-                        <div class="shedule-entry">
-                            <div class="shedule-date">9:30 am - 11:30 am / 19.09.2015</div>
-                            <h4><a class="shedule-speaker" href="#">Mike Polsone</a></h4>
-                            <div class="shedule-position">Project-manager</div>
-                            <div class="shedule-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
-                            <img class="img-responsive" src="img/shedule_5.jpg" alt="">
-                        </div>
-                    </div>                         
-                </div>
-                <div class="tab-info">
-                    <div class="shedule-block left">
-                        <img class="shedule-user" src="img/user_5.jpg" alt="">
-                        <div class="shedule-entry">
-                            <div class="shedule-date">9:30 am - 11:30 am / 19.09.2015</div>
-                            <h4><a class="shedule-speaker" href="#">Mike Polsone</a></h4>
-                            <div class="shedule-position">Project-manager</div>
-                            <div class="shedule-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
-                            <img class="img-responsive" src="img/shedule_5.jpg" alt="">
-                        </div>
-                    </div>                        
-                    <div class="shedule-block right">
-                        <img class="shedule-user" src="img/user_4.jpg" alt="">
-                        <div class="shedule-entry">
-                            <div class="shedule-date">9:30 am - 11:30 am / 19.09.2015</div>
-                            <h4><a class="shedule-speaker" href="#">Mark Gatta</a></h4>
-                            <div class="shedule-position">Project-manager</div>
-                            <div class="shedule-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
-                            <img class="img-responsive" src="img/shedule_4.jpg" alt="">
-                        </div>
-                    </div>                         
-                    <div class="shedule-block left">
-                        <img class="shedule-user" src="img/user_1.jpg" alt="">
-                        <div class="shedule-entry">
-                            <div class="shedule-date">9:30 am - 11:30 am / 19.09.2015</div>
-                            <h4><a class="shedule-speaker" href="#">Sandra Doe</a></h4>
-                            <div class="shedule-position">Project-manager</div>
-                            <div class="shedule-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
-                            <img class="img-responsive" src="img/shedule_1.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="shedule-block right">
-                        <img class="shedule-user" src="img/user_2.jpg" alt="">
-                        <div class="shedule-entry">
-                            <div class="shedule-date">9:30 am - 11:30 am / 19.09.2015</div>
-                            <h4><a class="shedule-speaker" href="#">Sandra Doe</a></h4>
-                            <div class="shedule-position">Project-manager</div>
-                            <div class="shedule-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
-                            <img class="img-responsive" src="img/shedule_2.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="shedule-block left">
-                        <img class="shedule-user" src="img/user_3.jpg" alt="">
-                        <div class="shedule-entry">
-                            <div class="shedule-date">9:30 am - 11:30 am / 19.09.2015</div>
-                            <h4><a class="shedule-speaker" href="#">Mike Polsone</a></h4>
-                            <div class="shedule-position">Project-manager</div>
-                            <div class="shedule-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
-                            <img class="img-responsive" src="img/shedule_3.jpg" alt="">
-                        </div>
-                    </div>                                                                                                
-                </div>                          
-            </div>
-        </div>                
-    </div>
-</div>
+{% include schedule.html category="Agenda do Evento" title="Programação" 
+main_room="Auditório" first_room="Sala 1" second_room="Sala 2" third_room="Comunidade" 
+lang="pt" %}
+
+<!-- PRICE -->
+{% include tickets.html category="Venha participar do maior evento de desenvolvimento de software de Minas Gerais!" title="Inscrições" buy="Comprar" %}
 
 <!-- PATROCINIO -->
-<div id="partners" class="main-block style-2">
+<div id="partners" class="main-block style-2 bg-grey">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
                 <div class="block-header">
-                    <h4 class="block-category img-full"></h4>
-                    <h2 class="block-title">patrocínio</h2>
+                    <h4 class="block-category img-full">Não se esqueça</h4>
+                    <h2 class="block-title">Nossos Patrocinadores</h2>
                 </div>
             </div>
         </div>
@@ -574,7 +139,7 @@ layout: default
             <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
                 <div class="block-header">
                     <h4 class="block-category img-full">Team DevDay &lt;3</h4>
-                    <h2 class="block-title">organiazação</h2>
+                    <h2 class="block-title">organização</h2>
                 </div>
             </div>
         </div>
@@ -623,8 +188,6 @@ layout: default
     </div>
 </div>
 
-
-
 <!-- CONTATO -->
 <div id="contact" class="contact-block bg-dark">
     <div class="map-block" id="map-canvas" data-marker="img/pmarker.png" data-string="DevDay" data-lat="-19.869183" data-lng="-43.962739" data-zoom="16" data-style="style-1"></div>
@@ -654,7 +217,7 @@ layout: default
                                 <!-- <div class="contact-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</div> -->
                                 <div class="contact-row">
                                     <p><i class="fa fa-map-marker"></i>Escola de Engenharia da UFMG, Belo Horizonte</p>
-                                    <p><i class="fa fa-clock-o"></i>8h30 às 18h</p>            						
+                                    <p><i class="fa fa-clock-o"></i>08:30h às 18:00h</p>            						
                                     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
                                 </div>
                             </div>
