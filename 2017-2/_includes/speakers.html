@@ -16,7 +16,7 @@
                 <div class="speaker-item animated fadeInUp visible" data-animation="fadeInUp" data-delay="500">
                     <div class="center" id="palestrante30">
                         <div class="img-wrapper">
-                            <img src="img/speakers/avatar_nerd.jpg" style="heigth:142px; width:142px;display:inline;" class="img-responsive img-circle" alt="À confirmar">
+                            <img src="assets/img/speakers/avatar_nerd.jpg" style="heigth:142px; width:142px;display:inline;" class="img-responsive img-circle" alt="À confirmar">
                         </div>
                         <span style="font-weight:bolder; font-size: 25px; margin: 10px 0px 2px">À confirmar</span>
                     </div>
@@ -32,7 +32,7 @@
                 {% for speaker in site.data.speakers %}
                     {% capture count %}{{ count | plus: '1' }}{% endcapture %}
                     <div class="swiper-slide active" data-val="{{count}}">
-                        <div class="speaker-img"><img class="center-image" src="img/speakers/{{ speaker.avatar }}.jpg" alt="{{ speaker.name }}"></div>
+                        <div class="speaker-img"><img class="center-image" src="assets/img/speakers/{{ speaker.avatar }}.jpg" alt="{{ speaker.name }}"></div>
                         <div class="container">
                             <div class="row">
                                 <div class="col-xs-12 col-md-6">
@@ -58,9 +58,9 @@
                                             {% endif %}
                                         </div>
                                         <!-- <div class="speaker-change clearfix">
-                                            <img src="img/speaker_change_1.jpg" data-image="img/speaker_change_1_b.jpg" alt="">
-                                            <img src="img/speaker_change_2.jpg" data-image="img/speaker_change_2_b.jpg" alt="">
-                                            <img src="img/speaker_change_3.jpg" data-image="img/speaker_change_3_b.jpg" alt="">
+                                            <img src="assets/img/speaker_change_1.jpg" data-image="assets/img/speaker_change_1_b.jpg" alt="">
+                                            <img src="assets/img/speaker_change_2.jpg" data-image="assets/img/speaker_change_2_b.jpg" alt="">
+                                            <img src="assets/img/speaker_change_3.jpg" data-image="assets/img/speaker_change_3_b.jpg" alt="">
                                         </div> -->
 
                                         <!--
@@ -72,8 +72,8 @@
                 {% endfor %}                                                                    
             </div>
             <div class="pagination"></div>
-            <div class="swiper-arrow-left style-1"><img src="img/arrow_left.png" alt=""></div>
-            <div class="swiper-arrow-right style-1"><img src="img/arrow_right.png" alt=""></div>
+            <div class="swiper-arrow-left style-1"><img src="assets/img/arrow_left.png" alt=""></div>
+            <div class="swiper-arrow-right style-1"><img src="assets/img/arrow_right.png" alt=""></div>
         </div>
         <div class="swiper-container thumbnails" data-autoplay="0" 
         data-loop="0" data-speed="500" data-center="0" 
@@ -84,7 +84,7 @@
                 {% for speaker in site.data.speakers %}
                     {% capture count %}{{ count | plus: '1' }}{% endcapture %}
                     <div class="swiper-slide current active" data-val="{{ count }}">
-                        <img class="img-responsive img-full" src="img/speaker/thumb_{{ speaker.avatar }}.jpg" alt="{{ speaker.name }}">
+                        <img class="img-responsive img-full" src="assets/img/speaker/thumb_{{ speaker.avatar }}.jpg" alt="{{ speaker.name }}">
                         <div class="thumb-desc">
                             <div class="thumb-title">{{ speaker.name }}</div>
                             <div class="thumb-text">{{ speaker.category }}</div>

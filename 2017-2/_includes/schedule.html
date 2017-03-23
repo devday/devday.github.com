@@ -33,7 +33,7 @@
                     {% for item in site.data.schedule_main %}
                     {% capture count %}{{ count | plus: '1' }}{% endcapture %}
                         <div class="shedule-block {{ pos }}">
-                            <img class="shedule-user" src="img/schedules/{{ item.avatar }}" alt="">
+                            <img class="shedule-user" src="assets/img/schedules/{{ item.avatar }}" alt="">
                             <div class="shedule-entry">
                                 <div class="shedule-date">{{ item.hour }}</div>
                                 <h4><a class="shedule-speaker" href="#">{{ item.title }}</a></h4>
@@ -49,7 +49,7 @@
                     {% for item in site.data.schedule_room1 %}
                     {% capture count %}{{ count | plus: '1' }}{% endcapture %}
                         <div class="shedule-block {{ pos }}">
-                            <img class="shedule-user" src="img/schedules/{{ item.avatar }}" alt="">
+                            <img class="shedule-user" src="assets/img/schedules/{{ item.avatar }}" alt="">
                             <div class="shedule-entry">
                                 <div class="shedule-date">{{ item.hour }}</div>
                                 <h4><a class="shedule-speaker" href="#">{{ item.title }}</a></h4>
@@ -65,7 +65,7 @@
                     {% for item in site.data.schedule_room2 %}
                     {% capture count %}{{ count | plus: '1' }}{% endcapture %}
                         <div class="shedule-block {{ pos }}">
-                            <img class="shedule-user" src="img/schedules/{{ item.avatar }}" alt="">
+                            <img class="shedule-user" src="assets/img/schedules/{{ item.avatar }}" alt="">
                             <div class="shedule-entry">
                                 <div class="shedule-date">{{ item.hour }}</div>
                                 <h4><a class="shedule-speaker" href="#">{{ item.title }}</a></h4>
@@ -81,7 +81,7 @@
                     {% for item in site.data.schedule_community %}
                     {% capture count %}{{ count | plus: '1' }}{% endcapture %}
                         <div class="shedule-block {{ pos }}">
-                            <img class="shedule-user" src="img/schedules/{{ item.avatar }}" alt="">
+                            <img class="shedule-user" src="assets/img/schedules/{{ item.avatar }}" alt="">
                             <div class="shedule-entry">
                                 <div class="shedule-date">{{ item.hour }}</div>
                                 <h4><a class="shedule-speaker" href="#">{{ item.title }}</a></h4>
