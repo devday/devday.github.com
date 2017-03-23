@@ -4,6 +4,7 @@
   price: 80
   amount: 200 vagas
   description: 
+  buy: 
 
 # selling
 - position: "center"
@@ -12,6 +13,7 @@
   price: 80
   amount: 200 vagas
   description: 
+  buy:
 
 - position: "right"
   title: Terceiro Lote
@@ -19,3 +21,4 @@
   price: 130
   amount: 100 vagas
   description: 
+  buy:
