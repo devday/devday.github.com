@@ -1,24 +1,28 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
-title: DevIsland
+title: DevDay 2017 | Belo Horizonte
 email: devday@devisland.com
 description: > # this means to ignore newlines until "baseurl:"
-  O DevIsland é uma comunidade desenvolvimento plural,
-  não pertencemos a uma tecnologia, muito menos a uma linguagem,
-  amamos código e tudo o que permeia este meio.
-  Todo o assunto cujo o foco seja melhorar a vida do desenvolvedor
-  e a qualidade do código que o mesmo escreve apoiamos, estudamos, pesquisamos e divulgamos.
-baseurl: "" # the subpath of your site, e.g. /blog/
+  O maior evento para desenvolvedores de software em Minas Gerais
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://devday.devisland.com" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+# github_username:  jekyll
 
 # Build settings
 markdown: kramdown
 
-# html minify
-compress_html:
-  clippings: all
-  comments: all
-  endings: []
-  profile: false
-
-# exclude my node related stuff
-exclude: ['package.json', 'node_modules']
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
