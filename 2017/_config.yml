@@ -21,8 +21,18 @@ url: "http://devday.devisland.com" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 
-gems:
-  - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
+# gems:
+#   - jekyll-feed
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# exclude my node related stuff
+exclude: ['package.json', 'node_modules']
