@@ -9,29 +9,29 @@
   hour: "09:00 - 9:10"
   avatar: speaker-1.png
   possuiConteudo: true
-  description: O futuro do DevIsland e do DEVDAY, novidades \o/.
+  description: 
   speaker: Organizadores
 
-- title: Gustavo Caetano
+- title: Palestra 1
   hour: "09:10 - 10:00"
   avatar: speaker-1.png
   possuiConteudo: false
-  description: Descreve o que as empresas devem fazer para conseguir inovar e assim se diferenciar num mercado cada vez mais competitivo e incerto, send...
-  speaker: Inove ou Morra Tentando
+  description: 
+  speaker: 
 
-- title: Nome do Palestrante
+- title: Palestra 2
   hour: "10:15 - 11:00"
   avatar: speaker-1.png
   possuiConteudo: false
-  description: Nesta apresentação, conversaremos sobre a cultura DevOps e como a Entrega Contínua propicia mais qualidade e competitividade ao software...
-  speaker: Qualidade de ponta a ponta - DevOps, Entrega Contínua e Teste de Infraestrutura
+  description: 
+  speaker: 
 
-- title: Qualidade de ponta a ponta - DevOps, Entrega Contínua e Teste de Infraestrutura
+- title: Palestra 3
   hour: "11:15 - 12:00"
   avatar: speaker-1.png
   possuiConteudo: false
-  description: Nesta apresentação, conversaremos sobre a cultura DevOps e como a Entrega Contínua propicia mais qualidade e competitividade ao software...
-  speaker: Nome do Palestrante
+  description: 
+  speaker: 
 
 - title: Almoço
   hour: "12:00 - 13:30"

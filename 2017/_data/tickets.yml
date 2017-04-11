@@ -5,6 +5,7 @@
   amount: 200 vagas
   description: 
   buy: 
+  enabled: false
 
 # selling
 - position: "center"
@@ -14,6 +15,7 @@
   amount: 200 vagas
   description: 
   buy:
+  enabled: false
 
 - position: "right"
   title: Terceiro Lote
@@ -22,3 +24,4 @@
   amount: 100 vagas
   description: 
   buy:
+  enabled: false

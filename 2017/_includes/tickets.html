@@ -20,9 +20,15 @@
                             <div class="price-per">{{ ticket.price }}<sup>R$</sup></div>
                             <div class="price-desc">{{ ticket.amount }}</div>
                         </div>
+                        {% if ticket.enabled %}
                         <div class="price-bottom">
-                            <a class="register-link c-btn b-50 yellow-2 hv-yellow" href="#">{{ include.buy }}</a>
+                            <a class="register-link c-btn b-50 yellow-2 hv-yellow" href="{{ ticket.buy }}">{{ include.buy }}</a>
                         </div>
+                        {% else %}
+                        <div class="price-bottom disabled">
+                            <span class="register-link c-btn b-50" href="#">{{ include.soon }}</span>
+                        </div>
+                        {% endif %}
                     </div>
                 </div>
             {% endfor %}                              
