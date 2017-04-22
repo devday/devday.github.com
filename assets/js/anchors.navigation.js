@@ -50,7 +50,7 @@
 	// Set browser bar anchor immediately
 	function setImmediateAnchor(anchorObject, time){
 		scrollFlag = 1;
-		if(currentAnchor){
+		// if(currentAnchor){
 			$('html,body').stop().animate({ 'scrollTop' : contentTop[anchorObject.attr('href')].top }, time, function(){
 				$(scrollLinkSelector).parent().removeClass('active');
 				anchorObject.parent().addClass('active');
@@ -58,8 +58,7 @@
 				currentAnchor = anchorObject.attr('href');
 				scrollFlag = 0;
 			});			
-		}
-
+		// }
 	}
 
 	
