@@ -10,9 +10,9 @@
 # selling
 - position: "center"
   title: Primeiro Lote
-  period: "01 Mai - 30 Mai"
+  period: "15 Mai - 30 Mai"
   price: "-"
-  amount: 200 vagas
+  amount: 150 vagas
   description: 
   buy:
   enabled: false
