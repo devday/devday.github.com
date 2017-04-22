@@ -1,215 +1,785 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no, minimal-ui"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/idangerous.swiper.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+  	<title>DEVDAY 2017 - Evento para desenvolvedores de software em Belo Horizonte - DevIsland</title>
+</head>
+<body data-color="yellow">
 
-{% include hero.html data="October 31" caneca="Buy Mug of #DEVDAY2015" inscreva_se="Get your tickets" %}
-
-<!-- Header -->
-<header id="header" class="navigation-bar-header light hidden-xs">
-  <div class="container">
-    <nav class="navigation">
-      <div class="navigation-txt visible-xs" data-toggle="dropdown">Home</div>
-      <button class="navigation-toggle visible-xs" type="button" data-toggle="dropdown">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <ul class="navigation-bar navigation-bar-left">
-        <li><img class="hidden-xs" style="width:80px" src="assets/img/DevIsland_logo.png" alt="DevIsland"/></li>
-        <!--li><a href="#about">About</a></li-->
-        <!--<li><a href="#stat">Number Facts</a></li>-->
-        <li><a href="#inscricoes">Tickets</a></li>
-        <li><a href="#speakers">Speakers</a></li>
-        <li><a href="#schedule">Schedule</a></li>
-        <li><a href="#sponsors">Sponsor</a></li>
-        <li><a href="#organizacao">Curators</a></li>
-        <!--li><a href="#hoteis">Hotels</a></li-->
-        <li><a href="#map">Contact</a></li>
-        <!--li><a href="/">Português</a></li-->
-        <li class="featured"><a href="http://even.tc/devday-2015" target="_blank"><i class="fa fa-ticket fa-1x"></i>Get your tickets</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-<!-- End Header -->
-<!-- About Section -->
-<section id="about" class="section dark">
-  <div class="container">
-  <div class="icon-wrap"><span class="icon icon-active icon-multimedia-12"></span></div>
-    <h3>We love code</h3>
-    <div class="sub-title">An event made by <span class="highlight">developers</span> to <span class="highlight">developers</span>.</div>
-    <br />
-    <br />
-    <section class="nav-tabs-simple">
-      <!-- Nav tabs -->
-      <ul class="nav nav-tabs nav-justified">
-        <li class="active"><a href="#sobre-nos" data-toggle="tab"><i class="icon icon-documents-bookmarks-12"></i> About us</a></li>
-        <li><a href="#social" data-toggle="tab"><i class="icon icon-chat-messages-01"></i> Social</a></li>
-        <!--<li><a href="#codigo" data-toggle="tab"><i class="icon icon-education-science-11"></i> Code</a></li>-->
-      </ul>
-
-      <!-- Tab panes -->
-      <div class="tab-content">
-        <div class="tab-pane fade" id="social">
-          <article class="row">
-            <div class="col-md-5 col-sm-5 animated hiding" data-animation="fadeInLeft" data-delay="500">
-              <img class="img-responsive" src="assets/img/redes-sociais.jpg" alt="starbuck" />
+     <!-- LOADER -->
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+			  <div class="bigSqr">
+			    <div class="square first"></div>
+			    <div class="square second"></div>
+			    <div class="square third"></div>
+			    <div class="square fourth"></div>
+			  </div>
             </div>
-            <div class="col-md-6 col-sm-6 text-left animated hiding" data-animation="fadeInRight" data-delay="500">
-              <h6>The event in social networks</h6>
-      <ul class="sub-list">
-        <li><i class="fa fa-facebook"></i><a href="https://www.facebook.com/events/349244561897052/" target="_blank">Event on Facebook</a></li>
-        <li><i class="fa fa-facebook"></i><a href="https://www.facebook.com/hashtag/devday2015" target="_blank">Facebook oficial hashtag</a></li>
-        <li><i class="fa fa-twitter"></i><a href="https://twitter.com/search?q=%23DEVDAY2015" target="_blank">Twitter oficial hashtag #DEVDAY2015</a></li>
-      </ul>
+        </div>
+        <div id="loading-text">Loading</div>
     </div>
-          </article>
-        </div>
-        <div class="tab-pane fade in active" id="sobre-nos">
-          <article class="row">
-            <div class="col-md-5 col-sm-5 animated hiding" data-animation="fadeInLeft" data-delay="500">
-              <img class="img-responsive" src="assets/img/sobrenos.jpg" alt="iphone" />
-            </div>
-            <div class="col-md-6 col-sm-6 text-left animated hiding" data-animation="fadeInRight" data-delay="500">
-              <h6>About DEVDAY 2015</h6>
-              <p>The DevIsland community is organizing DEVDAY again, an event for software developers.</p>
-              <p>
-              In its sixth edition, the DEVDAY 2015 will bring together approximately <span class="highlight">450 developers</span>.
-              <br>
-              We will have professionals recognized by the national market that will share their knowledge in <span class="highlight">20 lectures</span>  that make up the event agenda.
-              <br>
-              No developer can lose this event!
-              <br>
-              <span class="highlight"><a href="http://confcodeofconduct.com/" target="_blank">Code of Conduct.</a></span>
-            </p>
-            </div>
-          </article></div>
-      </div>
-    </section>
-  </div>
-</section>
-<!-- End About Section -->
 
-{% include palestrantes.html palestrantes="Speakers" lang="en" %}
-
-{% include agenda.html agenda="Schedule" auditorio="Auditorium" sala1="Room 1" sala2="Room 2" comunidade="Community Space" %}
-
-<!-- Price Section -->
-<section id="inscricoes" class="section dark">
-  <div class="container">
-    <div class="icon-wrap"><span class="icon icon-active icon-shopping-02"></span></div>
-    <h3>Tickets</h3>
-    <div class="sub-title">Come for the biggest software development event of Minas Gerais!</div>
-<br/>
-<br/>
-  <div class="pricing-cols pricing-3-cols">
-        <div class="pricing-col animated hiding visible-lg" data-animation="fadeInRight" data-delay="0">
-            <div class="pricing-col-header">
-                <h3 class="pricing-col-header-title">SECOND LOT</h3>
-                <h4 class="pricing-col-header-amount">
-                <span class="pricing-col-amount">R$105</span></h4>
+    <!-- HEADER -->
+    <header class="header type-1">
+    	<div class="container">
+            <div class="logo-block">
+			     <a class="logo" href="#"><img src="img/logo_devisland.png" style="height: 28px" alt=""></a>
             </div>
-            <div class="pricing-col-content">
-                <ul>
-                    <li>100 seats</li>
-                    <li>01 Set - 30 Set</li>
-                </ul>
-                <a class="pricing-col-button" href="http://even.tc/devday-2015">SOON</a>
+			<nav class="main-nav">
+                <ul class="anchor-navigation">
+                    <li class="active"><a class="anchor-scroll" href="#about">about</a></li>
+                    <li><a class="anchor-scroll" href="#services">services</a></li>
+                    <li><a class="anchor-scroll" href="#speakers">speakers</a></li>
+                    <li><a class="anchor-scroll" href="#schedule">schedule</a></li>
+                    <li><a class="anchor-scroll" href="#sing">sing up</a></li>
+                    <li><a class="anchor-scroll" href="#testimonials">testimonials</a></li>                    
+                    <li><a class="anchor-scroll" href="#gallery">gallery</a></li>
+                    <li><a class="anchor-scroll" href="#pricing">pricing</a></li>
+                    <li><a class="anchor-scroll" href="#partners">partners</a></li>
+                    <li><a class="anchor-scroll" href="#contact">contact</a></li>
+                </ul>				
+			</nav>
+            <button class="cmn-toggle-switch"><span></span></button>
+    	</div>
+    </header>
+
+    <div id="content-wrapper">
+
+        <!-- MAIN-SLIDER -->                    
+        <div id="about" class="main-slider bordered clearfix">
+            <div class="swiper-container" data-autoplay="0" data-loop="0" data-speed="0" data-center="0" data-slides-per-view="1" data-add-slides="1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide active" data-val="0">
+                    	<div class="fullheight">
+                        	<img class="center-image" src="img/main_1.jpg" alt="">
+                        	<div class="vertical-align">
+                        		<div class="square-box"> 
+                        			<h4 class="square-date">02 SEPTEMBER 2017</h4>
+                        			<h2 class="square-title">DevDay 2017</h2>
+                        			<div class="square-text">ENGINEER SCHOOL AT UFMG</div>
+                        		</div>
+                        	</div>
+                    	</div>
+                    </div>
+                </div>
+                <div class="pagination"></div>
+				<!-- <div class="swiper-arrow-left style-1"><img src="img/arrow_left.png" alt=""></div>   -->
+				<!-- <div class="swiper-arrow-right style-1"><img src="img/arrow_right.png" alt=""></div>          -->
             </div>
         </div>
-        <div class="pricing-col pricing-col-featured" data-animation="fadeInLeft" data-delay="0">
-            <div class="pricing-col-header">
-                <h3 class="pricing-col-header-title">FIRST LOT</h3>
-                <h4 class="pricing-col-header-amount">
-                <span class="pricing-col-amount">R$94</span></h4>
-            </div>
-            <div class="pricing-col-content">
-                <ul>
-                    <li>100 seats</li>
-                    <li>01 Aug - 31 Aug</li>
-                </ul>
-                <a href="http://even.tc/devday-2015" class="pricing-col-button">Get your ticket</a>
+
+		<!-- COUNTERS -->
+        <div class="counter-wrapper clearfix">
+        	<div class="conteiner">
+        		<h4 class="counter-title">Time Left To Conference:</h4>
+        		<div class="counters-block clearfix" data-finaldate="02 sep 2017">
+	        		<div class="counters-entry">
+	        			<div class="counters-count days">21</div>
+	        			<div class="counters-label">days</div>
+	        		</div>
+	        		<div class="counters-entry">
+	        			<div class="counters-count hours">10</div>
+	        			<div class="counters-label">hours</div>
+	        		</div>
+	        		<div class="counters-entry">
+	        			<div class="counters-count minutes">48</div>
+	        			<div class="counters-label">minutes</div>
+	        		</div>
+	        		<div class="counters-entry">
+	        			<div class="counters-count seconds">37</div>
+	        			<div class="counters-label">seconds</div>
+	        		</div>
+        		</div>
+				<a class="register-link c-btn b-50 yellow hv-yellow-o" href="#">joing us now</a>				
+        	</div>
+        </div>
+
+        <!-- ABOUT -->
+        {% include sobre.html category="About Us" title="about our conference" lang="en" %}
+
+        <!-- PALESTRANTES -->
+        {% include palestrantes.html category="Our Speakers" title="Meet our speakers" lang="en" %}
+
+        <!-- SIMPLE TITLE -->
+        <div class="small-block">
+            <div class="container">
+                <div class="simple-slider swiper-container" data-autoplay="0" data-loop="1" data-speed="500" data-center="0" data-slides-per-view="1" data-add-slides="2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide active" data-val="0">
+                            <div class="simple-slide">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-4 col-md-offset-1">
+                                        <img class="img-responsive" src="img/simple_1.jpg" alt="">
+                                    </div>
+                                    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-0">
+                                        <h4><a class="simple-title" href="#">Something That You Don't Know</a></h4>
+                                        <div class="simple-text">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-val="1">
+                            <div class="simple-slide">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-4 col-md-offset-1">
+                                        <img class="img-responsive" src="img/simple_2.jpg" alt="">
+                                    </div>
+                                    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-0">
+                                        <h4><a class="simple-title" href="#">Something That You Don't Know</a></h4>
+                                        <div class="simple-text">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>             
+                        </div>
+                        <div class="swiper-slide" data-val="2">
+                            <div class="simple-slide">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-4 col-md-offset-1">
+                                        <img class="img-responsive" src="img/simple_3.jpg" alt="">
+                                    </div>
+                                    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-0">
+                                        <h4><a class="simple-title" href="#">Something That You Don't Know</a></h4>
+                                        <div class="simple-text">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                 
+                        </div>
+                        <div class="swiper-slide" data-val="3">
+                            <div class="simple-slide">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-4 col-md-offset-1">
+                                        <img class="img-responsive" src="img/simple_1.jpg" alt="">
+                                    </div>
+                                    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-0">
+                                        <h4><a class="simple-title" href="#">Something That You Don't Know</a></h4>
+                                        <div class="simple-text">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                 
+                        </div>
+                    </div>
+                    <div class="pagination"></div>
+                    <div class="swiper-arrow-left style-2"><img src="img/arrow_left_2.png" alt=""></div>  
+                    <div class="swiper-arrow-right style-2"><img src="img/arrow_right_2.png" alt=""></div>
+                </div>                
             </div>
         </div>
-        <div class="pricing-col animated hiding visible-lg" data-animation="fadeInLeft" data-delay="0">
-            <div class="pricing-col-header">
-                <h3 class="pricing-col-header-title">THIRD LOT</h3>
-                <h4 class="pricing-col-header-amount">
-                <span class="pricing-col-amount">R$116</span></h4>
-            </div>
-            <div class="pricing-col-content">
-                <ul>
-                    <li>100 seats</li>
-                    <li>01 Out - 30 Out</li>
-                </ul>
-                <a class="pricing-col-button" href="http://even.tc/devday-2015">SOON</a>
+
+        <!-- SHEDULE -->
+        <div id="schedule" class="main-block bg-grey">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                        <div class="block-header">
+                            <h4 class="block-category">The Schedule</h4>
+                            <h2 class="block-title">CONFERENCE SCHEDULE</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-wrapper">
+                    <div class="tab-nav-wrapper">
+                        <div  class="nav-tab">
+                            <div class="nav-tab-item active">
+                                Day 1
+                            </div>
+                            <div class="nav-tab-item">
+                                Day 2
+                            </div>
+                            <div class="nav-tab-item">
+                                Day 3
+                            </div>                              
+                        </div>
+                    </div>
+                    <div class="tabs-content clearfix">
+                        <div class="tab-info active">  
+                            <div class="shedule-block left">
+                                <img class="shedule-user" src="img/user_1.jpg" alt="">
+                                <div class="shedule-entry">
+                                    <div class="shedule-date">9:30 am - 11:30 am / 19.09.2015</div>
+                                    <h4><a class="shedule-speaker" href="#">Sandra Doe</a></h4>
+                                    <div class="shedule-position">Project-manager</div>
+                                    <div class="shedule-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                                    <img class="img-responsive" src="img/shedule_1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="shedule-block right">
+                                <img class="shedule-user" src="img/user_2.jpg" alt="">
+                                <div class="shedule-entry">
+                                    <div class="shedule-date">9:30 am - 11:30 am / 19.09.2015</div>
+                                    <h4><a class="shedule-speaker" href="#">Sandra Doe</a></h4>
+                                    <div class="shedule-position">Project-manager</div>
+                                    <div class="shedule-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                                    <img class="img-responsive" src="img/shedule_2.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="shedule-block left">
+                                <img class="shedule-user" src="img/user_3.jpg" alt="">
+                                <div class="shedule-entry">
+                                    <div class="shedule-date">9:30 am - 11:30 am / 19.09.2015</div>
+                                    <h4><a class="shedule-speaker" href="#">Mike Polsone</a></h4>
+                                    <div class="shedule-position">Project-manager</div>
+                                    <div class="shedule-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                                    <img class="img-responsive" src="img/shedule_3.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="shedule-block right">
+                                <img class="shedule-user" src="img/user_4.jpg" alt="">
+                                <div class="shedule-entry">
+                                    <div class="shedule-date">9:30 am - 11:30 am / 19.09.2015</div>
+                                    <h4><a class="shedule-speaker" href="#">Mark Gatta</a></h4>
+                                    <div class="shedule-position">Project-manager</div>
+                                    <div class="shedule-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                                    <img class="img-responsive" src="img/shedule_4.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="shedule-block left">
+                                <img class="shedule-user" src="img/user_5.jpg" alt="">
+                                <div class="shedule-entry">
+                                    <div class="shedule-date">9:30 am - 11:30 am / 19.09.2015</div>
+                                    <h4><a class="shedule-speaker" href="#">Mike Polsone</a></h4>
+                                    <div class="shedule-position">Project-manager</div>
+                                    <div class="shedule-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                                    <img class="img-responsive" src="img/shedule_5.jpg" alt="">
+                                </div>
+                            </div>                                     
+                        </div>
+                        <div class="tab-info">
+                            <div class="shedule-block left">
+                                <img class="shedule-user" src="img/user_3.jpg" alt="">
+                                <div class="shedule-entry">
+                                    <div class="shedule-date">9:30 am - 11:30 am / 19.09.2015</div>
+                                    <h4><a class="shedule-speaker" href="#">Mike Polsone</a></h4>
+                                    <div class="shedule-position">Project-manager</div>
+                                    <div class="shedule-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                                    <img class="img-responsive" src="img/shedule_3.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="shedule-block right">
+                                <img class="shedule-user" src="img/user_4.jpg" alt="">
+                                <div class="shedule-entry">
+                                    <div class="shedule-date">9:30 am - 11:30 am / 19.09.2015</div>
+                                    <h4><a class="shedule-speaker" href="#">Mark Gatta</a></h4>
+                                    <div class="shedule-position">Project-manager</div>
+                                    <div class="shedule-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                                    <img class="img-responsive" src="img/shedule_4.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="shedule-block left">
+                                <img class="shedule-user" src="img/user_5.jpg" alt="">
+                                <div class="shedule-entry">
+                                    <div class="shedule-date">9:30 am - 11:30 am / 19.09.2015</div>
+                                    <h4><a class="shedule-speaker" href="#">Mike Polsone</a></h4>
+                                    <div class="shedule-position">Project-manager</div>
+                                    <div class="shedule-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                                    <img class="img-responsive" src="img/shedule_5.jpg" alt="">
+                                </div>
+                            </div>                         
+                        </div>
+                        <div class="tab-info">
+                            <div class="shedule-block left">
+                                <img class="shedule-user" src="img/user_5.jpg" alt="">
+                                <div class="shedule-entry">
+                                    <div class="shedule-date">9:30 am - 11:30 am / 19.09.2015</div>
+                                    <h4><a class="shedule-speaker" href="#">Mike Polsone</a></h4>
+                                    <div class="shedule-position">Project-manager</div>
+                                    <div class="shedule-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                                    <img class="img-responsive" src="img/shedule_5.jpg" alt="">
+                                </div>
+                            </div>                        
+                            <div class="shedule-block right">
+                                <img class="shedule-user" src="img/user_4.jpg" alt="">
+                                <div class="shedule-entry">
+                                    <div class="shedule-date">9:30 am - 11:30 am / 19.09.2015</div>
+                                    <h4><a class="shedule-speaker" href="#">Mark Gatta</a></h4>
+                                    <div class="shedule-position">Project-manager</div>
+                                    <div class="shedule-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                                    <img class="img-responsive" src="img/shedule_4.jpg" alt="">
+                                </div>
+                            </div>                         
+                            <div class="shedule-block left">
+                                <img class="shedule-user" src="img/user_1.jpg" alt="">
+                                <div class="shedule-entry">
+                                    <div class="shedule-date">9:30 am - 11:30 am / 19.09.2015</div>
+                                    <h4><a class="shedule-speaker" href="#">Sandra Doe</a></h4>
+                                    <div class="shedule-position">Project-manager</div>
+                                    <div class="shedule-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                                    <img class="img-responsive" src="img/shedule_1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="shedule-block right">
+                                <img class="shedule-user" src="img/user_2.jpg" alt="">
+                                <div class="shedule-entry">
+                                    <div class="shedule-date">9:30 am - 11:30 am / 19.09.2015</div>
+                                    <h4><a class="shedule-speaker" href="#">Sandra Doe</a></h4>
+                                    <div class="shedule-position">Project-manager</div>
+                                    <div class="shedule-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                                    <img class="img-responsive" src="img/shedule_2.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="shedule-block left">
+                                <img class="shedule-user" src="img/user_3.jpg" alt="">
+                                <div class="shedule-entry">
+                                    <div class="shedule-date">9:30 am - 11:30 am / 19.09.2015</div>
+                                    <h4><a class="shedule-speaker" href="#">Mike Polsone</a></h4>
+                                    <div class="shedule-position">Project-manager</div>
+                                    <div class="shedule-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                                    <img class="img-responsive" src="img/shedule_3.jpg" alt="">
+                                </div>
+                            </div>                                                                                                
+                        </div>                          
+                    </div>
+                </div>                
             </div>
         </div>
-  </div>
-  </div>
-</section>
-<!-- End Price Section -->
-<!-- Register Section -->
-<section id="register" class="section light">
-  <div class="overlay"></div>
-  <div class="container">
-    <article class="article-big animated hiding" data-animation="fadeInUp" data-delay="0">
-      <h5>Get your tickets to DEVDAY 2015 now!</h5>
-      <p>
-        Don't lose the biggest software development event of Minas Gerais.
-        <br/>
-        Come share experiences in a pleasant and inclusive environment.
-      </p>
-      <br/>
-      <a href="http://even.tc/devday-2015" class="btn btn-sm btn-tertiary" target="_blank">Get your tickets</a>
-    </article>
-  </div>
-</section>
-<!-- End Register Section -->
-<!-- Sponsors Section -->
-<section id="sponsors" class="section dark">
-  <div class="container">
-    <div class="icon-wrap"><span class="icon icon-active icon-documents-bookmarks-12"></span></div>
-    <h3>Sponsor</h3>
-    <div class="sub-title">Help the community to make this amazing event.</div>
-    <br/>
-    <h3>Diamond</h3>
-    {% include patrocinadores_diamante.html %}
-    <h3>Gold</h3>
-    {% include patrocinadores_ouro.html %}
-    <h4>Silver</h4>
-    {% include patrocinadores_prata.html %}
-    <h5>Bronze</h5>
-    {% include patrocinadores_bronze.html %}
-    <h6>Support</h6>
-    {% include patrocinadores_apoio.html %}
- <div class="btn-wrapper">
-  <a href="./static/midia-kit-en.pdf" target="_blank" class="btn btn-sm btn-primary" target="_blank">Become a sponsor</a>
- </div>
-</div>
-  </div>
-</section>
-<!-- End Price Section -->
 
-{% include organizacao.html organizacao="Curators" nosso_time="Our team" %}
+        <!-- MESSAGE LINE -->
+        <div id="sing" class="message-line">
+            <div class="container">
+                <div class="message-entry clearfix"> 
+                    <h2 class="message-title">Are You Ready Joing Us?</h2>
+                    <div class="message-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</div>
+                </div>
+                <a class="register-link c-btn b-50 black hv-yellow-o" href="#">register</a>                
+            </div>
+        </div>
 
-{% include hoteis.html hoteis="Hotels" %}
+        <!-- TESTIMONALS -->
+        <div id="testimonials" class="main-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                        <div class="block-header">
+                            <h4 class="block-category">Testimonials</h4>
+                            <h2 class="block-title">What People Say About Us</h2>
+                            <div class="block-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-container" data-autoplay="0" data-initial-slide="1" data-loop="0" data-speed="500" data-center="1" data-slides-per-view="auto">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" data-val="0">
+                        <div class="testimonals">
+                            <img class="center-image" src="img/testimonals_0.jpg" alt="">
+                            <div class="testimonals-desc">
+                                <div class="testimonals-title">Claire Mccoy</div>
+                                <div class="testimonals-position">Head of design team</div>
+                                <div class="testimonals-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" data-val="1">
+                        <div class="testimonals">
+                            <img class="center-image" src="img/testimonals_1.jpg" alt="">
+                            <div class="testimonals-desc">
+                                <div class="testimonals-title">Claire Mccoy</div>
+                                <div class="testimonals-position">Head of design team</div>
+                                <div class="testimonals-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                            </div>                            
+                        </div>             
+                    </div>
+                    <div class="swiper-slide" data-val="2">
+                        <div class="testimonals">
+                            <img class="center-image" src="img/testimonals_0.jpg" alt="">
+                            <div class="testimonals-desc">
+                                <div class="testimonals-title">Claire Mccoy</div>
+                                <div class="testimonals-position">Head of design team</div>
+                                <div class="testimonals-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                            </div>                             
+                        </div>                 
+                    </div>
+                    <div class="swiper-slide" data-val="3">
+                        <div class="testimonals">
+                            <img class="center-image" src="img/testimonals_1.jpg" alt="">
+                            <div class="testimonals-desc">
+                                <div class="testimonals-title">Claire Mccoy</div>
+                                <div class="testimonals-position">Head of design team</div>
+                                <div class="testimonals-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                            </div>                             
+                        </div>                
+                    </div>
+                    <div class="swiper-slide" data-val="4">
+                        <div class="testimonals">
+                            <img class="center-image" src="img/testimonals_0.jpg" alt="">
+                            <div class="testimonals-desc">
+                                <div class="testimonals-title">Claire Mccoy</div>
+                                <div class="testimonals-position">Head of design team</div>
+                                <div class="testimonals-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                            </div>                             
+                        </div>                
+                    </div>                        
+                </div>
+                <div class="pagination hidden"></div>
+            </div> 
+        </div>
 
-{% include contato.html contato="Contact" local="Venue" %}
+        <!-- GALLERY -->
+        <div id="gallery" class="main-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                        <div class="block-header">
+                            <h4 class="block-category img-full">Gallery</h4>
+                            <h2 class="block-title">photos of our events</h2>
+                        </div>
+                    </div>
+                </div>
+				<div class="isotope-container">
+					<div class="grid-sizer col-xs-12 col-sm-3"></div>
+					<div class="item col-xs-12 col-sm-6">
+						<a class="gal-item lightbox" href="img/gal_1.jpg">
+							<img class="img-responsive img-full" src="img/gal_1.jpg" alt="event 2014">
+							<div class="gal-desc">
+								<div class="gal-title">event 2014</div>
+							</div>
+						</a>
+				    </div>
+					<div class="item col-xs-12 col-sm-3">
+						<a class="gal-item small lightbox" href="img/gal_2.jpg">
+							<img class="img-responsive img-full" src="img/gal_2.jpg" alt="event 2014">
+							<div class="gal-desc">
+								<div class="gal-title">event 2014</div>
+							</div>
+						</a>
+				    </div>
+					<div class="item col-xs-12 col-sm-3">
+						<a class="gal-item small lightbox" href="img/gal_3.jpg">
+							<img class="img-responsive img-full" src="img/gal_3.jpg" alt="event 2014">
+							<div class="gal-desc">
+								<div class="gal-title">event 2014</div>
+							</div>
+						</a>
+				    </div>
+					<div class="item col-xs-12 col-sm-6">
+						<a class="gal-item lightbox" href="img/gal_4.jpg">
+							<img class="img-responsive img-full" src="img/gal_4.jpg" alt="event 2014">
+							<div class="gal-desc">
+								<div class="gal-title">event 2014</div>
+							</div>
+						</a>
+				    </div>
+					<div class="item col-xs-12 col-sm-3">
+						<a class="gal-item small lightbox" href="img/gal_5.jpg">
+							<img class="img-responsive img-full" src="img/gal_5.jpg" alt="event 2014">
+							<div class="gal-desc">
+								<div class="gal-title">event 2014</div>
+							</div>
+						</a>
+				    </div>
+					<div class="item col-xs-12 col-sm-3">
+						<a class="gal-item small lightbox" href="img/gal_6.jpg">
+							<img class="img-responsive img-full" src="img/gal_6.jpg" alt="event 2014">
+							<div class="gal-desc">
+								<div class="gal-title">event 2014</div>
+							</div>
+						</a>
+				    </div>
+					<div class="item col-xs-12 col-sm-3">
+						<a class="gal-item small lightbox" href="img/gal_7.jpg">
+							<img class="img-responsive img-full" src="img/gal_7.jpg" alt="event 2014">
+							<div class="gal-desc">
+								<div class="gal-title">event 2014</div>
+							</div>
+						</a>
+				    </div>
+					<div class="item col-xs-12 col-sm-3">
+						<a class="gal-item small lightbox" href="img/gal_8.jpg">
+							<img class="img-responsive img-full" src="img/gal_8.jpg" alt="event 2014">
+							<div class="gal-desc">
+								<div class="gal-title">event 2014</div>
+							</div>
+						</a>
+				    </div>
+					<div class="item col-xs-12 col-sm-6">
+						<a class="gal-item lightbox" href="img/gal_9.jpg">
+							<img class="img-responsive img-full" src="img/gal_9.jpg" alt="event 2014">
+							<div class="gal-desc">
+								<div class="gal-title">event 2014</div>
+							</div>
+						</a>
+				    </div>
+					<div class="item col-xs-12 col-sm-6">
+						<a class="gal-item lightbox" href="img/gal_10.jpg">
+							<img class="img-responsive img-full" src="img/gal_10.jpg" alt="event 2014">
+							<div class="gal-desc">
+								<div class="gal-title">event 2014</div>
+							</div>
+						</a>
+				    </div>				    				    				    				    				    					    					    				    				 		
+				</div>                 
+           	</div>
+        </div>
 
-<footer id="footer">
-<div class="container">
-<ul class="navigation-bar">
-  <li><a href="#about">About</a></li>
-  <!--<li><a href="#stat">Number Facts</a></li>-->
-  <li><a href="#inscricoes">Tickets</a></li>
-  <li><a href="#sponsors">Sponsor</a></li>
-  <li><a href="#organizacao">Curators</a></li>
-  <li><a href="#hoteis">Hotels</a></li>
-  <li><a href="#map">Contact</a></li>
-  <li><a href="/">Português</a></li>
-  <li><a href="http://confcodeofconduct.com/">Code of Conduct</a></li>
-  <li><img class="hidden-xs" src="assets/img/DevIsland_logo.png" alt="DevIsland"/></li>
-</ul>
-</div>
-</footer>
+		<!-- PRICE -->
+        <div id="pricing" class="main-block style-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                        <div class="block-header">
+                            <h4 class="block-category img-full">Prising</h4>
+                            <h2 class="block-title">EVENT PRICE LIST</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row no-margin">
+                	<div class="no-padding col-xs-12 col-sm-4">
+                		<div class="price left">
+                			<div class="price-top">
+                				<h4 class="price-title">Basic</h4>
+                				<div class="price-category">Get the basic</div>
+                				<div class="price-per">15.00<sup>$</sup><sub>/per</sub></div>
+                				<div class="price-desc">Lorem ipsum dolor sit amet, adipiscing elit, sed do ncididunt ut labore.</div>
+                			</div>
+                			<div class="price-bottom">
+                				<div class="price-row">
+                					<p>Seat and free entry</p>
+                					<p>Lorem ipsum dolor sit</p>
+                					<p>Adipiscing sed eiusmod </p>
+                					<p>Incididunt ut labore</p>
+                				</div>
+								<a class="register-link c-btn b-50 yellow-2 hv-yellow" href="#">register</a>
+                			</div>
+                		</div>
+                	</div>
+                	<div class="no-padding col-xs-12 col-sm-4">
+                		<div class="price center">
+                			<div class="price-top">
+                				<h4 class="price-title">Standard</h4>
+                				<div class="price-category">Get the basic</div>
+                				<div class="price-per">25.00<sup>$</sup><sub>/per</sub></div>
+                				<div class="price-desc">Lorem ipsum  adipiscing elit, sed do eiusmod incididunt ut labore.</div>
+                			</div>
+                			<div class="price-bottom">
+                				<div class="price-row">
+                					<p>Seat and free entry</p>
+                					<p>Lorem ipsum dolor sit</p>
+                					<p>Adipiscing sed eiusmod </p>
+                					<p>Incididunt ut labore</p>
+                				</div>
+								<a class="register-link c-btn b-50 yellow-2 hv-yellow" href="#">register</a>
+                			</div>
+                		</div>
+                	</div>
+                	<div class="no-padding col-xs-12 col-sm-4">
+                		<div class="price right">
+                			<div class="price-top">
+                				<h4 class="price-title">Standard</h4>
+                				<div class="price-category">Get the basic</div>
+                				<div class="price-per">25.00<sup>$</sup><sub>/per</sub></div>
+                				<div class="price-desc">Lorem ipsum  adipiscing elit, sed do eiusmod incididunt ut labore.</div>
+                			</div>
+                			<div class="price-bottom">
+                				<div class="price-row">
+                					<p>Seat and free entry</p>
+                					<p>Lorem ipsum dolor sit</p>
+                					<p>Adipiscing sed eiusmod </p>
+                					<p>Incididunt ut labore</p>
+                				</div>
+								<a class="register-link c-btn b-50 yellow-2 hv-yellow" href="#">register</a>
+                			</div>
+                		</div>
+                	</div>                	                	
+                </div>
+           	</div>
+        </div>
+
+		<!-- VIDEO -->
+        <div class="main-block style-2">
+        	<img class="center-image" src="img/bg_1.jpg" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                        <div class="block-header color-2">
+                            <h4 class="block-category img-full">Video Collection</h4>
+                            <h2 class="block-title">video conference 2014</h2>
+                            <div class="block-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                	<img class="img-responsive img-full" src="img/video.jpg" alt="">
+                	<a class="play-btn" data-video="http://www.youtube.com/embed/wTcNtgA6gHs?autoplay=1" href="#"><span class="play-icon"></span></a>
+                    <div class="movie">
+                        <iframe src="about:blank" class=""></iframe>
+                        <div class="close-button">
+                            <i class="fa fa-times"></i>
+                        </div>                      
+                    </div>                    
+                </div>
+            </div>
+        </div>
+
+		<!-- SPONSORS -->
+        <div id="partners" class="main-block style-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                        <div class="block-header">
+                            <h4 class="block-category img-full">Don’t Forget</h4>
+                            <h2 class="block-title">our sponsors</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="row no-margin">
+                	<div class="no-padding col-xs-6 col-md-3">
+                		<div class="sponsor-entry green">
+							<img src="img/sponsor_1.png" alt="">
+                		</div>
+                	</div>
+                	<div class="no-padding col-xs-6 col-md-3">
+                		<div class="sponsor-entry white">
+							<img src="img/sponsor_2.png" alt="">
+                		</div>
+                	</div>
+                	<div class="no-padding col-xs-6 col-md-3">
+                		<div class="sponsor-entry blue">
+							<img src="img/sponsor_3.png" alt="">
+                		</div>
+                	</div>
+                	<div class="no-padding col-xs-6 col-md-3">
+                		<div class="sponsor-entry white">
+							<img src="img/sponsor_4.png" alt="">
+                		</div>
+                	</div>
+                	<div class="no-padding col-xs-6 col-md-3">
+                		<div class="sponsor-entry white">
+							<img src="img/sponsor_5.png" alt="">
+                		</div>
+                	</div>
+                	<div class="no-padding col-xs-6 col-md-3">
+                		<div class="sponsor-entry red">
+							<img src="img/sponsor_6.png" alt="">
+                		</div>
+                	</div>
+                	<div class="no-padding col-xs-6 col-md-3">
+                		<div class="sponsor-entry white">
+							<img src="img/sponsor_7.png" alt="">
+                		</div>
+                	</div>                	                 	         
+                	<div class="no-padding col-xs-6 col-md-3">
+                		<div class="sponsor-entry lightblue">
+							<img src="img/sponsor_8.png" alt="">
+                		</div>
+                	</div>                	                	
+                </div> -->
+            </div>
+        </div>
+
+		<div id="contact" class="contact-block bg-dark">
+            <div class="map-block" id="map-canvas" data-marker="img/pmarker.png" data-string="DevDay" data-lat="-19.869183" data-lng="-43.962739" data-zoom="16" data-style="style-1"></div>
+            
+            <div class="container">
+            	<div class="row">
+            		<div class="col-xs-12 col-md-6">
+            			<div class="contact-entry">
+            				<div class="row">
+	            				<div class="col-xs-12 col-sm-6">
+                                    <div class="s-contact">
+    	            					<div class="contact-catagory">Contact Info</div>
+    	            					<div class="contact-title">contact us</div>
+    	            					<!-- <div class="contact-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</div> -->
+    	            					<div class="contact-row">
+    	            						<p><i class="fa fa-envelope-o"></i><a href="mailto:devday@devisland.com">devday@devisland.com</a></p>
+                                            <p><i class="fa fa-twitter"></i> <span>@devisland</span></p>
+
+    	            						<!-- <p><i class="fa fa-phone"></i><a href="tal:61402186411">+61 402 186 411</a>, <a href="tal:6166650">+61 66 650</a></p> -->
+    	            					</div>
+                                    </div>
+	            				</div>
+	            				<div class="col-xs-12 col-sm-6">
+                                     <div class="s-contact">
+    	            					<div class="contact-catagory style-2">Venue Info</div>
+    	            					<div class="contact-title">our event</div>
+                                        <!-- <div class="contact-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</div> -->
+    	            					<div class="contact-row">
+                                            <p><i class="fa fa-map-marker"></i>School of Engineering at UFMG, Belo Horizonte</p>
+                                            <p><i class="fa fa-clock-o"></i>8:30 AM to 18:00 PM</p>            						
+                                            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    	            					</div>
+                                    </div>
+	            				</div>
+            				</div>
+            			</div>
+            		</div>
+            	</div>
+            </div>
+        </div>                                                           
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+    	<div class="container">
+    		<img class="f-logo" src="img/footer_yellow.png" alt="">
+    		<div class="copy">© 2017 All rights reserved. DevIsland</div>
+    	</div>
+    </footer>
+
+	<div class="register-popup custom-popup">
+		<form  action="mail.php" class="js-contact-form" method="POST">
+			<div class="popup-close"><i class="fa fa-times"></i></div>
+			<h3 class="popup-title  form-element">Register for conference</h3>
+			<div class="c-form-group form-element">
+				<div class="c-form-label">First name</div>
+				<input type="text"  name="fields[first_name]" >
+			</div>
+			<div class="c-form-group form-element">
+				<div class="c-form-label">Last name</div>
+				<input type="text"  name="fields[last_name]" >
+			</div>
+			<div class="c-form-group form-element">
+				<div class="c-form-label">Email</div>
+				<input type="email"  name="fields[email]" >
+			</div>
+			<div class="c-form-group form-element">
+				<div class="c-form-label">Phone</div>
+				<input type="tel"  name="fields[phone]" >
+			</div>
+			<div class="c-form-group form-element">
+				<div class="message-result">
+	                <div class="ajax-result">
+	                	<div class="success"></div>
+	                    <div class="error"></div>
+	                </div>
+                	<div class="ajax-loader"></div>
+	            </div>
+			</div>
+			<input class="c-btn b-50 black hv-yellow-o  form-element" type="submit" value="Register">
+		</form>
+	</div>    
+
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/idangerous.swiper.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/imagelightbox.min.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false&amp;language=en"></script>  
+    <script src="js/global.js"></script>
+    <script src="js/anchors.navigation.js"></script>    
+</body>
+</html>

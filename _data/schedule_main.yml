@@ -1,0 +1,91 @@
+- title: Credenciamento
+  hour: "08:00 - 9:00"
+  avatar: speaker-1.jpg
+  possuiConteudo: false
+  description:
+  speaker: DevDay 2017
+
+- title: Abertura
+  hour: "09:00 - 9:10"
+  avatar: speaker-1.png
+  possuiConteudo: true
+  description: 
+  speaker: Organizadores
+
+- title: Palestra 1
+  hour: "09:10 - 10:00"
+  avatar: speaker-1.png
+  possuiConteudo: false
+  description: 
+  speaker: 
+
+- title: Palestra 2
+  hour: "10:15 - 11:00"
+  avatar: speaker-1.png
+  possuiConteudo: false
+  description: 
+  speaker: 
+
+- title: Palestra 3
+  hour: "11:15 - 12:00"
+  avatar: speaker-1.png
+  possuiConteudo: false
+  description: 
+  speaker: 
+
+- title: Almoço
+  hour: "12:00 - 13:30"
+  avatar: speaker-1.jpg
+  possuiConteudo: false
+  description:
+  speaker:
+    
+- title: Palestra 4
+  hour: "13:30 - 14:15"
+  avatar: speaker-1.png
+  possuiConteudo: false
+  description:
+  speaker:
+
+  
+- title: Palestra 5
+  hour: "14:30 - 15:15"
+  avatar: speaker-1.png
+  possuiConteudo: false
+  description:
+  speaker:
+  
+- title: Palestra 6
+  hour: "15:30 - 16:15"
+  avatar: speaker-1.png
+  possuiConteudo: false
+  description:
+  speaker:
+
+- title: Coffe Break
+  hour: "16:15 - 16:45"
+  avatar: speaker-1.jpg
+  possuiConteudo: false
+  description:
+  speaker:   
+  
+- title: Palestra 7
+  hour: "16:45 - 17:30"
+  avatar: speaker-1.png
+  possuiConteudo: false
+  description:
+  speaker: 
+  
+- title: Palestra 8
+  hour: "17:30 - 18:20"
+  avatar: speaker-1.png
+  possuiConteudo: false
+  description:
+  speaker:
+
+- title: Encerramento
+  hour: "18:20 - 18:30"
+  avatar: speaker-1.png
+  possuiConteudo: true
+  description: Sorteio de brindes \o/ e mensagem dos patrocinadores.
+  speaker: Organizadores e Patrocinadores

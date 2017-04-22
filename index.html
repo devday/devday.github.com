@@ -1,233 +1,183 @@
 ---
 layout: default
 ---
-
-{% include hero.html data="31 de Outubro" caneca="Compre a Caneca do #DEVDAY2015" inscreva_se="Inscreva-se" %}
-
-<!-- Header -->
-<header id="header" class="navigation-bar-header light hidden-xs">
-  <div class="container">
-    <nav class="navigation">
-      <div class="navigation-txt visible-xs" data-toggle="dropdown">Home</div>
-      <button class="navigation-toggle visible-xs" type="button" data-toggle="dropdown">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <ul class="navigation-bar navigation-bar-left">
-        <li><img class="hidden-xs" style="width:80px" src="assets/img/DevIsland_logo.png" alt="DevIsland"/></li>
-        <!--li><a href="#about">Sobre</a></li-->
-        <!--<li><a href="#stat">Number Facts</a></li>-->
-        <li><a href="#inscricoes">Inscrições</a></li>
-        <li><a href="#speakers">Palestrantes</a></li>
-        <li><a href="#schedule">Agenda</a></li>
-        <li><a href="#sponsors">Patrocínio</a></li>
-        <li><a href="#organizacao">Organização</a></li>
-        <!--li><a href="#hoteis">Hotéis</a></li-->
-        <li><a href="#map">Contato</a></li>
-        <!--li><a href="english.html">English</a></li-->
-        <li class="featured"><a href="http://even.tc/devday-2015" target="_blank"><i class="fa fa-ticket fa-1x"></i>Inscreva-se</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-<!-- End Header -->
-<!-- About Section -->
-<section id="about" class="section dark">
-  <div class="container">
-    <div class="icon-wrap"><span class="icon icon-active icon-multimedia-12" aria-hidden="true"></span></div>
-      <h1 class="headline">Nós amamos código</h1>
-      <div class="sub-title">Um evento feito por <span class="highlight">desenvolvedores</span> para <span class="highlight">desenvolvedores</span>.</div>
-      <br />
-      <br />
-
-      <section class="nav-tabs-simple">
-        <!-- Nav tabs -->
-        <ul class="nav nav-tabs nav-justified">
-          <li class="active"><a href="#sobre-nos" data-toggle="tab"><i class="icon icon-documents-bookmarks-12" aria-hidden="true"></i> Sobre nós</a></li>
-          <li><a href="#social" data-toggle="tab"><i class="icon icon-chat-messages-01" aria-hidden="true"></i> Redes sociais</a></li>
-          <li><a href="#codigo" data-toggle="tab"><i class="icon icon-education-science-11" aria-hidden="true"></i> Código</a></li>
-        </ul>
-
-        <!-- Tab panes -->
-        <div class="tab-content">
-          <div class="tab-pane fade" id="social">
-            <article class="row">
-              <div class="col-md-5 col-sm-5 animated hiding" data-animation="fadeInLeft" data-delay="500">
-                <img class="img-responsive" src="assets/img/redes-sociais.jpg" alt="" />
-              </div>
-              <div class="col-md-6 col-sm-6 text-left animated hiding" data-animation="fadeInRight" data-delay="500">
-                <h2 class="subtitle">O evento nas redes sociais</h2>
-                <ul class="sub-list">
-                  <li><i class="fa fa-facebook" aria-hidden="true"></i><a href="https://www.facebook.com/events/349244561897052/" target="_blank">Evento no Facebook</a></li>
-                  <li><i class="fa fa-facebook" aria-hidden="true"></i><a href="https://www.facebook.com/hashtag/devday2015" target="_blank">Acompanhe pelo Facebook</a></li>
-                  <li><i class="fa fa-twitter" aria-hidden="true"></i><a href="https://twitter.com/search?q=%23DEVDAY2015" target="_blank">Acompanhe pelo Twitter - Hashtag oficial: #DEVDAY2015</a></li>
-                </ul>
-              </div>
-            </article>
-          </div>
-
-        <div class="tab-pane fade" id="codigo">
-          <article class="row">
-            <div class="col-md-6 col-sm-6 text-left animated hiding" data-animation="fadeInLeft" data-delay="500">
-              <h2 class="subtitle">O que você verá no evento</h2>
-              <p>Você pode conferir a agenda completa do evento e tudo que irá acontecer nele <a href="http://devday.devisland.com/#schedule">aqui</a>.</a></p>
-            </div>
-            <div class="col-md-5 col-sm-5 animated hiding" data-animation="fadeInRight" data-delay="500">
-              <img class="img-responsive" src="assets/img/js.jpg" alt="placeholder" />
-            </div>
-          </article>
-        </div>
-
-        <div class="tab-pane fade in active" id="sobre-nos">
-          <article itemprop="about" class="row">
-            <div class="col-md-5 col-sm-5 animated hiding" data-animation="fadeInLeft" data-delay="500">
-              <img class="img-responsive" src="assets/img/sobrenos.jpg" alt="" />
-            </div>
-            <div class="col-md-6 col-sm-6 text-left animated hiding" data-animation="fadeInRight" data-delay="500">
-              <h2 class="subtitle">Sobre o DEVDAY 2015</h2>
-              <p>A comunidade de desenvolvimento DevIsland está organizando novamente o DEVDAY, um evento para desenvolvedores de software.</p>
-              <p>
-              Na sua sexta edição, o DEVDAY 2015 irá reunir aproximadamente <span class="highlight">450 desenvolvedores</span>.
-              <br>
-              Contaremos com profissionais reconhecidos pelo mercado nacional que compartilharão seus conhecimentos nas <span class="highlight">20 palestras</span> que compõem a grade do evento.
-              <br>
-              Serão abordados diversos assuntos focados em desenvolvimento de software ou que de alguma forma afetam a vida de um desenvolvedor.
-              <br>
-              Nenhum profissional da área pode perder!
-              <br>
-              <span class="highlight"><a href="http://pt-br.confcodeofconduct.com/" target="_blank">Código de Conduta.</a></span>
-            </p>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-  </div>
-</section>
-<!-- End About Section -->
-
-<!-- {% include palestrantes.html palestrantes="Palestrantes" embreve="Conheça os palestrantes do evento." lang="pt" %} -->
-{% include palestrantes.html palestrantes="Palestrantes" embreve="Até o dia 30/08 divulgaremos todos os palestrantes." lang="pt" %}
-
-{% include agenda.html agenda="Agenda" geral="Geral" auditorio="Auditório" sala1="Sala 1" sala2="Sala 2" comunidade="Espaço Comunidade" %}
-
-<!-- Price Section -->
-<section id="inscricoes" class="section dark">
-  <div class="container">
-    <div class="icon-wrap"><span class="icon icon-active icon-shopping-02" aria-hidden="true"></span></div>
-    <h3>Inscrições</h3>
-    <div class="sub-title">Venha participar do maior evento de desenvolvimento de software de Minas Gerais!</div>
-<br/>
-<br/>
-  <div class="pricing-cols pricing-3-cols">
-        <div class="pricing-col animated hiding visible-lg" data-animation="fadeInRight" data-delay="0">
-            <div class="pricing-col-header">
-                <h3 class="pricing-col-header-title">LOTE UM</h3>
-                <h4 class="pricing-col-header-amount">
-                <span class="pricing-col-amount">R$94</span></h4>
-            </div>
-            <div class="pricing-col-content">
-                <ul>
-                    <li>0 vagas</li>
-                    <li>01 Ago - 31 Ago</li>
-                </ul>
-                <a class="pricing-col-button">ESGOTADO</a>
+<!-- MAIN-SLIDER -->                    
+<div class="main-slider bordered clearfix">
+    <div class="swiper-container" data-autoplay="0" data-loop="0" data-speed="0" data-center="0" data-slides-per-view="1" data-add-slides="1">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide active" data-val="0">
+                <div class="fullheight">
+                    <img class="center-image" src="assets/img/main_1.jpg" alt="">
+                    <div class="vertical-align">
+                        <div class="square-box"> 
+                            <h4 class="square-date">2 DE SETEMBRO</h4>
+                            <h2 class="square-title">DEVDAY 2017</h2><!-- img src="assets/img/marca_cropped.png"/ -->
+                            <div class="square-text">ESCOLA DE ENGENHARIA DA UFMG</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="pricing-col pricing-col-featured" data-animation="fadeInLeft" data-delay="0">
-            <div class="pricing-col-header">
-                <h3 class="pricing-col-header-title">LOTE TRÊS</h3>
-                <h4 class="pricing-col-header-amount">
-                <span class="pricing-col-amount">R$116</span></h4>
-            </div>
-            <div class="pricing-col-content">
-                <ul>
-                    <li>100 vagas</li>
-                    <li>ÚLTIMO LOTE</li>
-                </ul>
-                <a class="pricing-col-button" href="https://docs.google.com/forms/d/1DdE3nWg9SvJipx9EpRZ2_xaYJ6TCyxEN-1AZnRsNbOE/viewform">ESGOTADO<br>Lista de espera</a>
-            </div>
-        </div>
-        <div class="pricing-col animated hiding visible-lg" data-animation="fadeInLeft" data-delay="0">
-            <div class="pricing-col-header">
-                <h3 class="pricing-col-header-title">LOTE DOIS</h3>
-                <h4 class="pricing-col-header-amount">
-                <span class="pricing-col-amount">R$105</span></h4>
-            </div>
-            <div class="pricing-col-content">
-                <ul>
-                    <li>100 vagas</li>
-                    <li>01 Set - 30 Set</li>
-                </ul>
-                <a class="pricing-col-button">ESGOTADO</a>
-            </div>
-        </div>
-  </div>
-  </div>
-</section>
-<!-- End Price Section -->
-<!-- Register Section -->
-<section id="register" class="section light">
-  <div class="overlay"></div>
-  <div class="container">
-    <article class="article-big animated hiding" data-animation="fadeInUp" data-delay="0">
-      <h5>Inscreva-se para o DEVDAY 2015 agora!</h5>
-      <p>
-        Não deixe de participar do maior evento de desenvolvimento de software de Minas Gerais.
-        <br/>
-        Venha trocar experiências em um ambiente agradável e inclusivo.
-      </p>
-      <br/>
-      <a href="http://even.tc/devday-2015" class="btn btn-sm btn-tertiary" target="_blank">Inscreva-se</a>
-    </article>
-  </div>
-</section>
-<!-- End Register Section -->
-<!-- Sponsors Section -->
-<section id="sponsors" class="section dark">
-  <div class="container">
-    <div class="icon-wrap"><span class="icon icon-active icon-documents-bookmarks-12"></span></div>
-    <h3>Patrocínio</h3>
-    <div class="sub-title">Contribua com a comunidade e ajude a realizar este evento incrível.</div>
-    <br/>
-    <h3>Diamante</h3>
-    {% include patrocinadores_diamante.html %}
-    <h3>Ouro</h3>
-    {% include patrocinadores_ouro.html %}
-    <h4>Prata</h4>
-    {% include patrocinadores_prata.html %}
-    <h5>Bronze</h5>
-    {% include patrocinadores_bronze.html %}
-    <h2 class="subtitle">Apoio</h2>
-    {% include patrocinadores_apoio.html %}
- <div class="btn-wrapper">
-  <a href="./static/midia-kit-pt.pdf" target="_blank" class="btn btn-sm btn-primary">Seja um patrocinador</a>
- </div>
+        <div class="pagination"></div>
+        <!-- <div class="swiper-arrow-left style-1"><img src="assets/img/arrow_left.png" alt=""></div>   -->
+        <!-- <div class="swiper-arrow-right style-1"><img src="assets/img/arrow_right.png" alt=""></div>          -->
+    </div>
 </div>
-  </div>
-</section>
-<!-- End Price Section -->
 
-{% include organizacao.html organizacao="Organização" nosso_time="Nosso time" %}
-
-{% include hoteis.html hoteis="Hotéis" %}
-
-{% include contato.html contato="Contato" local="Local" %}
-
-<footer id="footer">
-<div class="container">
-<ul class="navigation-bar">
-  <li><a href="#about">Sobre</a></li>
-  <!--<li><a href="#stat">Number Facts</a></li>-->
-  <li><a href="#inscricoes">Inscrições</a></li>
-  <li><a href="#sponsors">Patrocínio</a></li>
-  <li><a href="#organizacao">Organização</a></li>
-  <li><a href="#hoteis">Hotéis</a></li>
-  <li><a href="#map">Contato</a></li>
-  <li><a href="english.html">English</a></li>
-  <li><a href="http://pt-br.confcodeofconduct.com/">Código de Conduta</a></li>
-  <li><img class="hidden-xs" src="assets/img/DevIsland_logo.png" alt="DevIsland"/></li>
-</ul>
+<!-- COUNTERS -->
+<div class="counter-wrapper clearfix">
+    <div class="conteiner">
+        <h4 class="counter-title">Tempo para o evento:</h4>
+        <div class="counters-block clearfix" data-finaldate="02 sep 2017">
+            <div class="counters-entry">
+                <div class="counters-count days">21</div>
+                <div class="counters-label">dias</div>
+            </div>
+            <div class="counters-entry">
+                <div class="counters-count hours">10</div>
+                <div class="counters-label">horas</div>
+            </div>
+            <div class="counters-entry">
+                <div class="counters-count minutes">48</div>
+                <div class="counters-label">minutos</div>
+            </div>
+            <div class="counters-entry">
+                <div class="counters-count seconds">37</div>
+                <div class="counters-label">segundos</div>
+            </div>
+        </div>
+        <a class="register-link c-btn b-50 yellow hv-yellow-o" href="#">Inscreva-se!</a>                
+    </div>
 </div>
-</footer>
+
+<!-- SOBRE O EVENTO -->
+{% include about.html category="DevDay" title="sobre o nosso evento" subtitle="Um evento feito por desenvolvedores para desenvolvedores." lang="pt" %}
+
+<!-- PALESTRANTES -->
+{% include speakers.html category="Nossos Convidados" title="Conheça os palestrantes" lang="pt" %}
+
+<!-- INSCRICOES -->
+<div id="sing" class="message-line">
+    <div class="container">
+        <div class="message-entry clearfix"> 
+            <h2 class="message-title">Seja um palestrante!</h2>
+            <div class="message-text">Preencha o formulário e participe da seleção de palestrantes do evento.</div>
+        </div>
+        <a class="register-link c-btn b-50 black hv-yellow-o" href="#">Inscreva-se!</a>
+    </div>
+</div>
+
+<!-- AGENDA -->
+{% include schedule.html category="Agenda do Evento" title="Programação" 
+main_room="Auditório" first_room="Sala 1" second_room="Sala 2" third_room="Comunidade" 
+lang="pt" %}
+
+<!-- PRICE -->
+{% include tickets.html category="Venha participar do maior evento de desenvolvimento de software de Minas Gerais!" title="Inscrições" buy="Comprar" soon="Em breve!" %}
+
+<!-- PATROCINIO -->
+<div id="partners" class="main-block style-2 bg-grey">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="block-header">
+                    <h4 class="block-category img-full">Contribua com a comunidade e ajude a realizar este evento incrível.</h4>
+                    <h2 class="block-title">Nossos Patrocinadores</h2>                    
+                </div>
+            </div>
+        </div>
+        <div class="row no-margin">
+            <div class="col-sm-offset-4 col-xs-4 col-sm-offset-4 text-center">
+                <a href="static/midia-kit-pt.pptx" target="_blank" class="c-btn b-50 yellow-2 hv-yellow">Seja um patrocinador</a>
+            </div>
+        </div>
+        <!-- <div class="row no-margin">
+            <div class="no-padding col-xs-6 col-md-3">
+                <div class="sponsor-entry green">
+                    <img src="assets/img/sponsor_1.png" alt="">
+                </div>
+            </div>
+            <div class="no-padding col-xs-6 col-md-3">
+                <div class="sponsor-entry white">
+                    <img src="assets/img/sponsor_2.png" alt="">
+                </div>
+            </div>
+            <div class="no-padding col-xs-6 col-md-3">
+                <div class="sponsor-entry blue">
+                    <img src="assets/img/sponsor_3.png" alt="">
+                </div>
+            </div>
+            <div class="no-padding col-xs-6 col-md-3">
+                <div class="sponsor-entry white">
+                    <img src="assets/img/sponsor_4.png" alt="">
+                </div>
+            </div>
+            <div class="no-padding col-xs-6 col-md-3">
+                <div class="sponsor-entry white">
+                    <img src="assets/img/sponsor_5.png" alt="">
+                </div>
+            </div>
+            <div class="no-padding col-xs-6 col-md-3">
+                <div class="sponsor-entry red">
+                    <img src="assets/img/sponsor_6.png" alt="">
+                </div>
+            </div>
+            <div class="no-padding col-xs-6 col-md-3">
+                <div class="sponsor-entry white">
+                    <img src="assets/img/sponsor_7.png" alt="">
+                </div>
+            </div>                	                 	         
+            <div class="no-padding col-xs-6 col-md-3">
+                <div class="sponsor-entry lightblue">
+                    <img src="assets/img/sponsor_8.png" alt="">
+                </div>
+            </div>                	                	
+        </div> -->
+    </div>
+</div>
+
+
+<!-- ORGANIZAÇÃO -->
+{% include staff.html category="Team DevDay &lt;3" title="Organização" lang="pt" %}
+
+<!-- CONTATO -->
+<div id="contact" class="contact-block bg-dark">
+    <div class="map-block" id="map-canvas" data-marker="assets/img/pmarker.png" data-string="DevDay" data-lat="-19.869183" data-lng="-43.962739" data-zoom="16" data-style="style-1"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+                <div class="contact-entry">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6">
+                            <div class="s-contact">
+                                <div class="contact-catagory">mais informações</div>
+                                <div class="contact-title">entre em contato</div>
+                                <!-- <div class="contact-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</div> -->
+                                <div class="contact-row">
+                                    <p><i class="fa fa-envelope-o"></i><a href="mailto:devday@devisland.com">devday@devisland.com</a></p>
+                                    <p><i class="fa fa-facebook"></i> <a href="https://www.facebook.com/DevIsland/" target="_blank">DevIsland</a></p>
+                                    <p><i class="fa fa-twitter"></i> <a href="http://www.twitter.com/devisland" target="_blank">@devisland</a></p>
+
+                                    <!-- <p><i class="fa fa-phone"></i><a href="tal:61402186411">+61 402 186 411</a>, <a href="tal:6166650">+61 66 650</a></p> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                                <div class="s-contact">
+                                <div class="contact-catagory style-2">local do evento</div>
+                                <div class="contact-title">UFMG</div>
+                                <!-- <div class="contact-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</div> -->
+                                <div class="contact-row">
+                                    <p><i class="fa fa-map-marker"></i>Escola de Engenharia da UFMG, Belo Horizonte</p>
+                                    <p><i class="fa fa-clock-o"></i>08:30h às 18:00h</p>            						
+                                    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>                                                           
+
