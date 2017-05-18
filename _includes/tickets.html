@@ -17,7 +17,7 @@
                         <div class="price-top">
                             <h4 class="price-title">{{ ticket.title }}</h4>
                             <div class="price-category">{{ ticket.period }}</div>
-                            <div class="price-per">{{ ticket.price }}<sup>R$</sup></div>
+                            <div class="price-per"><sup>R$</sup>{{ ticket.price }}</div>
                             <div class="price-desc">{{ ticket.amount }}</div>
                         </div>
                         {% if ticket.enabled %}
