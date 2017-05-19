@@ -690,6 +690,7 @@ body { font-family: 'Open Sans', sans-serif; }
 .price-per sub { font-size: 16px; line-height: 20px; font-weight: 300; letter-spacing: 0px; }
 .price-desc { font-size: 13px; line-height: 24px; font-weight: 400; color: #bbbbbb; padding: 0px 15%; }
 .price-bottom { background: #feca16; padding-top: 20px; padding-bottom: 20px; }
+.price-bottom.disabled { background: #6c6c6c; color: #fff; }
 .price-row { margin-bottom: 20px; margin-bottom: 46px; }
 .price-row p { font-size: 13px; line-height: 15px; font-weight: 400; color: #bbbbbb; margin-bottom: 10px; margin-bottom: 19px; }
 .price-row p:last-child { margin-bottom: 0px; }
