@@ -14,7 +14,7 @@
   price: "105"
   amount: 150 vagas
   description: 
-  buy: 
+  buy: "https://www.sympla.com.br/devday-2017__141900"
   enabled: false
 
 - position: "right"
