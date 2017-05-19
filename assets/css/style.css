@@ -731,6 +731,18 @@ body { font-family: 'Open Sans', sans-serif; }
 .sponsor-entry.red { background: #e11621; }
 .sponsor-entry img { position: absolute; top: 50%; left: 50%; -webkit-transform: translateX(-50%) translateY(-50%); -moz-transform: translateX(-50%) translateY(-50%); -ms-transform: translateX(-50%) translateY(-50%); -o-transform: translateX(-50%) translateY(-50%); transform: translateX(-50%) translateY(-50%); max-width: 90%; }
 /*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 21 - TALKS */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+.talk-wrapper { margin-bottom: 50px; }
+.talk-entry { overflow: hidden; position: relative; width: 100%; padding-bottom: 100%; border: 0px !important; }
+.talk-entry.green { background: #8ab81d; font-weight: bold; color: #FFF; border: 3px solid #42590d; }
+.talk-entry.white { background: #fff; font-weight: bold; color: #000; border: 3px solid #d1cfcf; }
+.talk-entry.blue { background: #2791ce; font-weight: bold; color: #FFF; border: 3px solid #10415e;}
+.talk-entry.lightblue { background: #27cecc; font-weight: bold; color: #FFF; border: 3px solid #116362; }
+.talk-entry.red { background: #e11621; font-weight: bold; color: #FFF; border: 3px solid #680a0f;}
+.talk-entry span { position: absolute; top: 50%; left: 50%; -webkit-transform: translateX(-50%) translateY(-50%); -moz-transform: translateX(-50%) translateY(-50%); -ms-transform: translateX(-50%) translateY(-50%); -o-transform: translateX(-50%) translateY(-50%); transform: translateX(-50%) translateY(-50%); max-width: 90%; }
+.talk-wrapper a:hover div { background:rgb(0, 0, 0); opacity:0.3; color: #FFF; }
+/*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 22 - CONTACT */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 .contact-block { position: relative; padding-top: 112px; padding-bottom: 90px; }
