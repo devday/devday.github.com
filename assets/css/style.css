@@ -730,6 +730,7 @@ body { font-family: 'Open Sans', sans-serif; }
 .sponsor-entry.blue { background: #2791ce; }
 .sponsor-entry.lightblue { background: #27cecc; }
 .sponsor-entry.red { background: #e11621; }
+.sponsor-entry.darkblue { background: #053d4e; }
 .sponsor-entry img { position: absolute; top: 50%; left: 50%; -webkit-transform: translateX(-50%) translateY(-50%); -moz-transform: translateX(-50%) translateY(-50%); -ms-transform: translateX(-50%) translateY(-50%); -o-transform: translateX(-50%) translateY(-50%); transform: translateX(-50%) translateY(-50%); max-width: 90%; }
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 21 - TALKS */
