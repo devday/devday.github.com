@@ -724,7 +724,7 @@ body { font-family: 'Open Sans', sans-serif; }
 /* 21 - SPONSORS */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 .sponsor-wrapper { margin-bottom: 50px; }
-.sponsor-entry { overflow: hidden; position: relative; width: 100%; padding-bottom: 100%; }
+.sponsor-entry { overflow: hidden; position: relative; width: 100%; padding-bottom: 75%; }
 .sponsor-entry.green { background: #8ab81d; }
 .sponsor-entry.white { background: #fff; }
 .sponsor-entry.blue { background: #2791ce; }
