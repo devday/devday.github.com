@@ -724,9 +724,9 @@ body { font-family: 'Open Sans', sans-serif; }
 /* 21 - SPONSORS */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 .sponsor-wrapper { margin-bottom: 50px; }
-.sponsor-entry { overflow: hidden; position: relative; width: 100%; padding-bottom: 100%; }
-.sponsor-entry.size-50 { padding-bottom: 50%; }
-
+.sponsor-entry { overflow: hidden; position: relative; width: 100%; padding-bottom: 70%; }
+/*.sponsor-entry.size-diamond { padding-bottom: 50%; }*/
+.sponsor-entry.size-gold { width: 90%; padding-bottom: 60%; }
 .sponsor-entry.green { background: #8ab81d; }
 .sponsor-entry.white { background: #fff; }
 .sponsor-entry.blue { background: #2791ce; }
@@ -734,7 +734,8 @@ body { font-family: 'Open Sans', sans-serif; }
 .sponsor-entry.red { background: #e11621; }
 .sponsor-entry.darkblue { background: #053d4e; }
 .sponsor-entry img { position: absolute; top: 50%; left: 50%; -webkit-transform: translateX(-50%) translateY(-50%); -moz-transform: translateX(-50%) translateY(-50%); -ms-transform: translateX(-50%) translateY(-50%); -o-transform: translateX(-50%) translateY(-50%); transform: translateX(-50%) translateY(-50%); max-width: 80%; }
-.sponsor-entry.size-50 img { max-width: 80%; }
+.sponsor-entry.size-diamond img { max-width: 80%; }
+.sponsor-entry.size-gold img { max-width: 65%; }
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 21 - TALKS */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
