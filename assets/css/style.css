@@ -729,6 +729,10 @@ body { font-family: 'Open Sans', sans-serif; }
 .sponsor-entry.size-gold { width: 90%; padding-bottom: 60%; }
 .sponsor-entry.green { background: #8ab81d; }
 .sponsor-entry.white { background: #fff; }
+.sponsor-entry.gray { background: #f4f4f4; }
+.sponsor-entry.greenwater {background: rgb(51,170,183);}
+.sponsor-entry.darkblue {background: rgb(32, 85, 166);}
+.sponsor-entry.purple { background: rgb(62, 57, 144); }
 .sponsor-entry.blue { background: #2791ce; }
 .sponsor-entry.lightblue { background: #27cecc; }
 .sponsor-entry.red { background: #e11621; }
@@ -736,6 +740,7 @@ body { font-family: 'Open Sans', sans-serif; }
 .sponsor-entry img { position: absolute; top: 50%; left: 50%; -webkit-transform: translateX(-50%) translateY(-50%); -moz-transform: translateX(-50%) translateY(-50%); -ms-transform: translateX(-50%) translateY(-50%); -o-transform: translateX(-50%) translateY(-50%); transform: translateX(-50%) translateY(-50%); max-width: 80%; }
 .sponsor-entry.size-diamond img { max-width: 80%; }
 .sponsor-entry.size-gold img { max-width: 65%; }
+.sponsor-entry.size-bronze img { max-width: 45%; }
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 21 - TALKS */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
