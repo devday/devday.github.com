@@ -26,7 +26,11 @@
                         </div>
                         {% else %}
                         <div class="price-bottom disabled">
-                            <span class="register-link c-btn b-50" href="#">{{ include.soon }}</span>
+                            {% if ticket.soldout %}
+                                <span class="register-link c-btn b-50" href="#">{{ include.soldout }}</span>
+                            {% else %}
+                                <span class="register-link c-btn b-50" href="#">{{ include.soon }}</span>
+                            {% endif %}
                         </div>
                         {% endif %}
                     </div>
