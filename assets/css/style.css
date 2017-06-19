@@ -333,6 +333,7 @@ body { font-family: 'Open Sans', sans-serif; }
 .thumbnails img { -webkit-filter: grayscale(100%); filter: grayscale(100%); }
 .thumbnails .swiper-slide { position: relative; cursor: pointer; }
 .thumbnails .swiper-slide.current img { -webkit-filter: grayscale(0%); filter: grayscale(0%); }
+
 .thumbnails .thumb-overlay { position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; background: #feca16; opacity: 0; }
 .thumbnails .swiper-slide:hover .thumb-overlay { opacity: 0.8; }
 .thumbnails .thumb-desc { position: absolute; top: 50%; left: 50%; -webkit-transform: translateX(-50%) translateY(-50%); -moz-transform: translateX(-50%) translateY(-50%); -ms-transform: translateX(-50%) translateY(-50%); -o-transform: translateX(-50%) translateY(-50%); transform: translateX(-50%) translateY(-50%); width: 100%; text-align: center; opacity: 0; z-index: 2; }

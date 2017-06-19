@@ -1,3 +1,4 @@
+{% assign count = -1 %}
 <!-- PALESTRANTES -->
 <div id="speakers" class="main-block clearfix">
     <div class="container">
@@ -10,79 +11,17 @@
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-offset-2 col-sm-8 text-center talk-wrapper">
-                <span style="font-size: 18px; margin: 0px 0px 2px">
-                    <div class="no-padding col-xs-6 col-md-3">
-                        <a href="#" target="_blank">
-                            <div class="talk-entry green">
-                                <span>Casos de Sucesso!</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="no-padding col-xs-6 col-md-3">
-                        <a href="#" target="_blank">
-                            <div class="talk-entry white">
-                                <span>Tendências Tecnológicas</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="no-padding col-xs-6 col-md-3">
-                        <a href="#" target="_blank">
-                            <div class="talk-entry blue">
-                                <span>Academia na prática</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="no-padding col-xs-6 col-md-3">
-                        <a href="#" target="_blank">
-                            <div class="talk-entry white">
-                                <span>Comunidades</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="no-padding col-xs-6 col-md-3">
-                        <a href="#" target="_blank">
-                            <div class="talk-entry white">
-                                <span>Acessibilidade</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="no-padding col-xs-6 col-md-3">
-                        <a href="#" target="_blank">
-                            <div class="talk-entry lightblue">
-                                <span>Diversidade</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="no-padding col-xs-6 col-md-3">
-                        <a href="#" target="_blank">
-                            <div class="talk-entry green">
-                                <span>Ou o que você achar legal!</span>
-                            </div>
-                        </a>
-                    </div>
-                     <div class="no-padding col-xs-6 col-md-3">
-                        <a href="#" target="_blank">
-                            <div class="talk-entry red">
-                                <span>Inscreva-se!</span>
-                            </div>
-                        </a>
-                    </div>
-                <!--<a href="#" target="_blank"><span style="font-weight:bolder; font-size: 25px; margin: 0px 0px 2px">Inscreva-se!</span></a>-->
-            </div>
-        </div>
-        <br/><br/><br/><br/><br/>
-        <br/><br/><br/><br/><br/>
-    </div>
-    <!-- <div class="slider-wth-thumbs">
+    <div class="slider-wth-thumbs">
         <div class="swiper-container thumbnails-preview" data-autoplay="0" data-loop="1" data-speed="500" data-center="0" data-slides-per-view="1">
             <div class="swiper-wrapper">
                 {% for speaker in site.data.speakers %}
                     {% capture count %}{{ count | plus: '1' }}{% endcapture %}
-                    <div class="swiper-slide active" data-val="{{count}}">
-                        <div class="speaker-img"><img class="center-image" src="assets/img/speakers/{{ speaker.avatar }}.jpg" alt="{{ speaker.name }}"></div>
+                    {% if count == '0' %}
+                        <div class="swiper-slide active" data-val="{{count}}">
+                    {% else %}
+                        <div class="swiper-slide active" data-val="{{count}}">
+                    {% endif %}
+                        <div class="speaker-img" style="height: 608px !important"><img class="center-image" src="assets/img/speakers/{{ speaker.avatar }}" alt="{{ speaker.name }}"></div>
                         <div class="container">
                             <div class="row">
                                 <div class="col-xs-12 col-md-6">
@@ -107,13 +46,12 @@
                                                 <a href="http://github.com/{{ speaker.github }}"><i class="fa fa-github"></i></a>
                                             {% endif %}
                                         </div>
+                                        <div class="clearfix">&nbsp;</div>
                                         <!-- <div class="speaker-change clearfix">
                                             <img src="assets/img/speaker_change_1.jpg" data-image="assets/img/speaker_change_1_b.jpg" alt="">
                                             <img src="assets/img/speaker_change_2.jpg" data-image="assets/img/speaker_change_2_b.jpg" alt="">
                                             <img src="assets/img/speaker_change_3.jpg" data-image="assets/img/speaker_change_3_b.jpg" alt="">
                                         </div> -->
-
-                                        <!--
                                     </div>
                                 </div>
                             </div>
@@ -125,16 +63,19 @@
             <div class="swiper-arrow-left style-1"><img src="assets/img/arrow_left.png" alt=""></div>
             <div class="swiper-arrow-right style-1"><img src="assets/img/arrow_right.png" alt=""></div>
         </div>
-        <div class="swiper-container thumbnails" data-autoplay="0" 
-        data-loop="0" data-speed="500" data-center="0" 
-        data-slides-per-view="responsive" data-mob-slides="3"  data-xs-slides="4" 
-        data-sm-slides="6" data-md-slides="7" data-lg-slides="8" 
-        data-add-slides="8">
+        <div class="swiper-container thumbnails" data-autoplay="0" data-loop="0" data-speed="500" data-center="0" 
+              data-slides-per-view="responsive" data-mob-slides="3"  data-xs-slides="4" 
+              data-sm-slides="6" data-md-slides="7" data-lg-slides="8" data-add-slides="8">
             <div class="swiper-wrapper">
-                {% for speaker in site.data.speakers %}
+                {% assign count = -1 %}
+                {% for speaker in site.data.speakers %}                    
                     {% capture count %}{{ count | plus: '1' }}{% endcapture %}
-                    <div class="swiper-slide current active" data-val="{{ count }}">
-                        <img class="img-responsive img-full" src="assets/img/speaker/thumb_{{ speaker.avatar }}.jpg" alt="{{ speaker.name }}">
+                    {% if count == '0'x %}
+                        <div class="swiper-slide current active" data-val="{{ count }}">
+                    {% else %}
+                        <div class="swiper-slide active" data-val="{{ count }}">
+                    {% endif %}
+                        <img class="img-responsive img-full" src="assets/img/speakers/thumbs/{{ speaker.avatar }}" alt="{{ speaker.name }}">
                         <div class="thumb-desc">
                             <div class="thumb-title">{{ speaker.name }}</div>
                             <div class="thumb-text">{{ speaker.category }}</div>
@@ -145,6 +86,6 @@
             </div>
             <div class="pagination hidden"></div>
         </div>
-    </div> -->
+    </div>
 
 </div>
