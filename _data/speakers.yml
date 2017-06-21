@@ -30,3 +30,19 @@
   twitter: henriqueoelze
   facebook: henriqueoelze
   linkedin: henriqueoelze
+
+- name: Thiago Marques
+  avatar: thiago_marques.jpg
+  bio: "Thiago estudou Ciência da Computação na Universidade Federal de Lavras e na Arizona State University. É desenvolvedor front-end na Hotmart e já teve experiências trabalhando com design de interface, experiência e interação do Usuário. É envolvido com com comunidades de desenvolvimento e é organizador do Google Developers Group Belo Horizonte. Um de seus grandes objetivos é utilizar a Computação para facilitar a vida das pessoas e entender como elas podem ser beneficiadas com isso."
+  category: "Acessibilidade"
+  github: althi
+  twitter: althi
+  facebook: southiago
+
+- name: Italo José
+  avatar: italo_jose.jpg
+  bio: "Italo José, estudante de SI pela FIAP, palestrante e graffiteiro nas horas vagas."
+  category: "Academia na Prática"
+  github: italojs
+  twitter: italojs
+  facebook: italojs
