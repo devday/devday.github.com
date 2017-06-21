@@ -12,8 +12,8 @@
         </div>
     </div>
     <div class="slider-wth-thumbs">
-        <div class="swiper-container thumbnails-preview" data-autoplay="0" data-loop="1" data-speed="500" data-center="0" data-slides-per-view="1">
-            <div class="swiper-wrapper">
+        <div class="swiper-container thumbnails-preview" data-autoplay="0" data-loop="1" data-speed="500" data-center="0" data-slides-per-view="1" style="height: 580px !important">
+            <div class="swiper-wrapper" style="height: 580px !important">
                 {% for speaker in site.data.speakers %}
                     {% capture count %}{{ count | plus: '1' }}{% endcapture %}
                     {% if count == '0' %}
@@ -21,43 +21,42 @@
                     {% else %}
                         <div class="swiper-slide active" data-val="{{count}}">
                     {% endif %}
-                        <div class="speaker-img" style="height: 608px !important"><img class="center-image" src="assets/img/speakers/{{ speaker.avatar }}" alt="{{ speaker.name }}"></div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xs-12 col-md-6">
-                                    <div class="speaker-block">
-                                        <div class="speaker-title">{{ speaker.name }}</div>
-                                        <div class="speaker-category">{{ speaker.category }}</div>
-                                        <div class="speaker-text">{{ speaker.bio }}</div>
-                                        <div class="speaker-social clearfix">
-                                            {% if speaker.facebook %}
-                                                <a href="http://facebook.com/{{ speaker.facebook }}"><i class="fa fa-facebook"></i></a>
-                                            {% endif %}
-                                            {% if speaker.twitter %}
-                                                <a href="http://twitter.com/{{ speaker.twitter }}"><i class="fa fa-twitter"></i></a>
-                                            {% endif %}
-                                            {% if speaker.googleplus %}
-                                                <a href="https://plus.google.com/{{ speaker.googleplus }}"><i class="fa fa-google-plus"></i></a>
-                                            {% endif %}
-                                            {% if speaker.linkedin %}
-                                                <a href="{{ speaker.linkedin }}"><i class="fa fa-linkedin"></i></a>
-                                            {% endif %}
-                                            {% if speaker.github %}
-                                                <a href="http://github.com/{{ speaker.github }}"><i class="fa fa-github"></i></a>
-                                            {% endif %}
+                            <div class="speaker-img" style="height: 580px !important"><img class="center-image" src="assets/img/speakers/{{ speaker.avatar }}" alt="{{ speaker.name }}"></div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-xs-12 col-md-6">
+                                        <div class="speaker-block">
+                                            <div class="speaker-title">{{ speaker.name }}</div>
+                                            <div class="speaker-category">{{ speaker.category }}</div>
+                                            <div class="speaker-text">{{ speaker.bio }}</div>
+                                            <div class="speaker-social clearfix">
+                                                {% if speaker.facebook %}
+                                                    <a href="http://facebook.com/{{ speaker.facebook }}"><i class="fa fa-facebook"></i></a>
+                                                {% endif %}
+                                                {% if speaker.twitter %}
+                                                    <a href="http://twitter.com/{{ speaker.twitter }}"><i class="fa fa-twitter"></i></a>
+                                                {% endif %}
+                                                {% if speaker.googleplus %}
+                                                    <a href="https://plus.google.com/{{ speaker.googleplus }}"><i class="fa fa-google-plus"></i></a>
+                                                {% endif %}
+                                                {% if speaker.linkedin %}
+                                                    <a href="https://www.linkedin.com/in/{{ speaker.linkedin }}"><i class="fa fa-linkedin"></i></a>
+                                                {% endif %}
+                                                {% if speaker.github %}
+                                                    <a href="http://github.com/{{ speaker.github }}"><i class="fa fa-github"></i></a>
+                                                {% endif %}
+                                            </div>
+                                            <!-- <div class="speaker-change clearfix">
+                                                <img src="assets/img/speaker_change_1.jpg" data-image="assets/img/speaker_change_1_b.jpg" alt="">
+                                                <img src="assets/img/speaker_change_2.jpg" data-image="assets/img/speaker_change_2_b.jpg" alt="">
+                                                <img src="assets/img/speaker_change_3.jpg" data-image="assets/img/speaker_change_3_b.jpg" alt="">
+                                            </div> -->
                                         </div>
-                                        <div class="clearfix">&nbsp;</div>
-                                        <!-- <div class="speaker-change clearfix">
-                                            <img src="assets/img/speaker_change_1.jpg" data-image="assets/img/speaker_change_1_b.jpg" alt="">
-                                            <img src="assets/img/speaker_change_2.jpg" data-image="assets/img/speaker_change_2_b.jpg" alt="">
-                                            <img src="assets/img/speaker_change_3.jpg" data-image="assets/img/speaker_change_3_b.jpg" alt="">
-                                        </div> -->
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div> 
-                {% endfor %}                                                                    
+                        </div> 
+                {% endfor %}   
             </div>
             <div class="pagination"></div>
             <div class="swiper-arrow-left style-1"><img src="assets/img/arrow_left.png" alt=""></div>
