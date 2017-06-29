@@ -1,4 +1,3 @@
-{% assign count = -1 %}
 <!-- PALESTRANTES -->
 <div id="speakers" class="main-block clearfix">
     <div class="container">
@@ -12,16 +11,14 @@
         </div>
     </div>
     <div class="slider-wth-thumbs">
-        <div class="swiper-container thumbnails-preview" data-autoplay="0" data-loop="1" data-speed="500" data-center="0" data-slides-per-view="1" style="height: 580px !important">
-            <div class="swiper-wrapper" style="height: 580px !important">
-                {% for speaker in site.data.speakers %}
+        <div class="swiper-container thumbnails-preview" data-autoplay="0" data-loop="0" data-speed="500" data-center="0" data-slides-per-view="1" style="height: 669px !important">
+            <div class="swiper-wrapper" style="">
+                {% assign count = -1 %}
+                {% assign speakers = site.data.speakers %}
+                {% for speaker in speakers %}
                     {% capture count %}{{ count | plus: '1' }}{% endcapture %}
-                    {% if count == '0' %}
-                        <div class="swiper-slide active" data-val="{{count}}">
-                    {% else %}
-                        <div class="swiper-slide active" data-val="{{count}}">
-                    {% endif %}
-                            <div class="speaker-img" style="height: 580px !important"><img class="center-image" src="assets/img/speakers/{{ speaker.avatar }}" alt="{{ speaker.name }}"></div>
+                        <div class="swiper-slide" data-val="{{count}}">
+                            <div class="speaker-img" style=""><img class="center-image" src="assets/img/speakers/{{ speaker.avatar }}" alt="{{ speaker.name }}"></div>
                             <div class="container">
                                 <div class="row">
                                     <div class="col-xs-12 col-md-6">
@@ -64,15 +61,15 @@
         </div>
         <div class="swiper-container thumbnails" data-autoplay="0" data-loop="0" data-speed="500" data-center="0" 
               data-slides-per-view="responsive" data-mob-slides="3"  data-xs-slides="4" 
-              data-sm-slides="6" data-md-slides="7" data-lg-slides="8" data-add-slides="8">
+              data-sm-slides="6" data-md-slides="7" data-lg-slides="8" data-add-slides="10">
             <div class="swiper-wrapper">
                 {% assign count = -1 %}
-                {% for speaker in site.data.speakers %}                    
+                {% for speaker in speakers %}
                     {% capture count %}{{ count | plus: '1' }}{% endcapture %}
-                    {% if count == '0'x %}
-                        <div class="swiper-slide current active" data-val="{{ count }}">
+                    {% if count == '0' %}
+                        <div class="swiper-slide" data-val="{{ count }}">
                     {% else %}
-                        <div class="swiper-slide active" data-val="{{ count }}">
+                        <div class="swiper-slide" data-val="{{ count }}">
                     {% endif %}
                         <img class="img-responsive img-full" src="assets/img/speakers/thumbs/{{ speaker.avatar }}" alt="{{ speaker.name }}">
                         <div class="thumb-desc">

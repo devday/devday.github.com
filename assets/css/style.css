@@ -731,6 +731,7 @@ body { font-family: 'Open Sans', sans-serif; }
 .sponsor-entry.green { background: #8ab81d; }
 .sponsor-entry.white { background: #fff; }
 .sponsor-entry.gray { background: #f4f4f4; }
+.sponsor-entry.darkgreen { background: #348d4d }
 .sponsor-entry.greenwater {background: rgb(51,170,183);}
 .sponsor-entry.darkblue {background: rgb(32, 85, 166);}
 .sponsor-entry.purple { background: rgb(62, 57, 144); }

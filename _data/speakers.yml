@@ -55,3 +55,25 @@
   github: italojs
   twitter: italojs
   facebook: italojs
+
+- name: Daniel Figueiredo
+  avatar: daniel_figueiredo.jpg
+  bio: "Daniel Duarte Figueiredo é formado em Engenharia de Controle e Automação pela UFMG em 2012 e atua na empresa dti digital como engenheiro de software sênior. Já participou de diversos projetos de desenvolvimento de sistemas, aplicativos e soluções diversas de software em diferentes plataformas e linguagens (Android, Microsoft .NET, Java, etc) e em paralelo estuda temas relacionados a teoria dos jogos, aprendizado de máquinas e Blockchain por curiosidade e hobby. Já apresentou sobre o tema da Blockchain em eventos internos e abertos ao público pela dti e estuda sobre o assunto desde janeiro de 2017."
+  category: "Tendências Tecnológicas"
+  facebook: duarte.daniel
+  linkedin: daniel-duarte-figueiredo-b46589a4
+
+- name: Ana Freitas
+  avatar: ana_freitas.jpg
+  bio: "Analista de Sistemas pós-graduada em Engenharia e Arquitetura de Software, e nas horas vagas podcaster do PodProgramar e Os Comentadores."
+  category: "Diversidade"
+  facebook: anaebastos
+  linkedin: anaebastos
+
+- name: Jimmy Andrade
+  avatar: jimmy_andrade.jpg
+  bio: "Jimmy Andrade é produtor musical e full-stack developer. Estudou Sistemas de Informação na UFVJM, Diamantina (MG), onde foi bolsista do projeto \"Diversidade Sexual e Cidadania\" e promoveu o evento \"UFVJM em Cores\" sobre diversidade étnica. Tem formação complementar em Engenharia de Som e Produção Musical, Design Thinking & Marketing Digital para Artistas e Bandas. Na Tracksale, além de trabalhar como Developer/UX, é Diversity Hero, pesquisando e implementando ações de diversidade."
+  category: "Diversidade"
+  facebook: eumesmojimmy
+  linkedin: linkedjim
+  github: jimmyandrade
