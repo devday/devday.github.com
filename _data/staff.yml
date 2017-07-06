@@ -29,7 +29,15 @@
   twitter: alexsazs
   github: alexsazs
   linkedin: https://www.linkedin.com/in/alexsazs
+  facebook: alexsazs
   avatar: alexsazs.jpg
+
+- name: Guilherme Corsino
+  twitter: guicorsino
+  github: guilhermecorsino
+  linkedin: https://www.linkedin.com/in/guilhermecorsino/
+  facebook: guilherme.silva.35728
+  avatar: guilherme.jpg
 
 - name: Daniela Marinho
   twitter: danifmarinho
@@ -45,9 +53,9 @@
   facebook: adriano.tavares
   avatar: adriano.jpg
 
-- name: Albert Tanure
-  twitter: alberttanure
-  github: tanure
-  linkedin: https://www.linkedin.com/in/albert-tanure
-  facebook: albert.tanure
-  avatar: albert.jpg
+# - name: Albert Tanure
+#   twitter: alberttanure
+#   github: tanure
+#   linkedin: https://www.linkedin.com/in/albert-tanure
+#   facebook: albert.tanure
+#   avatar: albert.jpg
