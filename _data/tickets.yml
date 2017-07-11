@@ -9,22 +9,22 @@
   soldout: true
 
 # selling
-- position: "center"
+- position: "left"
   title: Segundo Lote
   period: "06 Jun - 10 Jul"
   price: "120"
-  amount: 200 vagas
+  amount: 150 vagas
   description: 
   buy: "https://www.sympla.com.br/devday-2017__141900"
-  enabled: true
-  soldout: false
+  enabled: false
+  soldout: true
 
-- position: "right"
+- position: "center"
   title: Terceiro Lote
-  period: "01 Ago - 30 Ago"
+  period: "10 Jul - 21 Ago"
   price: "145"
   amount: 100 vagas
   description: 
-  buy:
-  enabled: false
+  buy: "https://www.sympla.com.br/devday-2017__141900"
+  enabled: true
   soldout: false
