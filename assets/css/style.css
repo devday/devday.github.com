@@ -318,7 +318,7 @@ body { font-family: 'Open Sans', sans-serif; }
 .thumbnails-preview { background: #222222; }
 .thumbnails-preview .swiper-slide { position: relative; }
 .thumbnails-preview .pagination { display: none; }
-.speaker-block { padding-top: 134px; padding-bottom: 136px; }
+.speaker-block { padding-top: 34px; padding-bottom: 136px; }
 .speaker-img { position: absolute; top: 0px; right: 0px; bottom: 0px; left: 50%; margin-left: 15px; }
 .speaker-title { font-size: 38px; line-height: 38px; font-weight: 400; color: #fff; letter-spacing: 3.8px; margin-bottom: 25px; }
 .speaker-category { display: inline-block; font-size: 12px; line-height: 15px; font-weight: 400; color: #fff; text-transform: uppercase; background: #feb416; padding: 8px 9px; margin-bottom: 30px;  }

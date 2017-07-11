@@ -6,6 +6,14 @@
   github: jjviana
   twitter: jjviana
 
+- name: André Dias
+  avatar: andre_dias.jpg
+  bio: "André Dias tem mais de 20 anos de experiência em desenvolvimento de software, sendo muitos deles dedicados as práticas de DevOps, Agilidade e mais recentemente a Cloud Computing. É Diretor de Operações na ESX, Microsoft MVP desde 2011 nas competências ALM e Visual Studio and Development Technologies e também é membro dos ALM Rangers. Possui certificações como MCSD Azure Solutions Architect, MCSD ALM, MCSE Cloud & Infrastructure, MCT, Scrum Trainer pela Scrum.org entre outras relacionadas a desenvolvimento nas plataformas .net, Java e Windows DNA. Trabalhou na Microsoft Brasil como consultor de ALM, foi diretor de operações da BR Soluções e um dos fundadores da Lambda3."
+  category: "DevOps"
+  facebook: brandredias
+  linkedin: andrediasbr
+  github: 
+
 - name: Lucas Costa
   avatar: lucas_costa.jpg
   bio: "Lucas Costa é engenheiro de software, formado em Ciência da Computação pela UFMG. Atualmente trabalha na Globo.com, onde desenvolve sistemas para monitoramento da plataforma de vídeos e qualidade de experiência (QoE) dos usuários. Além da Globo.com, possui também experiência em ambientes de pesquisa e startups."
@@ -77,3 +85,20 @@
   facebook: eumesmojimmy
   linkedin: linkedjim
   github: jimmyandrade
+
+- name: Sidharta Noleto
+  avatar: sidharta_noleto.jpg
+  bio: "Arquiteto de sistemas especialista em Cloud Computing. Programador de sistemas para web desde quando usávamos Netscape, Geocities, GetRight e ICQ! (sds...) Músico e Yogui nas horas vagas, mas predominantemente geek!"
+  category: "Arquitetura"
+  facebook: 
+  linkedin: 
+  github:
+    
+- name: Wallison Marra
+  avatar: wallison_marra.jpg
+  bio: "DevOps Engineer na Hotmart e amante da computação em nuvem. Entusiasta da tecnologia, procura sempre novas formas e tendências de criar e automatizar processos"
+  category: "DevOps"
+  facebook: wallison.marra
+  linkedin: wmarra
+  github: wmarra
+
