@@ -1,5 +1,6 @@
 - name: Juliano Viana
   avatar: juliano_viana.jpg
+  title: Artificial by design -- da lingaugem natural aos veículos autônomos, o estado da arte em deep learning e suas apicações
   bio: "Juliano tem longa experiência na arquitetura e implementação de sistemas para resolver problemas desafiadores. Bacharel em Ciência da Computação pela UFMG foi por quase três anos CTO da Zunnit Technologies, onde liderou um time que aplica Machine Learning para criar sistemas de recomendação sofisticados. Hoje é CTO da Kunumi, empresa focada em transformar organizações através da aplicação de Inteligência Artificial."
   category: "Inteligência Artificial"
   linkedin: juliano-viana-16280b4
@@ -8,6 +9,7 @@
 
 - name: André Dias
   avatar: andre_dias.jpg
+  title: Application insights -- Dê-me a visão além do alance
   bio: "André Dias tem mais de 20 anos de experiência em desenvolvimento de software, sendo muitos deles dedicados as práticas de DevOps, Agilidade e mais recentemente a Cloud Computing. É Diretor de Operações na ESX, Microsoft MVP desde 2011 nas competências ALM e Visual Studio and Development Technologies e também é membro dos ALM Rangers. Possui certificações como MCSD Azure Solutions Architect, MCSD ALM, MCSE Cloud & Infrastructure, MCT, Scrum Trainer pela Scrum.org entre outras relacionadas a desenvolvimento nas plataformas .net, Java e Windows DNA. Trabalhou na Microsoft Brasil como consultor de ALM, foi diretor de operações da BR Soluções e um dos fundadores da Lambda3."
   category: "DevOps"
   facebook: brandredias
@@ -16,6 +18,7 @@
 
 - name: Lucas Costa
   avatar: lucas_costa.jpg
+  title: A arquitetura de monitoramento da Plataforma de Vídeos da Globo.com
   bio: "Lucas Costa é engenheiro de software, formado em Ciência da Computação pela UFMG. Atualmente trabalha na Globo.com, onde desenvolve sistemas para monitoramento da plataforma de vídeos e qualidade de experiência (QoE) dos usuários. Além da Globo.com, possui também experiência em ambientes de pesquisa e startups."
   category: "Arquitetura"
   linkedin: lucasrodcosta
@@ -24,6 +27,7 @@
 
 - name: Jaqueline Ramos
   avatar: jaqueline_ramos.jpg
+  title: Acelerando a entrega de ambietes de Dev e Teste com Azure DevTest Labs
   bio: "Profissional com 6 anos de experiência na área de Tecnologia da Informação, sendo 2 atuando com times de Monitoração, Desenvolvimento e Infraestrutura. Estudante, vem dedicando seus últimos 4 anos ao mundo de ALM e DevOps no qual sempre busca novos conhecimentos e poder compartilhá-los, sejam em palestras, fóruns ou através de postagem em seu Blog."
   category: "DevOps"
   github: jaquelinecramos
@@ -32,6 +36,7 @@
 
 - name: Henrique Oelze
   avatar: henrique_oelze.jpg
+  title: Transformando sua arquitetura com Clean Architecture
   bio: "Apaixonado pelo que faz, Henrique Oelze é engenheiro de software pela CI&T, atuando nos últimos anos no maior E-Commerce de artigos esportivos do Brasil, e, anteriormente, construindo integrações para gigantes de Telecomunicações e Logística nacionais. Nas horas vagas, fotógrafo e gamer."
   category: "Arquitetura"
   github: henriqueoelze
@@ -41,6 +46,7 @@
 
 - name: Thiago Marques
   avatar: thiago_marques.jpg
+  title: Acessibilidade na Web - como estamos pensando? Um produto que atenda a todas as pessoas e sem distinção
   bio: "Thiago estudou Ciência da Computação na Universidade Federal de Lavras e na Arizona State University. É desenvolvedor front-end na Hotmart e já teve experiências trabalhando com design de interface, experiência e interação do Usuário. É envolvido com com comunidades de desenvolvimento e é organizador do Google Developers Group Belo Horizonte. Um de seus grandes objetivos é utilizar a Computação para facilitar a vida das pessoas e entender como elas podem ser beneficiadas com isso."
   category: "Acessibilidade"
   github: althi
@@ -49,6 +55,7 @@
 
 - name: Italo José
   avatar: italo_jose.jpg
+  title: Algoritmos genéticos - encontrando soluções em problemas de otimização e busca
   bio: "Italo José, estudante de SI pela FIAP, palestrante e graffiteiro nas horas vagas."
   category: "Academia na Prática"
   github: italojs
@@ -57,6 +64,7 @@
 
 - name: Daniel Figueiredo
   avatar: daniel_figueiredo.jpg
+  title: Introdução à tecnologia Blockchain
   bio: "Daniel Duarte Figueiredo é formado em Engenharia de Controle e Automação pela UFMG em 2012 e atua na empresa dti digital como engenheiro de software sênior. Já participou de diversos projetos de desenvolvimento de sistemas, aplicativos e soluções diversas de software em diferentes plataformas e linguagens (Android, Microsoft .NET, Java, etc) e em paralelo estuda temas relacionados a teoria dos jogos, aprendizado de máquinas e Blockchain por curiosidade e hobby. Já apresentou sobre o tema da Blockchain em eventos internos e abertos ao público pela dti e estuda sobre o assunto desde janeiro de 2017."
   category: "Tendências Tecnológicas"
   facebook: duarte.daniel
@@ -64,6 +72,7 @@
 
 - name: Ana Freitas
   avatar: ana_freitas.jpg
+  title: Gênero não codifica -- uma abordagem com foco no sucesso do seu time
   bio: "Analista de Sistemas pós-graduada em Engenharia e Arquitetura de Software, e nas horas vagas podcaster do PodProgramar e Os Comentadores."
   category: "Diversidade"
   facebook: anaebastos
@@ -71,6 +80,7 @@
 
 - name: Jimmy Andrade
   avatar: jimmy_andrade.jpg
+  title: Diversidade étnica e de identidade sexual na customer/user experience
   bio: "Jimmy Andrade é produtor musical e full-stack developer. Estudou Sistemas de Informação na UFVJM, Diamantina (MG), onde foi bolsista do projeto \"Diversidade Sexual e Cidadania\" e promoveu o evento \"UFVJM em Cores\" sobre diversidade étnica. Tem formação complementar em Engenharia de Som e Produção Musical, Design Thinking & Marketing Digital para Artistas e Bandas. Na Tracksale, além de trabalhar como Developer/UX, é Diversity Hero, pesquisando e implementando ações de diversidade."
   category: "Diversidade"
   facebook: eumesmojimmy
@@ -79,6 +89,7 @@
 
 - name: Sidharta Noleto
   avatar: sidharta_noleto.jpg
+  title: Cloud Architecture -- faça o melhor desenho para sua nuvem!
   bio: "Arquiteto de sistemas especialista em Cloud Computing. Programador de sistemas para web desde quando usávamos Netscape, Geocities, GetRight e ICQ! (sds...) Músico e Yogui nas horas vagas, mas predominantemente geek!"
   category: "Arquitetura"
   facebook: sidhartanoleto
@@ -87,6 +98,7 @@
 
 - name: Wallison Marra
   avatar: wallison_marra.jpg
+  title: Kubernetes -- Entenda, automatize e entregue
   bio: "DevOps Engineer na Hotmart e amante da computação em nuvem. Entusiasta da tecnologia, procura sempre novas formas e tendências de criar e automatizar processos"
   category: "DevOps"
   facebook: wallison.marra
