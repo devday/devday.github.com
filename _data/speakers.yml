@@ -24,6 +24,16 @@
   linkedin: lucasrodcosta
   github: lucasrodcosta
   twitter: lucasrodcosta
+  
+- name: João Marcos Lopes
+  avatar: joao_lopes.jpg
+  title: Criando aplicações altamente disponíveis e de baixa latência com programação reativa
+  bio: "Atualmente desenvolvedor Front-end na Hotmart, trabalho na área há 6 anos. Graduando em Engenharia de Sistemas pela UFMG, apaixonado pela solução de problemas complexos e que envolvem múltiplas áreas de conhecimento. Amante da programação já me aventurei de Assembly a Javascript, sempre com muita paixão e entusiasmo pelo novo."
+  category: "Arquitetura"
+  linkedin: joaomarcoslopes
+  github: 
+  facebook:
+  twitter: 
 
 - name: Jaqueline Ramos
   avatar: jaqueline_ramos.jpg
@@ -43,6 +53,17 @@
   twitter: henriqueoelze
   facebook: henriqueoelze
   linkedin: henriqueoelze
+  
+- name: Marcos Brizeno
+  avatar: marcos_brizeno.jpg
+  title: GraphQL ou APIs RESTful?
+  bio: "Cientista da Computação pela Universidade Estadual do Ceará e Consultor de Desenvolvimento na ThoughtWorks Brazil. Apaixonado por Desenvolvimento de Software e sempre procurando o próximo passo para melhorar. Quando não está escrevendo gosta de jogar video games e ler sobre game design.
+  Autor do livro 'Refatorando com Padrões de Projetos: um guia em Ruby' publicado pela Casa do Código e do ebook 'Primeiros passos com Padrões de Projeto' publicado pelo Leanpub. Também tem contribuições no livro 'Thoughtworks Antologia Brasil' e 'Práticas e Tendências em Testes'"
+  category: "Arquitetura"
+  github: 
+  twitter: 
+  facebook: 
+  linkedin: 
 
 - name: Thiago Marques
   avatar: thiago_marques.jpg
