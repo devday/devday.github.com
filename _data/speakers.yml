@@ -93,12 +93,20 @@
   linkedin: wmarra
   github: wmarra
 
-# - name: Gustavo Pantuza
-#   avatar: gustavo_pantuza.jpg
-#   bio: "Mestre em Ciência da computação na area de redes e sistemas distribuídos pela UFMG. Engenheiro de software sênior na Globo.com. "
-#   category: "Microserviços"
-#   github: pantuza
-#   twitter: gpantuza
-#   facebook: pantuza
-#   linkedin: gustavo-pantuza-46089825
+- name: Felipe Arimatéia
+  avatar: felipe_arimateia.jpg
+  bio: "Sou desenvolvedor de aplicações mobile desde 2010, trabalhando em projetos nacionais e internacionais. Nos últimos anos, especializei-me na plataforma Android, dando cursos e palestras. Eu adoro me envolver com as comunidades e atualmente sou o organizador do Android Meetup Belo Horizonte e GDG Belo Horizonte."
+  category: "Mobile"
+  github: felipearimateia
+  twitter: twiterdoari
+  linkedin: felipearimateia
 
+- name: Wilson Júnior
+  avatar: wilson_junior.jpg
+  bio: "Engenheiro de Software apaixonado por tecnologia, pessoas e criar soluções que melhorem o dia-a-dia das pessoas, mantém a plataforma de publicação da Globo.com, gosta de estudar novas nerdices e biker nos finais de semana."
+  category: "Arquitetura"
+
+- name: Glenio Borges
+  avatar: glenio_borges.jpg
+  bio: "Entusiasta de tecnologia, evangelista de arquiteturas nativas na nuvem, e arquiteto de plataforma da Pivotal, tem ajudado a grandes empresas em sua jornada de transformação digital através da adoção de tecnologias modernas open source e processos ágeis, tornando-as mais ágeis e enxutas como startups."
+  category: "Arquitetura"
