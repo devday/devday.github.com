@@ -60,6 +60,7 @@ input:focus, select:focus, textarea:focus, button:focus { outline: none; }
 input, textarea, select { font-family: 'Lato', sans-serif, Arial; font-weight: 400; -webkit-appearance: none; -moz-border-radius: 0; border-radius: 0; }
 a, a:link, a:visited, a:active, a:hover { cursor: pointer; text-decoration: none; outline: none; }
 body { font-family: 'regular', sans-serif, Arial; font-weight: normal; font-size: 14px; line-height: 1; overflow-y: scroll; }
+.strong { font-weight: bold; }
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 03 - LOADING */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
