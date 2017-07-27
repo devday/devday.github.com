@@ -138,6 +138,7 @@
 
 - name: Felipe Arimatéia
   avatar: felipe_arimateia.jpg
+  title: Testes de UI legíveis e sustentáveis para Android
   bio: "Sou desenvolvedor de aplicações mobile desde 2010, trabalhando em projetos nacionais e internacionais. Nos últimos anos, especializei-me na plataforma Android, dando cursos e palestras. Eu adoro me envolver com as comunidades e atualmente sou o organizador do Android Meetup Belo Horizonte e GDG Belo Horizonte."
   category: "Mobile"
   github: felipearimateia
@@ -146,10 +147,12 @@
 
 - name: Wilson Júnior
   avatar: wilson_junior.jpg
+  title: Pensando e arquitetando aplicações resilientes
   bio: "Engenheiro de Software apaixonado por tecnologia, pessoas e criar soluções que melhorem o dia-a-dia das pessoas, mantém a plataforma de publicação da Globo.com, gosta de estudar novas nerdices e biker nos finais de semana."
   category: "Arquitetura"
 
 - name: Glenio Borges
   avatar: glenio_borges.jpg
+  title: Arquitetura Nativa na Nuvem - Entrega Contínua com A.I.
   bio: "Entusiasta de tecnologia, evangelista de arquiteturas nativas na nuvem, e arquiteto de plataforma da Pivotal, tem ajudado a grandes empresas em sua jornada de transformação digital através da adoção de tecnologias modernas open source e processos ágeis, tornando-as mais ágeis e enxutas como startups."
   category: "Arquitetura"
