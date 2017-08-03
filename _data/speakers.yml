@@ -72,6 +72,29 @@
   facebook: jaqueline.ramos17
   linkedin: jaqueline-ramos-bab8a432
 
+- name: Felipe Silvestre
+  avatar: felipe_silvestre.jpg
+  title: "Microserviços na Prática: o que aprendemos em 2 anos."
+  bio: "Gerente de Desenvolvimento da Hotmart, com foco em qualidade, pessoas e melhoria contínua, encontrou a essência do trabalho em equipe nas metodologias ágeis atuando como Developer, Líbero, Arquiteto de Software e Devops."
+  category: "DevOps"
+  facebook: felipe.silvasilvestre
+  linkedin: felipe-silvestre-361644bb
+
+- name: Marlon Brandão
+  avatar: marlon_brandao.jpg
+  title: "Como cegos desenvolvem software: da concepção à implementação."
+  bio: "Marlon estuda tecnologia assistiva e acessibilidade há 20 anos. É editor chefe do portal Blindtec, trabalha no Itaú Unibanco e pesquisa geolocalização indoor para prover soluções de acessibilidade e melhorias na qualidade de vida de populações urbanas em sua interação com ambientes."
+  category: "Acessibilidade"
+  facebook: marlon.brandaodesousa
+  linkedin: marlonsousa
+
+- name: Virgínia Chalegre
+  avatar: virginia_chalegre.jpg
+  title: "Qualificar para Incluir"
+  bio: "Virgínia é sócia-fundadora da t-access e autora do livro \"Teste e Acessibilidade\"  (NEA Edições). Mestre em Testes de Acessibilidade (CIN-UFPE), Especialista em Engenharia de Software (FBV/Qualiti), Especialista em Gestão e Qualidade de Software (Universitat Politécnica de Catalunya) e Bacharel em Ciência da Computação (UNICAP)."
+  category: "Acessibilidade"
+  facebook: virginia.chalegre
+
 - name: Henrique Oelze
   avatar: henrique_oelze.jpg
   title: Transformando sua arquitetura com Clean Architecture
