@@ -52,7 +52,14 @@
   facebook: sergiogama1967
   linkedin: sergiogama
   twitter: sergiorggama
-  
+
+- name: Denise Eler
+  avatar: denise_eler.jpg
+  title: "Customer Experience: Uma reflexão sobre abundância, escassez e oportunidades"
+  bio: "Denise Eler articula diversas competências para desenhar estratégias de Customer Experience para seus clientes. Sua formação em Design, Gestão Estratégica da Informação e Educação aliada à atuação em projetos estratégicos como consultora em empresas Nacionais e Multinacionais, lhe deram uma percepção acurada dos gaps de competências nas Organizações. Há 17 anos, tem colaborado com áreas de inovação, RH, BI e TI e conduzido programas de capacitação para Universidades Corporativas, dentre as quais destaca a FCA e a BMW. É reconhecida como profissional de referência em Design Thinking e Sensemaking."
+  category: "Tendências Tecnológicas"
+  linkedin: deniseeler
+
 - name: João Marcos Lopes
   avatar: joao_lopes.jpg
   title: Criando aplicações altamente disponíveis e de baixa latência com programação reativa
