@@ -1,91 +1,90 @@
 - title: Credenciamento
   hour: "08:00 - 9:00"
-  avatar: speaker-1.jpg
-  possuiConteudo: false
-  description:
   speaker: DevDay 2017
+  avatar: speaker-1.jpg
+  description:
+  possuiConteudo: false
 
 - title: Abertura
   hour: "09:00 - 9:10"
-  avatar: speaker-1.png
   possuiConteudo: true
-  description: 
   speaker: Organizadores
+  avatar: speaker-1.png
+  description: 
 
-- title: Palestra 1
+- title: "Inovação e Futurismo: o mundo que podemos e não o que queremos"
   hour: "09:10 - 10:00"
-  avatar: speaker-1.png
-  possuiConteudo: false
+  speaker: Rafael Ávila
+  avatar: rafael_avila.jpg
   description: 
-  speaker: 
+  possuiConteudo: false
 
-- title: Palestra 2
+- title: "Artificial by design -- da lingaugem natural aos veículos autônomos, o estado da arte em deep learning e suas aplicações."
   hour: "10:15 - 11:00"
-  avatar: speaker-1.png
-  possuiConteudo: false
+  speaker: Juliano Viana
+  avatar: juliano_viana.jpg
   description: 
-  speaker: 
+  possuiConteudo: false
 
-- title: Palestra 3
+- title: "Arquitetura Nativa na Nuvem - Entrega Contínua com A.I"
   hour: "11:15 - 12:00"
-  avatar: speaker-1.png
-  possuiConteudo: false
+  speaker: Glenio Borges
+  avatar: glenio_borges.jpg
   description: 
-  speaker: 
+  possuiConteudo: false
 
 - title: Almoço
   hour: "12:00 - 13:30"
+  speaker:
   avatar: speaker-1.jpg
-  possuiConteudo: false
   description:
-  speaker:
+  possuiConteudo: false
     
-- title: Palestra 4
+- title: "Microserviços na prática: o que aprendemos em 2 anos"
   hour: "13:30 - 14:15"
-  avatar: speaker-1.png
-  possuiConteudo: false
+  speaker: Felipe Silvestre
+  avatar: felipe_silvestre.jpg
   description:
-  speaker:
+  possuiConteudo: false
 
-  
-- title: Palestra 5
+- title: "Lei Brasileira de Inclusão e Acessibilidade em Informática"
   hour: "14:30 - 15:15"
-  avatar: speaker-1.png
-  possuiConteudo: false
+  speaker: Daniela Kovács
+  avatar: daniela_kovacs.jpg
   description:
-  speaker:
+  possuiConteudo: false
   
-- title: Palestra 6
+- title: Diversidade Étnica, de Gênero e Sexo na Customer/User Experience
   hour: "15:30 - 16:15"
-  avatar: speaker-1.png
-  possuiConteudo: false
+  speaker: Jimmy Andrade
+  avatar: jimmy_andrade.jpg
   description:
-  speaker:
+  possuiConteudo: false
 
 - title: Coffe Break
   hour: "16:15 - 16:45"
-  avatar: speaker-1.jpg
-  possuiConteudo: false
-  description:
   speaker:   
+  avatar: speaker-1.jpg
+  description:
+  possuiConteudo: false
   
-- title: Palestra 7
+- title: "Como IoT e sistemas cognitivos vão acelerar a inovação e transformação digital"
   hour: "16:45 - 17:30"
-  avatar: speaker-1.png
-  possuiConteudo: false
+  speaker: Sergio Gama 
+  avatar: sergio_gama.jpg
   description:
-  speaker: 
+  possuiConteudo: false
   
-- title: Palestra 8
+- title: Keynote 2
   hour: "17:30 - 18:20"
-  avatar: speaker-1.png
-  possuiConteudo: false
-  description:
   speaker:
+  avatar: speaker-1.png
+  description:
+  possuiConteudo: false
 
 - title: Encerramento
   hour: "18:20 - 18:30"
-  avatar: speaker-1.png
   possuiConteudo: true
-  description: Sorteio de brindes \o/ e mensagem dos patrocinadores.
   speaker: Organizadores e Patrocinadores
+  avatar: speaker-1.png
+  description: Sorteio de brindes \o/ e mensagem dos patrocinadores.

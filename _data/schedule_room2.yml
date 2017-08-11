@@ -1,55 +1,55 @@
-- title: Palestra 1
+- title: "Application insights -- Dê-me a visão além do alance"
   hour: "10:15 - 11:00"
-  avatar: speaker-1.png
-  possuiConteudo: false
+  speaker: André Dias
+  avatar: andre_dias.jpg
   description:
-  speaker:
+  possuiConteudo: false
 
-- title: Palestra 2
+- title: "Transformando sua arquitetura com Clean Architecture"
   hour: "11:15 - 12:00"
-  avatar: speaker-1.png
-  possuiConteudo: false
+  speaker: Henrique Oelze
+  avatar: henrique_oelze.jpg
   description:
-  speaker:
+  possuiConteudo: false
 
 - title: Almoço
   hour: "12:00 - 13:30"
+  speaker:
   avatar: speaker-1.jpg
-  possuiConteudo: false
   description:
-  speaker:
+  possuiConteudo: false
     
-- title: Palestra 3
+- title: "Pensando e arquitetando aplicações resilientes"
   hour: "13:30 - 14:15"
-  avatar: speaker-1.png
-  possuiConteudo: false
+  speaker: Wilson Júnior
+  avatar: wilson_junior.jpg
   description:
-  speaker:
+  possuiConteudo: false
   
-- title: Palestra 4
+- title: "Gênero não codifica: Uma abordagem com foco no sucesso do seu time"
   hour: "14:30 - 15:15"
-  avatar: speaker-1.png
-  possuiConteudo: false
+  speaker: Ana Freitas
+  avatar: ana_freitas.jpg
   description:
-  speaker:
+  possuiConteudo: false
   
-- title: Palestra 5
+- title: "Testes de UI legíveis e sustentáveis para Android"
   hour: "15:30 - 16:15"
-  avatar: speaker-1.png
-  possuiConteudo: false
+  speaker: Felipe Arimatéia
+  avatar: felipe_arimateia.jpg
   description:
-  speaker:
+  possuiConteudo: false
 
 - title: Coffe Break
   hour: "16:15 - 16:45"
-  avatar: speaker-1.jpg
-  possuiConteudo: false
-  description:
   speaker:   
-  
-- title: Palestra 6
-  hour: "16:45 - 17:30"
-  avatar: speaker-1.png
-  possuiConteudo: false
+  avatar: speaker-1.jpg
   description:
-  speaker: 
+  possuiConteudo: false
+  
+- title: "Qualificar para incluir"
+  hour: "16:45 - 17:30"
+  speaker: Virgínia Chalegre
+  avatar: virginia_chalegre.jpg
+  description:
+  possuiConteudo: false

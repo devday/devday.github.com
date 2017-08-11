@@ -1,55 +1,56 @@
-- title: Palestra 1
+- title: "Criando aplicações altamente disponíveis e de baixa latência com programação reativa"
   hour: "10:15 - 11:00"
-  avatar: speaker-1.png
-  possuiConteudo: false
+  speaker: João Marcos de Araújo Lopes
+  avatar: joao_lopes.jpg
   description:
-  speaker:
+  possuiConteudo: false
 
-- title: Palestra 2
+- title: "Algoritmos genéticos - encontrando soluções em problemas de otimização e busca"
   hour: "11:15 - 12:00"
-  avatar: speaker-1.png
-  possuiConteudo: false
+  speaker: Italo José
+  avatar: italo_jose.jpg
   description:
-  speaker:
+  possuiConteudo: false
 
 - title: Almoço
   hour: "12:00 - 13:30"
-  avatar: speaker-1.jpg
-  possuiConteudo: false
-  description:
   speaker:
+  avatar: speaker-1.jpg
+  description:
+  possuiConteudo: false
     
 - title: Palestra 3
   hour: "13:30 - 14:15"
-  avatar: speaker-1.png
-  possuiConteudo: false
-  description:
   speaker:
+  avatar: speaker-1.png
+  description:
+  possuiConteudo: false
   
-- title: Palestra 4
+# Precisa da Foto!  
+- title: "Machine Learning: Do legado à vanguarda"
   hour: "14:30 - 15:15"
-  avatar: speaker-1.png
-  possuiConteudo: false
+  speaker: Juan Pablo Rivillas
+  avatar: speaker-1.jpg
   description:
-  speaker:
+  possuiConteudo: false
   
-- title: Palestra 5
+- title: "Acelerando a entrega de ambietes de Dev e Teste com Azure DevTest Labs"
   hour: "15:30 - 16:15"
-  avatar: speaker-1.png
-  possuiConteudo: false
+  speaker: Jaqueline Ramos
+  avatar: jaqueline_ramos.jpg
   description:
-  speaker:
+  possuiConteudo: false
 
 - title: Coffe Break
   hour: "16:15 - 16:45"
-  avatar: speaker-1.jpg
-  possuiConteudo: false
-  description:
   speaker:   
+  avatar: speaker-1.jpg
+  description:
+  possuiConteudo: false
   
 - title: Palestra 6
   hour: "16:45 - 17:30"
-  avatar: speaker-1.png
-  possuiConteudo: false
-  description:
   speaker: 
+  avatar: speaker-1.png
+  description:
+  possuiConteudo: false

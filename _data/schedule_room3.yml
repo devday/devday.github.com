@@ -1,0 +1,55 @@
+- title: "Por que os desenvolvedores precisam ficar atentos aos chatbots?"
+  hour: "10:15 - 11:00"
+  speaker: Rafael Pacheco
+  avatar: rafael_pacheco.jpg
+  description:
+  possuiConteudo: false
+
+- title: "Como cegos desenvolvem software: da concepção à implementação"
+  hour: "11:15 - 12:00"
+  speaker: Marlon Brandão
+  avatar: marlon_brandao.jpg
+  description:
+  possuiConteudo: false
+
+- title: Almoço
+  hour: "12:00 - 13:30"
+  speaker:
+  avatar: speaker-1.jpg
+  description:
+  possuiConteudo: false
+    
+- title: Palestra 3
+  hour: "13:30 - 14:15"
+  speaker: 
+  avatar: speaker-1.jpg
+  description:
+  possuiConteudo: false
+  
+- title: "Kubernetes -- Entenda, automatize e entregue"
+  hour: "14:30 - 15:15"
+  speaker: Wallison Marra
+  avatar: wallison_marra.jpg
+  description:
+  possuiConteudo: false
+  
+- title: "Cloud Architecture -- faça o melhor desenho para sua nuvem!"
+  hour: "15:30 - 16:15"
+  speaker: Sidharta Noleto
+  avatar: sidharta_noleto.jpg
+  description:
+  possuiConteudo: false
+
+- title: Coffe Break
+  hour: "16:15 - 16:45"
+  speaker:   
+  avatar: speaker-1.jpg
+  description:
+  possuiConteudo: false
+  
+- title: "Acessibilidade na web, como estamos pensando?"
+  hour: "16:45 - 17:30"
+  speaker: Thiago Marques
+  avatar: thiago_marques.jpg
+  description:
+  possuiConteudo: false

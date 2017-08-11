@@ -23,25 +23,25 @@
                                 <div class="row">
                                     <div class="col-xs-12 col-md-6">
                                         <div class="speaker-block">
-                                            <div class="speaker-title">{{ speaker.name }}</div>
-                                            <div class="speaker-category">{{ speaker.category }}</div>
-                                            <div class="speaker-text strong">Palestra: "{{ speaker.title }}"</div>
-                                            <div class="speaker-text">{{ speaker.bio }}</div>
+                                            <div class="speaker-title" title="Nome Palestrante">{{ speaker.name }}</div>
+                                            <div class="speaker-category" title="Categoria Palestrante"><p>{{ speaker.category }}</p></div>
+                                            <div class="speaker-text strong" title="Título da Palestra"><p>Palestra: "{{ speaker.title }}"</p></div>
+                                            <div class="speaker-text" title="Biografia Palestrante"><p>{{ speaker.bio }}</p></div>
                                             <div class="speaker-social clearfix">
                                                 {% if speaker.facebook %}
-                                                    <a href="http://facebook.com/{{ speaker.facebook }}"><i class="fa fa-facebook"></i></a>
+                                                    <a href="http://facebook.com/{{ speaker.facebook }}" target="_blank" title="Link do Facebook {{speaker.name}}"><i class="fa fa-facebook"></i></a>
                                                 {% endif %}
                                                 {% if speaker.twitter %}
-                                                    <a href="http://twitter.com/{{ speaker.twitter }}"><i class="fa fa-twitter"></i></a>
+                                                    <a href="http://twitter.com/{{ speaker.twitter }}" target="_blank" title="Link do Twitter {{speaker.name}}"><i class="fa fa-twitter"></i></a>
                                                 {% endif %}
                                                 {% if speaker.googleplus %}
-                                                    <a href="https://plus.google.com/{{ speaker.googleplus }}"><i class="fa fa-google-plus"></i></a>
+                                                    <a href="https://plus.google.com/{{ speaker.googleplus }}" target="_blank" title="Link do Google Plus {{speaker.name}}"><i class="fa fa-google-plus"></i></a>
                                                 {% endif %}
                                                 {% if speaker.linkedin %}
-                                                    <a href="https://www.linkedin.com/in/{{ speaker.linkedin }}"><i class="fa fa-linkedin"></i></a>
+                                                    <a href="https://www.linkedin.com/in/{{ speaker.linkedin }}" target="_blank" title="Link do LinkedIn {{speaker.name}}"><i class="fa fa-linkedin"></i></a>
                                                 {% endif %}
                                                 {% if speaker.github %}
-                                                    <a href="http://github.com/{{ speaker.github }}"><i class="fa fa-github"></i></a>
+                                                    <a href="http://github.com/{{ speaker.github }}" target="_blank" title="Link do Github {{speaker.name}}"><i class="fa fa-github"></i></a>
                                                 {% endif %}
                                             </div>
                                             <!-- <div class="speaker-change clearfix">

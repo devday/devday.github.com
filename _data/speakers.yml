@@ -1,3 +1,10 @@
+- name: Rafael Ávila
+  avatar: rafael_avila.jpg
+  title: "Inovação e Futurismo: o mundo que podemos e não o que queremos"
+  bio: "Viajante \"profissional\", ex-técnico e jogador de Rugby, ex-professor de Kung Fu, Sushiman nas horas vagas, ex-budista tibetano, professor de Relações Internacionais (especialista em guerra, guerrilha e terrorismo), palestrante, Diretor de Inovação do Grupo Anima, Rafael Ávila, ou simplesmente Rafão."
+  category: "Tendências Tecnológicas"
+  linkedin: rafael-%C3%A1vila-6b935122
+
 - name: Juliano Viana
   avatar: juliano_viana.jpg
   title: Artificial by design -- da lingaugem natural aos veículos autônomos, o estado da arte em deep learning e suas apicações
@@ -219,3 +226,20 @@
   bio: "Entusiasta de tecnologia, evangelista de arquiteturas nativas na nuvem, e arquiteto de plataforma da Pivotal, tem ajudado a grandes empresas em sua jornada de transformação digital através da adoção de tecnologias modernas open source e processos ágeis, tornando-as mais ágeis e enxutas como startups."
   category: "Arquitetura"
   linkedin: glenioborges
+
+- name: Marcos Moura
+  avatar: marcos_moura.jpg
+  title: "Point of Vue: Arquitetura Front End com Vue.js"
+  bio: "Front End Engineer com mais de 7 anos de experiência, sempre focado em usabilidade e performance. Participa de vários projetos Open Source e é o criador do Vue Material. Acredita que a web deve ser acessível para todos, caber em todo tipo tela e fazer sentido em qualquer dispositivo."
+  category: "Arquitetura"
+  facebook: markinmoura 
+  linkedin: marcosvmmoura
+  github: marcosmoura
+
+# - name: Juan Pablo Rivillas
+#   avatar: juan_pablo.jpg
+#   title: "Machine Learning: Do legado à vanguarda"
+#   bio: "Engenheiro de sistemas interessado em tecnologias full-stack. Experiência de 5 anos aproximadamente na área de desenvolvimento web, atuando no front-end e no back-end. Co-organizador do meetup FEMUG-MG (Front-End Meetup Group) e Codecademy Meetup Group em Belo Horizonte. As minhas principais áreas de interesse são Data Visualization, Data Processing, Desenvolvimento Web com Big Data e Machine Learning"
+#   category: "Inteligência Artificial"
+#   linkedin: juan-pablo-rivillas-672ba761
+#   github: jprivillaso

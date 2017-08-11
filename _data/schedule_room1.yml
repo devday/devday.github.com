@@ -1,55 +1,55 @@
 - title: Palestra 1
   hour: "10:15 - 11:00"
-  avatar: speaker-1.png
-  possuiConteudo: false
-  description:
   speaker:
+  avatar: speaker-1.png
+  description:
+  possuiConteudo: false
 
-- title: Palestra 2
+- title: "CUSTOMER EXPERIENCE: Uma reflexão sobre abundância, escassez e oportunidades"
   hour: "11:15 - 12:00"
-  avatar: speaker-1.png
-  possuiConteudo: false
+  speaker: Denise Eler
+  avatar: denise_eler.jpg
   description:
-  speaker:
+  possuiConteudo: false
 
 - title: Almoço
   hour: "12:00 - 13:30"
+  speaker:
   avatar: speaker-1.jpg
-  possuiConteudo: false
   description:
-  speaker:
+  possuiConteudo: false
     
-- title: Palestra 3
+- title: "Introdução ao blockchain - Um exemplo em ethereum na linguagem solidity"
   hour: "13:30 - 14:15"
-  avatar: speaker-1.png
-  possuiConteudo: false
+  speaker: Daniel Figueiredo
+  avatar: daniel_figueiredo.jpg
   description:
-  speaker:
+  possuiConteudo: false
   
-- title: Palestra 4
+- title: "A arquitetura de monitoramento da Plataforma de Vídeos da Globo.com"
   hour: "14:30 - 15:15"
-  avatar: speaker-1.png
-  possuiConteudo: false
+  speaker: Lucas Costa
+  avatar: lucas_costa.jpg
   description:
-  speaker:
+  possuiConteudo: false
   
-- title: Palestra 5
+- title: "Inteligência Artificial a Serviço da Acessibilidade"
   hour: "15:30 - 16:15"
-  avatar: speaker-1.png
-  possuiConteudo: false
+  speaker: Alexandre Costa
+  avatar: magoo.jpg
   description:
-  speaker:
+  possuiConteudo: false
 
 - title: Coffe Break
   hour: "16:15 - 16:45"
-  avatar: speaker-1.jpg
-  possuiConteudo: false
-  description:
   speaker:   
-  
-- title: Palestra 6
-  hour: "16:45 - 17:30"
-  avatar: speaker-1.png
-  possuiConteudo: false
+  avatar: speaker-1.jpg
   description:
-  speaker: 
+  possuiConteudo: false
+  
+- title: "GraphQL ou APIs RESTful?"
+  hour: "16:45 - 17:30"
+  speaker: Marcos Brizeno
+  avatar: marcos_brizeno.jpg
+  description:
+  possuiConteudo: false
