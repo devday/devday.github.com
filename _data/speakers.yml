@@ -109,6 +109,15 @@
   category: "Acessibilidade"
   facebook: virginia.chalegre
 
+- name: Clêrton Leal
+  avatar: clerton_leal.jpg
+  title: "Do caos ao TDD. Uma abordagem prática de evolução arquitetural de aplicações Android."
+  bio: "Sou desenvolvedor de software com mais de 6 anos de experiência e nos ultimos anos venho trabalhando com Scala, Ruby, Javascript e muito Java. =D Focando muito em desenvolvimento mobile em Android. No tempo livre não abro mão do meu PS4, Netflix e um bom livro de fantasia."
+  category: "Mobile"
+  github: clertonleal
+  facebook: clertonleal
+  linkedin: clertonleal
+
 - name: Henrique Oelze
   avatar: henrique_oelze.jpg
   title: Transformando sua arquitetura com Clean Architecture
@@ -235,6 +244,16 @@
   facebook: markinmoura 
   linkedin: marcosvmmoura
   github: marcosmoura
+
+- name: Juan Pablo Rivillas
+  avatar: juan_pablo.jpg
+  title: Machine Learning veio para ficar! 
+  bio: "Juan é um Engenheiro de Sistemas Colombiano que trabalha como Full Stack Developer na Viridis Energy. Tem aproximadamente 5 anos de experiência em desenvolvimento Web e um dos temas que mais gosta é Front-End e Data Visualization. Juan gosta muito de participar nas comunidades de desenvolvimento de Belo Horizonte, é co-organizador do FEMUG BH e é entusiasta de Machine Learning."
+  category: "Inteligência Artificial"
+  twitter: jprivillaso
+  facebook: juan.p.rivillas
+  linkedin: juan-pablo-rivillas-672ba761
+
 
 # - name: Juan Pablo Rivillas
 #   avatar: juan_pablo.jpg

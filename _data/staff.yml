@@ -39,6 +39,11 @@
   facebook: guilherme.silva.35728
   avatar: guilherme.jpg
 
+- name: Aline Paulucci
+  linkedin: https://www.linkedin.com/in/alinepaulucci
+  facebook: aline.paulucci
+  avatar: aline.jpg
+
 - name: Daniela Marinho
   twitter: danifmarinho
   github: danielamarinho
@@ -46,12 +51,12 @@
   facebook: DanifMarinho
   avatar: dani.jpg
 
-- name: Adriano Tavares
-  twitter: adrianotavares
-  github: adrianotavares
-  linkedin: https://www.linkedin.com/in/adrianotavares/
-  facebook: adriano.tavares
-  avatar: adriano.jpg
+# - name: Adriano Tavares
+#   twitter: adrianotavares
+#   github: adrianotavares
+#   linkedin: https://www.linkedin.com/in/adrianotavares/
+#   facebook: adriano.tavares
+#   avatar: adriano.jpg
 
 # - name: Albert Tanure
 #   twitter: alberttanure
