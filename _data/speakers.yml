@@ -5,6 +5,13 @@
   category: "Tendências Tecnológicas"
   linkedin: rafael-%C3%A1vila-6b935122
 
+- name: Pedro Vilanova
+  avatar: pedro_vilanova.jpg
+  title: "Operação Serenata de Amor: inteligência artifical para controle dos gastos públicos."
+  bio: "Fascinado por inovação e criatividade, Pedro Vilanova é formado em comunicação e estudante de ciência de dados e tendências em tecnologia. Fundador da Niña, startup de análise de dados especializada em comportamento, é também um dos integrantes da Operação Serenata de Amor, projeto que desenvolveu um robô para analisar gastos públicos."
+  category: "Tendências Tecnológicas"
+  twitter: pedrovilanova
+
 - name: Juliano Viana
   avatar: juliano_viana.jpg
   title: Artificial by design -- da lingaugem natural aos veículos autônomos, o estado da arte em deep learning e suas apicações
@@ -117,6 +124,14 @@
   github: clertonleal
   facebook: clertonleal
   linkedin: clertonleal
+
+- name: Victor Cavalcante
+  avatar: victor_cavalcante.jpg
+  title: ASP.NET Core 2.0 e .Net Standard 2.0 o que muda?
+  bio: "Victor Cavalcante é Microsoft MVP na tecnologia ASP.Net, trabalha com desenvolvimento web a 16 anos,é focado em padrões de desenvolvimento para web. Trabalha na Lambda3 (www.lambda3.com.br) empresa ágil que trabalha com outros MVPs e amigos, e que insiste em fazer software certo."
+  category: "Arquitetura"
+  facebook: vccavalcante
+  twitter: vcavalcante
 
 - name: Henrique Oelze
   avatar: henrique_oelze.jpg
