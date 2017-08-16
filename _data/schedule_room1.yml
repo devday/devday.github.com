@@ -1,7 +1,7 @@
-- title: Palestra 1
+- title: "Do caos ao TDD. Uma abordagem pragmática de evolução arquitetural de aplicações Android."
   hour: "10:15 - 11:00"
-  speaker:
-  avatar: speaker-1.png
+  speaker: Clêrton Leal
+  avatar: clerton_leal.jpg
   description:
   possuiConteudo: false
 

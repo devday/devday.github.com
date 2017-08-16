@@ -26,11 +26,10 @@
   description:
   possuiConteudo: false
   
-# Precisa da Foto!  
 - title: "Machine Learning: Do legado à vanguarda"
   hour: "14:30 - 15:15"
   speaker: Juan Pablo Rivillas
-  avatar: speaker-1.jpg
+  avatar: juan_pablo.jpg
   description:
   possuiConteudo: false
   
@@ -48,9 +47,9 @@
   description:
   possuiConteudo: false
   
-- title: Palestra 6
+- title: "Point of Vue: Arquitetura Front End com Vue.js"
   hour: "16:45 - 17:30"
-  speaker: 
-  avatar: speaker-1.png
+  speaker: Marcos Moura 
+  avatar: marcos_moura.jpg
   description:
   possuiConteudo: false
