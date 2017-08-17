@@ -481,6 +481,7 @@ body { font-family: 'Open Sans', sans-serif; }
 .block-header.color-3 .block-category { color: #fff; }
 .block-header.color-3 .block-title { color: #fff; }
 .block-header.color-3 .block-text { color: rgba(255, 255, 255, 0.8); }
+.opaque {color: rgba(80, 80, 80, 0.8);}
 .small-block { position: relative; }
 .more-block { text-align: center; }
 .more-title { font-size: 28px; line-height: 24px; font-weight: 400; color: #222; margin-bottom: 25px; }
