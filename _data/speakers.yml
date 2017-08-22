@@ -84,6 +84,15 @@
   facebook:
   twitter: 
 
+- name: Letticia Nicoli
+  avatar: letticia_nicoli.jpg
+  title: Desenvolvimento Cross-mobile com Xamarin, por onde começar?
+  bio: "MTAC, desenvolvedora na Lambda3, adepta as boas práticas ágeis e novas tecnologias, busca compartilhar seus conhecimentos na área."
+  category: "Mobile"
+  linkedin: letticia-nicoli
+  facebook: letticia.nicoli
+  twitter: LetticiaNicoli
+
 - name: Jaqueline Ramos
   avatar: jaqueline_ramos.jpg
   title: Acelerando a entrega de ambietes de Dev e Teste com Azure DevTest Labs

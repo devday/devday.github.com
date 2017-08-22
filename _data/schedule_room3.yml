@@ -26,11 +26,11 @@
   description:
   possuiConteudo: false
 
-- title: Palestra 4
+- title: "ASP.NET Core 2.0 e .Net Standard 2.0 o que muda?"
   hour: "14:30 - 15:15"
-  speaker: 
-  avatar: speaker-1.jpg
-  description:
+  speaker: Victor Cavalcante
+  avatar: victor_cavalcante.jpg
+  description: 
   possuiConteudo: false
     
 - title: "Cloud Architecture -- faça o melhor desenho para sua nuvem!"
