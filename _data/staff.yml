@@ -51,12 +51,17 @@
   facebook: DanifMarinho
   avatar: dani.jpg
 
-# - name: Adriano Tavares
-#   twitter: adrianotavares
-#   github: adrianotavares
-#   linkedin: https://www.linkedin.com/in/adrianotavares/
-#   facebook: adriano.tavares
-#   avatar: adriano.jpg
+- name: Flavia Miranda
+  linkedin: https://www.linkedin.com/in/fl%C3%A1via-miranda-43a12230/
+  facebook: flaviahp
+  avatar: flavia.jpg
+
+- name: Adriano Tavares
+  twitter: adrianotavares
+  github: adrianotavares
+  linkedin: https://www.linkedin.com/in/adrianotavares/
+  facebook: adriano.tavares
+  avatar: adriano.jpg
 
 # - name: Albert Tanure
 #   twitter: alberttanure
