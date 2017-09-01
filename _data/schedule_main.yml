@@ -1,12 +1,12 @@
 - title: Credenciamento
-  hour: "08:00 - 9:00"
+  hour: "08:00 - 09:00"
   speaker: DevDay 2017
   avatar: speaker-1.jpg
   description:
   possuiConteudo: false
 
 - title: Abertura
-  hour: "09:00 - 9:10"
+  hour: "09:00 - 09:10"
   possuiConteudo: true
   speaker: Organizadores
   avatar: speaker-1.png

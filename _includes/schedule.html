@@ -28,6 +28,9 @@
                     <div class="nav-tab-item">
                         {{ include.fourth_room }}
                     </div>
+                    <div class="nav-tab-item">
+                        {{ include.kids_room }}
+                    </div>
                 </div>
             </div>
             <div class="tabs-content clearfix">
@@ -106,6 +109,20 @@
                                 <h4><a class="shedule-speaker">{{ item.title }}</a></h4>
                                 <div class="shedule-position">{{ item.speaker }}</div>
                                 <div class="shedule-text">{{ item.description }}</div>
+                            </div>
+                        </div>
+                        {% if pos == 'left' %} {% assign pos = 'right' %} {% else %} {% assign pos = 'left' %} {% endif %}
+                    {% endfor %}
+                </div>
+                <div class="tab-info">  
+                    {% assign pos = 'left' %}
+                    {% for item in site.data.schedule_kids %}
+                    {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+                        <div class="shedule-block {{ pos }}">
+                            <img class="shedule-user" src="assets/img/schedules/{{ item.avatar }}" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">{{ item.hour }}</div>
+                                <h4><a class="shedule-speaker">{{ item.title }}</a></h4>
                             </div>
                         </div>
                         {% if pos == 'left' %} {% assign pos = 'right' %} {% else %} {% assign pos = 'left' %} {% endif %}
