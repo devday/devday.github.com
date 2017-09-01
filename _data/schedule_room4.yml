@@ -33,10 +33,10 @@
   description:
   possuiConteudo: false
   
-- title: "Acelerando a entrega de ambietes de Dev e Teste com Azure DevTest Labs"
+- title: "Kubernetes -- Entenda, automatize e entregue"
   hour: "15:30 - 16:15"
-  speaker: Jaqueline Ramos
-  avatar: jaqueline_ramos.jpg
+  speaker: Wallison Marra
+  avatar: wallison_marra.jpg
   description:
   possuiConteudo: false
 
