@@ -30,3 +30,4 @@ _site/english.html
 _site/index.html
 
 node_modules/
+**/.directory
