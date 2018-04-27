@@ -10,14 +10,32 @@
             </div>
         </div>
         <div class="row no-margin">
-            <div class="col-xs-12">
-                <div class="block-header">
-                    <h3 class="block-title opaque">Inscrições encerradas</h2>
-					
-					<h4 class="block-title opaque">Quer saber se alguém não pode ir e está oferecendo seu ingresso? Pergunte na <a href="https://www.facebook.com/events/102167513707927" alt="Link do evento do DevDay 2017 no Facebook"> discussão do Facebook do evento.</a></h4>
+            {% for ticket in site.data.tickets %} {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+            <div class="no-padding col-xs-12 col-sm-4">
+                <div class="price {{ ticket.position }}">
+                    <div class="price-top">
+                        <h4 class="price-title">{{ ticket.title }}</h4>
+                        <div class="price-category">{{ ticket.period }}</div>
+                        <div class="price-per">
+                            <sup>R$</sup>{{ ticket.price }}</div>
+                        <div class="price-desc">{{ ticket.amount }}</div>
+                    </div>
+                    {% if ticket.enabled %}
+                    <div class="price-bottom">
+                        <a class="register-link c-btn b-50 yellow-2 hv-yellow" href="{{ ticket.buy }}" target="_blank">{{ include.buy }}</a>
+                    </div>
+                    {% else %}
+                    <div class="price-bottom disabled">
+                        {% if ticket.soldout %}
+                        <span class="register-link c-btn b-50" href="#">{{ include.soldout }}</span>
+                        {% else %}
+                        <span class="register-link c-btn b-50" href="#">{{ include.soon }}</span>
+                        {% endif %}
+                    </div>
+                    {% endif %}
                 </div>
             </div>
-                                      
+            {% endfor %}
         </div>
     </div>
 </div>
