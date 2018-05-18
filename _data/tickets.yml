@@ -15,8 +15,8 @@
   amount: 150 vagas
   description: 
   buy: "https://www.sympla.com.br/devday-2018__277513"
-  enabled: true
-  soldout: false
+  enabled: false
+  soldout: true
 
 - position: "right"
   title: Terceiro Lote
