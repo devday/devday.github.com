@@ -1,0 +1,24 @@
+---
+layout: page
+title: One Speakers
+---
+
+<div class="main-block style-2 bg-grey">
+  <div class="container">
+  
+      <div class="row">
+              <div class="col-xs-12">
+								{% if page.speaker.gravatar %}
+								<img src="{{ page.speaker.gravatar | to_gravatar }}" title="{{ page.speaker.name }}" alt="{{ page.speaker.name }}" width="150" />
+							{% else %}
+								{% if page.speaker.image %}
+										<img src="{{ page.speaker.image.url }}" title="{{ page.speaker.name }}" alt="{{ page.speaker.name }}" width="150" />
+								{% endif %}
+							{% endif %}
+
+<br>
+							{{ page.speaker.bio | simple_format  }} 
+              </div>
+          </div>
+  </div>
+</div>
