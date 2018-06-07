@@ -1,24 +1,79 @@
----
-layout: page
-title: One Speakers
+--- 
+layout: page 
 ---
 
-<div class="main-block style-2 bg-grey">
-  <div class="container">
-  
-      <div class="row">
-              <div class="col-xs-12">
-								{% if page.speaker.gravatar %}
-								<img src="{{ page.speaker.gravatar | to_gravatar }}" title="{{ page.speaker.name }}" alt="{{ page.speaker.name }}" width="150" />
-							{% else %}
-								{% if page.speaker.image %}
-										<img src="{{ page.speaker.image.url }}" title="{{ page.speaker.name }}" alt="{{ page.speaker.name }}" width="150" />
+<div class="main-block clearfix" style="background-color: darkslategray">
+	<div class="container" >
+		<div class="row">
+
+			<div class="speaker-img">
+				<img class="center-image" src="../../assets/img/speakers/{{ page.speaker.avatar }}" alt="{{ page.speaker.name }}">
+			</div>
+			<div class="container" >
+				<div class="row">
+					<div class="col-xs-12 col-md-6">
+						<div class="speaker-block">
+							<div class="speaker-title" title="Nome Palestrante">{{ page.speaker.name }}</div>
+							<div class="speaker-category" title="Categoria Palestrante">
+								<p>{{ page.speaker.category }}</p>
+							</div>
+							<div class="speaker-text strong" title="Título da Palestra">
+								<p>Palestra: "{{ page.speaker.title }}"</p>
+							</div>
+							<div class="speaker-text" title="Biografia Palestrante">
+								<p>Bio: {{ page.speaker.bio }}</p>
+							</div>
+							<div class="speaker-social clearfix">
+								<div class="speaker-text">Contatos</div>
+
+								{% if page.speaker.facebook %}
+								<a href="http://facebook.com/{{ page.speaker.facebook }}" target="_blank" title="Link do Facebook {{speaker.name}}">
+									<i class="fa fa-facebook"></i>
+								</a>
+								{% endif %} {% if page.speaker.twitter %}
+								<a href="http://twitter.com/{{ page.speaker.twitter }}" target="_blank" title="Link do Twitter {{speaker.name}}">
+									<i class="fa fa-twitter"></i>
+								</a>
+								{% endif %} {% if page.speaker.googleplus %}
+								<a href="https://plus.google.com/{{ page.speaker.googleplus }}" target="_blank" title="Link do Google Plus {{speaker.name}}">
+									<i class="fa fa-google-plus"></i>
+								</a>
+								{% endif %} {% if page.speaker.linkedin %}
+								<a href="https://www.linkedin.com/in/{{ page.speaker.linkedin }}" target="_blank" title="Link do LinkedIn {{speaker.name}}">
+									<i class="fa fa-linkedin"></i>
+								</a>
+								{% endif %} {% if page.speaker.github %}
+								<a href="http://github.com/{{ page.speaker.github }}" target="_blank" title="Link do Github {{speaker.name}}">
+									<i class="fa fa-github"></i>
+								</a>
 								{% endif %}
-							{% endif %}
+							</div>
+							<div class="speaker-social clearfix">
+								<div class="speaker-text">Compartilhe</div>
 
-<br>
-							{{ page.speaker.bio | simple_format  }} 
-              </div>
-          </div>
-  </div>
+			
+								<a href="https://www.facebook.com/sharer/sharer.php?u={{ talk_link | url_encode }}&src=sdkpreparse" onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+								 title="Compartilhar no Facebook">
+									<i class="fa fa-facebook"></i>
+								</a>
+
+								<a href='https://twitter.com/intent/tweet?text=Confira a palestra "{{ page.speaker.title }}" no {{ "#DevDay2018" | url_encode }}&url={{ talk_link  | url_encode }}' onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+								 title="Compartilhar no Twitter">
+									<i class="fa fa-twitter"></i>
+								</a>
+
+								<a href="https://www.linkedin.com/shareArticle?mini=true&url={{ talk_link  | url_encode }}&title={{ page.speaker.title }}&summary={{ page.speaker.title }}&source={{ site.title }}"
+								 onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+								 title="Compartilhar no LinkedIn">
+									<i class="fa fa-linkedin"></i>
+								</a>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
 </div>

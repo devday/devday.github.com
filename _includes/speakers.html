@@ -13,12 +13,13 @@
     <div class="slider-wth-thumbs">
         <div class="swiper-container thumbnails-preview" data-autoplay="0" data-loop="0" data-speed="500" data-center="0" data-slides-per-view="1"
             style="height: 569px !important">
-            <div class="swiper-wrapper" style="">
+            <div class="swiper-wrapper">
 
-                {% assign count = -1 %} {% assign speakers = site.data.speakers %} {% for tmp in speakers %} {% assign speaker = tmp[1] %}
+                {% assign count = -1 %} {% assign speakers = site.data.speakers %} 
+                {% for tmp in speakers %} {% assign speaker = tmp[1] %}
                 {% capture count %}{{ count | plus: '1' }}{% endcapture %}
                 <div class="swiper-slide" data-val="{{count}}">
-                    <div class="speaker-img" style="">
+                    <div class="speaker-img">
                         <img class="center-image" src="assets/img/speakers/{{ speaker.avatar }}" alt="{{ speaker.name }}">
                     </div>
                     <div class="container">
@@ -63,10 +64,6 @@
                                     <div class="speaker-social clearfix">
                                         <div>Compartilhe</div>
 
-                                        <img src="assets/img/speaker_change_1.jpg" data-image="assets/img/speaker_change_1_b.jpg" alt="">
-                                        <img src="assets/img/speaker_change_2.jpg" data-image="assets/img/speaker_change_2_b.jpg" alt="">
-                                        <img src="assets/img/speaker_change_3.jpg" data-image="assets/img/speaker_change_3_b.jpg" alt="">
-
                                         {% assign talk_link = "http://localhost:4000/speakers/" | append: speaker.url %}
 
                                         <a href="https://www.facebook.com/sharer/sharer.php?u={{ talk_link | url_encode }}&src=sdkpreparse" onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
@@ -74,10 +71,10 @@
                                             <i class="fa fa-facebook"></i>
                                         </a>
 
-                                        <a href="https://twitter.com/intent/tweet?text={{ speaker.title }}&url={{ talk_link  | url_encode }}" onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
-                                            title="Compartilhar no Twitter">
-                                            <i class="fa fa-twitter"></i>
-                                        </a>
+                                        <a href='https://twitter.com/intent/tweet?text=Confira a palestra "{{ speaker.title }}" no {{ "#DevDay2018" | url_encode }}&url={{ talk_link  | url_encode }}' onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+								 title="Compartilhar no Twitter">
+									<i class="fa fa-twitter"></i>
+								</a>
 
                                         <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ talk_link  | url_encode }}&title={{ speaker.title }}&summary={{ speaker.title }}&source={{ site.title }}"
                                             onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
