@@ -10,6 +10,7 @@ module Jekyll
       self.read_yaml(File.join(base, '_layouts'), 'speakers.html')
       self.data['speakers'] = self.get_speakers(site)
       self.process(@name)
+      site.data['speakers'] = self.data['speakers']
       
       
     end
