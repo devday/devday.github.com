@@ -26,6 +26,9 @@
                         <div class="row">
                             <div class="col-xs-12 col-md-6">
                                 <div class="speaker-block">
+                                    {% assign talk_url = site.url | append: "/speakers/" | append: speaker.url %}
+
+
                                     <div class="speaker-title" title="Nome Palestrante">{{ speaker.name }}</div>
                                     <div class="speaker-category" title="Categoria Palestrante">
                                         <p>{{ speaker.category }}</p>
@@ -33,11 +36,13 @@
                                     <div class="speaker-text strong" title="Título da Palestra">
                                         <p>Palestra: "{{ speaker.title }}"</p>
                                     </div>
+                                    
                                     <div class="speaker-text" title="Biografia Palestrante">
-                                        <p>{{ speaker.bio }}</p>
+                                        <p>{{ speaker.bio }} <p><a href="{{ talk_url }}" title="Ler dados completos da palestra">+ leia mais</a></p></p>
                                     </div>
+                     
                                     <div class="speaker-social clearfix">
-                                        <div>Contatos</div>
+                                        <div style="color: #fff; padding-bottom: 10px">Contatos</div>
 
                                         {% if speaker.facebook %}
                                         <a href="http://facebook.com/{{ speaker.facebook }}" target="_blank" title="Link do Facebook {{speaker.name}}">
@@ -60,34 +65,27 @@
                                             <i class="fa fa-github"></i>
                                         </a>
                                         {% endif %}
+                                    
                                     </div>
-                                    <div class="speaker-social clearfix">
-                                        <div>Compartilhe</div>
-
-                                        {% assign talk_link = "http://localhost:4000/speakers/" | append: speaker.url %}
-
-                                        <a href="https://www.facebook.com/sharer/sharer.php?u={{ talk_link | url_encode }}&src=sdkpreparse" onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
-                                            title="Compartilhar no Facebook">
-                                            <i class="fa fa-facebook"></i>
-                                        </a>
-
-                                        <a href='https://twitter.com/intent/tweet?text=Confira a palestra "{{ speaker.title }}" no {{ "#DevDay2018" | url_encode }}&url={{ talk_link  | url_encode }}' onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
-								 title="Compartilhar no Twitter">
-									<i class="fa fa-twitter"></i>
-								</a>
-
-                                        <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ talk_link  | url_encode }}&title={{ speaker.title }}&summary={{ speaker.title }}&source={{ site.title }}"
-                                            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
-                                            title="Compartilhar no LinkedIn">
-                                            <i class="fa fa-linkedin"></i>
-                                        </a>
-
-                                        <a href="{{ talk_link }}" target="_blank">Descrição completa</a>
-
+                                    
+                                    <div style="display: inline-block"> 
+                                            <div style="color: #fff; padding-bottom: 10px">Compartilhe</div>
+                                            <ul class="share-btns">								
+                                                <li><a href="https://www.facebook.com/sharer/sharer.php?u={{ talk_url | url_encode }}" title="Compartilhar no Facebook" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u={{ talk_url | url_encode }}'); return false;"><img alt="Compartilhar no Facebook" src="/assets/img/social/facebook.png" /></a></li>
+                                                <li><a href="https://twitter.com/intent/tweet?source={{ talk_url | url_encode }}&text={{ talk_url | url_encode }}&via=devisland" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text={{ talk_url | url_encode }}'); return false;"><img alt="Tweet" src="/assets/img/social/twitter.png" /></a></li>
+                                                <li><a href="http://www.linkedin.com/shareArticle?mini=true&url={{ talk_url | url_encode }}&title=DevDay 2018&summary=&source={{ talk_url | url_encode }}" target="_blank" title="Compartilhar no LinkedIn" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url={{ talk_url | url_encode  }}&title=DevDay 2018'); return false;"><img alt="Compartilhar no LinkedIn" src="/assets/img/social/linkedin.png" /></a></li>
+                                                <li><a href="mailto:?subject=DevDay 2018&body=:%20{{ talk_url | url_encode  }}" target="_blank" title="Send email" onclick="window.open('mailto:?subject=DevDay 2018&body={{ talk_url | url_encode }}'); return false;"><img alt="Send email" src="/assets/img/social/email.png" /></a></li>
+                                            </ul>
                                     </div>
+                                            
+                                 
+                                    
                                 </div>
+                                
                             </div>
                         </div>
+
+                       
                     </div>
                 </div>
                 {% endfor %}

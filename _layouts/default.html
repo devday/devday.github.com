@@ -12,6 +12,53 @@ newsletter_background_image: 'https://source.unsplash.com/c8ET5XvBwnU/2000x1322?
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no, minimal-ui"/>
     <meta property="og:image" content="/assets/img/marca.jpg" />
+    
+    <meta content="{{ site.title }}" property="og:site_name">
+    {% if page.speaker.title %}
+        <meta content="{{ page.speaker.name }}: {{ page.speaker.title }} | DevDay 2018" property="og:title">
+        <title>{{ page.speaker.name }}: {{ page.speaker.title }} | DevDay 2018</title>
+        
+    {% else if page.title %}
+      <meta content="{{ page.title }}" property="og:title">
+      <title>{{ page.title }} | DevDay 2018 | Belo Horizonte</title>
+    {% else %}
+      <meta content="{{ site.title }}" property="og:title">
+      <title>DevDay 2018 | Belo Horizonte</title>
+    {% endif %}
+    
+    {% if page.title %}
+      <meta content="article" property="og:type">
+    {% else %}
+      <meta content="website" property="og:type">
+    {% endif %}
+    {% if page.description %}
+      <meta content="{{ page.description }}" property="og:description">
+    {% else %}
+      <meta content="{{ site.description }}" property="og:description">
+    {% endif %}
+    {% if page.url %}
+      <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+    {% endif %}
+    {% if page.date %}
+      <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
+      <meta content="{{ site.url }}/about/" property="article:author">
+    {% endif %}
+    {% if page.speaker.avatar %}
+      <meta content="{{ site.url }}/assets/img/speakers/{{ page.speaker.avatar }}" property="og:image">
+    {% else %}
+      <meta content="{{ site.url }}/assets/img/devday_devisland.png" property="og:image">
+    {% endif %}
+    {% if page.categories %}
+      {% for category in page.categories limit:1 %}
+      <meta content="{{ category }}" property="article:section">
+      {% endfor %}
+    {% endif %}
+    {% if page.tags %}
+      {% for tag in page.tags %}
+      <meta content="{{ tag }}" property="article:tag">
+      {% endfor %}
+    {% endif %}    
+    
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link href="/assets/css/idangerous.swiper.css" rel="stylesheet" type="text/css" />
@@ -29,17 +76,17 @@ newsletter_background_image: 'https://source.unsplash.com/c8ET5XvBwnU/2000x1322?
       ga('send', 'pageview');
 
     </script>
-  	<title>DevDay 2018 | Belo Horizonte</title>
+  	
 </head>
 <body data-color="yellow">
-        <div id="fb-root"></div>
-        <script>(function(d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) return;
-          js = d.createElement(s); js.id = id;
-          js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v3.0&appId=161585410596237&autoLogAppEvents=1';
-          fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
      <!-- LOADER -->
     <div id="loading">
         <div id="loading-center">
