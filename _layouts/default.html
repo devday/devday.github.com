@@ -17,10 +17,6 @@ newsletter_background_image: 'https://source.unsplash.com/c8ET5XvBwnU/2000x1322?
     {% if page.speaker.title %}
         <meta content="{{ page.speaker.name }}: {{ page.speaker.title }} | DevDay 2018" property="og:title">
         <title>{{ page.speaker.name }}: {{ page.speaker.title }} | DevDay 2018</title>
-        
-    {% else if page.title %}
-      <meta content="{{ page.title }}" property="og:title">
-      <title>{{ page.title }} | DevDay 2018 | Belo Horizonte</title>
     {% else %}
       <meta content="{{ site.title }}" property="og:title">
       <title>DevDay 2018 | Belo Horizonte</title>
@@ -79,14 +75,6 @@ newsletter_background_image: 'https://source.unsplash.com/c8ET5XvBwnU/2000x1322?
   	
 </head>
 <body data-color="yellow">
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
      <!-- LOADER -->
     <div id="loading">
         <div id="loading-center">
@@ -180,5 +168,5 @@ newsletter_background_image: 'https://source.unsplash.com/c8ET5XvBwnU/2000x1322?
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxdcbMaUOU0VsfcnV2jJlUjCSlWB2teXg"></script>  
     <script src="/assets/js/global.js"></script>
     <script src="/assets/js/anchors.navigation.js"></script>    
-</body>
+  </body>
 </html>
