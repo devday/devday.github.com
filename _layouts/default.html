@@ -11,7 +11,6 @@ newsletter_background_image: 'https://source.unsplash.com/c8ET5XvBwnU/2000x1322?
     <meta name="format-detection" content="telephone=no" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no, minimal-ui"/>
-    <meta property="og:image" content="/assets/img/marca.jpg" />
     
     <meta content="{{ site.title }}" property="og:site_name">
     {% if page.speaker.title %}
@@ -54,6 +53,9 @@ newsletter_background_image: 'https://source.unsplash.com/c8ET5XvBwnU/2000x1322?
       <meta content="{{ tag }}" property="article:tag">
       {% endfor %}
     {% endif %}    
+
+    <meta property="og:video:width" content="500" />
+    <meta property="og:video:height" content="340" />
     
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
