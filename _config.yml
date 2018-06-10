@@ -17,9 +17,6 @@ compress_html:
   endings: []
   profile: false
 
-gems:
-  - octopress-debugger
-
 # exclude my node related stuff
 exclude: ['package.json', 'node_modules']
 
