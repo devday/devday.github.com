@@ -18,27 +18,20 @@ main:
     linkedin: https://www.linkedin.com/in/gibransilva/
     facebook: silva.gibran
     avatar: gibran.jpg
-    
-  - name: Ana Bastos
-    twitter: aninhaebastos
-    github: 
-    linkedin: https://www.linkedin.com/in/anaebastos
-    facebook: anaebastos
-    avatar: ana.jpg
-
-  - name: Jordan Silva
-    twitter: jordansilva
-    github: jordansilva
-    linkedin: https://www.linkedin.com/in/silvajordan/
-    facebook: silva.jordan
-    avatar: jordan.jpg
-
+  
   - name: Alex Sander
     twitter: alexsazs
     github: alexsazs
     linkedin: https://www.linkedin.com/in/alexsazs
     facebook: alexsazs
     avatar: alexsazs.jpg
+  
+  - name: Ana Bastos
+    twitter: aninhaebastos
+    github: 
+    linkedin: https://www.linkedin.com/in/anaebastos
+    facebook: anaebastos
+    avatar: ana.jpg
     
   - name: Breno Araújo
     twitter: brenoaraujo
