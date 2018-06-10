@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/devday/devday.github.com.svg?branch=master)](https://travis-ci.org/devday/devday.github.com)
+[![License Apache2](https://img.shields.io/hexpm/l/plug.svg)](http://www.apache.org/licenses/LICENSE-2.0)
+
 # [DEVDAY 2018](http://devday.devisland.com/) 
 O EVENTO DE DESENVOLVEDORES PARA DESENVOLVEDORES ESTÁ DE VOLTA!
 
