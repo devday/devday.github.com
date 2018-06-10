@@ -1,7 +1,96 @@
----
-layout: default
----
-<!-- MAIN-SLIDER -->                    
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no, minimal-ui"/>
+    <meta property="og:image" content="/assets/img/marca.jpg" />
+    
+    <meta content="DevDay 2018 | Belo Horizonte" property="og:site_name">
+    
+      <meta content="DevDay 2018 | Belo Horizonte" property="og:title">
+      <title>DevDay 2018 | Belo Horizonte</title>
+    
+    
+    
+      <meta content="website" property="og:type">
+    
+    
+      <meta content="O maior evento para desenvolvedores de software em Minas Gerais
+" property="og:description">
+    
+    
+      <meta content="https://devday.devisland.com/2017/" property="og:url">
+    
+    
+    
+      <meta content="https://devday.devisland.com/assets/img/devday_devisland.png" property="og:image">
+    
+    
+        
+    
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/idangerous.swiper.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/style.css?v=1.0.8" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" />
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-11685238-1', 'auto');
+      ga('require', 'displayfeatures');
+      ga('require', 'linkid', 'linkid.js');
+      ga('send', 'pageview');
+
+    </script>
+  	
+</head>
+<body data-color="yellow">
+     <!-- LOADER -->
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+			  <div class="bigSqr">
+			    <div class="square first"></div>
+			    <div class="square second"></div>
+			    <div class="square third"></div>
+			    <div class="square fourth"></div>
+			  </div>
+            </div>
+        </div>
+        <div id="loading-text">Loading</div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="header type-1">
+    	<div class="container">
+            <div class="logo-block">
+			     <a class="logo" href="#"><img src="/assets/img/logo_devisland.png" style="height: 28px" alt=""></a>
+            </div>
+			<nav class="main-nav">
+                <ul class="anchor-navigation">
+                    <li><a class="anchor-scroll" href="#about">Sobre</a></li>
+                    <li><a class="anchor-scroll" href="#speakers">Palestrantes</a></li>
+                    <li><a class="anchor-scroll" href="#tickets">Inscrições</a></li>
+                    <li><a class="anchor-scroll" href="#partners">Patrocínio</a></li>
+                    <li><a class="anchor-scroll" href="#team">Equipe organizadora</a></li>
+                    <li><a class="anchor-scroll" href="#contact">Contato</a></li>
+                    <li><a class="anchor-scroll" href="http://pt-br.confcodeofconduct.com/" target="_blank">Código de Conduta</a></li>
+                </ul>				
+			</nav>
+            <button class="cmn-toggle-switch"><span></span></button>
+    	</div>
+    </header>
+    
+    
+
+    <div id="content-wrapper">
+    
+        <!-- MAIN-SLIDER -->                    
 <div class="main-slider bordered clearfix">
     <div class="swiper-container" data-autoplay="0" data-loop="0" data-speed="0" data-center="0" data-slides-per-view="1" data-add-slides="1">
         <div class="swiper-wrapper">
@@ -51,10 +140,460 @@ layout: default
 </div>
 
 <!-- SOBRE O EVENTO -->
-{% include about.html category="DevDay" title="sobre o nosso evento" subtitle="Um evento feito por desenvolvedores para desenvolvedores." lang="pt" %}
+<!-- SOBRE -->
+<div id="about" class="main-block clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                <div class="block-header">
+                    <h4 class="block-category">DevDay</h4>
+                    <h2 class="block-title">sobre o nosso evento</h2>
+                    <div class="block-text">Um evento feito por desenvolvedores para desenvolvedores.</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="swiper-container" data-autoplay="0" data-loop="0" data-speed="1000" data-slides-per-view="responsive" data-mob-slides="1" data-xs-slides="2" data-sm-slides="3" data-md-slides="4" data-lg-slides="4" data-add-slides="4">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" data-val="0">
+                        <div class="about-item">
+                            <img class="img-responsive" src="assets/img/about_1.jpg" alt="Coffee Break no DevDay 2014">
+                            <a class="about-title" href="#">DevIsland & DevDay</a>
+                            <div class="about-text">A comunidade de desenvolvimento DevIsland está organizando novamente o DEVDAY, um evento para pessoas que amam desenvolver software.</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" data-val="1">
+                        <div class="about-item">
+                            <img class="img-responsive" src="assets/img/about_2.jpg" alt="Foto aérea dos participantes do DevDay 2014">
+                            <a class="about-title" href="#">A nossa comunidade!</a>
+                            <div class="about-text">Em sua oitava edição, o DEVDAY 2018 vai lotar a casa com mais de 400 desenvolvedores e desenvolvedoras!<br/>Nos encontramos lá! ;)</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" data-val="2">
+                        <a href="https://www.infoq.com/br/devday/" target="_blank">
+                        <div class="about-item">
+                            <img class="img-responsive" src="assets/img/about_3.jpg" alt="Foto DevDay 2014">
+                            <a class="about-title" href="https://www.infoq.com/br/devday/" target="_blank">Edições anteriores</a>
+                            <div class="about-text">Confira algumas das palestras que aconteceram nas edições anteriores. Está tudo em <a href="https://www.infoq.com/br/devday/" target="_blank">vídeo na InfoQ</a>, corre lá!</div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide" data-val="3">
+                        <a href="https://www.facebook.com/DevIsland/" target="_blank">
+                            <div class="about-item">
+                                <img class="img-responsive" src="assets/img/about_4.jpg" style="height: 204px; width: " alt="Eu Curto!">
+                                <a class="about-title" href="https://www.facebook.com/DevIsland/" target="_blank">Curta nossa Página!</a>
+                                <div class="about-text">Se mantenha informado através das nossas redes sociais! Acesse a nossa página do <a href="https://www.facebook.com/DevIsland/" target="_blank"><b>Fabecook DevIsland</b></a>.</div>
+                            </div>
+                        </a>
+                    </div>
+                  </div>
+                <div class="pagination"></div>
+            </div>              
+        </div>
+    </div>
+</div>
 
 <!-- PALESTRANTES -->
-{% include speakers.html category="Nossos Convidados" title="Conheça os palestrantes" lang="pt" %}
+<!-- PALESTRANTES -->
+<div id="speakers" class="main-block clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                <div class="block-header">
+                    <h4 class="block-category">Nossos Convidados</h4>
+                    <h2 class="block-title">Conheça os palestrantes</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slider-wth-thumbs">
+        <div class="swiper-container thumbnails-preview" data-autoplay="0" data-loop="0" data-speed="500" data-center="0" data-slides-per-view="1"
+            style="height: 569px !important">
+            <div class="swiper-wrapper">
+
+                  
+                 
+                
+                <div class="swiper-slide" data-val="0">
+                    <div class="speaker-img">
+                        <img class="center-image" src="assets/img/speakers/ludmila-lopes.jpg" alt="Ludmila Lopes">
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-md-6">
+                                <div class="speaker-block">
+                                    
+
+
+                                    <div class="speaker-title" title="Nome Palestrante">Ludmila Lopes</div>
+                                    <div class="speaker-category" title="Categoria Palestrante">
+                                        <p></p>
+                                    </div>
+                                    <div class="speaker-text strong" title="Título da Palestra">
+                                        <p>Palestra: "Blockchain, Ethereum e a decentralização da economia"</p>
+                                    </div>
+                                    
+                                    <div class="speaker-text" title="Biografia Palestrante">
+                                        <p>Formada em Engenharia de Controle e Automação pela UFMG, tem experiência de 5 anos em TI trabalhando pela DTI Digital. É co-fundadora da Actus, uma das primeiras start-ups brasileiras em criptomoedas baseada em Ethereum, à qual se dedica em tempo integral há 5 meses. <p><a href="https://devday.devisland.com/speakers/ludmila-lopes" title="Ler dados completos da palestra">+ leia mais</a></p></p>
+                                    </div>
+                     
+                                    <div class="speaker-social clearfix">
+                                        <div style="color: #fff; padding-bottom: 10px">Contatos</div>
+
+                                        
+                                        <a href="http://facebook.com/ludylops" target="_blank" title="Link do Facebook Ludmila Lopes">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                           
+                                        <a href="https://www.linkedin.com/in/ludmila-lopes-a0008017" target="_blank" title="Link do LinkedIn Ludmila Lopes">
+                                            <i class="fa fa-linkedin"></i>
+                                        </a>
+                                         
+                                        <a href="http://github.com/ludmila-omlopes" target="_blank" title="Link do Github Ludmila Lopes">
+                                            <i class="fa fa-github"></i>
+                                        </a>
+                                        
+                                    
+                                    </div>
+                                    
+                                    <div style="display: inline-block"> 
+                                            <div style="color: #fff; padding-bottom: 10px">Compartilhe</div>
+                                            <ul class="share-btns">								
+                                                <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fludmila-lopes" title="Compartilhar no Facebook" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fludmila-lopes'); return false;"><img alt="Compartilhar no Facebook" src="/assets/img/social/facebook.png" /></a></li>
+                                                <li><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fludmila-lopes&text=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fludmila-lopes&via=devisland" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fludmila-lopes'); return false;"><img alt="Tweet" src="/assets/img/social/twitter.png" /></a></li>
+                                                <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fludmila-lopes&title=DevDay 2018&summary=&source=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fludmila-lopes" target="_blank" title="Compartilhar no LinkedIn" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fludmila-lopes&title=DevDay 2018'); return false;"><img alt="Compartilhar no LinkedIn" src="/assets/img/social/linkedin.png" /></a></li>
+                                                <li><a href="mailto:?subject=DevDay 2018&body=:%20https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fludmila-lopes" target="_blank" title="Send email" onclick="window.open('mailto:?subject=DevDay 2018&body=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fludmila-lopes'); return false;"><img alt="Send email" src="/assets/img/social/email.png" /></a></li>
+                                            </ul>
+                                    </div>
+                                            
+                                 
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                       
+                    </div>
+                </div>
+                 
+                
+                <div class="swiper-slide" data-val="1">
+                    <div class="speaker-img">
+                        <img class="center-image" src="assets/img/speakers/gustavo-pantuza.jpg" alt="Gustavo Pantuza">
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-md-6">
+                                <div class="speaker-block">
+                                    
+
+
+                                    <div class="speaker-title" title="Nome Palestrante">Gustavo Pantuza</div>
+                                    <div class="speaker-category" title="Categoria Palestrante">
+                                        <p></p>
+                                    </div>
+                                    <div class="speaker-text strong" title="Título da Palestra">
+                                        <p>Palestra: "Resiliência em micro-serviços: cache distribuído, feedback, algoritmos e tuning na Globo.com"</p>
+                                    </div>
+                                    
+                                    <div class="speaker-text" title="Biografia Palestrante">
+                                        <p>Gustavo é mestre em Ciência da computação na area de redes e sistemas distribuídos pela UFMG e atua como engenheiro de software sênior na Globo.com.  <p><a href="https://devday.devisland.com/speakers/gustavo-pantuza" title="Ler dados completos da palestra">+ leia mais</a></p></p>
+                                    </div>
+                     
+                                    <div class="speaker-social clearfix">
+                                        <div style="color: #fff; padding-bottom: 10px">Contatos</div>
+
+                                        
+                                        <a href="http://facebook.com/pantuza" target="_blank" title="Link do Facebook Gustavo Pantuza">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                           
+                                        <a href="https://www.linkedin.com/in/gustavo-pantuza-46089825" target="_blank" title="Link do LinkedIn Gustavo Pantuza">
+                                            <i class="fa fa-linkedin"></i>
+                                        </a>
+                                         
+                                        <a href="http://github.com/pantuza" target="_blank" title="Link do Github Gustavo Pantuza">
+                                            <i class="fa fa-github"></i>
+                                        </a>
+                                        
+                                    
+                                    </div>
+                                    
+                                    <div style="display: inline-block"> 
+                                            <div style="color: #fff; padding-bottom: 10px">Compartilhe</div>
+                                            <ul class="share-btns">								
+                                                <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fgustavo-pantuza" title="Compartilhar no Facebook" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fgustavo-pantuza'); return false;"><img alt="Compartilhar no Facebook" src="/assets/img/social/facebook.png" /></a></li>
+                                                <li><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fgustavo-pantuza&text=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fgustavo-pantuza&via=devisland" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fgustavo-pantuza'); return false;"><img alt="Tweet" src="/assets/img/social/twitter.png" /></a></li>
+                                                <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fgustavo-pantuza&title=DevDay 2018&summary=&source=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fgustavo-pantuza" target="_blank" title="Compartilhar no LinkedIn" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fgustavo-pantuza&title=DevDay 2018'); return false;"><img alt="Compartilhar no LinkedIn" src="/assets/img/social/linkedin.png" /></a></li>
+                                                <li><a href="mailto:?subject=DevDay 2018&body=:%20https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fgustavo-pantuza" target="_blank" title="Send email" onclick="window.open('mailto:?subject=DevDay 2018&body=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fgustavo-pantuza'); return false;"><img alt="Send email" src="/assets/img/social/email.png" /></a></li>
+                                            </ul>
+                                    </div>
+                                            
+                                 
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                       
+                    </div>
+                </div>
+                 
+                
+                <div class="swiper-slide" data-val="2">
+                    <div class="speaker-img">
+                        <img class="center-image" src="assets/img/speakers/jessica-zanelato.jpg" alt="Jéssica Zanelato">
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-md-6">
+                                <div class="speaker-block">
+                                    
+
+
+                                    <div class="speaker-title" title="Nome Palestrante">Jéssica Zanelato</div>
+                                    <div class="speaker-category" title="Categoria Palestrante">
+                                        <p></p>
+                                    </div>
+                                    <div class="speaker-text strong" title="Título da Palestra">
+                                        <p>Palestra: "Criando uma PWA com React para consumir uma API"</p>
+                                    </div>
+                                    
+                                    <div class="speaker-text" title="Biografia Palestrante">
+                                        <p>Natural de Florianópolis (SC), Jéssica é programadora há mais de 7 anos. Tem experiência com front-end, backend e hoje é gerente de uma equipe de desenvolvimento. É coordenadora do PodProgramar, um podcast a respeito de tecnologia e das pessoas da área. <p><a href="https://devday.devisland.com/speakers/jessica-zanelato" title="Ler dados completos da palestra">+ leia mais</a></p></p>
+                                    </div>
+                     
+                                    <div class="speaker-social clearfix">
+                                        <div style="color: #fff; padding-bottom: 10px">Contatos</div>
+
+                                           
+                                        <a href="https://www.linkedin.com/in/jessica-zanelato-soares-34772b14b" target="_blank" title="Link do LinkedIn Jéssica Zanelato">
+                                            <i class="fa fa-linkedin"></i>
+                                        </a>
+                                         
+                                        <a href="http://github.com/jessizanelato" target="_blank" title="Link do Github Jéssica Zanelato">
+                                            <i class="fa fa-github"></i>
+                                        </a>
+                                        
+                                    
+                                    </div>
+                                    
+                                    <div style="display: inline-block"> 
+                                            <div style="color: #fff; padding-bottom: 10px">Compartilhe</div>
+                                            <ul class="share-btns">								
+                                                <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fjessica-zanelato" title="Compartilhar no Facebook" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fjessica-zanelato'); return false;"><img alt="Compartilhar no Facebook" src="/assets/img/social/facebook.png" /></a></li>
+                                                <li><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fjessica-zanelato&text=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fjessica-zanelato&via=devisland" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fjessica-zanelato'); return false;"><img alt="Tweet" src="/assets/img/social/twitter.png" /></a></li>
+                                                <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fjessica-zanelato&title=DevDay 2018&summary=&source=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fjessica-zanelato" target="_blank" title="Compartilhar no LinkedIn" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fjessica-zanelato&title=DevDay 2018'); return false;"><img alt="Compartilhar no LinkedIn" src="/assets/img/social/linkedin.png" /></a></li>
+                                                <li><a href="mailto:?subject=DevDay 2018&body=:%20https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fjessica-zanelato" target="_blank" title="Send email" onclick="window.open('mailto:?subject=DevDay 2018&body=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fjessica-zanelato'); return false;"><img alt="Send email" src="/assets/img/social/email.png" /></a></li>
+                                            </ul>
+                                    </div>
+                                            
+                                 
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                       
+                    </div>
+                </div>
+                 
+                
+                <div class="swiper-slide" data-val="3">
+                    <div class="speaker-img">
+                        <img class="center-image" src="assets/img/speakers/gabriel-oliva.jpg" alt="Gabriel Oliva">
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-md-6">
+                                <div class="speaker-block">
+                                    
+
+
+                                    <div class="speaker-title" title="Nome Palestrante">Gabriel Oliva</div>
+                                    <div class="speaker-category" title="Categoria Palestrante">
+                                        <p></p>
+                                    </div>
+                                    <div class="speaker-text strong" title="Título da Palestra">
+                                        <p>Palestra: "Acessibilidade no iOS"</p>
+                                    </div>
+                                    
+                                    <div class="speaker-text" title="Biografia Palestrante">
+                                        <p>Gabriel é desenvolvedor iOS e trabalha na AppProva ajudando a transformar a educação no Brasil. É um grande entusiasta do mundo Apple e assuntos envolvendo acessibilidade e arquitetura de projetos. Nas horas vagas, gosta de se aventurar como baterista e é apaixonado por café. <p><a href="https://devday.devisland.com/speakers/gabriel-oliva" title="Ler dados completos da palestra">+ leia mais</a></p></p>
+                                    </div>
+                     
+                                    <div class="speaker-social clearfix">
+                                        <div style="color: #fff; padding-bottom: 10px">Contatos</div>
+
+                                        
+                                        <a href="http://facebook.com/gfpoliva" target="_blank" title="Link do Facebook Gabriel Oliva">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                           
+                                        <a href="https://www.linkedin.com/in/gfpoliva" target="_blank" title="Link do LinkedIn Gabriel Oliva">
+                                            <i class="fa fa-linkedin"></i>
+                                        </a>
+                                         
+                                        <a href="http://github.com/gabrieloliva" target="_blank" title="Link do Github Gabriel Oliva">
+                                            <i class="fa fa-github"></i>
+                                        </a>
+                                        
+                                    
+                                    </div>
+                                    
+                                    <div style="display: inline-block"> 
+                                            <div style="color: #fff; padding-bottom: 10px">Compartilhe</div>
+                                            <ul class="share-btns">								
+                                                <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fgabriel-oliva" title="Compartilhar no Facebook" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fgabriel-oliva'); return false;"><img alt="Compartilhar no Facebook" src="/assets/img/social/facebook.png" /></a></li>
+                                                <li><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fgabriel-oliva&text=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fgabriel-oliva&via=devisland" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fgabriel-oliva'); return false;"><img alt="Tweet" src="/assets/img/social/twitter.png" /></a></li>
+                                                <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fgabriel-oliva&title=DevDay 2018&summary=&source=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fgabriel-oliva" target="_blank" title="Compartilhar no LinkedIn" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fgabriel-oliva&title=DevDay 2018'); return false;"><img alt="Compartilhar no LinkedIn" src="/assets/img/social/linkedin.png" /></a></li>
+                                                <li><a href="mailto:?subject=DevDay 2018&body=:%20https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fgabriel-oliva" target="_blank" title="Send email" onclick="window.open('mailto:?subject=DevDay 2018&body=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fgabriel-oliva'); return false;"><img alt="Send email" src="/assets/img/social/email.png" /></a></li>
+                                            </ul>
+                                    </div>
+                                            
+                                 
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                       
+                    </div>
+                </div>
+                 
+                
+                <div class="swiper-slide" data-val="4">
+                    <div class="speaker-img">
+                        <img class="center-image" src="assets/img/speakers/kate-leandra-alves.jpg" alt="Kate Leandra Alves">
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-md-6">
+                                <div class="speaker-block">
+                                    
+
+
+                                    <div class="speaker-title" title="Nome Palestrante">Kate Leandra Alves</div>
+                                    <div class="speaker-category" title="Categoria Palestrante">
+                                        <p></p>
+                                    </div>
+                                    <div class="speaker-text strong" title="Título da Palestra">
+                                        <p>Palestra: "UX: Análise das heurísticas, ponto de partida para a criação e melhoria de uma interface"</p>
+                                    </div>
+                                    
+                                    <div class="speaker-text" title="Biografia Palestrante">
+                                        <p>Kate é uma mulher que tem buscado aprimorar-se a cada dia no mercado  de TI. Apaixonada por livros e principalmente por animais, estudante de Análise e Desenvolvimento de Sistemas, desenvolvedora front-end, apaixona-se a cada dia com usabilidade e sua importância. <p><a href="https://devday.devisland.com/speakers/kate-leandra-alves" title="Ler dados completos da palestra">+ leia mais</a></p></p>
+                                    </div>
+                     
+                                    <div class="speaker-social clearfix">
+                                        <div style="color: #fff; padding-bottom: 10px">Contatos</div>
+
+                                        
+                                        <a href="http://facebook.com/kate.leandra" target="_blank" title="Link do Facebook Kate Leandra Alves">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                           
+                                        <a href="https://www.linkedin.com/in/kate-leandra" target="_blank" title="Link do LinkedIn Kate Leandra Alves">
+                                            <i class="fa fa-linkedin"></i>
+                                        </a>
+                                         
+                                        <a href="http://github.com/Kateleandra" target="_blank" title="Link do Github Kate Leandra Alves">
+                                            <i class="fa fa-github"></i>
+                                        </a>
+                                        
+                                    
+                                    </div>
+                                    
+                                    <div style="display: inline-block"> 
+                                            <div style="color: #fff; padding-bottom: 10px">Compartilhe</div>
+                                            <ul class="share-btns">								
+                                                <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fkate-leandra-alves" title="Compartilhar no Facebook" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fkate-leandra-alves'); return false;"><img alt="Compartilhar no Facebook" src="/assets/img/social/facebook.png" /></a></li>
+                                                <li><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fkate-leandra-alves&text=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fkate-leandra-alves&via=devisland" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fkate-leandra-alves'); return false;"><img alt="Tweet" src="/assets/img/social/twitter.png" /></a></li>
+                                                <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fkate-leandra-alves&title=DevDay 2018&summary=&source=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fkate-leandra-alves" target="_blank" title="Compartilhar no LinkedIn" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fkate-leandra-alves&title=DevDay 2018'); return false;"><img alt="Compartilhar no LinkedIn" src="/assets/img/social/linkedin.png" /></a></li>
+                                                <li><a href="mailto:?subject=DevDay 2018&body=:%20https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fkate-leandra-alves" target="_blank" title="Send email" onclick="window.open('mailto:?subject=DevDay 2018&body=https%3A%2F%2Fdevday.devisland.com%2Fspeakers%2Fkate-leandra-alves'); return false;"><img alt="Send email" src="/assets/img/social/email.png" /></a></li>
+                                            </ul>
+                                    </div>
+                                            
+                                 
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                       
+                    </div>
+                </div>
+                
+            </div>
+            <div class="pagination"></div>
+            <div class="swiper-arrow-left style-1">
+                <img src="assets/img/arrow_left.png" alt="">
+            </div>
+            <div class="swiper-arrow-right style-1">
+                <img src="assets/img/arrow_right.png" alt="">
+            </div>
+        </div>
+        <div class="swiper-container thumbnails" data-autoplay="0" data-loop="0" data-speed="500" data-center="0" data-slides-per-view="auto"
+            data-mob-slides="3" data-xs-slides="4" data-sm-slides="6" data-md-slides="7" data-lg-slides="8" data-add-slides="12">
+            <div class="swiper-wrapper">
+                  
+                <div class="swiper-slide" data-val="0">
+                    <img class="img-responsive img-full" src="assets/img/speakers/thumbs/" alt="">
+                    <div class="thumb-desc">
+                        <div class="thumb-title"></div>
+                        <div class="thumb-text"></div>
+                    </div>
+                    <div class="thumb-overlay"></div>
+                </div>
+                 
+                <div class="swiper-slide" data-val="1">
+                    <img class="img-responsive img-full" src="assets/img/speakers/thumbs/" alt="">
+                    <div class="thumb-desc">
+                        <div class="thumb-title"></div>
+                        <div class="thumb-text"></div>
+                    </div>
+                    <div class="thumb-overlay"></div>
+                </div>
+                 
+                <div class="swiper-slide" data-val="2">
+                    <img class="img-responsive img-full" src="assets/img/speakers/thumbs/" alt="">
+                    <div class="thumb-desc">
+                        <div class="thumb-title"></div>
+                        <div class="thumb-text"></div>
+                    </div>
+                    <div class="thumb-overlay"></div>
+                </div>
+                 
+                <div class="swiper-slide" data-val="3">
+                    <img class="img-responsive img-full" src="assets/img/speakers/thumbs/" alt="">
+                    <div class="thumb-desc">
+                        <div class="thumb-title"></div>
+                        <div class="thumb-text"></div>
+                    </div>
+                    <div class="thumb-overlay"></div>
+                </div>
+                 
+                <div class="swiper-slide" data-val="4">
+                    <img class="img-responsive img-full" src="assets/img/speakers/thumbs/" alt="">
+                    <div class="thumb-desc">
+                        <div class="thumb-title"></div>
+                        <div class="thumb-text"></div>
+                    </div>
+                    <div class="thumb-overlay"></div>
+                </div>
+                
+            </div>
+            <div class="pagination hidden"></div>
+        </div>
+    </div>
+
+</div>
 
 <!-- INSCRICOES -->
 <div id="sing" class="message-line">
@@ -68,12 +607,735 @@ layout: default
 </div>
 
 <!-- AGENDA -->
-{% include schedule.html category="Agenda do Evento" title="Programação" 
-main_room="Auditório" first_room="Sala 1" second_room="Sala 2" third_room="Comunidade" 
-lang="pt" %}
+
+<!-- AGENDA -->
+<div id="schedule" class="main-block bg-grey">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                <div class="block-header">
+                    <h4 class="block-category">Agenda do Evento</h4>
+                    <h2 class="block-title">Programação</h2>
+                </div>
+            </div>
+        </div>
+        <div class="tab-wrapper">
+            <div class="tab-nav-wrapper">
+                <div  class="nav-tab">
+                    <div class="nav-tab-item active">
+                        Auditório
+                    </div>
+                    <div class="nav-tab-item">
+                        Sala 1
+                    </div>
+                    <div class="nav-tab-item">
+                        Sala 2
+                    </div>
+                    <div class="nav-tab-item">
+                        Comunidade
+                    </div>
+                    <div class="nav-tab-item">
+                        
+                    </div>
+                    <div class="nav-tab-item">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="tabs-content clearfix">
+                <div class="tab-info active">  
+                    
+                    
+                    
+                        <div class="shedule-block left">
+                            <img class="shedule-user" src="assets/img/schedules/speaker-1.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">08:00 - 09:00</div>
+                                <h4><a class="shedule-speaker">Credenciamento</a></h4>
+                                <div class="shedule-position">DevDay 2017</div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block right">
+                            <img class="shedule-user" src="assets/img/schedules/speaker-1.png" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">09:00 - 09:10</div>
+                                <h4><a class="shedule-speaker">Abertura</a></h4>
+                                <div class="shedule-position">Organizadores</div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block left">
+                            <img class="shedule-user" src="assets/img/schedules/rafael_avila.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">09:10 - 10:00</div>
+                                <h4><a class="shedule-speaker">Inovação e Futurismo: o mundo que podemos e não o que queremos</a></h4>
+                                <div class="shedule-position">Rafael Ávila</div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block right">
+                            <img class="shedule-user" src="assets/img/schedules/juliano_viana.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">10:15 - 11:00</div>
+                                <h4><a class="shedule-speaker">Artificial by design -- da linguagem natural aos veículos autônomos, o estado da arte em deep learning e suas aplicações.</a></h4>
+                                <div class="shedule-position">Juliano Viana</div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block left">
+                            <img class="shedule-user" src="assets/img/schedules/glenio_borges.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">11:15 - 12:00</div>
+                                <h4><a class="shedule-speaker">Arquitetura Nativa na Nuvem - Entrega Contínua com A.I</a></h4>
+                                <div class="shedule-position">Glenio Borges</div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block right">
+                            <img class="shedule-user" src="assets/img/schedules/speaker-1.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">12:00 - 13:30</div>
+                                <h4><a class="shedule-speaker">Almoço</a></h4>
+                                <div class="shedule-position"></div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block left">
+                            <img class="shedule-user" src="assets/img/schedules/felipe_silvestre.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">13:30 - 14:15</div>
+                                <h4><a class="shedule-speaker">Microserviços na prática: o que aprendemos em 2 anos</a></h4>
+                                <div class="shedule-position">Felipe Silvestre</div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block right">
+                            <img class="shedule-user" src="assets/img/schedules/daniela_kovacs.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">14:30 - 15:15</div>
+                                <h4><a class="shedule-speaker">Lei Brasileira de Inclusão e Acessibilidade em Informática</a></h4>
+                                <div class="shedule-position">Daniela Kovács</div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block left">
+                            <img class="shedule-user" src="assets/img/schedules/jimmy_andrade.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">15:30 - 16:15</div>
+                                <h4><a class="shedule-speaker">Diversidade Étnica, de Gênero e Sexo na Customer/User Experience</a></h4>
+                                <div class="shedule-position">Jimmy Andrade</div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block right">
+                            <img class="shedule-user" src="assets/img/schedules/speaker-1.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">16:15 - 16:45</div>
+                                <h4><a class="shedule-speaker">Lanche</a></h4>
+                                <div class="shedule-position"></div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block left">
+                            <img class="shedule-user" src="assets/img/schedules/sergio_gama.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">16:45 - 17:30</div>
+                                <h4><a class="shedule-speaker">Como IoT e sistemas cognitivos vão acelerar a inovação e transformação digital</a></h4>
+                                <div class="shedule-position">Sergio Gama</div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block right">
+                            <img class="shedule-user" src="assets/img/schedules/pedro_vilanova.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">17:30 - 18:20</div>
+                                <h4><a class="shedule-speaker">Operação Serenata de Amor: inteligência artifical para controle dos gastos públicos.</a></h4>
+                                <div class="shedule-position">Pedro Vilanova</div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block left">
+                            <img class="shedule-user" src="assets/img/schedules/speaker-1.png" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">18:20 - 18:30</div>
+                                <h4><a class="shedule-speaker">Encerramento</a></h4>
+                                <div class="shedule-position">Organizadores e Patrocinadores</div>
+                                <div class="shedule-text">Sorteio de brindes \o/ e mensagem dos patrocinadores.</div>
+                            </div>
+                        </div>
+                        
+                    
+                </div>
+                <div class="tab-info">  
+                    
+                    
+                    
+                        <div class="shedule-block left">
+                            <img class="shedule-user" src="assets/img/schedules/clerton_leal.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">10:15 - 11:00</div>
+                                <h4><a class="shedule-speaker">Do caos ao TDD. Uma abordagem pragmática de evolução arquitetural de aplicações Android.</a></h4>
+                                <div class="shedule-position">Clêrton Leal</div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block right">
+                            <img class="shedule-user" src="assets/img/schedules/denise_eler.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">11:15 - 12:00</div>
+                                <h4><a class="shedule-speaker">CUSTOMER EXPERIENCE: Uma reflexão sobre abundância, escassez e oportunidades</a></h4>
+                                <div class="shedule-position">Denise Eler</div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block left">
+                            <img class="shedule-user" src="assets/img/schedules/speaker-1.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">12:00 - 13:30</div>
+                                <h4><a class="shedule-speaker">Almoço</a></h4>
+                                <div class="shedule-position"></div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block right">
+                            <img class="shedule-user" src="assets/img/schedules/daniel_figueiredo.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">13:30 - 14:15</div>
+                                <h4><a class="shedule-speaker">Introdução ao blockchain - Um exemplo em ethereum na linguagem solidity</a></h4>
+                                <div class="shedule-position">Daniel Figueiredo</div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block left">
+                            <img class="shedule-user" src="assets/img/schedules/lucas_costa.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">14:30 - 15:15</div>
+                                <h4><a class="shedule-speaker">A arquitetura de monitoramento da Plataforma de Vídeos da Globo.com</a></h4>
+                                <div class="shedule-position">Lucas Costa</div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block right">
+                            <img class="shedule-user" src="assets/img/schedules/magoo.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">15:30 - 16:15</div>
+                                <h4><a class="shedule-speaker">Inteligência Artificial a Serviço da Acessibilidade</a></h4>
+                                <div class="shedule-position">Alexandre Costa</div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block left">
+                            <img class="shedule-user" src="assets/img/schedules/speaker-1.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">16:15 - 16:45</div>
+                                <h4><a class="shedule-speaker">Lanche</a></h4>
+                                <div class="shedule-position"></div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block right">
+                            <img class="shedule-user" src="assets/img/schedules/marcos_brizeno.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">16:45 - 17:30</div>
+                                <h4><a class="shedule-speaker">GraphQL ou APIs RESTful?</a></h4>
+                                <div class="shedule-position">Marcos Brizeno</div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                </div>
+                <div class="tab-info">  
+                    
+                    
+                    
+                        <div class="shedule-block left">
+                            <img class="shedule-user" src="assets/img/schedules/jaqueline_ramos.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">10:15 - 11:00</div>
+                                <h4><a class="shedule-speaker">Acelerando a entrega de ambietes de Dev e Teste com Azure DevTest Labs</a></h4>
+                                <div class="shedule-position">Jaqueline Ramos</div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block right">
+                            <img class="shedule-user" src="assets/img/schedules/henrique_oelze.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">11:15 - 12:00</div>
+                                <h4><a class="shedule-speaker">Transformando sua arquitetura com Clean Architecture</a></h4>
+                                <div class="shedule-position">Henrique Oelze</div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block left">
+                            <img class="shedule-user" src="assets/img/schedules/speaker-1.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">12:00 - 13:30</div>
+                                <h4><a class="shedule-speaker">Almoço</a></h4>
+                                <div class="shedule-position"></div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block right">
+                            <img class="shedule-user" src="assets/img/schedules/wilson_junior.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">13:30 - 14:15</div>
+                                <h4><a class="shedule-speaker">Pensando e arquitetando aplicações resilientes</a></h4>
+                                <div class="shedule-position">Wilson Júnior</div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block left">
+                            <img class="shedule-user" src="assets/img/schedules/rafael_pacheco.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">14:30 - 15:15</div>
+                                <h4><a class="shedule-speaker">Por que os desenvolvedores precisam ficar atentos aos chatbots?</a></h4>
+                                <div class="shedule-position">Rafael Pacheco</div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block right">
+                            <img class="shedule-user" src="assets/img/schedules/felipe_arimateia.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">15:30 - 16:15</div>
+                                <h4><a class="shedule-speaker">Testes de UI legíveis e sustentáveis para Android</a></h4>
+                                <div class="shedule-position">Felipe Arimatéia</div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block left">
+                            <img class="shedule-user" src="assets/img/schedules/speaker-1.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">16:15 - 16:45</div>
+                                <h4><a class="shedule-speaker">Lanche</a></h4>
+                                <div class="shedule-position"></div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block right">
+                            <img class="shedule-user" src="assets/img/schedules/virginia_chalegre.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">16:45 - 17:30</div>
+                                <h4><a class="shedule-speaker">Qualificar para incluir</a></h4>
+                                <div class="shedule-position">Virgínia Chalegre</div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                </div>
+                <div class="tab-info">  
+                    
+                    
+                    
+                        <div class="shedule-block left">
+                            <img class="shedule-user" src="assets/img/schedules/ana_freitas.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">10:15 - 11:00</div>
+                                <h4><a class="shedule-speaker">Gênero não codifica: Uma abordagem com foco no sucesso do seu time</a></h4>
+                                <div class="shedule-position">Ana Freitas</div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block right">
+                            <img class="shedule-user" src="assets/img/schedules/marlon_brandao.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">11:15 - 12:00</div>
+                                <h4><a class="shedule-speaker">Como cegos desenvolvem software: da concepção à implementação</a></h4>
+                                <div class="shedule-position">Marlon Brandão</div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block left">
+                            <img class="shedule-user" src="assets/img/schedules/speaker-1.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">12:00 - 13:30</div>
+                                <h4><a class="shedule-speaker">Almoço</a></h4>
+                                <div class="shedule-position"></div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block right">
+                            <img class="shedule-user" src="assets/img/schedules/andre_dias.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">13:30 - 14:15</div>
+                                <h4><a class="shedule-speaker">Application insights -- Dê-me a visão além do alance</a></h4>
+                                <div class="shedule-position">André Dias</div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block left">
+                            <img class="shedule-user" src="assets/img/schedules/victor_cavalcante.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">14:30 - 15:15</div>
+                                <h4><a class="shedule-speaker">ASP.NET Core 2.0 e .Net Standard 2.0 o que muda?</a></h4>
+                                <div class="shedule-position">Victor Cavalcante</div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block right">
+                            <img class="shedule-user" src="assets/img/schedules/sidharta_noleto.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">15:30 - 16:15</div>
+                                <h4><a class="shedule-speaker">Cloud Architecture -- faça o melhor desenho para sua nuvem!</a></h4>
+                                <div class="shedule-position">Sidharta Noleto</div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block left">
+                            <img class="shedule-user" src="assets/img/schedules/speaker-1.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">16:15 - 16:45</div>
+                                <h4><a class="shedule-speaker">Lanche</a></h4>
+                                <div class="shedule-position"></div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block right">
+                            <img class="shedule-user" src="assets/img/schedules/thiago_marques.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">16:45 - 17:30</div>
+                                <h4><a class="shedule-speaker">Acessibilidade na web, como estamos pensando?</a></h4>
+                                <div class="shedule-position">Thiago Marques</div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                </div>
+                <div class="tab-info">  
+                    
+                    
+                    
+                        <div class="shedule-block left">
+                            <img class="shedule-user" src="assets/img/schedules/joao_lopes.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">10:15 - 11:00</div>
+                                <h4><a class="shedule-speaker">Criando aplicações altamente disponíveis e de baixa latência com programação reativa</a></h4>
+                                <div class="shedule-position">João Marcos de Araújo Lopes</div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block right">
+                            <img class="shedule-user" src="assets/img/schedules/italo_jose.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">11:15 - 12:00</div>
+                                <h4><a class="shedule-speaker">Algoritmos genéticos - encontrando soluções em problemas de otimização e busca</a></h4>
+                                <div class="shedule-position">Italo José</div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block left">
+                            <img class="shedule-user" src="assets/img/schedules/speaker-1.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">12:00 - 13:30</div>
+                                <h4><a class="shedule-speaker">Almoço</a></h4>
+                                <div class="shedule-position"></div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block right">
+                            <img class="shedule-user" src="assets/img/schedules/letticia_nicoli.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">13:30 - 14:15</div>
+                                <h4><a class="shedule-speaker">Desenvolvimento Cross-mobile com Xamarin, por onde começar?</a></h4>
+                                <div class="shedule-position">Letticia Nicoli</div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block left">
+                            <img class="shedule-user" src="assets/img/schedules/juan_pablo.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">14:30 - 15:15</div>
+                                <h4><a class="shedule-speaker">Machine Learning: Do legado à vanguarda</a></h4>
+                                <div class="shedule-position">Juan Pablo Rivillas</div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block right">
+                            <img class="shedule-user" src="assets/img/schedules/wallison_marra.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">15:30 - 16:15</div>
+                                <h4><a class="shedule-speaker">Kubernetes -- Entenda, automatize e entregue</a></h4>
+                                <div class="shedule-position">Wallison Marra</div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block left">
+                            <img class="shedule-user" src="assets/img/schedules/speaker-1.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">16:15 - 16:45</div>
+                                <h4><a class="shedule-speaker">Coffe Break</a></h4>
+                                <div class="shedule-position"></div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block right">
+                            <img class="shedule-user" src="assets/img/schedules/marcos_moura.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">16:45 - 17:30</div>
+                                <h4><a class="shedule-speaker">Point of Vue: Arquitetura Front End com Vue.js</a></h4>
+                                <div class="shedule-position">Marcos Moura</div>
+                                <div class="shedule-text"></div>
+                            </div>
+                        </div>
+                        
+                    
+                </div>
+                <div class="tab-info">  
+                    
+                    
+                    
+                        <div class="shedule-block left">
+                            <img class="shedule-user" src="assets/img/schedules/justcoding.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">09:30 - 10:30</div>
+                                <h4><a class="shedule-speaker">Oficina com JustCoding</a></h4>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block right">
+                            <img class="shedule-user" src="assets/img/schedules/popcorn.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">10:30 - 10:45</div>
+                                <h4><a class="shedule-speaker">Hora da Pipoca 🍿</a></h4>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block left">
+                            <img class="shedule-user" src="assets/img/schedules/lego_robots.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">10:45 - 11:45</div>
+                                <h4><a class="shedule-speaker">Oficina com Robótica DHEL</a></h4>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block right">
+                            <img class="shedule-user" src="assets/img/schedules/speaker-1.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">12:00 - 13:30</div>
+                                <h4><a class="shedule-speaker">Horário de almoço (não incluído)</a></h4>
+                            </div>
+                        </div>
+                        
+                    
+                    
+                        <div class="shedule-block left">
+                            <img class="shedule-user" src="assets/img/schedules/balloons.jpg" alt="">
+                            <div class="shedule-entry">
+                                <div class="shedule-date">13:30 - 18:30</div>
+                                <h4><a class="shedule-speaker">Espaço com brinquedos e recreadora. Pipoca, Algodão Doce e Lanchinhos.</a></h4>
+                            </div>
+                        </div>
+                        
+                    
+                </div>
+            </div>
+        </div>                
+    </div>
+</div>
 
 <!-- PRICE -->
-{% include tickets.html category="Venha participar do maior evento de desenvolvimento de software de Minas Gerais!" title="Inscrições" buy="Comprar" soon="Em breve!" %}
+<!-- TICKETS -->
+<div id="tickets" class="main-block style-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="block-header">
+                    <h4 class="block-category img-full">Venha participar do maior evento de desenvolvimento de software de Minas Gerais!</h4>
+                    <h2 class="block-title">Inscrições</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row no-margin">
+             
+            <div class="no-padding col-xs-12 col-sm-4">
+                <div class="price left">
+                    <div class="price-top">
+                        <h4 class="price-title">Segundo Lote</h4>
+                        <div class="price-category">a definir</div>
+                        <div class="price-per">
+                            <sup>R$</sup>159</div>
+                        <div class="price-desc">150 vagas</div>
+                    </div>
+                    
+                    <div class="price-bottom disabled">
+                        
+                        <span class="register-link c-btn b-50" href="#">Em breve!</span>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+             
+            <div class="no-padding col-xs-12 col-sm-4">
+                <div class="price center">
+                    <div class="price-top">
+                        <h4 class="price-title">Primeiro Lote</h4>
+                        <div class="price-category">8 de maio a 8 de junho</div>
+                        <div class="price-per">
+                            <sup>R$</sup>129</div>
+                        <div class="price-desc">150 vagas</div>
+                    </div>
+                    
+                    <div class="price-bottom disabled">
+                        
+                        <span class="register-link c-btn b-50" href="#"></span>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+             
+            <div class="no-padding col-xs-12 col-sm-4">
+                <div class="price right">
+                    <div class="price-top">
+                        <h4 class="price-title">Terceiro Lote</h4>
+                        <div class="price-category">a definir</div>
+                        <div class="price-per">
+                            <sup>R$</sup>179</div>
+                        <div class="price-desc">100 vagas</div>
+                    </div>
+                    
+                    <div class="price-bottom disabled">
+                        
+                        <span class="register-link c-btn b-50" href="#">Em breve!</span>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
 
 <!-- PATROCINIO -->
 <div id="partners" class="main-block style-2 bg-grey">
@@ -138,7 +1400,209 @@ lang="pt" %}
 
 
 <!-- ORGANIZAÇÃO -->
-{% include staff.html category="Team DevDay &lt;3" title="Organização" lang="pt" %}
+<!-- STAFF -->
+<div id="team" class="main-block style-2 section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                <div class="block-header">
+                    <h4 class="block-category">Team DevDay &lt;3</h4>
+                    <h2 class="block-title">Organização</h2>
+                </div>
+            </div>
+        </div>
+        <section class="row">
+        
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="speaker-item animated fadeInUp visible" data-animation="fadeInUp" data-delay="0">
+              <div class="img-wrapper">
+                <img src="assets/img/staff/douglas.jpg?s=142" class="img-responsive img-circle" alt="Foto Douglas Aguiar">
+              </div>
+              <div class="name">Douglas Aguiar</div>
+              <div class="social-link">
+                
+                <a href="http://twitter.com/douglasaguiar" target="_blank"><span class="fa fa-twitter" aria-label="Twitter "></span></a>
+                
+                
+                <a href="http://github.com/douglasaguiar" target="_blank"><span class="fa fa-github" aria-label="Github "></span></a>
+                
+                
+                <a href="https://www.linkedin.com/in/douglasaguiarreis" target="_blank"><span class="fa fa-linkedin" aria-label="Linkedin "></span></a>
+                
+                
+                <a href="http://facebook.com/douglas.aguiar.reis" target="_blank"><span class="fa fa-facebook" aria-label="Facebook "></span></a>
+                
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="speaker-item animated fadeInUp visible" data-animation="fadeInUp" data-delay="0">
+              <div class="img-wrapper">
+                <img src="assets/img/staff/edson.jpg?s=142" class="img-responsive img-circle" alt="Foto Edson Cunha">
+              </div>
+              <div class="name">Edson Cunha</div>
+              <div class="social-link">
+                
+                
+                <a href="http://github.com/edsoncunha" target="_blank"><span class="fa fa-github" aria-label="Github "></span></a>
+                
+                
+                <a href="https://www.linkedin.com/in/edsoncunha" target="_blank"><span class="fa fa-linkedin" aria-label="Linkedin "></span></a>
+                
+                
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="speaker-item animated fadeInUp visible" data-animation="fadeInUp" data-delay="0">
+              <div class="img-wrapper">
+                <img src="assets/img/staff/gibran.jpg?s=142" class="img-responsive img-circle" alt="Foto Gibran Silva">
+              </div>
+              <div class="name">Gibran Silva</div>
+              <div class="social-link">
+                
+                <a href="http://twitter.com/ggibran" target="_blank"><span class="fa fa-twitter" aria-label="Twitter "></span></a>
+                
+                
+                <a href="http://github.com/gibran" target="_blank"><span class="fa fa-github" aria-label="Github "></span></a>
+                
+                
+                <a href="https://www.linkedin.com/in/gibransilva/" target="_blank"><span class="fa fa-linkedin" aria-label="Linkedin "></span></a>
+                
+                
+                <a href="http://facebook.com/silva.gibran" target="_blank"><span class="fa fa-facebook" aria-label="Facebook "></span></a>
+                
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="speaker-item animated fadeInUp visible" data-animation="fadeInUp" data-delay="0">
+              <div class="img-wrapper">
+                <img src="assets/img/staff/ana.jpg?s=142" class="img-responsive img-circle" alt="Foto Ana Bastos">
+              </div>
+              <div class="name">Ana Bastos</div>
+              <div class="social-link">
+                
+                <a href="http://twitter.com/aninhaebastos" target="_blank"><span class="fa fa-twitter" aria-label="Twitter "></span></a>
+                
+                
+                
+                <a href="https://www.linkedin.com/in/anaebastos" target="_blank"><span class="fa fa-linkedin" aria-label="Linkedin "></span></a>
+                
+                
+                <a href="http://facebook.com/anaebastos" target="_blank"><span class="fa fa-facebook" aria-label="Facebook "></span></a>
+                
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="speaker-item animated fadeInUp visible" data-animation="fadeInUp" data-delay="0">
+              <div class="img-wrapper">
+                <img src="assets/img/staff/jordan.jpg?s=142" class="img-responsive img-circle" alt="Foto Jordan Silva">
+              </div>
+              <div class="name">Jordan Silva</div>
+              <div class="social-link">
+                
+                <a href="http://twitter.com/jordansilva" target="_blank"><span class="fa fa-twitter" aria-label="Twitter "></span></a>
+                
+                
+                <a href="http://github.com/jordansilva" target="_blank"><span class="fa fa-github" aria-label="Github "></span></a>
+                
+                
+                <a href="https://www.linkedin.com/in/silvajordan/" target="_blank"><span class="fa fa-linkedin" aria-label="Linkedin "></span></a>
+                
+                
+                <a href="http://facebook.com/silva.jordan" target="_blank"><span class="fa fa-facebook" aria-label="Facebook "></span></a>
+                
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="speaker-item animated fadeInUp visible" data-animation="fadeInUp" data-delay="0">
+              <div class="img-wrapper">
+                <img src="assets/img/staff/alexsazs.jpg?s=142" class="img-responsive img-circle" alt="Foto Alex Sander">
+              </div>
+              <div class="name">Alex Sander</div>
+              <div class="social-link">
+                
+                <a href="http://twitter.com/alexsazs" target="_blank"><span class="fa fa-twitter" aria-label="Twitter "></span></a>
+                
+                
+                <a href="http://github.com/alexsazs" target="_blank"><span class="fa fa-github" aria-label="Github "></span></a>
+                
+                
+                <a href="https://www.linkedin.com/in/alexsazs" target="_blank"><span class="fa fa-linkedin" aria-label="Linkedin "></span></a>
+                
+                
+                <a href="http://facebook.com/alexsazs" target="_blank"><span class="fa fa-facebook" aria-label="Facebook "></span></a>
+                
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="speaker-item animated fadeInUp visible" data-animation="fadeInUp" data-delay="0">
+              <div class="img-wrapper">
+                <img src="assets/img/staff/breno.jpg?s=142" class="img-responsive img-circle" alt="Foto Breno Araújo">
+              </div>
+              <div class="name">Breno Araújo</div>
+              <div class="social-link">
+                
+                <a href="http://twitter.com/brenoaraujo" target="_blank"><span class="fa fa-twitter" aria-label="Twitter "></span></a>
+                
+                
+                <a href="http://github.com/brenoaraujo" target="_blank"><span class="fa fa-github" aria-label="Github "></span></a>
+                
+                
+                <a href="https://www.linkedin.com/in/brenoaraujobh/" target="_blank"><span class="fa fa-linkedin" aria-label="Linkedin "></span></a>
+                
+                
+                <a href="http://facebook.com/brenoaraujobh" target="_blank"><span class="fa fa-facebook" aria-label="Facebook "></span></a>
+                
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="speaker-item animated fadeInUp visible" data-animation="fadeInUp" data-delay="0">
+              <div class="img-wrapper">
+                <img src="assets/img/staff/albert.jpg?s=142" class="img-responsive img-circle" alt="Foto Albert Tanure">
+              </div>
+              <div class="name">Albert Tanure</div>
+              <div class="social-link">
+                
+                <a href="http://twitter.com/alberttanure" target="_blank"><span class="fa fa-twitter" aria-label="Twitter "></span></a>
+                
+                
+                
+                <a href="https://www.linkedin.com/in/albert-tanure" target="_blank"><span class="fa fa-linkedin" aria-label="Linkedin "></span></a>
+                
+                
+                <a href="http://facebook.com/albert.tanure" target="_blank"><span class="fa fa-facebook" aria-label="Facebook "></span></a>
+                
+              </div>
+            </div>
+          </div>
+        
+        </section>
+        <!-- OTHERS -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                <div class="block-header">
+                    <h2 class="block-title"></h2>
+                </div>
+            </div>
+        </div>
+        <section class="row">
+        
+      </section>
+  </div>
+</div>
 
 <!-- CONTATO -->
 <div id="contact" class="contact-block bg-dark">
@@ -181,3 +1645,58 @@ lang="pt" %}
     </div>
 </div>                                                           
 
+
+    
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+    	<div class="container">
+    		<img class="f-logo" src="/assets/img/DevIsland_logo.png" alt="">
+    		<div class="copy">© 2018 DevIsland - todos os direitos reservados</div>
+    	</div>
+    </footer>
+
+	<div class="register-popup custom-popup">
+		<form  action="mail.php" class="js-contact-form" method="POST">
+			<div class="popup-close"><i class="fa fa-times"></i></div>
+			<h3 class="popup-title  form-element">Register for conference</h3>
+			<div class="c-form-group form-element">
+				<div class="c-form-label">First name</div>
+				<input type="text"  name="fields[first_name]" >
+			</div>
+			<div class="c-form-group form-element">
+				<div class="c-form-label">Last name</div>
+				<input type="text"  name="fields[last_name]" >
+			</div>
+			<div class="c-form-group form-element">
+				<div class="c-form-label">Email</div>
+				<input type="email"  name="fields[email]" >
+			</div>
+			<div class="c-form-group form-element">
+				<div class="c-form-label">Phone</div>
+				<input type="tel"  name="fields[phone]" >
+			</div>
+			<div class="c-form-group form-element">
+				<div class="message-result">
+	                <div class="ajax-result">
+	                	<div class="success"></div>
+	                    <div class="error"></div>
+	                </div>
+                	<div class="ajax-loader"></div>
+	            </div>
+			</div>
+			<input class="c-btn b-50 black hv-yellow-o  form-element" type="submit" value="Register">
+		</form>
+	</div>    
+
+    <script src="/assets/js/jquery-2.1.4.min.js"></script>
+    <script src="/assets/js/idangerous.swiper.min.js"></script>
+    <script src="/assets/js/isotope.pkgd.min.js"></script>
+    <script src="/assets/js/imagelightbox.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxdcbMaUOU0VsfcnV2jJlUjCSlWB2teXg"></script>  
+    <script src="/assets/js/global.js"></script>
+    <script src="/assets/js/anchors.navigation.js"></script>    
+  </body>
+</html>

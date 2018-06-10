@@ -1,8 +1,135 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no, minimal-ui"/>
+    <meta property="og:image" content="/assets/img/marca.jpg" />
+    
+    <meta content="DevDay 2018 | Belo Horizonte" property="og:site_name">
+    
+      <meta content="DevDay 2018 | Belo Horizonte" property="og:title">
+      <title>DevDay 2018 | Belo Horizonte</title>
+    
+    
+    
+      <meta content="website" property="og:type">
+    
+    
+      <meta content="O maior evento para desenvolvedores de software em Minas Gerais
+" property="og:description">
+    
+    
+      <meta content="https://devday.devisland.com/2015/english.html" property="og:url">
+    
+    
+    
+      <meta content="https://devday.devisland.com/assets/img/devday_devisland.png" property="og:image">
+    
+    
+        
+    
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/idangerous.swiper.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/style.css?v=1.0.8" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" />
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-{% include old_versions/hero.html data="October 31" caneca="Buy Mug of #DEVDAY2015" inscreva_se="Get your tickets" %}
+      ga('create', 'UA-11685238-1', 'auto');
+      ga('require', 'displayfeatures');
+      ga('require', 'linkid', 'linkid.js');
+      ga('send', 'pageview');
+
+    </script>
+  	
+</head>
+<body data-color="yellow">
+     <!-- LOADER -->
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+			  <div class="bigSqr">
+			    <div class="square first"></div>
+			    <div class="square second"></div>
+			    <div class="square third"></div>
+			    <div class="square fourth"></div>
+			  </div>
+            </div>
+        </div>
+        <div id="loading-text">Loading</div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="header type-1">
+    	<div class="container">
+            <div class="logo-block">
+			     <a class="logo" href="#"><img src="/assets/img/logo_devisland.png" style="height: 28px" alt=""></a>
+            </div>
+			<nav class="main-nav">
+                <ul class="anchor-navigation">
+                    <li><a class="anchor-scroll" href="#about">Sobre</a></li>
+                    <li><a class="anchor-scroll" href="#speakers">Palestrantes</a></li>
+                    <li><a class="anchor-scroll" href="#tickets">Inscrições</a></li>
+                    <li><a class="anchor-scroll" href="#partners">Patrocínio</a></li>
+                    <li><a class="anchor-scroll" href="#team">Equipe organizadora</a></li>
+                    <li><a class="anchor-scroll" href="#contact">Contato</a></li>
+                    <li><a class="anchor-scroll" href="http://pt-br.confcodeofconduct.com/" target="_blank">Código de Conduta</a></li>
+                </ul>				
+			</nav>
+            <button class="cmn-toggle-switch"><span></span></button>
+    	</div>
+    </header>
+    
+    
+
+    <div id="content-wrapper">
+    
+        <section id="hero" class="light">
+  <div class="container">
+    <div class="home-bg">
+      <nav class="navigation navigation-social">
+        <ul class="navigation-bar">
+          <li><a target="_blank" href="http://twitter.com/devisland"><span class="fa fa-twitter" aria-label="Nos siga no twitter"></span></a>
+          <li><a target="_blank" href="http://facebook.com/devisland"><span class="fa fa-facebook" aria-label="Curta o DevIsland no facebook"></span></a>
+          <li><a target="_blank" href="http://github.com/devisland"><span class="fa fa-github" aria-label="Contribua no github"></span></a>
+          <li><a target="_blank" href="http://youtube.com/devisland"><span class="fa fa-youtube" aria-label="Inscreva-se no canal do Youtube"></span></a>
+          <li><a target="_blank" href="https://plus.google.com/communities/102004757201027948555"><span class="fa fa-google-plus" aria-label="Acompanhe nossa página no Google Plus"></span></a>
+        </ul>
+      </nav>
+      <div class="hero-content text-center ">
+        <div class="hero-small">
+          <hr/>
+          <span>
+            <span class="fa fa-calendar hidden-xs" aria-hidden="true"></span>
+            <span class="fa" itemprop="startDate" content="2014-11-01">October 31,</span>
+            <!-- <div class="sep hidden-xs"></div> -->
+            <span class="fa fa-map-marker hidden-xs" aria-hidden="true"></span>
+            <span class="fa" itemprop="location" itemscope itemtype="http://schema.org/Place">
+              Escola de Engenharia, UFMG
+            </span>
+          </span>
+          <hr/>
+        </div>
+        <div class="hero-big" itemprop="name">
+          <img class="img-responsive center-block" src="assets/img/logo-devday-2015.png" alt="DEVDAY 2015"/>
+          <img class="img-responsive center-block" src="assets/img/DevIsland_logo.png" alt="DevIsland"/>
+        </div>
+        <div class="hero-normal">
+          <span class="highlight" lang="en">DEVELOPERS</span>, WHAT'S YOUR PROFESSION ???</div>
+        <!-- <a href="caneca/index.html" class="btn btn-lg btn-3d"><i class="fa fa-beer fa-2x"></i><span>Buy Mug of #DEVDAY2015</span></a> -->
+        <!-- <a href="assets/img/mapa_local2.jpg" class="fancybox btn btn-lg btn-3d"><i class="fa fa-map-marker  fa-2x"></i><span>Mapa do local</span></a> -->
+        <a href="http://even.tc/devday-2015" class="btn btn-lg btn-3d" target="_blank"><i class="fa fa-ticket fa-2x" aria-hidden="true"></i><span>Get your tickets</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <!-- Header -->
 <header id="header" class="navigation-bar-header light hidden-xs">
@@ -90,9 +217,222 @@ layout: default
 </section>
 <!-- End About Section -->
 
-{% include old_versions/palestrantes.html palestrantes="Speakers" lang="en" %}
+<section id="speakers" class="section light">
+<div class="overlay"></div>
+<div class="container">
+  <div class="icon-wrap"><span class="icon icon-active icon-multimedia-12" aria-hidden="true"></span></div>
+  <h3>Speakers</h3>
+  <br>
+  <br>
+  <section class="row">
+    
+  </section>
+</div>
+</section>
 
-{% include old_versions/agenda.html agenda="Schedule" auditorio="Auditorium" sala1="Room 1" sala2="Room 2" comunidade="Community Space" %}
+
+
+
+<section id="schedule" class="section dark">
+  <div class="container">
+    <h2 class="sr-only">Sessão que descreve a agenda do evento</h2>
+    <div class="icon-wrap"><span class="icon icon-active icon-text-hierarchy-07" aria-hidden="true"></span></div>
+    <h3>Schedule</h3>
+    <!--div class="sub-title">Shortest way to explore what will happen on Ventcamp</div-->
+    <br />
+    <br />
+    <section class="nav-tabs-default visible-xs">
+      <!-- Parent Nav Tabs -->
+      <ul class="nav nav-tabs nav-stacked">
+        <!-- <li><a href="#geralxs" data-toggle="tab">
+          <div class="title"></div>
+        </a></li> -->
+        <li class="active"><a href="#TabOnexs" data-toggle="tab">
+          <div class="title">Auditorium</div>
+        </a></li>
+        <li><a href="#TabTwoxs" data-toggle="tab">
+          <div class="title">Room 1</div>
+        </a></li>
+        <li><a href="#TabThreexs" data-toggle="tab">
+          <div class="title">Room 2</div>
+        </a></li>
+        <li><a href="#TabFourxs" data-toggle="tab">
+          <div class="title">Community Space</div>
+        </a></li>
+      </ul>
+
+      <!-- Parent Tab panes -->
+      <div class="tab-content">
+        <div class="tab-pane fade in" id="geralxs">
+
+            <!-- Child 1 Tab panes -->
+            <div class="tab-content">
+              <div class="tab-pane fade in active">
+                <div>
+                  
+
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+
+        </div>
+
+        <div class="tab-pane fade in active" id="TabOnexs">
+
+            <!-- Child 1 Tab panes -->
+            <div class="tab-content">
+              <div class="tab-pane fade in active">
+                <div>
+                  
+
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+
+        </div>
+        <div class="tab-pane fade" id="TabTwoxs">
+
+            <!-- Child 2 Tab panes -->
+            <div class="tab-content">
+              <div class="tab-pane fade in active">
+                <div>
+                  
+
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+
+        </div>
+        <div class="tab-pane fade" id="TabThreexs">
+
+            <!-- Child 3 Tab panes -->
+            <div class="tab-content">
+              <div class="tab-pane fade in active">
+                <div>
+                  
+
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="tab-pane fade" id="TabFourxs">
+
+            <!-- Child 3 Tab panes -->
+            <div class="tab-content">
+              <div class="tab-pane fade in active">
+                <div>
+                  
+
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="nav-tabs-default hidden-xs">
+      <!-- Parent Nav Tabs -->
+      <ul class="nav nav-tabs">
+        <!-- <li class="active"><a href="#geral" data-toggle="tab">
+          <div class="title"></div>
+        </a></li> -->
+        <li class="active"><a href="#TabOne" data-toggle="tab">
+          <div class="title">Auditorium</div>
+        </a></li>
+        <li><a href="#TabTwo" data-toggle="tab">
+          <div class="title">Room 1</div>
+        </a></li>
+        <li><a href="#TabThree" data-toggle="tab">
+          <div class="title">Room 2</div>
+        </a></li>
+        <li><a href="#TabFour" data-toggle="tab">
+          <div class="title">Community Space</div>
+        </a></li>
+      </ul>
+
+      <!-- Parent Tab panes -->
+      <div class="tab-content">
+        <div class="tab-pane fade in" id="geral">
+
+            <!-- Child 1 Tab panes -->
+            <div class="tab-content">
+              <div class="tab-pane fade in">
+                <div class="panel-group timeline-schedule" id="panelTimelineOne">
+
+                  
+
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+
+        </div>
+
+        <div class="tab-pane fade in active" id="TabOne">
+
+            <!-- Child 1 Tab panes -->
+            <div class="tab-content">
+              <div class="tab-pane fade in active">
+                <div class="panel-group timeline-schedule" id="panelTimelineOne">
+
+                  
+
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+
+        </div>
+        <div class="tab-pane fade" id="TabTwo">
+
+            <!-- Child 2 Tab panes -->
+            <div class="tab-content">
+              <div class="tab-pane fade in active">
+                <div class="panel-group timeline-schedule" id="panelTimelineTwo">
+                  
+
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+
+        </div>
+        <div class="tab-pane fade" id="TabThree">
+
+            <!-- Child 3 Tab panes -->
+            <div class="tab-content">
+              <div class="tab-pane fade in active">
+                <div class="panel-group timeline-schedule" id="panelTimelineThree">
+                  
+
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="tab-pane fade" id="TabFour">
+
+            <!-- Child 3 Tab panes -->
+            <div class="tab-content">
+              <div class="tab-pane fade in active">
+                <div class="panel-group timeline-schedule" id="panelTimelineFour">
+                  
+
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+      </div>
+    </section>
+  </div>
+</section>
+
 
 <!-- Price Section -->
 <section id="inscricoes" class="section dark">
@@ -174,15 +514,30 @@ layout: default
     <div class="sub-title">Help the community to make this amazing event.</div>
     <br/>
     <h3>Diamond</h3>
-    {% include old_versions/patrocinadores_diamante.html %}
+    <ul class="list-inline">
+
+</ul>
+
     <h3>Gold</h3>
-    {% include old_versions/patrocinadores_ouro.html %}
+    <ul class="list-inline">
+
+</ul>
+
     <h4>Silver</h4>
-    {% include old_versions/patrocinadores_prata.html %}
+    <ul class="list-inline">
+
+</ul>
+
     <h5>Bronze</h5>
-    {% include old_versions/patrocinadores_bronze.html %}
+    <ul class="list-inline">
+
+</ul>
+
     <h6>Support</h6>
-    {% include old_versions/patrocinadores_apoio.html %}
+    <ul class="list-inline">
+
+</ul>
+
  <div class="btn-wrapper">
   <a href="./static/midia-kit-en.pdf" target="_blank" class="btn btn-sm btn-primary" target="_blank">Become a sponsor</a>
  </div>
@@ -191,11 +546,90 @@ layout: default
 </section>
 <!-- End Price Section -->
 
-{% include old_versions/organizacao.html organizacao="Curators" nosso_time="Our team" %}
+<section id="organizacao" class="section light">
+<div class="overlay"></div>
+<div class="container">
+  <div class="icon-wrap"><span class="icon icon-active icon-faces-users-04" aria-hidden="true"></span></div>
+  <h3>Curators</h3>
+  <div class="sub-title">Our team</div>
+  <br>
+  <br>
+  <section class="row">
+    
+  </section>
+</div>
+</section>
 
-{% include old_versions/hoteis.html hoteis="Hotels" %}
 
-{% include old_versions/contato.html contato="Contact" local="Venue" %}
+<section id="hoteis" class="section dark">
+  <div class="container">
+    <div class="icon-wrap"><span class="icon icon-active icon-travel-transportation-17" aria-hidden="true"></span></div>
+    <h3>Hotels</h3>
+
+    <section class="row">
+      <div class="col-md-3 col-sm-3 col-xs-6">
+        <div>
+          <div class="name">
+            <a href="http://sossegodapampulha.com.br/" target="_blank">Sossego da Pampulha</a>
+          </div>
+        <div class="sub">Sugestão</div>
+        <p class="small">Av. Cel. José Dias Bicalho, 1258.</p>
+        </div>
+      </div>
+      <div class="clearfix visible-xs"></div>
+      <div class="col-md-3 col-sm-3 col-xs-6">
+        <div>
+          <div class="name">
+            <a href="http://www.pampulhaflat.com/" target="_blank">Pampulha Flat</a>
+          </div>
+        <div class="sub">Sugestão</div>
+        <p class="small">Alameda das Latânias, 1207.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-3 col-xs-6">
+        <div>
+          <div class="name">
+            <a href="http://atlanticahotels.com.br/hotel/belo-horizonte/go-inn-del-rey-belo-horizonte" target="_blank">Go Inn Del Rey</a>
+          </div>
+        <div class="sub">Sugestão</div>
+        <p class="small">Avenida Del Rey, 233.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-3 col-xs-6">
+        <div>
+          <div class="name">
+            <a href="http://alliahotels.com.br/bristol/belo-horizonte/pampulha-lieu" target="_blank">Bristol Pampulha Lieu</a>
+          </div>
+        <div class="sub">Sugestão</div>
+        <p class="small">Rua Desembargador Paula Mota, 187.</p>
+        </div>
+      </div>
+  </div>
+</section>
+
+
+<section id="map" class="dark">
+<div id="canvas-map"></div>
+<div class="container">
+  <div class="row">
+    <h2 class="sr-only">Area de contato</h2>
+    <div itemscope="" itemtype="http://schema.org/PostalAddress" class="col-md-5 col-sm-7 animated hiding location" data-animation="fadeInLeft" data-delay="0">
+      <h3>Contact</h3>
+        <ul>
+          <li itemprop="email"><i class="fa fa-envelope highlight" aria-hidden="true"></i>devday@devisland.com</li>
+          <li itemprop="telephone"><i class="fa fa-phone highlight" aria-hidden="true"></i>+55 (31) 8635-9259 - Douglas</li>
+          <li itemprop="telephone"><i class="fa fa-phone highlight" aria-hidden="true"></i>+55 (31) 9204-2324 - Gibran</li>
+        </ul>
+      <h3>Venue</h3>
+        <ul>
+          <li itemprop="address"><i class="fa fa-map-marker highlight" aria-hidden="true"></i>Escola de Engenharia da UFMG, Belo Horizonte, Minas Gerias</li>
+          <li><i class="fa fa-clock-o highlight" aria-hidden="true"></i><time itemprop="startDate" datetime="2014-11-01T08:30">8:30</time> - <time itemprop="endDate" datetime="2014-11-01T18:00">18:00</time></li>
+        </ul>
+    </div>
+  </div>
+</div>
+</section>
+
 
 <footer id="footer">
 <div class="container">
@@ -213,3 +647,58 @@ layout: default
 </ul>
 </div>
 </footer>
+
+    
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+    	<div class="container">
+    		<img class="f-logo" src="/assets/img/DevIsland_logo.png" alt="">
+    		<div class="copy">© 2018 DevIsland - todos os direitos reservados</div>
+    	</div>
+    </footer>
+
+	<div class="register-popup custom-popup">
+		<form  action="mail.php" class="js-contact-form" method="POST">
+			<div class="popup-close"><i class="fa fa-times"></i></div>
+			<h3 class="popup-title  form-element">Register for conference</h3>
+			<div class="c-form-group form-element">
+				<div class="c-form-label">First name</div>
+				<input type="text"  name="fields[first_name]" >
+			</div>
+			<div class="c-form-group form-element">
+				<div class="c-form-label">Last name</div>
+				<input type="text"  name="fields[last_name]" >
+			</div>
+			<div class="c-form-group form-element">
+				<div class="c-form-label">Email</div>
+				<input type="email"  name="fields[email]" >
+			</div>
+			<div class="c-form-group form-element">
+				<div class="c-form-label">Phone</div>
+				<input type="tel"  name="fields[phone]" >
+			</div>
+			<div class="c-form-group form-element">
+				<div class="message-result">
+	                <div class="ajax-result">
+	                	<div class="success"></div>
+	                    <div class="error"></div>
+	                </div>
+                	<div class="ajax-loader"></div>
+	            </div>
+			</div>
+			<input class="c-btn b-50 black hv-yellow-o  form-element" type="submit" value="Register">
+		</form>
+	</div>    
+
+    <script src="/assets/js/jquery-2.1.4.min.js"></script>
+    <script src="/assets/js/idangerous.swiper.min.js"></script>
+    <script src="/assets/js/isotope.pkgd.min.js"></script>
+    <script src="/assets/js/imagelightbox.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxdcbMaUOU0VsfcnV2jJlUjCSlWB2teXg"></script>  
+    <script src="/assets/js/global.js"></script>
+    <script src="/assets/js/anchors.navigation.js"></script>    
+  </body>
+</html>
