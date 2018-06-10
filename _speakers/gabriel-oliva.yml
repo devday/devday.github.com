@@ -1,6 +1,7 @@
 bio: "Gabriel é desenvolvedor iOS e trabalha na AppProva ajudando a transformar a educação no Brasil. É um grande entusiasta do mundo Apple e assuntos envolvendo acessibilidade e arquitetura de projetos. Nas horas vagas, gosta de se aventurar como baterista e é apaixonado por café."
 name: Gabriel Oliva
 title: Acessibilidade no iOS
+description: A acessibilidade, cada vez mais, tem um papel muito importante nas aplicações. Pessoas com algum tipo de deficiência utilizam nossos apps e proporcionar a melhor experiência para esse público mostra um produto engajado socialmente e nos faz desenvolvedores e desenvolvedoras melhores, nos importando com detalhes tão imprescindíveis mas nem sempre implementados. Na palestra, vamos ver como a Apple lida com os diferentes tipos de itens de acessibilidade e como podemos utilizá-los.
 github: gabrieloliva
 twitter: 
 linkedin: gfpoliva
@@ -11,3 +12,4 @@ gravatar:
 avatar: gabriel-oliva.jpg
 googleplus:
 url: gabriel-oliva
+category: Acessibilidade, UX

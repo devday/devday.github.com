@@ -1,6 +1,7 @@
 bio: Natural de Florianópolis (SC), Jéssica é programadora há mais de 7 anos. Tem experiência com front-end, backend e hoje é gerente de uma equipe de desenvolvimento. É coordenadora do PodProgramar, um podcast a respeito de tecnologia e das pessoas da área. 
 name: Jéssica Zanelato
 title: "Criando uma PWA com React para consumir uma API"
+description: A palestra introduz brevemente o que os conceitos de PWA (Progressive Web Applications) e APIs. Em seguida, mostra como é possível montar uma PWA para consumir dados de uma API, independentemente da linguagem usada no back-end. Será mostrado como salvar os dados em cache para utilização offline, uma das premissas de uma PWA. A linguagem utilizada no front-end será React e a parte de layout será feito com Material Design UI. 
 github: jessizanelato
 twitter: 
 linkedin: jessica-zanelato-soares-34772b14b
@@ -11,3 +12,4 @@ gravatar:
 avatar: jessica-zanelato.jpg
 googleplus:
 url: jessica-zanelato
+category: Desenvolvimento web
