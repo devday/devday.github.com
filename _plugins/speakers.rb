@@ -17,7 +17,7 @@ module Jekyll
 
     def get_speakers(site)
       {}.tap do |speakers|
-        Dir['_speakers/*.yml'].each do |path|
+        Dir['_speakers/*.yml'].sort.each do |path|
           name   = File.basename(path, '.yml')
           config = YAML.load(File.read(File.join(@base, path)))
           speakers[name] = config

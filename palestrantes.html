@@ -1,0 +1,93 @@
+--- 
+layout: page
+title: Palestrantes
+---
+
+<div class="main-block">
+        <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                        <div class="block-header">
+                            <h4 class="block-category">Palestrantes</h4>
+                            <h2 class="block-title">Participações confirmadas</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+    <div class="container">
+            {% assign count = -1 %} {% assign speakers = site.data.speakers %} 
+            {% for tmp in speakers  %} {% assign speaker = tmp[1] %}
+            {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+            <div class="row loop">
+                    <div class="col-xs-2">
+                        <div >
+                                <img  src="assets/img/speakers/{{ speaker.avatar }}" alt="{{ speaker.name }}" width="200px">
+                        </div>
+                    </div>
+                    <div class="col-xs-10">
+                        <div class="bio-list">
+                                <div class="speaker-title dark" title="Nome Palestrante">{{ speaker.name }}</div>         
+                                <div class="speaker-text strong dark" title="Título da Palestra">
+                                        <p>Palestra: {{ speaker.title }}</p>
+                                    </div>
+                                
+                                {% assign talk_url = site.url | append: "/speakers/" | append: speaker.url %}
+
+                                <div class="speaker-text dark" title="Biografia Palestrante">
+                                    <p>{{ speaker.bio }} <a href="{{ talk_url }}" title="Ler dados completos da palestra"> Leia mais</a></p>
+                                    
+                                </div>
+                        </div>
+                    </div>
+                </div>
+        
+            {% endfor %}
+        
+
+    </div>
+</div>
+
+<!-- TICKETS -->
+<div id="tickets" class="main-block style-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="block-header no-margin">
+              
+                        <h2 class="block-title">Garanta seu lugar</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row no-margin">
+                {% for ticket in site.data.tickets %} {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+                <div class="no-padding col-xs-12 col-sm-4">
+                    <div class="price {{ ticket.position }}">
+                        <div class="price-top">
+                            <h4 class="price-title">{{ ticket.title }}</h4>
+                            <div class="price-category">{{ ticket.period }}</div>
+                            <div class="price-per">
+                                <sup>R$</sup>{{ ticket.price }}</div>
+                            <div class="price-desc">{{ ticket.amount }}</div>
+                        </div>
+                        {% if ticket.enabled %}
+                        <div class="price-bottom">
+                            <a class="register-link c-btn b-50 yellow-2 hv-yellow" href="{{ ticket.buy }}" target="_blank">Comprar</a>
+                        </div>
+                        {% else %}
+                        <div class="price-bottom disabled">
+                            {% if ticket.soldout %}
+                            <span class="register-link c-btn b-50" href="#">Esgotado</span>
+                            {% else %}
+                            <span class="register-link c-btn b-50" href="#">Em breve</span>
+                            {% endif %}
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div> 

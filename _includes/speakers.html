@@ -15,8 +15,10 @@
             style="height: 569px !important">
             <div class="swiper-wrapper">
 
-                {% assign count = -1 %} {% assign speakers = site.data.speakers %} 
-                {% for tmp in speakers %} {% assign speaker = tmp[1] %}
+                {% assign count = -1 %} 
+                {% assign speakers = site.data.speakers %} 
+                {% for tmp in speakers %} 
+                {% assign speaker = tmp[1] %}
                 {% capture count %}{{ count | plus: '1' }}{% endcapture %}
                 <div class="swiper-slide" data-val="{{count}}">
                     <div class="speaker-img">
@@ -101,7 +103,11 @@
         <div class="swiper-container thumbnails" data-autoplay="0" data-loop="0" data-speed="500" data-center="0" data-slides-per-view="auto"
             data-mob-slides="3" data-xs-slides="4" data-sm-slides="6" data-md-slides="7" data-lg-slides="8" data-add-slides="12">
             <div class="swiper-wrapper">
-                {% assign count = -1 %} {% for speaker in speakers %} {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+                {% assign count = -1 %} 
+                {% assign speakers = site.data.speakers %} 
+                {% for tmp in speakers %} 
+                {% assign speaker = tmp[1] %}
+                {% capture count %}{{ count | plus: '1' }}{% endcapture %}
                 <div class="swiper-slide" data-val="{{ count }}">
                     <img class="img-responsive img-full" src="assets/img/speakers/thumbs/{{ speaker.avatar }}" alt="{{ speaker.name }}">
                     <div class="thumb-desc">

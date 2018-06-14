@@ -16,7 +16,11 @@ newsletter_background_image: 'https://source.unsplash.com/c8ET5XvBwnU/2000x1322?
     {% if page.speaker.title %}
         <meta content="{{ page.speaker.name }}: {{ page.speaker.title }} | DevDay 2018" property="og:title">
         <title>{{ page.speaker.name }}: {{ page.speaker.title }} | DevDay 2018</title>
-    {% else %}
+
+    {% else if page.title %}
+      <meta content="{{ page.title }}" property="og:title">
+      <title>{{ page.title }} | DevDay 2018 | Belo Horizonte</title>
+      {% else %}
       <meta content="{{ site.title }}" property="og:title">
       <title>DevDay 2018 | Belo Horizonte</title>
     {% endif %}
