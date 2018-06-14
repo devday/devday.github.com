@@ -1,7 +1,100 @@
---- 
-layout: page
-title: Palestrantes
----
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no, minimal-ui"/>
+    
+    <meta content="DevDay 2018 | Belo Horizonte" property="og:site_name">
+    
+      <meta content="Palestrantes" property="og:title">
+      <title>Palestrantes | DevDay 2018 | Belo Horizonte</title>
+      
+    
+    
+      <meta content="article" property="og:type">
+    
+    
+      <meta content="Dia 1º de setembro, na Escola de Engenharia da UFMG
+" property="og:description">
+    
+    
+      <meta content="https://devday.devisland.com/speakers.html" property="og:url">
+    
+    
+    
+      <meta content="https://devday.devisland.com/assets/img/devday_devisland.png" property="og:image">
+    
+    
+    
+    
+    <meta property="og:video:width" content="500" />
+    <meta property="og:video:height" content="340" />
+    
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/idangerous.swiper.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/style.css?v=1.0.8" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" />
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-11685238-1', 'auto');
+      ga('require', 'displayfeatures');
+      ga('require', 'linkid', 'linkid.js');
+      ga('send', 'pageview');
+
+    </script>
+  	
+</head>
+<body data-color="yellow">
+     <!-- LOADER -->
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+			  <div class="bigSqr">
+			    <div class="square first"></div>
+			    <div class="square second"></div>
+			    <div class="square third"></div>
+			    <div class="square fourth"></div>
+			  </div>
+            </div>
+        </div>
+        <div id="loading-text">Loading</div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="header type-1">
+    	<div class="container">
+            <div class="logo-block">
+			     <a class="logo" href="#"><img src="/assets/img/logo_devisland.png" style="height: 28px" alt=""></a>
+            </div>
+			<nav class="main-nav">
+                <ul class="anchor-navigation">
+                    <li><a class="anchor-scroll" href="#about">Sobre</a></li>
+                    <li><a class="anchor-scroll" href="#speakers">Palestrantes</a></li>
+                    <li><a class="anchor-scroll" href="#tickets">Inscrições</a></li>
+                    <li><a class="anchor-scroll" href="#partners">Patrocínio</a></li>
+                    <li><a class="anchor-scroll" href="#team">Equipe organizadora</a></li>
+                    <li><a class="anchor-scroll" href="#contact">Contato</a></li>
+                    <li><a class="anchor-scroll" href="http://pt-br.confcodeofconduct.com/" target="_blank">Código de Conduta</a></li>
+                </ul>				
+			</nav>
+            <button class="cmn-toggle-switch"><span></span></button>
+    	</div>
+    </header>
+    
+    
+
+    <div id="content-wrapper">
+    
+        <p style="height: 100px; background-color: black;">
+&nbsp;
+</p>                  
 
 <div class="main-block">
         <div class="container">
@@ -18,33 +111,258 @@ title: Palestrantes
 
  
     <div class="container">
-            {% assign count = -1 %} {% assign speakers = site.data.speakers %} 
-            {% for tmp in speakers  %} {% assign speaker = tmp[1] %}
-            {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+              
+             
+            
             <div class="row loop">
                     <div>
                         <div class="col-xs-12 col-md-3">
-                                <img  src="assets/img/speakers/{{ speaker.avatar }}" alt="{{ speaker.name }}" width="200px">
+                                <img  src="assets/img/speakers/andre-paulovich.jpg" alt="André Paulovich" width="200px">
                         </div>
                     </div>
                     <div>
                         <div class="col-xs-12 col-md-9 bio-list">
-                                <div class="speaker-title dark" title="Nome Palestrante">{{ speaker.name }}</div>         
+                                <div class="speaker-title dark" title="Nome Palestrante">André Paulovich</div>         
                                 <div class="speaker-text strong dark" title="Título da Palestra">
-                                        <p>Palestra: {{ speaker.title }}</p>
+                                        <p>Palestra: A vida do arquiteto num cenário de incertezas</p>
                                     </div>
                                 
-                                {% assign talk_url = site.url | append: "/speakers/" | append: speaker.url %}
+                                
 
                                 <div class="speaker-text dark" title="Biografia Palestrante">
-                                    <p>{{ speaker.bio }} <a href="{{ talk_url }}" title="Ler dados completos da palestra"> Leia mais</a></p>
+                                    <p>Arquiteto de Sistemas de sistemas na CI&T. Formado em Comunicação Digital, pelo Centro Universitário de Belo Horizonte, e pós graduado em Arquitetura de Sistemas pela PUC-MG. Há mais de uma década, desenvolve produtos digitais. Três vezes consecutivas reconhecido para Microsoft como MVP Asp.Net/IIS 2011/2012, 2012/2013 e 2013/2014. Certificado Microsoft como MCSD.Net, MCAD, MCTS, MCT e MCP. <a href="https://devday.devisland.com/speakers/andre-paulovich" title="Ler dados completos da palestra"> Leia mais</a></p>
                                     
                                 </div>
                         </div>
                     </div>
                 </div>
         
-            {% endfor %}
+             
+            
+            <div class="row loop">
+                    <div>
+                        <div class="col-xs-12 col-md-3">
+                                <img  src="assets/img/speakers/gabriel-oliva.jpg" alt="Gabriel Oliva" width="200px">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="col-xs-12 col-md-9 bio-list">
+                                <div class="speaker-title dark" title="Nome Palestrante">Gabriel Oliva</div>         
+                                <div class="speaker-text strong dark" title="Título da Palestra">
+                                        <p>Palestra: Acessibilidade no iOS</p>
+                                    </div>
+                                
+                                
+
+                                <div class="speaker-text dark" title="Biografia Palestrante">
+                                    <p>Gabriel é desenvolvedor iOS e trabalha na AppProva ajudando a transformar a educação no Brasil. É um grande entusiasta do mundo Apple e assuntos envolvendo acessibilidade e arquitetura de projetos. Nas horas vagas, gosta de se aventurar como baterista e é apaixonado por café. <a href="https://devday.devisland.com/speakers/gabriel-oliva" title="Ler dados completos da palestra"> Leia mais</a></p>
+                                    
+                                </div>
+                        </div>
+                    </div>
+                </div>
+        
+             
+            
+            <div class="row loop">
+                    <div>
+                        <div class="col-xs-12 col-md-3">
+                                <img  src="assets/img/speakers/gustavo-pantuza.jpg" alt="Gustavo Pantuza" width="200px">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="col-xs-12 col-md-9 bio-list">
+                                <div class="speaker-title dark" title="Nome Palestrante">Gustavo Pantuza</div>         
+                                <div class="speaker-text strong dark" title="Título da Palestra">
+                                        <p>Palestra: Resiliência em micro-serviços: cache distribuído, feedback, algoritmos e tuning na Globo.com</p>
+                                    </div>
+                                
+                                
+
+                                <div class="speaker-text dark" title="Biografia Palestrante">
+                                    <p>Gustavo é mestre em Ciência da computação na area de redes e sistemas distribuídos pela UFMG e atua como engenheiro de software sênior na Globo.com.  <a href="https://devday.devisland.com/speakers/gustavo-pantuza" title="Ler dados completos da palestra"> Leia mais</a></p>
+                                    
+                                </div>
+                        </div>
+                    </div>
+                </div>
+        
+             
+            
+            <div class="row loop">
+                    <div>
+                        <div class="col-xs-12 col-md-3">
+                                <img  src="assets/img/speakers/janaina-primon.jpg" alt="Janaina Primon" width="200px">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="col-xs-12 col-md-9 bio-list">
+                                <div class="speaker-title dark" title="Nome Palestrante">Janaina Primon</div>         
+                                <div class="speaker-text strong dark" title="Título da Palestra">
+                                        <p>Palestra: Como você (ou sua empresa) se prepara para adotar um novo modelo ou  prática na entrega de software?</p>
+                                    </div>
+                                
+                                
+
+                                <div class="speaker-text dark" title="Biografia Palestrante">
+                                    <p>Janaina trabalha com processos e metologia ágil para desenvolvimento de software. Tem experiência com <i>lean</i> para TI e conhecimento em <i>lean manufacturing</i>. Gosta de trabalhar com pessoas e metodologias inovadoras. <a href="https://devday.devisland.com/speakers/janaina-primon" title="Ler dados completos da palestra"> Leia mais</a></p>
+                                    
+                                </div>
+                        </div>
+                    </div>
+                </div>
+        
+             
+            
+            <div class="row loop">
+                    <div>
+                        <div class="col-xs-12 col-md-3">
+                                <img  src="assets/img/speakers/jaqueline-ramos.jpg" alt="Jaqueline Ramos" width="200px">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="col-xs-12 col-md-9 bio-list">
+                                <div class="speaker-title dark" title="Nome Palestrante">Jaqueline Ramos</div>         
+                                <div class="speaker-text strong dark" title="Título da Palestra">
+                                        <p>Palestra: Mundo DevOps aplicado a TI & não TI</p>
+                                    </div>
+                                
+                                
+
+                                <div class="speaker-text dark" title="Biografia Palestrante">
+                                    <p>Consultora DevOps na ESX. Ativa nas comunidades de tecnologia, compartilha conhecimento em fóruns, palestras, workshops, e blogs. Microsoft MVP em tecnologias de desenvolvimento e Visual Studio. Dedica-se a times de soluções em DevOps, onde busca poder aprender e compartilhar conhecimentos e experiências. <a href="https://devday.devisland.com/speakers/jaqueline-ramos" title="Ler dados completos da palestra"> Leia mais</a></p>
+                                    
+                                </div>
+                        </div>
+                    </div>
+                </div>
+        
+             
+            
+            <div class="row loop">
+                    <div>
+                        <div class="col-xs-12 col-md-3">
+                                <img  src="assets/img/speakers/jessica-zanelato.jpg" alt="Jéssica Zanelato" width="200px">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="col-xs-12 col-md-9 bio-list">
+                                <div class="speaker-title dark" title="Nome Palestrante">Jéssica Zanelato</div>         
+                                <div class="speaker-text strong dark" title="Título da Palestra">
+                                        <p>Palestra: Criando uma PWA com React para consumir uma API</p>
+                                    </div>
+                                
+                                
+
+                                <div class="speaker-text dark" title="Biografia Palestrante">
+                                    <p>Natural de Florianópolis (SC), Jéssica é programadora há mais de 7 anos. Tem experiência com front-end, backend e hoje é gerente de uma equipe de desenvolvimento. É coordenadora do PodProgramar, um podcast a respeito de tecnologia e das pessoas da área. <a href="https://devday.devisland.com/speakers/jessica-zanelato" title="Ler dados completos da palestra"> Leia mais</a></p>
+                                    
+                                </div>
+                        </div>
+                    </div>
+                </div>
+        
+             
+            
+            <div class="row loop">
+                    <div>
+                        <div class="col-xs-12 col-md-3">
+                                <img  src="assets/img/speakers/julio-borges.jpg" alt="Julio Borges" width="200px">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="col-xs-12 col-md-9 bio-list">
+                                <div class="speaker-title dark" title="Nome Palestrante">Julio Borges</div>         
+                                <div class="speaker-text strong dark" title="Título da Palestra">
+                                        <p>Palestra: Kotlin + Anko: Simplificando o que já é simples</p>
+                                    </div>
+                                
+                                
+
+                                <div class="speaker-text dark" title="Biografia Palestrante">
+                                    <p>Analista desenvolvedor há mais de 8 anos, Julio trabalha com desenvolvimento mobile, web e desktop. É um dos organizadores do Connection Day (<a title='Link para o site do Connection Day' href='http://connectionday.tech'>http://connectionday.tech</a>), realizado em Divinópolis (MG). <a href="https://devday.devisland.com/speakers/julio-borges" title="Ler dados completos da palestra"> Leia mais</a></p>
+                                    
+                                </div>
+                        </div>
+                    </div>
+                </div>
+        
+             
+            
+            <div class="row loop">
+                    <div>
+                        <div class="col-xs-12 col-md-3">
+                                <img  src="assets/img/speakers/kate-leandra-alves.jpg" alt="Kate Leandra Alves" width="200px">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="col-xs-12 col-md-9 bio-list">
+                                <div class="speaker-title dark" title="Nome Palestrante">Kate Leandra Alves</div>         
+                                <div class="speaker-text strong dark" title="Título da Palestra">
+                                        <p>Palestra: UX: Análise das heurísticas, ponto de partida para a criação e melhoria de uma interface</p>
+                                    </div>
+                                
+                                
+
+                                <div class="speaker-text dark" title="Biografia Palestrante">
+                                    <p>Kate é uma mulher que tem buscado aprimorar-se a cada dia no mercado  de TI. Apaixonada por livros e principalmente por animais, estudante de Análise e Desenvolvimento de Sistemas, desenvolvedora front-end, apaixona-se a cada dia com usabilidade e sua importância. <a href="https://devday.devisland.com/speakers/kate-leandra-alves" title="Ler dados completos da palestra"> Leia mais</a></p>
+                                    
+                                </div>
+                        </div>
+                    </div>
+                </div>
+        
+             
+            
+            <div class="row loop">
+                    <div>
+                        <div class="col-xs-12 col-md-3">
+                                <img  src="assets/img/speakers/lucas-andrey.jpg" alt="Lucas Andrey" width="200px">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="col-xs-12 col-md-9 bio-list">
+                                <div class="speaker-title dark" title="Nome Palestrante">Lucas Andrey</div>         
+                                <div class="speaker-text strong dark" title="Título da Palestra">
+                                        <p>Palestra: Mobile web: desafios e armas secretas</p>
+                                    </div>
+                                
+                                
+
+                                <div class="speaker-text dark" title="Biografia Palestrante">
+                                    <p>Sou engenheiro de software na itexto, empresa de consultoria em Belo Horizonte.  Coleciono experiências em projetos de variadas naturezas, de startups a grandes empresas, sempre atuando no desenvolvimento e evolução de projetos de software. <a href="https://devday.devisland.com/speakers/lucas-andrey" title="Ler dados completos da palestra"> Leia mais</a></p>
+                                    
+                                </div>
+                        </div>
+                    </div>
+                </div>
+        
+             
+            
+            <div class="row loop">
+                    <div>
+                        <div class="col-xs-12 col-md-3">
+                                <img  src="assets/img/speakers/ludmila-lopes.jpg" alt="Ludmila Lopes" width="200px">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="col-xs-12 col-md-9 bio-list">
+                                <div class="speaker-title dark" title="Nome Palestrante">Ludmila Lopes</div>         
+                                <div class="speaker-text strong dark" title="Título da Palestra">
+                                        <p>Palestra: Blockchain, Ethereum e a decentralização da economia</p>
+                                    </div>
+                                
+                                
+
+                                <div class="speaker-text dark" title="Biografia Palestrante">
+                                    <p>Formada em Engenharia de Controle e Automação pela UFMG, tem experiência de 5 anos em TI trabalhando pela DTI Digital. É co-fundadora da Actus, uma das primeiras start-ups brasileiras em criptomoedas baseada em Ethereum, à qual se dedica em tempo integral há 5 meses. <a href="https://devday.devisland.com/speakers/ludmila-lopes" title="Ler dados completos da palestra"> Leia mais</a></p>
+                                    
+                                </div>
+                        </div>
+                    </div>
+                </div>
+        
+            
         
 
     </div>
@@ -62,32 +380,116 @@ title: Palestrantes
                 </div>
             </div>
             <div class="row no-margin">
-                {% for ticket in site.data.tickets %} {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+                 
                 <div class="no-padding col-xs-12 col-sm-4">
-                    <div class="price {{ ticket.position }}">
+                    <div class="price left">
                         <div class="price-top">
-                            <h4 class="price-title">{{ ticket.title }}</h4>
-                            <div class="price-category">{{ ticket.period }}</div>
+                            <h4 class="price-title">Primeiro Lote</h4>
+                            <div class="price-category">8 de maio a 8 de junho</div>
                             <div class="price-per">
-                                <sup>R$</sup>{{ ticket.price }}</div>
-                            <div class="price-desc">{{ ticket.amount }}</div>
+                                <sup>R$</sup>129</div>
+                            <div class="price-desc">150 vagas</div>
                         </div>
-                        {% if ticket.enabled %}
-                        <div class="price-bottom">
-                            <a class="register-link c-btn b-50 yellow-2 hv-yellow" href="{{ ticket.buy }}" target="_blank">Comprar</a>
-                        </div>
-                        {% else %}
+                        
                         <div class="price-bottom disabled">
-                            {% if ticket.soldout %}
+                            
                             <span class="register-link c-btn b-50" href="#">Esgotado</span>
-                            {% else %}
-                            <span class="register-link c-btn b-50" href="#">Em breve</span>
-                            {% endif %}
+                            
                         </div>
-                        {% endif %}
+                        
                     </div>
                 </div>
-                {% endfor %}
+                 
+                <div class="no-padding col-xs-12 col-sm-4">
+                    <div class="price center">
+                        <div class="price-top">
+                            <h4 class="price-title">Segundo Lote</h4>
+                            <div class="price-category">9 de junho a 9 de julho</div>
+                            <div class="price-per">
+                                <sup>R$</sup>159</div>
+                            <div class="price-desc">150 vagas</div>
+                        </div>
+                        
+                        <div class="price-bottom">
+                            <a class="register-link c-btn b-50 yellow-2 hv-yellow" href="https://www.sympla.com.br/devday-2018__277513" target="_blank">Comprar</a>
+                        </div>
+                        
+                    </div>
+                </div>
+                 
+                <div class="no-padding col-xs-12 col-sm-4">
+                    <div class="price right">
+                        <div class="price-top">
+                            <h4 class="price-title">Terceiro Lote</h4>
+                            <div class="price-category">a definir</div>
+                            <div class="price-per">
+                                <sup>R$</sup>179</div>
+                            <div class="price-desc">100 vagas</div>
+                        </div>
+                        
+                        <div class="price-bottom disabled">
+                            
+                            <span class="register-link c-btn b-50" href="#">Em breve</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                
             </div>
         </div>
     </div> 
+    
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+    	<div class="container">
+    		<img class="f-logo" src="/assets/img/DevIsland_logo.png" alt="">
+    		<div class="copy">© 2018 DevIsland - todos os direitos reservados</div>
+    	</div>
+    </footer>
+
+	<div class="register-popup custom-popup">
+		<form  action="mail.php" class="js-contact-form" method="POST">
+			<div class="popup-close"><i class="fa fa-times"></i></div>
+			<h3 class="popup-title  form-element">Register for conference</h3>
+			<div class="c-form-group form-element">
+				<div class="c-form-label">First name</div>
+				<input type="text"  name="fields[first_name]" >
+			</div>
+			<div class="c-form-group form-element">
+				<div class="c-form-label">Last name</div>
+				<input type="text"  name="fields[last_name]" >
+			</div>
+			<div class="c-form-group form-element">
+				<div class="c-form-label">Email</div>
+				<input type="email"  name="fields[email]" >
+			</div>
+			<div class="c-form-group form-element">
+				<div class="c-form-label">Phone</div>
+				<input type="tel"  name="fields[phone]" >
+			</div>
+			<div class="c-form-group form-element">
+				<div class="message-result">
+	                <div class="ajax-result">
+	                	<div class="success"></div>
+	                    <div class="error"></div>
+	                </div>
+                	<div class="ajax-loader"></div>
+	            </div>
+			</div>
+			<input class="c-btn b-50 black hv-yellow-o  form-element" type="submit" value="Register">
+		</form>
+	</div>    
+
+    <script src="/assets/js/jquery-2.1.4.min.js"></script>
+    <script src="/assets/js/idangerous.swiper.min.js"></script>
+    <script src="/assets/js/isotope.pkgd.min.js"></script>
+    <script src="/assets/js/imagelightbox.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxdcbMaUOU0VsfcnV2jJlUjCSlWB2teXg"></script>  
+    <script src="/assets/js/global.js"></script>
+    <script src="/assets/js/anchors.navigation.js"></script>    
+  </body>
+</html>
