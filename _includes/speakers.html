@@ -46,11 +46,22 @@
                                     <div class="speaker-social clearfix">
                                         <div style="color: #fff; padding-bottom: 10px">Contatos</div>
 
+                                        {% if speaker.lattes %}
+                                        <a href="{{ speaker.lattes }}" target="_blank" title="Currículo Lattes de {{speaker.name}}">
+                                            <i class="fa fa-globe"></i>
+                                        </a>
+                                        {% endif %}
                                         {% if speaker.facebook %}
                                         <a href="http://facebook.com/{{ speaker.facebook }}" target="_blank" title="Link do Facebook {{speaker.name}}">
                                             <i class="fa fa-facebook"></i>
                                         </a>
-                                        {% endif %} {% if speaker.twitter %}
+                                        {% endif %} 
+                                        {% if speaker.website %}
+                                        <a href="{{ speaker.website }}" target="_blank" title="Website de {{speaker.name}}">
+                                            <i class="fa fa-globe"></i>
+                                        </a>
+                                        {% endif %} 
+                                        {% if speaker.twitter %}
                                         <a href="http://twitter.com/{{ speaker.twitter }}" target="_blank" title="Link do Twitter {{speaker.name}}">
                                             <i class="fa fa-twitter"></i>
                                         </a>
