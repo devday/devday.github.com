@@ -38,8 +38,11 @@ title: Palestrantes
 													{% assign talk_url = site.url | append: "/speakers/" | append: speaker.url %}
 
 													<div class="speaker-text dark" title="Biografia Palestrante">
-															<p>{{ speaker.bio }} <a href="{{ talk_url }}" title="Ler dados completos da palestra"> Leia mais</a></p>
-															
+															{% if speaker.fullbio %}
+																<p>{{ speaker.fullbio }} <a href="{{ talk_url }}" title="Ler dados completos da palestra"> Leia mais</a></p>
+															{% else %}
+																<p>{{ speaker.bio }} <a href="{{ talk_url }}" title="Ler dados completos da palestra"> Leia mais</a></p>
+															{% endif %}																														
 													</div>
 									</div>
 							</div>
