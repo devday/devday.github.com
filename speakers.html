@@ -16,19 +16,19 @@ title: Palestrantes
             </div>
 
 
-
+ 
     <div class="container">
             {% assign count = -1 %} {% assign speakers = site.data.speakers %} 
             {% for tmp in speakers  %} {% assign speaker = tmp[1] %}
             {% capture count %}{{ count | plus: '1' }}{% endcapture %}
             <div class="row loop">
-                    <div class="col-xs-2">
-                        <div >
+                    <div>
+                        <div class="col-xs-12 col-md-3">
                                 <img  src="assets/img/speakers/{{ speaker.avatar }}" alt="{{ speaker.name }}" width="200px">
                         </div>
                     </div>
-                    <div class="col-xs-10">
-                        <div class="bio-list">
+                    <div>
+                        <div class="col-xs-12 col-md-9 bio-list">
                                 <div class="speaker-title dark" title="Nome Palestrante">{{ speaker.name }}</div>         
                                 <div class="speaker-text strong dark" title="Título da Palestra">
                                         <p>Palestra: {{ speaker.title }}</p>
