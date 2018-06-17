@@ -44,6 +44,8 @@ newsletter_background_image: 'https://source.unsplash.com/c8ET5XvBwnU/2000x1322?
     {% endif %}
     {% if page.speaker.avatar %}
       <meta content="{{ site.url }}/assets/img/speakers/{{ page.speaker.avatar }}" property="og:image">
+      <meta content="900" property="og:image:height">
+      <meta content="720" property="og:image:width">
     {% else %}
       <meta content="{{ site.url }}/assets/img/devday_devisland.png" property="og:image">
     {% endif %}
