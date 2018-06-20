@@ -20,6 +20,6 @@ compress_html:
 # exclude my node related stuff
 exclude: ['package.json', 'node_modules']
 
-include: .nojekyll
+include: ['.nojekyll']
 
 JB.BASE_PATH: '/'

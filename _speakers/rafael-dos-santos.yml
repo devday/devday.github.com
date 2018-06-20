@@ -1,7 +1,7 @@
 name: Rafael dos Santos
 title: Migrando aplicações legadas para a nuvem
-description: Usando um case real, a palestra abordará os diversos caminhos possíveis para se mover uma aplicação para o Azure, bem como as decisões tomadas pelo palestrante -- inclusive as erradas. Serão abordados tópicos como servidor de aplicações, banco de dados, hospedagem de arquivos, segurança, produtividade e, especialmente, redução de custos.
-bio: Rafael é apaixonado por desenvolvimento de aplicações, especialmente se elas forem destinadas à nuvem. Tem grande experiência com Azure, .Net e Node. Foi reconhecido recentemente como Microsoft Azure MVP.
+description: Usando um case real, a palestra abordará os diversos caminhos possíveis para se mover uma aplicação para o Azure, bem como as decisões tomadas pelo palestrante – inclusive as erradas. Serão abordados tópicos como servidor de aplicações, banco de dados, hospedagem de arquivos, segurança, produtividade e, especialmente, redução de custos.
+bio: Apaixonado por desenvolvimento de aplicações, especialmente se forem destinadas à nuvem. Tem grande experiência com Azure, .Net e Node. Foi reconhecido recentemente como Microsoft Azure MVP.
 github: rsantosdev
 twitter: 
 linkedin: 

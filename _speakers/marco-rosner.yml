@@ -1,7 +1,7 @@
 name: Marco Rosner
-bio: "Engenheiro de Software na Globo.com, mestre em Computação (UFCG), professor de linguagens de programação e sistemas operacionais, fundador do MeMo, apaixonado por tecnologia e comprometido a ajudar pessoas com soluções tecnológicas."
+bio: Engenheiro de Software na Globo.com, mestre em Computação (UFCG), professor de linguagens de programação e sistemas operacionais, fundador do MeMo, apaixonado por tecnologia e comprometido a ajudar pessoas com soluções tecnológicas.
 title: "GloboPlay, foco no desempenho: do preload ao service-work"
-description: Desempenho é algo que temos que sempre ter em mente ao desenvolver um projeto. Essa palestra mostra algumas técnicas aplicadas no GloboPlay que resultaram em uma diminuição de 50% no tempo de renderização do produto.
+description: Desempenho é algo que temos que sempre ter em mente ao desenvolver um projeto. Essa palestra mostra algumas técnicas aplicadas no GloboPlay, que resultaram em uma diminuição de 50% no tempo de renderização do produto.
 github: marcorosner
 twitter: 
 linkedin: marcorosner
@@ -9,7 +9,7 @@ facebook: Marco.A.C.Rosner
 website: 
 email: 
 gravatar:
-avatar: marco-rosner.png
+avatar: marco-rosner.jpg
 googleplus:
 url: marco-rosner
 category: Monitoração e desempenho de aplicações

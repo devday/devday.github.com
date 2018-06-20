@@ -1,7 +1,7 @@
-bio: "Gustavo é mestre em Ciência da computação na area de redes e sistemas distribuídos pela UFMG e atua como engenheiro de software sênior na Globo.com. "
+bio: Mestre em Ciência da Computação, na área de redes e sistemas distribuídos, pela UFMG. Atua como engenheiro de software sênior na Globo.com.
 name: Gustavo Pantuza
 title: "Resiliência em micro-serviços: cache distribuído, feedback, algoritmos e tuning na Globo.com"
-description: A palestra visa a apresentar as soluções utilizadas pela Globo.com ao distribuir suas aplicações em micro-serviços. Serão apresentadas a estrutura de cache distribuída, a arquitetura baseada em feedback, a definição de contratos e os ajustes de arquitetura de redes que ajudam a garantir aplicações mais resilientes.
+description: A palestra visa apresentar as soluções utilizadas pela Globo.com ao distribuir suas aplicações em micro-serviços. Serão apresentadas a estrutura de cache distribuída, a arquitetura baseada em feedback, a definição de contratos e os ajustes de arquitetura de redes que ajudam a garantir aplicações mais resilientes.
 github: pantuza
 twitter: 
 linkedin: gustavo-pantuza-46089825
