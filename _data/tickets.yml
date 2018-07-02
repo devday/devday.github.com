@@ -9,21 +9,21 @@
   soldout: true
 
 - position: "center"
-  title: Segundo Lote
-  period: "9 de junho a 9 de julho"
-  price: "159"
-  amount: 150 vagas
+  title: Terceiro Lote
+  period: "2 de julho - 30 de agosto"
+  price: "179"
+  amount: 100 vagas
   description: 
   buy: "https://www.sympla.com.br/devday-2018__277513"
   enabled: true
   soldout: false
 
 - position: "right"
-  title: Terceiro Lote
-  period: "a definir"
-  price: "179"
-  amount: 100 vagas
+  title: Segundo Lote
+  period: "9 de junho a 9 de julho"
+  price: "159"
+  amount: 150 vagas
   description: 
   buy: "https://www.sympla.com.br/devday-2018__277513"
   enabled: false
-  soldout: false
+  soldout: true
