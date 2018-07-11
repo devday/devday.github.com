@@ -1,0 +1,17 @@
+name: Wellington Mafra
+title: Drone.io - Integração contínua de container para containers
+description: "Hoje, a tendência é ter ambientes em Docker e usamos containers para tudo. Surge então a necessidade de gerenciar os pipelines de entrega. Como saber que os ambientes de containers estão funcionando corretamente? Drone.io é uma plataforma de integração contínua para containers. 
+A palestra abordará os prós e contras da ferramenta, bem como o caso de sucesso de sua adoção na ContaAzul."
+bio: "Trabalha com DevOps desde 2011 e atua na ContaAzul, com foco em microserviços escritos em Java e Golang. Também escreve no <a href='https://engineering.contaazul.com/@WellMafra' taget='_blank' title='Blog de engenharia da ContaAzul'>blog de engenharia</a> da empresa."
+github: WellMafra
+twitter: 
+linkedin: wellingtonmafra
+facebook: 
+website: https://medium.com/@wellmafra
+email: 
+gravatar:
+avatar: wellington-mafra.jpg
+googleplus:
+url: wellington-mafra
+category: DevOps
+lattes: 
