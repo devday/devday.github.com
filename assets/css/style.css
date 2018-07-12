@@ -727,7 +727,7 @@ body { font-family: 'Open Sans', sans-serif; }
 /* 21 - SPONSORS */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 .sponsor-wrapper { margin-bottom: 50px; }
-.sponsor-entry { position: relative; width: 100%; padding-bottom: 70%; }
+.sponsor-entry { position: relative; width: 100%; padding-bottom: 70%;}
 .sponsor-entry img { position: absolute; top: 50%; left: 50%; -webkit-transform: translateX(-50%) translateY(-50%); -moz-transform: translateX(-50%) translateY(-50%); -ms-transform: translateX(-50%) translateY(-50%); -o-transform: translateX(-50%) translateY(-50%); transform: translateX(-50%) translateY(-50%); max-width: 80%; }
 /*.sponsor-entry.size-diamond { padding-bottom: 50%; }*/
 .sponsor-entry.green { background: #8ab81d; }
