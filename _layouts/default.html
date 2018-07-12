@@ -32,10 +32,17 @@ newsletter_background_image: 'https://source.unsplash.com/c8ET5XvBwnU/2000x1322?
     {% endif %}
     {% if page.description %}
       <meta content="{{ page.description }}" property="og:description">
+      <meta content="{{ page.description }}" property="description">
     {% else %}
       <meta content="{{ site.description }}" property="og:description">
+      <meta content="{{ site.description }}" property="description">
     {% endif %}
-    {% if page.url %}
+    {% if page.speaker.category %}
+      <meta content="{{ page.speaker.category }}, devisland, devday, conferência, desenvolvimento, software, c#, java, python, javascript" property="keywords">
+    {% else %}
+      <meta content="devisland, devday, conferência, desenvolvimento, software, c#, java, python, javascript" property="keywords">
+    {% endif %}
+        {% if page.url %}
       <meta content="{{ site.url }}{{ page.url }}" property="og:url">
     {% endif %}
     {% if page.date %}
