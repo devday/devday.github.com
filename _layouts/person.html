@@ -72,6 +72,10 @@ layout: page
 								<a href="http://github.com/{{ page.speaker.github }}" target="_blank" title="Link do Github {{speaker.name}}">
 									<i class="fa fa-github"></i>
 								</a>
+								{% endif %} {% if page.speaker.youtube %}
+								<a href="{{ page.speaker.youtube }}" target="_blank" title="YouTube de {{speaker.name}}">
+									<i class="fa fa-youtube"></i>
+								</a>
 								{% endif %}
 
 
