@@ -10,7 +10,32 @@
             </div>
         </div>
         <div class="row no-margin">
-            {% for ticket in site.data.tickets %} {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+            <div class="no-padding col-xs-12 col-sm-4">
+                <div class="">
+                    &nbsp;
+                </div>
+            </div>
+
+            <div class="no-padding col-xs-12 col-sm-4">
+                <div class="price center">
+                    <div class="price-top">
+                        <h4 class="price-title">INGRESSOS ESGOTADOS</h4>
+                    </div>
+
+                    <div class="price-bottom">
+                        <a class="register-link c-btn b-50 yellow-2 hv-yellow" href="https://goo.gl/forms/9mlcyekv1i6WTYKv1" target="_blank" title="Link para a lista de espera">ENTRAR NA LISTA DE ESPERA</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="no-padding col-xs-12 col-sm-4">
+                <div class="">
+                        &nbsp;
+                </div>
+            </div>
+
+            {% comment %} {% for ticket in site.data.tickets %} {% capture count %}{{ count | plus: '1' }}{% endcapture %}
             <div class="no-padding col-xs-12 col-sm-4">
                 <div class="price {{ ticket.position }}">
                     <div class="price-top">
@@ -35,7 +60,7 @@
                     {% endif %}
                 </div>
             </div>
-            {% endfor %}
+            {% endfor %} {% endcomment %}
         </div>
     </div>
 </div>
