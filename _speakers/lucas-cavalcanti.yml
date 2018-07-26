@@ -1,9 +1,9 @@
 name: Lucas Cavalcanti
 bio: Engenheiro de software líder no Nubank. Entusiasta de programação funcional e das melhores práticas de desenvolvimento de software, tem grande experiência em aplicações reais em produção escritas em Clojure, Java, Scala e Ruby.
-title: "Datomic: programando em um banco de dados imutável"
+title: "Datomic: desafios e benefícios de um banco de dados imutável"
 description: A palestra aborda o conceito de imutabilidade de um banco de dadose como isso ajuda a construir sistemas mais simples e poderosos. Também narra a experiência do Nubank no uso deste tipo de banco nos últimos 5 anos, bem como suas vantagens e desvantagens.
-github: 
-twitter: 
+github: lucascs
+twitter: lucascs
 youtube: 
 linkedin: lucascavalcantisantos
 facebook: 
