@@ -1,16 +1,18 @@
-- title: "Acelerando a entrega de ambietes de Dev e Teste com Azure DevTest Labs"
+- title: "Criando uma PWA com React para consumir uma API"
   hour: "10:15 - 11:00"
-  speaker: Jaqueline Ramos
-  avatar: jaqueline_ramos.jpg
+  speaker: Jéssica Zanelato
+  avatar: jessica-zanelato.jpg
   description:
   possuiConteudo: false
+  url: jessica-zanelato
 
-- title: "Transformando sua arquitetura com Clean Architecture"
+- title: "O Lado Obscuro da Inteligência Artificial"
   hour: "11:15 - 12:00"
-  speaker: Henrique Oelze
-  avatar: henrique_oelze.jpg
+  speaker: Douglas Augusto
+  avatar: douglas-augusto.jpg
   description:
   possuiConteudo: false
+  url: douglas-augusto
 
 - title: Almoço
   hour: "12:00 - 13:30"
@@ -19,26 +21,29 @@
   description:
   possuiConteudo: false
     
-- title: "Pensando e arquitetando aplicações resilientes"
+- title: "Desenvolvimento de jogos acessíveis utilizando Unity"
   hour: "13:30 - 14:15"
-  speaker: Wilson Júnior
-  avatar: wilson_junior.jpg
+  speaker: Virgínia Mota
+  avatar: virginia-mota.jpg
   description:
   possuiConteudo: false
+  url: virginia-mota
 
-- title: "Por que os desenvolvedores precisam ficar atentos aos chatbots?"
+- title: "GloboPlay, foco no desempenho: do preload ao service-work"
   hour: "14:30 - 15:15"
-  speaker: Rafael Pacheco
-  avatar: rafael_pacheco.jpg
+  speaker: Marco Rosner
+  avatar: marco-rosner.jpg
   description:
   possuiConteudo: false
+  url: marco-rosner
   
-- title: "Testes de UI legíveis e sustentáveis para Android"
+- title: "Ciência de Dados com Python e R"
   hour: "15:30 - 16:15"
-  speaker: Felipe Arimatéia
-  avatar: felipe_arimateia.jpg
+  speaker: Luciana Tanus
+  avatar: luciana-tanus.jpg
   description:
   possuiConteudo: false
+  url: luciana-tanus
 
 - title: Lanche
   hour: "16:15 - 16:45"
@@ -47,9 +52,10 @@
   description:
   possuiConteudo: false
   
-- title: "Qualificar para incluir"
+- title: "UX: Análise das heurísticas, ponto de partida para a criação e melhoria de uma interface"
   hour: "16:45 - 17:30"
-  speaker: Virgínia Chalegre
-  avatar: virginia_chalegre.jpg
+  speaker: Kate Leandra Alves
+  avatar: kate-leandra-alves.jpg
   description:
   possuiConteudo: false
+  url: kate-leandra-alves

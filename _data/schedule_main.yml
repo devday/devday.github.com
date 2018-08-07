@@ -12,26 +12,28 @@
   avatar: speaker-1.png
   description: 
 
-- title: "Inovação e Futurismo: o mundo que podemos e não o que queremos"
+- title: "Palestra de Abertura"
   hour: "09:10 - 10:00"
-  speaker: Rafael Ávila
-  avatar: rafael_avila.jpg
+  speaker: Maíra Pimentel
+  avatar: maira-pimentel.jpg
   description: 
   possuiConteudo: false
 
-- title: "Artificial by design -- da linguagem natural aos veículos autônomos, o estado da arte em deep learning e suas aplicações."
+- title: "Blockchain além de criptomoedas: registro acadêmico com Internet of People e Mercury"
   hour: "10:15 - 11:00"
-  speaker: Juliano Viana
-  avatar: juliano_viana.jpg
+  speaker: Gibran Silva
+  avatar: gibran-silva.jpg
   description: 
   possuiConteudo: false
+  url: gibran-silva
 
-- title: "Arquitetura Nativa na Nuvem - Entrega Contínua com A.I"
+- title: " Arquitetura de software num cenário de incertezas"
   hour: "11:15 - 12:00"
-  speaker: Glenio Borges
-  avatar: glenio_borges.jpg
+  speaker: André Paulovich
+  avatar: andre-paulovich.jpg
   description: 
   possuiConteudo: false
+  url: andre-paulovich
 
 - title: Almoço
   hour: "12:00 - 13:30"
@@ -40,26 +42,29 @@
   description:
   possuiConteudo: false
     
-- title: "Microserviços na prática: o que aprendemos em 2 anos"
+- title: "Kubernetes - O Caminho do Aprendizado"
   hour: "13:30 - 14:15"
-  speaker: Felipe Silvestre
-  avatar: felipe_silvestre.jpg
+  speaker: João Vitor Guimarães
+  avatar: joao-vitor-guimaraes.jpg
   description:
   possuiConteudo: false
+  url: joao-vitor-guimaraes
 
-- title: "Lei Brasileira de Inclusão e Acessibilidade em Informática"
+- title: "Compilar não basta: Escreva código para pessoas e não apenas para máquinas"
   hour: "14:30 - 15:15"
-  speaker: Daniela Kovács
-  avatar: daniela_kovacs.jpg
+  speaker:  Camila Crispim | Edlaine Zamora
+  avatar: camilla-edlaine.jpg
   description:
   possuiConteudo: false
+  url: camilla-crispim-edlaine-zamora
   
-- title: Diversidade Étnica, de Gênero e Sexo na Customer/User Experience
+- title: O uso de Machine Learning no combate às fraudes
   hour: "15:30 - 16:15"
-  speaker: Jimmy Andrade
-  avatar: jimmy_andrade.jpg
+  speaker: Rodrigo Palhares
+  avatar: rodrigo-palhares.jpg
   description:
   possuiConteudo: false
+  url: rodrigo-palhares
 
 - title: Lanche
   hour: "16:15 - 16:45"
@@ -68,19 +73,21 @@
   description:
   possuiConteudo: false
   
-- title: "Como IoT e sistemas cognitivos vão acelerar a inovação e transformação digital"
+- title: "Datomic: desafios e benefícios de um banco de dados imutável"
   hour: "16:45 - 17:30"
-  speaker: Sergio Gama 
-  avatar: sergio_gama.jpg
+  speaker: Lucas Cavalcanti 
+  avatar: lucas-cavalcanti.jpg
   description:
   possuiConteudo: false
+  url: lucas-cavalcanti
   
-- title: "Operação Serenata de Amor: inteligência artifical para controle dos gastos públicos."
+- title: "Libertando dados públicos"
   hour: "17:30 - 18:20"
-  speaker: Pedro Vilanova
-  avatar: pedro_vilanova.jpg
+  speaker: Álvaro Justen (Turicas)
+  avatar: alvaro-justen-turicas.jpg
   description:
   possuiConteudo: false
+  url: alvaro-justen-turicas
 
 - title: Encerramento
   hour: "18:20 - 18:30"

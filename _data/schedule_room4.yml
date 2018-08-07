@@ -1,16 +1,18 @@
-- title: "Criando aplicações altamente disponíveis e de baixa latência com programação reativa"
+- title: "A jornada dos testes automatizados end-to-end"
   hour: "10:15 - 11:00"
-  speaker: João Marcos de Araújo Lopes
-  avatar: joao_lopes.jpg
+  speaker: Sullen Zeferino Soares
+  avatar: suellen-soares.png
   description:
   possuiConteudo: false
+  url: suellen-soares
 
-- title: "Algoritmos genéticos - encontrando soluções em problemas de otimização e busca"
+- title: "Ágil = automatização + automatização + automatização"
   hour: "11:15 - 12:00"
-  speaker: Italo José
-  avatar: italo_jose.jpg
+  speaker: Fábio Viana
+  avatar: fabio-viana.jpg
   description:
   possuiConteudo: false
+  url: fabio-viana
 
 - title: Almoço
   hour: "12:00 - 13:30"
@@ -19,37 +21,41 @@
   description:
   possuiConteudo: false
 
-- title: "Desenvolvimento Cross-mobile com Xamarin, por onde começar?"
+- title: "Como você (ou sua empresa) se prepara para adotar um novo modelo ou prática na entrega de software?"
   hour: "13:30 - 14:15"
-  speaker: Letticia Nicoli
-  avatar: letticia_nicoli.jpg
+  speaker: Janaina Primon
+  avatar: janaina-primon.jpg
   description:
   possuiConteudo: false
+  url: janaina-primon
   
-- title: "Machine Learning: Do legado à vanguarda"
+- title: "Drone.io - Integração continua de container para containers"
   hour: "14:30 - 15:15"
-  speaker: Juan Pablo Rivillas
-  avatar: juan_pablo.jpg
+  speaker: Wellington Mafra
+  avatar: wellington-mafra.jpg
   description:
   possuiConteudo: false
+  url: wellington-mafra
   
-- title: "Kubernetes -- Entenda, automatize e entregue"
+- title: "Mobile web: desafios e armas secretas"
   hour: "15:30 - 16:15"
-  speaker: Wallison Marra
-  avatar: wallison_marra.jpg
+  speaker: Lucas Andrey
+  avatar: lucas-andrey.jpg
   description:
   possuiConteudo: false
+  url: lucas-andrey
 
-- title: Coffe Break
+- title: Lanche
   hour: "16:15 - 16:45"
   speaker:   
   avatar: speaker-1.jpg
   description:
   possuiConteudo: false
   
-- title: "Point of Vue: Arquitetura Front End com Vue.js"
+- title: "Um case corporativo de adoção da arquitetura Cloud Computing e Kubernetes em um grande player do segmento de consultoria"
   hour: "16:45 - 17:30"
-  speaker: Marcos Moura 
-  avatar: marcos_moura.jpg
+  speaker: Leonardo Gonçalves
+  avatar: leonardo-goncalves.jpg
   description:
   possuiConteudo: false
+  url: leonardo-goncalves

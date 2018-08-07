@@ -1,16 +1,10 @@
-- title: "Do caos ao TDD. Uma abordagem pragmática de evolução arquitetural de aplicações Android."
-  hour: "10:15 - 11:00"
-  speaker: Clêrton Leal
-  avatar: clerton_leal.jpg
+- title: "Projetando o futuro: tecnologia e possibilidades"
+  hour: "10:15 - 12:00"
+  speaker: Cláudio Dusik
+  avatar: claudio-dusik.jpg
   description:
   possuiConteudo: false
-
-- title: "CUSTOMER EXPERIENCE: Uma reflexão sobre abundância, escassez e oportunidades"
-  hour: "11:15 - 12:00"
-  speaker: Denise Eler
-  avatar: denise_eler.jpg
-  description:
-  possuiConteudo: false
+  url: claudio-dusik
 
 - title: Almoço
   hour: "12:00 - 13:30"
@@ -19,26 +13,29 @@
   description:
   possuiConteudo: false
     
-- title: "Introdução ao blockchain - Um exemplo em ethereum na linguagem solidity"
+- title: "Melhores praticas para dados nas nuvens"
   hour: "13:30 - 14:15"
-  speaker: Daniel Figueiredo
-  avatar: daniel_figueiredo.jpg
+  speaker: Eduardo Bellis
+  avatar: eduardo-bellis.jpg
   description:
   possuiConteudo: false
+  url: eduardo-bellis
   
-- title: "A arquitetura de monitoramento da Plataforma de Vídeos da Globo.com"
+- title: "Migrando Aplicações Legadas para Nuvem"
   hour: "14:30 - 15:15"
-  speaker: Lucas Costa
-  avatar: lucas_costa.jpg
+  speaker: Rafael Ferreira dos Santos
+  avatar: rafael-dos-santos.jpg
   description:
   possuiConteudo: false
+  url: rafael-dos-santos
   
-- title: "Inteligência Artificial a Serviço da Acessibilidade"
+- title: "Boas práticas na otimização de projetos de bancos de dados"
   hour: "15:30 - 16:15"
-  speaker: Alexandre Costa
-  avatar: magoo.jpg
+  speaker: Vinícius Coimbra
+  avatar: vinicius-coimbra.jpg
   description:
   possuiConteudo: false
+  url: vinicius-coimbra
 
 - title: Lanche
   hour: "16:15 - 16:45"
@@ -47,9 +44,10 @@
   description:
   possuiConteudo: false
   
-- title: "GraphQL ou APIs RESTful?"
+- title: "Blockchain, Ethereum e a decentralização da economia"
   hour: "16:45 - 17:30"
-  speaker: Marcos Brizeno
-  avatar: marcos_brizeno.jpg
+  speaker: Ludmila Lopes
+  avatar: ludmila-lopes.jpg
   description:
   possuiConteudo: false
+  url: ludmila-lopes

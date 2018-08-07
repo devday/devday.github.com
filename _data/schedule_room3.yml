@@ -1,16 +1,18 @@
-- title: "Gênero não codifica: Uma abordagem com foco no sucesso do seu time"
+- title: "Gabriel Oliva - Acessibilidade no iOS"
   hour: "10:15 - 11:00"
-  speaker: Ana Freitas
-  avatar: ana_freitas.jpg
+  speaker: Gabriel Oliva
+  avatar: gabriel-oliva.jpg
   description:
   possuiConteudo: false
+  url: gabriel-oliva
 
-- title: "Como cegos desenvolvem software: da concepção à implementação"
+- title: "Mundo DevOps aplicado a TI & não TIo"
   hour: "11:15 - 12:00"
-  speaker: Marlon Brandão
-  avatar: marlon_brandao.jpg
+  speaker: Jaqueline Ramos
+  avatar: jaqueline-ramos.jpg
   description:
   possuiConteudo: false
+  url: jaqueline-ramos
 
 - title: Almoço
   hour: "12:00 - 13:30"
@@ -19,26 +21,29 @@
   description:
   possuiConteudo: false
 
-- title: "Application insights -- Dê-me a visão além do alance"
+- title: "Kotlin + Anko - Simplificando o que já é simples"
   hour: "13:30 - 14:15"  
-  speaker: André Dias
-  avatar: andre_dias.jpg
+  speaker: Julio Borges
+  avatar: julio-borges.jpg
   description:
   possuiConteudo: false
+  url: julio-borges
 
-- title: "ASP.NET Core 2.0 e .Net Standard 2.0 o que muda?"
+- title: 'Diversidade: Como deixei de ser "A menina da equipe"'
   hour: "14:30 - 15:15"
-  speaker: Victor Cavalcante
-  avatar: victor_cavalcante.jpg
+  speaker: Daiane Freira
+  avatar: daiane-freira.jpg
   description: 
   possuiConteudo: false
+  url: daiane-freira
     
-- title: "Cloud Architecture -- faça o melhor desenho para sua nuvem!"
+- title: "Resiliência em micro-serviços: cache distribuído, feedback, algoritmos e tuning na Globo.com"
   hour: "15:30 - 16:15"
-  speaker: Sidharta Noleto
-  avatar: sidharta_noleto.jpg
+  speaker: Gustavo Pantuza
+  avatar: gustavo-pantuza.jpg
   description:
   possuiConteudo: false
+  url: gustavo-pantuza
 
 - title: Lanche
   hour: "16:15 - 16:45"
@@ -47,9 +52,10 @@
   description:
   possuiConteudo: false
   
-- title: "Acessibilidade na web, como estamos pensando?"
+- title: "Deep Learning: Mitos e Verdades"
   hour: "16:45 - 17:30"
-  speaker: Thiago Marques
-  avatar: thiago_marques.jpg
+  speaker: Camila Laranjeira
+  avatar: camila-laranjeira.jpg
   description:
   possuiConteudo: false
+  url: camila-laranjeira
