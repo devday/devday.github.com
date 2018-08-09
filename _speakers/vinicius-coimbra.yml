@@ -1,12 +1,12 @@
 name: Vinicius Coimbra
-bio: Líder de dados de produtos da MaxMilhas, trabalha há 15 anos com sistemas críticos e de alto volume, com mais de 35 milhões de usuários, como FIES, PROUNI, ENEM, PRONATEC e apps de redes sociais. 
+bio: Fundador do DataMinders, ex-líder de dados de produtos da MaxMilhas, trabalha há 15 anos com sistemas críticos e de alto volume, com mais de 35 milhões de usuários, como FIES, PROUNI, ENEM, PRONATEC e apps de redes sociais. 
 title: Boas práticas na otimização de projetos de bancos de dados
 description: "A palestra aborda a otimização do ambiente de dados, baseada na experiência de projetos de crescimento exponencial, além dos pontos de falha, como evitá-los e os trade-offs relacionados ao projeto de banco de dados. Apesar do foco em bancos relacionais transacionais, as dicas valem para qualquer banco, como os dimensionais ou objeto-relacionais."
 github: viniciuscoimbra
 twitter: 
 linkedin: viniciuscoimbra
 facebook: rivieravinicius
-website: 
+website:
 email: 
 gravatar:
 avatar: vinicius-coimbra.jpg
