@@ -13,14 +13,6 @@
   description:
   possuiConteudo: false
     
-- title: "Melhores praticas para dados nas nuvens"
-  hour: "13:30 - 14:15"
-  speaker: Eduardo Bellis
-  avatar: eduardo-bellis.jpg
-  description:
-  possuiConteudo: false
-  url: eduardo-bellis
-  
 - title: "Migrando Aplicações Legadas para Nuvem"
   hour: "14:30 - 15:15"
   speaker: Rafael Ferreira dos Santos
