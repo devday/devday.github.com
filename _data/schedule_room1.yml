@@ -13,17 +13,17 @@
   description:
   possuiConteudo: false
     
-- title: "Migrando Aplicações Legadas para Nuvem"
-  hour: "14:30 - 15:15"
-  speaker: Rafael Ferreira dos Santos
-  avatar: rafael-dos-santos.jpg
+- title: "Kotlin + Anko: simplificando o que já é simples"
+  hour: "13:30 - 14:15"
+  speaker: Júlio Borges
+  avatar: julio-borges.jpg
   description:
   possuiConteudo: false
-  url: rafael-dos-santos
+  url: julio-borges
   
 - title: "Boas práticas na otimização de projetos de bancos de dados"
-  hour: "15:30 - 16:15"
-  speaker: Vinícius Coimbra
+  hour: "14:30 - 15:15"
+  speaker: Vinicius Coimbra
   avatar: vinicius-coimbra.jpg
   description:
   possuiConteudo: false
@@ -36,10 +36,10 @@
   description:
   possuiConteudo: false
   
-- title: "Blockchain, Ethereum e a decentralização da economia"
+- title: "Acessibilidade no iOS"
   hour: "16:45 - 17:30"
-  speaker: Ludmila Lopes
-  avatar: ludmila-lopes.jpg
+  speaker: Gabriel Oliva
+  avatar: gabriel-oliva.jpg
   description:
   possuiConteudo: false
-  url: ludmila-lopes
+  url: gabriel-oliva

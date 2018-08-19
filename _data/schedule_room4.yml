@@ -1,18 +1,18 @@
-- title: "A jornada dos testes automatizados end-to-end"
+- title: "O lado obscuro da inteligẽncia artificial"
   hour: "10:15 - 11:00"
-  speaker: Sullen Zeferino Soares
+  speaker: Douglas Augusto
+  avatar: douglas-augusto.jpg
+  description:
+  possuiConteudo: false
+  url: douglas-augusto
+
+- title: "A jornada dos testes automatizados end to end"
+  hour: "11:15 - 12:00"
+  speaker: Suellen Zeferino Soares
   avatar: suellen-soares.png
   description:
   possuiConteudo: false
   url: suellen-soares
-
-- title: "Ágil = automatização + automatização + automatização"
-  hour: "11:15 - 12:00"
-  speaker: Fábio Viana
-  avatar: fabio-viana.jpg
-  description:
-  possuiConteudo: false
-  url: fabio-viana
 
 - title: Almoço
   hour: "12:00 - 13:30"
@@ -36,7 +36,15 @@
   description:
   possuiConteudo: false
   url: wellington-mafra
-  
+
+- title: "Usando Application Performance Monitoring para dar vantagem competitiva aos negócios"
+  hour: "15:30 - 16:15"
+  speaker: Welmar Rabello
+  avatar: welmar-rabello.jpg
+  description:
+  possuiConteudo: false
+  url: welmar-rabello
+
 - title: Lanche
   hour: "16:15 - 16:45"
   speaker:   

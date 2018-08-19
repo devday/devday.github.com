@@ -12,7 +12,7 @@
   avatar: speaker-1.png
   description: 
 
-- title: "Palestra de Abertura"
+- title: "Hackeando o futuro do mercado de trabalho"
   hour: "09:10 - 10:00"
   speaker: Maíra Pimentel
   avatar: maira-pimentel.jpg
@@ -20,21 +20,21 @@
   possuiConteudo: false
   url: maira-pimentel
 
-- title: "Blockchain além de criptomoedas: registro acadêmico com Internet of People e Mercury"
+- title: "O uso de machine learning no combate às fraudes"
   hour: "10:15 - 11:00"
-  speaker: Gibran Silva
-  avatar: gibran-silva.jpg
+  speaker: Rodrigo Palhares
+  avatar: rodrigo-palhares.jpg
   description: 
   possuiConteudo: false
-  url: gibran-silva
+  url: rodrigo-palhares
 
-- title: " Arquitetura de software num cenário de incertezas"
+- title: "Kubernetes - o caminho do aprendizado"
   hour: "11:15 - 12:00"
-  speaker: André Paulovich
-  avatar: andre-paulovich.jpg
+  speaker: João Vitor Guimarães
+  avatar: joao-vitor-guimaraes.jpg
   description: 
   possuiConteudo: false
-  url: andre-paulovich
+  url: joao-vitor-guimaraes
 
 - title: Almoço
   hour: "12:00 - 13:30"
@@ -43,29 +43,29 @@
   description:
   possuiConteudo: false
     
-- title: "Kubernetes - O Caminho do Aprendizado"
-  hour: "13:30 - 14:15"
-  speaker: João Vitor Guimarães
-  avatar: joao-vitor-guimaraes.jpg
-  description:
-  possuiConteudo: false
-  url: joao-vitor-guimaraes
-
 - title: "Compilar não basta: Escreva código para pessoas e não apenas para máquinas"
-  hour: "14:30 - 15:15"
+  hour: "13:30 - 14:15"
   speaker:  Camila Crispim | Edlaine Zamora
   avatar: camilla-edlaine.jpg
   description:
   possuiConteudo: false
   url: camilla-crispim-edlaine-zamora
   
-- title: O uso de Machine Learning no combate às fraudes
-  hour: "15:30 - 16:15"
-  speaker: Rodrigo Palhares
-  avatar: rodrigo-palhares.jpg
+- title: "Blockchain além de criptomoedas: registro acadêmico com Internet of People e Mercury"
+  hour: "14:30 - 15:15"
+  speaker: Gibran Silva
+  avatar: gibran-silva.jpg
   description:
   possuiConteudo: false
-  url: rodrigo-palhares
+  url: gibran-silva
+
+- title: "Perspectivas da computação quântica"
+  hour: "15:30 - 16:15"
+  speaker: Gabriel Coutinho
+  avatar: gabriel-coutinho.jpg
+  description:
+  possuiConteudo: false
+  url: gabriel-coutinho
 
 - title: Lanche
   hour: "16:15 - 16:45"

@@ -1,18 +1,18 @@
-- title: "Gabriel Oliva - Acessibilidade no iOS"
-  hour: "10:15 - 11:00"
-  speaker: Gabriel Oliva
-  avatar: gabriel-oliva.jpg
-  description:
-  possuiConteudo: false
-  url: gabriel-oliva
-
 - title: "Mundo DevOps aplicado a TI & não TIo"
-  hour: "11:15 - 12:00"
+  hour: "10:15 - 11:00"
   speaker: Jaqueline Ramos
   avatar: jaqueline-ramos.jpg
   description:
   possuiConteudo: false
   url: jaqueline-ramos
+
+- title: "Blockchain, Ethereum e a descentralização da economia"
+  hour: "11:15 - 12:00"
+  speaker: Ludmila Lopes
+  avatar: ludmila-lopes.jpg
+  description:
+  possuiConteudo: false
+  url: ludmila-lopes
 
 - title: Almoço
   hour: "12:00 - 13:30"
@@ -21,21 +21,21 @@
   description:
   possuiConteudo: false
 
-- title: "Kotlin + Anko - Simplificando o que já é simples"
+- title: "Diversidade: como deixei de ser 'a menina da equipe'"
   hour: "13:30 - 14:15"  
-  speaker: Julio Borges
-  avatar: julio-borges.jpg
-  description:
-  possuiConteudo: false
-  url: julio-borges
-
-- title: 'Diversidade: Como deixei de ser "A menina da equipe"'
-  hour: "14:30 - 15:15"
   speaker: Daiane Freira
   avatar: daiane-freira.jpg
-  description: 
+  description:
   possuiConteudo: false
   url: daiane-freira
+
+- title: 'Migrando aplicações legadas para a nuvem'
+  hour: "14:30 - 15:15"
+  speaker: Rafael Ferreira dos Santos
+  avatar: rafael-dos-santos.jpg
+  description: 
+  possuiConteudo: false
+  url: rafael-dos-santos
     
 - title: "Resiliência em micro-serviços: cache distribuído, feedback, algoritmos e tuning na Globo.com"
   hour: "15:30 - 16:15"

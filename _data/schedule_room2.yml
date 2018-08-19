@@ -6,13 +6,13 @@
   possuiConteudo: false
   url: jessica-zanelato
 
-- title: "O Lado Obscuro da Inteligência Artificial"
+- title: "Ágil = automatização + automatização + automatização"
   hour: "11:15 - 12:00"
-  speaker: Douglas Augusto
-  avatar: douglas-augusto.jpg
+  speaker: Fábio Viana
+  avatar: fabio-viana.jpg
   description:
   possuiConteudo: false
-  url: douglas-augusto
+  url: fabio-viana
 
 - title: Almoço
   hour: "12:00 - 13:30"
@@ -21,21 +21,21 @@
   description:
   possuiConteudo: false
     
-- title: "Desenvolvimento de jogos acessíveis utilizando Unity"
-  hour: "13:30 - 14:15"
-  speaker: Virgínia Mota
-  avatar: virginia-mota.jpg
-  description:
-  possuiConteudo: false
-  url: virginia-mota
-
 - title: "GloboPlay, foco no desempenho: do preload ao service-work"
-  hour: "14:30 - 15:15"
+  hour: "13:30 - 14:15"
   speaker: Marco Rosner
   avatar: marco-rosner.jpg
   description:
   possuiConteudo: false
   url: marco-rosner
+
+- title: "Desenvolvimento de jogos acessíveis utilizando Unity"
+  hour: "14:30 - 15:15"
+  speaker: Virgínia Mota
+  avatar: virginia-mota.jpg
+  description:
+  possuiConteudo: false
+  url: virginia-mota
   
 - title: "Ciência de Dados com Python e R"
   hour: "15:30 - 16:15"
