@@ -1,0 +1,25 @@
+- title: "Oficina de Programação Kids: Resolução de exercícios utiliando  o programa Blockly. 
+Criação de um game utilizando o programa Kodu, da Microsoft."
+  hour: "09:00 - 10:30"
+  avatar: speaker-1.png
+
+- title: "Oficina de Programação Teens: Resulução de exercícios utiliando o programa Blockly.
+Criação de um game utilizando o Scratch."
+  hour: "10:30 - 12:00"
+  avatar: speaker-1.png
+
+- title: Horário de almoço (não incluído)
+  hour: "12:00 - 13:00"
+  avatar: lunch.png
+
+- title: "Oficina Maker Kids: Criação de um piano utilizando o Scratch e a placa Makey Makey"
+  hour: "13:00 - 14:30"
+  avatar: speaker-1.png
+
+- title: "Oficina Maker Teens: Introdução à robótica utilizando a placa Arduino e S4A."
+  hour: "14:30 - 16:00"
+  avatar: speaker-1.png
+
+- title: "Oficina Livre: diversão com Minecraft, outros jogos e robótica."
+  hour: "16:00 - 19:00"
+  avatar: balloons.jpg
