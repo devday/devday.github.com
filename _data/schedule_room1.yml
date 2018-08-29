@@ -20,22 +20,22 @@
   description:
   possuiConteudo: false
   url: julio-borges
-  
+
 - title: "Arquitetura de Software num cenário de incertezas"
   hour: "14:30 - 15:15"
-  speaker: Vinicius Coimbra
-  avatar: vinicius-coimbra.jpg
-  description:
-  possuiConteudo: false
-  url: vinicius-coimbra
-
-  - title: "Boas práticas na otimização de projetos de bancos de dados"
-  hour: "15:30 - 16:15"
   speaker: André Paulovich
   avatar: andre-paulovich.jpg
   description:
   possuiConteudo: false
   url: andre-paulovich
+
+- title: "Boas práticas na otimização de projetos de bancos de dados"
+  hour: "15:30 - 16:15"
+  speaker: Vinicius Coimbra
+  avatar: vinicius-coimbra.jpg
+  description:
+  possuiConteudo: false
+  url: vinicius-coimbra
 
 - title: Lanche
   hour: "16:15 - 16:45"
