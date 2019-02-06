@@ -1,33 +1,13 @@
+# Files
 
-*.iml
+.DS_Store
+.ruby-version
+npm-debug.log
 
-.idea/devday.github.com.iml
+# Folders
 
-*.iml
-
-.idea/encodings.xml
-
-.idea/misc.xml
-
-.idea/modules.xml
-
-.idea/modules.xml
-
-.idea/scopes/scope_settings.xml
-
-.idea/vcs.xml
-
-.idea/vcs.xml
-
-.idea/.name
-
-.idea/workspace.xml
-
-_site/
-
-_site/english.html
-
-_site/index.html
-
-node_modules/
-**/.directory
+.idea/
+.sass-cache
+_gh_pages
+_site
+node_modules
