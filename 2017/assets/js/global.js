@@ -140,7 +140,7 @@ $(function() {
 			var speedVar = parseInt($t.attr('data-speed'),10);
 			var initialSlideVar = parseInt($t.attr('data-initial-slide'),10);
 			if(!initialSlideVar){initialSlideVar=0;}
-
+            simVar = false;
 			swipers['swiper-'+index] = new Swiper('.swiper-'+index,{
 				speed: speedVar,
 				pagination: '.pagination-'+index,

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/2017/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/2017/english.html</loc>
+<lastmod>2019-04-28T20:07:34-03:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/Grade-Agenda-DevDay2017.pdf</loc>
+<lastmod>2019-04-28T20:13:37-03:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/agenda.html</loc>
+<lastmod>2019-04-28T20:13:37-03:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blocks_Index.html</loc>
+<lastmod>2019-04-28T19:47:49-03:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/english.html</loc>
+<lastmod>2019-04-28T19:47:49-03:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/palestras.html</loc>
+<lastmod>2019-04-28T20:13:37-03:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/programacao.html</loc>
+<lastmod>2019-04-28T20:13:37-03:00</lastmod>
+</url>
+</urlset>
